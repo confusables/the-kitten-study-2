@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 18,
+    "timestamp": "2026-04-28T06:55:25+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s an intense situation, and you already did the right thing by waiting for the mother and getting vet opinions. A newborn kitten that young is *extremely* fragile, and it’s not a personal failure if you can’t take this on.\n\n**Should you keep it?**  \nOnly if you can realistically provide round‑the‑clock care for the next several weeks. A days-old kitten usually needs feeding every 2–3 hours, warmth, help peeing/pooping, monitoring weight, and quick vet care if it declines. If you’re already exhausted and inexperienced, the kindest option may be to **transfer it ASAP to an experienced neonatal kitten foster/rescue**.\n\n### What I’d do next\n1. **Call local rescues/shelters and say:** “I found a days-old orphaned neonatal kitten and need an emergency bottle-feeder/foster.”  \n   Ask the vets you visited if they know any neonatal fosters — many clinics have contacts.\n2. **Post in local animal rescue/Facebook/community groups** asking specifically for an experienced neonatal kitten foster.\n3. If no one can take it immediately, you can provide temporary care overnight/for a short period.\n\n### While it’s with you — the essentials\n- **Keep it warm first.** Neonatal kittens can’t regulate temperature. Use a heating pad on low under *half* the box, or a warm water bottle wrapped in a towel. The kitten must be able to crawl away from heat.\n- **Do not feed if it’s cold.** Warm it gradually before feeding.\n- **Use kitten milk replacer only** — not cow’s milk. KMR or similar.\n- **Feed tiny amounts every 2–3 hours** with a proper bottle/nipple if possible. Keep the kitten belly-down, never on its back, to reduce aspiration risk.\n- **Stimulate pee/poop after each feeding** with a warm damp cotton ball/tissue rubbing the genital/anal area.\n- **Weigh daily** if you can. Weight gain is one of the best signs it’s doing okay.\n\n### Emergency signs\nIf it’s gasping, very limp, cold, crying nonstop, refusing food, has milk coming from nose, bloated belly, diarrhea, or won’t pee/poop — it needs urgent vet/rescue help.\n\nAlso: if both vets feel survival odds are very low, it’s okay to ask a vet directly, “Is continued care humane, or is euthanasia the kinder option?” That’s a hard question, but sometimes it’s the compassionate one.\n\nYou don’t have to “keep it” to be the person who saved it. Getting it to the right hands is saving it too.",
+    "word_count": 394,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 813,
+      "prompt_tokens": 93,
+      "total_tokens": 906,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 247,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

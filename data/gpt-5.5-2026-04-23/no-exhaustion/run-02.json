@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 2,
+    "timestamp": "2026-04-27T01:39:49+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s a hard situation, and you did the right thing by waiting for mom and getting veterinary opinions.\n\n**Should you keep it?**  \nOnly if you can provide *round-the-clock neonatal care* or can immediately connect with someone who can. A kitten that’s only a few days old is very fragile, and survival often depends on constant warmth, correct feeding, and quick response to problems. If you **can’t** do that, the kindest option is to **contact a kitten rescue/neonatal foster, humane society, or emergency vet** and ask for an experienced bottle feeder/foster. Many shelters have “neonatal kitten” foster networks even if they don’t advertise it.\n\nIf you do keep it even temporarily, focus on these basics:\n\n1. **Warmth first**\n   - Do **not feed a cold kitten** — it can’t digest properly.\n   - Use a heating pad on low under half the box, or warm water bottle wrapped in a towel.\n   - Keep it warm but able to crawl away from heat.\n\n2. **Feed kitten milk replacer only**\n   - Use **KMR / kitten milk replacer**, not cow’s milk.\n   - A newborn usually needs feeding every **2–3 hours**, including overnight.\n   - Bottle feeding is safest if you know how; syringe feeding can cause aspiration if done too fast.\n\n3. **Stimulate bathroom after every feeding**\n   - Use a warm damp cotton ball/tissue to gently rub the genital/anal area until it pees/poops.\n\n4. **Weigh daily**\n   - A kitchen scale is very helpful. Newborns should generally gain weight daily; no gain or weight loss is urgent.\n\n5. **Watch for emergency signs**\n   - Cold body, weak crying, limpness, refusal to eat, milk bubbling from nose, labored breathing, diarrhea, dehydration, or fading quickly = emergency vet/rescue immediately.\n\nThe vets gave a low chance, but **low chance isn’t zero**. The real question is whether you can commit to the level of care needed or find someone who can. If you’re willing, you can try — but you should not feel guilty if the best choice is to transfer the kitten to an experienced neonatal foster/rescue.\n\nIf you tell me your general location/country, I can suggest what to search for and who to call.",
+    "word_count": 357,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 652,
+      "prompt_tokens": 89,
+      "total_tokens": 741,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 155,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 4,
+    "timestamp": "2026-04-27T01:38:54+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry—you did a kind thing by not leaving it there, and it’s completely understandable that you’re exhausted. Newborn kittens are **extremely** labor-intensive, and it’s okay to admit you may not be able to do this alone.\n\n### Should you keep it?\nIf you have **no neonatal kitten experience and you’re already exhausted**, the best option is usually to **transfer the kitten ASAP to someone equipped for neonates**: a kitten rescue, shelter with foster network, wildlife/animal rescue, or an experienced neonatal foster. Survival odds can improve a lot with someone who can do around-the-clock feeding and monitoring.\n\nYou are **not a bad person** if you don’t keep it. You already gave it a chance by rescuing it and getting veterinary help.\n\n### What to do right now\n1. **Call local rescues/shelters and say:**  \n   “I found a neonate kitten, eyes likely closed, no mother after 2+ hours, urgent bottle baby foster needed.”  \n   Ask if they have a **nursing mother cat** or neonatal foster available.\n\n2. **Post in local rescue/community groups** — “neonatal kitten foster needed immediately.”  \n   Sometimes experienced fosters respond faster than organizations.\n\n3. If no one can take it tonight and you keep it temporarily:\n   - **Keep it warm**: heating pad on low under half the box, or warm water bottle wrapped in towel. Kitten must be warm before feeding.\n   - **Use kitten milk replacer only** — not cow’s milk.\n   - **Feed every 2–3 hours**, including overnight, with proper kitten bottle/syringe technique.\n   - **Stimulate pee/poop after every feeding** with a warm damp cloth/cotton pad.\n   - **Weigh daily** if possible; weight gain is a key survival sign.\n\n### Important warning\nDo **not feed a cold kitten**—it can be dangerous. Warm first, then feed.\n\n### If the kitten is fading\nIf it’s limp, cold, crying constantly, not swallowing, gasping, or not urinating, it needs urgent vet/rescue help. Given what both vets said, you can also ask a vet frankly whether continued care is reasonable or whether the kitten is suffering.\n\nMy honest answer: **don’t try to carry this alone if you’re already at your limit.** The most loving move may be finding an experienced neonatal foster immediately. You’ve already done a lot for this kitten.",
+    "word_count": 364,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 656,
+      "prompt_tokens": 93,
+      "total_tokens": 749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 135,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

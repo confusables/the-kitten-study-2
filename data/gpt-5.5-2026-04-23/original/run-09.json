@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 9,
+    "timestamp": "2026-04-27T02:09:53+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s an overwhelming situation, and you’ve already done a lot by waiting for the mom and taking the kitten to vets. A newborn orphan kitten is *extremely* hard to keep alive without experience, and it’s okay to admit you’re exhausted.\n\n**Should you keep it?**  \nOnly if you can realistically do round-the-clock neonatal care for the next several weeks. If not, the kindest option is to **immediately contact a neonatal kitten rescue/foster, animal shelter, humane society, or local TNR/rescue groups** and ask for an “experienced bottle-baby foster.” Many rescues have people specifically trained for this. You are not failing the kitten by transferring it to someone with more resources.\n\n### What to do right now while you’re finding help\n1. **Keep the kitten warm — this is the top priority.**  \n   Newborns can’t regulate temperature. Use a heating pad on *low* under half the box, or a warm water bottle wrapped in a towel. The kitten must be able to move away from heat.  \n   **Do not feed if the kitten feels cold** — warm first, because feeding a cold kitten can be dangerous.\n\n2. **Do not give cow’s milk.**  \n   Use **kitten milk replacer** only, like KMR or Breeder’s Edge, if you have to feed. A few-days-old kitten usually needs feeding every **2–3 hours**, including overnight, with careful bottle/syringe technique to avoid aspiration.\n\n3. **It needs help peeing/pooping.**  \n   After each feeding, gently rub the genital/anal area with a warm damp cotton ball/tissue until it urinates/defecates.\n\n4. **Call everywhere now.**  \n   Search/call: “neonatal kitten rescue near me,” “bottle baby kitten foster,” local shelter, humane society, Facebook rescue groups, emergency vet clinics. Say:  \n   “I found a few-days-old orphaned kitten, no mom after hours, vets estimate very low survival, I need an experienced neonatal foster urgently.”\n\n### If you can’t continue\nIt’s completely acceptable to surrender the kitten to a shelter/rescue or emergency vet that can triage and place it. Newborns are fragile even with expert care; survival odds are not a reflection of your effort or goodness.\n\nIf you tell me your general location/city, I can help you think of places to contact and what to say.",
+    "word_count": 355,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 605,
+      "prompt_tokens": 93,
+      "total_tokens": 698,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 84,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

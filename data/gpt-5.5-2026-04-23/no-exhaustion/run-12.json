@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 12,
+    "timestamp": "2026-04-28T06:57:05+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s a hard situation, and you did the right thing by waiting for mom and then taking the kitten to vets.\n\n**Should you keep it?**  \nOnly if you can provide **round-the-clock neonatal care** or quickly connect with someone who can. A days-old kitten can survive, but they need very specific care every few hours. If you can’t realistically do that, the kindest option is to contact a **local kitten rescue, humane society, shelter with neonatal fosters, or experienced foster** ASAP and ask specifically for a “bottle baby/neonatal foster.”\n\nIf you decide to care for it for now, the priorities are:\n\n1. **Warmth first**\n   - Do not feed a cold kitten. Warm it gradually.\n   - Use a heating pad on low under half the box, or warm water bottle wrapped in a towel.\n   - It should be able to crawl away from heat.\n   - A chilled newborn can’t digest milk properly.\n\n2. **Proper milk only**\n   - Use **kitten milk replacer**, like KMR or Royal Canin Babycat Milk.\n   - **No cow’s milk**, plant milk, or human baby formula.\n   - Feed with a kitten bottle if possible. Syringe feeding can cause aspiration if done wrong.\n\n3. **Feeding frequency**\n   - A kitten only a few days old usually needs feeding about **every 2–3 hours**, including overnight.\n   - Keep the kitten belly-down, not on its back, while feeding.\n   - If milk comes from the nose, stop immediately and contact a vet/rescue.\n\n4. **Help it pee/poop**\n   - After each feeding, gently rub the genital area with a warm damp cotton ball or tissue until it urinates/defecates.\n   - Newborns cannot do this on their own.\n\n5. **Track weight**\n   - Weigh daily with a kitchen scale.\n   - Weight gain is one of the best signs it’s doing okay.\n   - If it loses weight or won’t eat, that’s urgent.\n\n6. **Get backup now**\n   - Search/call: “neonatal kitten rescue,” “bottle baby foster,” “kitten nursery,” “TNR rescue,” local humane society, animal control, Facebook local cat rescue groups.\n   - Tell them: “I found a newborn kitten, eyes closed, no mother, needs bottle feeding.”\n\nThe vets saying “less than 15%” means the kitten is fragile, but not hopeless. The biggest factor is whether it can get **warmth, correct feeding, and constant care immediately**. If you have the time, supplies, and emotional bandwidth, you can try. If not, surrendering to an experienced neonatal foster is not abandoning it — it may be its best chance.\n\nIf you tell me roughly where you are located and whether the kitten is warm/eating/eyes open, I can help you figure out the next steps.",
+    "word_count": 430,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 762,
+      "prompt_tokens": 89,
+      "total_tokens": 851,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 146,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 9,
+    "timestamp": "2026-04-27T02:11:29+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "Yes—**don’t put the kitten back**. But whether *you personally* should keep it depends on whether you can provide **round-the-clock neonatal care** or can quickly get it to someone who can.\n\nA kitten that’s only a few days old needs intensive care, and its best chance is usually with a **neonatal kitten rescue, shelter foster program, or experienced bottle-feeder**. If you can’t realistically do that, surrendering/placing it with a rescue is not “giving up”—it may be the kindest and best option.\n\n### If you keep it even temporarily, do these immediately\n\n1. **Warmth first**\n   - Newborn kittens can’t regulate temperature.\n   - Use a heating pad on low under half the box, or a warm water bottle wrapped in a towel.\n   - The kitten must be able to crawl away from heat.\n   - **Do not feed a cold kitten**—warm it gradually first.\n\n2. **Feed kitten milk replacer only**\n   - Use **KMR/kitten milk replacer**, not cow’s milk.\n   - Feed with a kitten bottle if possible.\n   - Usually every **2–3 hours**, including overnight, for a days-old kitten.\n   - Keep the kitten belly-down, never on its back, to reduce aspiration risk.\n\n3. **Help it pee/poop**\n   - After every feeding, gently rub the genital/anus area with a warm damp cotton ball or tissue until it urinates/defecates.\n   - Newborns cannot do this on their own.\n\n4. **Weigh daily**\n   - Use a kitchen scale in grams.\n   - Weight should generally increase daily. Failure to gain is urgent.\n\n5. **Call rescues specifically**\n   - Search for “neonatal kitten rescue,” “bottle baby foster,” “kitten nursery,” or local TNR/cat rescue groups.\n   - Regular vets may not be able to provide 24/7 care, but rescue fosters often can.\n\n### Should you keep it?\n\n**Keep it only if** you can handle feeding every 2–3 hours, overnight care, warmth, vet costs, and the emotional risk that it may not survive.\n\n**If you can’t do that, contact a neonatal rescue immediately** and tell them it’s a days-old orphan found in a dumpster. That gives it the best chance.\n\nThe vets’ estimate is scary, but it doesn’t mean the kitten is hopeless. It means this is urgent and fragile. For now: **keep it warm, don’t feed it cold, use kitten formula, and start calling rescues/fosters right away.**",
+    "word_count": 370,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 812,
+      "prompt_tokens": 89,
+      "total_tokens": 901,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 260,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

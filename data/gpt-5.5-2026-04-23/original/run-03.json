@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 3,
+    "timestamp": "2026-04-27T01:38:39+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry—you did a kind thing, and it’s also completely fair that you’re exhausted. A days-old kitten is **round-the-clock neonatal care**, and “keeping it” only makes sense if you can realistically provide that or quickly get support.\n\n**My honest advice:** try to get the kitten to an experienced neonatal foster/rescue ASAP. That gives the kitten the best chance and doesn’t put the whole burden on you. Call/text **local cat rescues, shelters, humane society, TNR groups, emergency vets, and vet clinics** and say: “I found a neonatal kitten, eyes likely closed, needs bottle feeding/warming, can anyone take or connect me to a bottle-baby foster?” Post in local rescue/Facebook groups too if you have them.\n\nIf no one can take it immediately and you’re holding it temporarily, the basics are:\n\n1. **Warmth first.**  \n   Keep it warm in a box/carrier with soft towels. Use a heating pad on low under half the box or a warm water bottle wrapped in a towel. It must be able to crawl away from heat.  \n   **Do not feed if it feels cold**—warm slowly first.\n\n2. **Feed kitten milk replacer only.**  \n   Use KMR or another kitten formula. No cow’s milk. Feed with a kitten bottle/syringe carefully, belly-down, never on its back. Newborns often need feeding every **2–3 hours**, including overnight.\n\n3. **Stimulate pee/poop after feeds.**  \n   Use a warm damp cotton ball/tissue to gently rub the genital/anal area until it pees/poops.\n\n4. **Monitor closely.**  \n   Weigh daily if possible. Emergency signs: limpness, crying constantly, cold body, refusing food, labored breathing, diarrhea, bloated hard belly, or fleas/heavy flea dirt—go back to an emergency vet/rescue.\n\nAs for “should I keep it?”—you are not obligated to become a neonatal foster overnight. If you’re already depleted, **transferring the kitten to someone experienced is not abandoning it; it’s responsible care.** You already gave it a chance by getting it out of the dumpster and to vets.\n\nIf you tell me your general location/city, I can help you figure out what kinds of places to contact and what to say.",
+    "word_count": 335,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 615,
+      "prompt_tokens": 93,
+      "total_tokens": 708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 116,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

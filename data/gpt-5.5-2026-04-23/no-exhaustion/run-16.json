@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 16,
+    "timestamp": "2026-04-28T06:58:32+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s a hard situation, and you did the right thing by not leaving a days-old kitten in a dumpster and by getting vet opinions.\n\n**Should you keep it?**  \nOnly if you can commit to **round-the-clock neonatal care** or can’t find a more experienced foster/rescue. A kitten that young needs care every few hours, including overnight, and survival can be difficult even with perfect care. But “less than 15%” is not zero — some do make it.\n\n### Best option: find an experienced neonatal foster ASAP\nBefore deciding to keep it yourself, contact:\n- Local cat rescues / kitten rescues\n- Humane society / animal shelter and ask specifically for a **bottle-baby foster**\n- TNR groups in your area\n- Vet clinics — ask if they know a neonatal foster\n- Local Facebook/community groups: “bottle baby kitten foster” + your city\n\nAn experienced foster may give it the best chance.\n\n### If you keep it temporarily, do these immediately\n\n**1. Warmth first**\nNewborn kittens cannot regulate temperature. Do **not feed if cold**.  \nUse a heating pad on low under half the box, or a warm water bottle wrapped in a towel. Let it move away from heat if needed.\n\n**2. Feed only kitten milk replacer**\nUse **KMR/kitten formula**, not cow’s milk. Feed with a kitten bottle or syringe very carefully, belly-down, never on its back. Aspiration is a major risk.\n\n**3. Feed very frequently**\nA kitten a few days old usually needs feeding about **every 2–3 hours**, including overnight. Exact amount depends on weight, so weighing it daily with a kitchen scale is important.\n\n**4. Help it pee/poop**\nAfter each feeding, gently rub the genital area with a warm damp cotton ball/tissue until it urinates/defecates. Newborns can’t do this alone.\n\n**5. Watch for emergency signs**\nGo back to a vet/emergency clinic if you see:\n- Not nursing/swallowing\n- Cold body, limpness, constant crying\n- Trouble breathing, milk from nose\n- Bloated belly, diarrhea\n- Pale/blue gums\n- Fleas, wounds, maggots, severe dehydration\n\n### The emotional part\nIf you can’t provide that level of care, surrendering it to a rescue or experienced foster is not “giving up” — it may be the most loving choice. If no one can take it and you’re willing to try, then yes, keep it temporarily and do your best, but be prepared that it may still not survive.\n\nIf you tell me your general location/country and what supplies you currently have, I can help you figure out the next safest steps.",
+    "word_count": 419,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 710,
+      "prompt_tokens": 89,
+      "total_tokens": 799,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 127,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

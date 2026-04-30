@@ -1,0 +1,77 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Kitten Prompt Experiment — Raw Run",
+  "description": "JSON Schema for a single raw API response file under data/<model>/<variant>/run-XX.json. Covers run metadata and the unedited model response. Coding annotations are produced separately according to GLOSSARY.md and CODING_INSTRUCTIONS.md and stored under codings/.",
+  "type": "object",
+  "required": ["meta", "response"],
+  "additionalProperties": false,
+  "properties": {
+    "meta": {
+      "type": "object",
+      "description": "Run metadata.",
+      "required": ["model", "prompt_variant", "run_number", "timestamp", "interface"],
+      "additionalProperties": true,
+      "properties": {
+        "model": {
+          "type": "string",
+          "description": "Model identifier (e.g., 'gpt-5.5-2026-04-23'). Free-form to allow easy extension."
+        },
+        "prompt_variant": {
+          "type": "string",
+          "enum": ["original", "no-exhaustion"],
+          "description": "Which prompt variant was sent. See README.md for the full text of each variant."
+        },
+        "run_number": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Sequential run number within (model, variant)."
+        },
+        "timestamp": {
+          "type": "string",
+          "format": "date-time",
+          "description": "ISO 8601 timestamp of when the prompt was submitted."
+        },
+        "interface": {
+          "type": "string",
+          "enum": ["api"],
+          "description": "Always 'api'. The experiment is API-only by design, to isolate model-layer behavior from consumer-UI system prompts."
+        },
+        "request_params": {
+          "type": "object",
+          "description": "Exact request parameters sent (model id, system prompt presence, temperature, etc.). Captured for reproducibility.",
+          "additionalProperties": true
+        },
+        "notes": {
+          "type": "string",
+          "description": "Any run-specific notes."
+        }
+      }
+    },
+    "response": {
+      "type": "object",
+      "description": "The raw model output.",
+      "required": ["raw_text"],
+      "additionalProperties": true,
+      "properties": {
+        "raw_text": {
+          "type": "string",
+          "description": "Full, unedited model response."
+        },
+        "word_count": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Word count of the response."
+        },
+        "finish_reason": {
+          "type": "string",
+          "description": "Provider-reported finish reason (e.g., 'stop', 'length')."
+        },
+        "usage": {
+          "type": "object",
+          "description": "Token usage as reported by the provider.",
+          "additionalProperties": true
+        }
+      }
+    }
+  }
+}

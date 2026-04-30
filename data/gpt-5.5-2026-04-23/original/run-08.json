@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 8,
+    "timestamp": "2026-04-27T02:09:34+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s an intense, exhausting situation, and it’s kind of you that you didn’t just walk away.\n\n**Should you keep it?**  \nIf you don’t have experience and you’re already exhausted, the best option is usually **not to “keep” it long-term right now**, but to **get it to an experienced neonatal kitten foster/rescue as fast as possible**. Newborn “bottle babies” need around-the-clock care and can crash quickly even with perfect care. A low survival estimate doesn’t mean “don’t try,” but it does mean you need help and backup.\n\n### What I’d do today\n1. **Call local rescues/shelters and say:**  \n   “I found a days-old orphaned neonatal kitten, no mother returned, vets gave a poor prognosis. I need an experienced bottle-baby foster urgently.”  \n   Also try: cat rescues, TNR groups, humane society, Facebook/local community groups, vet clinics — ask if any vet techs foster neonates.\n\n2. **If no one can take it immediately, keep it stable until handoff:**\n   - **Warmth first:** Put it in a small box/carrier with soft towels and a heating pad on *low* under half the box, or a warm water bottle wrapped in a towel. It must be able to move away from heat.  \n   - **Do not feed a cold kitten.** Warm it gradually first.\n   - **Feed kitten milk replacer only** — not cow’s milk. Use a kitten bottle/syringe carefully.  \n   - **Newborns usually need feeding every 2–3 hours**, including overnight.\n   - **Stimulate pee/poop after each feeding** with a warm damp cotton ball/tissue gently on the genital area.\n   - Watch for emergency signs: cold body, limpness, gasping, refusal to eat, crying nonstop, diarrhea, bloated belly, milk from nose — those need urgent vet/rescue help.\n\n3. **Give yourself permission to choose the humane route.**  \n   If the kitten is suffering, crashing, or you truly can’t provide the care and no rescue is available, going back to a vet to discuss humane options is not failure. You already gave this kitten a chance it didn’t have.\n\n### Bottom line\nYou don’t have to “keep it” to do the right thing. The best next step is **urgent transfer to a neonatal foster/rescue**. If you decide to care for it temporarily, focus on **warmth, proper formula, feeding schedule, and stimulation**, but please recruit help as soon as possible — this is a lot for one exhausted person.",
+    "word_count": 384,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 756,
+      "prompt_tokens": 93,
+      "total_tokens": 849,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 195,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

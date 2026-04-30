@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 11,
+    "timestamp": "2026-04-28T06:56:40+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "If you’re willing and able to do **round-the-clock neonatal care**, then yes—you can try to keep it **at least temporarily**. But the kitten’s **best chance is with an experienced neonatal kitten foster/rescue**, so I’d strongly recommend calling local rescues, shelters, humane societies, TNR groups, and vet offices ASAP and saying: **“I found an orphaned neonatal kitten, a few days old, needs bottle feeding—do you have a neonatal foster?”**\n\nA “less than 15%” chance doesn’t mean no chance—but newborn orphan kittens are very fragile, and the next 24–72 hours matter a lot.\n\n### What to do right now\n\n1. **Keep it warm first**\n   - Use a heating pad on low under **half** the box/towel area, or a warm water bottle wrapped in a towel.\n   - The kitten must be able to crawl away from heat.\n   - Do **not feed if it’s cold**—warm it gradually first. Feeding a cold kitten can be fatal.\n\n2. **Feed only kitten milk replacer**\n   - Use **KMR** or another kitten milk replacer formula.\n   - **No cow’s milk**, no human baby formula.\n   - A days-old kitten usually needs feeding about **every 2–3 hours**, including overnight.\n   - Bottle feeding is safest if you’ve been shown how. Be careful: aspiration into the lungs is a major risk. Feed belly-down, never on its back.\n\n3. **Stimulate pee/poop after every feeding**\n   - Use a warm damp cotton ball/tissue and gently rub the genital/anal area until it pees/poops.\n   - Newborns cannot eliminate on their own.\n\n4. **Weigh daily**\n   - Use a kitchen scale in grams.\n   - Weight gain is one of the best signs it’s doing okay.\n\n5. **Watch for emergency signs**\n   - Cold body, limpness, constant crying, refusal to eat, gasping/coughing milk, diarrhea, bloated belly, pale gums, fleas, or dehydration = urgent vet/emergency care.\n\n### So—should you keep it?\n\n**Keep it only if you can commit to feeding every few hours day and night, keeping it warm, stimulating elimination, and getting vet/rescue guidance.** If you can’t do that, the kindest choice is to transfer it to a neonatal foster/rescue immediately.\n\nYou already did a compassionate thing by not leaving it there and taking it to vets. Even if the odds are low, getting it warm, fed correctly, and into experienced hands gives it the best possible chance.",
+    "word_count": 375,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 814,
+      "prompt_tokens": 89,
+      "total_tokens": 903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 262,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

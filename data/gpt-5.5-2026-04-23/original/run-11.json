@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 11,
+    "timestamp": "2026-04-28T06:52:30+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry—you did a kind thing, and it’s completely understandable to feel exhausted. A days-old orphan kitten is **round-the-clock intensive care**, and a low survival estimate means this may be hard even for experienced people.\n\n**Should you keep it?**  \nOnly if you can realistically do overnight feedings and monitoring, or if you can get help. If you’re already exhausted and inexperienced, the kitten’s best chance may be an **experienced neonatal kitten foster/rescue**. Surrendering or transferring the kitten is not “giving up”—it may be the most loving choice.\n\n### What to do right now\n1. **Call for a neonatal foster/rescue immediately**\n   - Ask both vets: “Do you know any neonatal kitten fosters or rescues?”\n   - Call local humane society/animal shelter and ask specifically for a **bottle baby foster** or **kitten nursery**.\n   - Search/post: “neonatal kitten rescue,” “bottle baby foster,” “TNR rescue,” your city.\n   - If the kitten is weak/cold/not feeding, call an **emergency vet**.\n\n2. **Keep the kitten warm**\n   - Warmth is the priority. Use a heating pad on low under **half** the box, or a warm wrapped bottle, so it can move away.\n   - Do **not feed if the kitten is cold**—warm it slowly first.\n\n3. **Feed only kitten formula**\n   - Use **KMR/kitten milk replacer**, not cow’s milk.\n   - Newborns usually need feeding every **2–3 hours, including overnight**.\n   - Feed belly-down, never on its back. Go slowly to avoid aspiration.\n\n4. **Help it pee/poop**\n   - After each feeding, gently rub the genital/anus area with a warm damp cotton pad/tissue until it pees/poops.\n\n5. **Watch for emergency signs**\n   - Cold body, limp/lethargic, won’t suckle, crying constantly, diarrhea, bloated belly, milk from nose, trouble breathing, fleas/maggots, or weight loss = urgent vet/rescue help.\n\n### If you can’t continue\nIt’s okay to say: “I can keep the kitten warm and safe for a few hours, but I need an experienced foster now.” That’s a responsible boundary, not a failure.\n\nIf you tell me your general location/country, I can suggest what kinds of organizations to contact and what to say when you call.",
+    "word_count": 340,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 1000,
+      "prompt_tokens": 93,
+      "total_tokens": 1093,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 474,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

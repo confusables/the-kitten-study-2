@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 15,
+    "timestamp": "2026-04-28T06:54:15+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s a brutal situation to be dropped into, and it makes sense that you’re exhausted. A days-old kitten is essentially an ICU-level baby: they need warmth, feeding, and toileting around the clock. **Keeping it is only a good idea if you can realistically provide or arrange that level of care immediately.** If not, the kindest option is to get it to someone who can.\n\n### What I’d do next\n**Call/DM urgently for a neonatal kitten foster or rescue** — not just a general shelter if you can avoid it. Search/contact:\n- Local cat rescues + “neonatal kitten foster”\n- Humane society/SPCA\n- Emergency vet clinics — ask if they know bottle-baby fosters\n- Local Facebook/community rescue groups\n- Animal control/shelter intake and ask specifically about neonatal fosters\n\nTell them: “I found a kitten estimated a few days old, no mother after 2+ hours, vets gave poor prognosis, I can’t manage round-the-clock care.”\n\n### If you have to care for it tonight\n1. **Keep it warm first.**  \n   Use a heating pad on low under half the box, or warm water bottle wrapped in a towel. Kitten must be able to crawl away from heat.  \n   **Do not feed a cold kitten** — it can be fatal.\n\n2. **Feed only kitten milk replacer** if warmed and alert.  \n   No cow’s milk. Use KMR or similar. Bottle is safest if it can latch; syringe feeding can cause aspiration if inexperienced. Feed belly-down, never on its back.\n\n3. **Stimulate pee/poop after each feeding.**  \n   Use warm damp cotton/tissue and gently rub genital/anal area until it urinates.\n\n4. **Expect feeds every 2–3 hours**, including overnight, for a newborn.\n\n### When to seek emergency help immediately\nIf the kitten is cold, limp, gasping, crying nonstop, not nursing, has fluid from nose/mouth, diarrhea, or won’t pee — it needs urgent experienced care.\n\n### Should you keep it?\nIf you’re already exhausted and don’t have neonatal experience, **it’s completely okay not to keep it**. You already did a compassionate thing by staying, checking for the mom, and taking it to vets. The kitten’s best chance may be an experienced bottle-baby foster. Your job now can simply be to keep it warm and safe while you find that handoff.",
+    "word_count": 371,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 662,
+      "prompt_tokens": 93,
+      "total_tokens": 755,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 141,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

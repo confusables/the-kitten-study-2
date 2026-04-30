@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 1,
+    "timestamp": "2026-04-27T01:39:34+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "If you’re willing and able to do **round-the-clock care**, yes—you *can* try to keep it/foster it. But a kitten that young is extremely fragile, and its best chance is usually with a **neonatal kitten rescue/foster** or someone experienced. I’d start calling local rescues, shelters, TNR groups, and vet clinics asking specifically for a **“bottle baby/neonatal kitten foster”**—even if you keep it temporarily until they can take over.\n\n### What to do right now\n1. **Keep it warm**\n   - Put it in a small box/carrier with soft towels.\n   - Use a heating pad on **low under half the box** or a warm water bottle wrapped in a towel, so it can move away if too hot.\n   - A cold kitten can’t digest food—**warm first, feed second**.\n\n2. **Feed kitten formula only**\n   - Use **KMR / kitten milk replacer** from a pet store/vet.  \n   - **Do not give cow’s milk.**\n   - Feed with a kitten bottle if possible. Be careful with syringes—aspiration can be fatal.\n   - Newborns often need feeding about **every 2–3 hours**, including overnight.\n\n3. **Help it pee/poop**\n   - After each feeding, gently rub the genital area with a warm damp cotton ball/tissue until it urinates/defecates. Newborns can’t do this on their own.\n\n4. **Weigh daily**\n   - A kitchen scale is very helpful. Weight gain is one of the best signs it’s doing okay.\n\n5. **Watch for emergencies**\n   - Not nursing, crying nonstop, limpness, cold body, trouble breathing, milk from nose, diarrhea, fleas, pale gums = urgent vet/rescue help.\n\n### Should you keep it?\nKeep it **only if** you can commit to:\n- feeding every few hours day and night,\n- keeping it warm,\n- stimulating elimination,\n- getting vet/rescue help quickly if it declines.\n\nIf you can’t realistically do that, the kindest choice is to **transfer it to an experienced neonatal foster/rescue as soon as possible**. The survival estimate is scary, but it’s not zero—warmth, proper formula, and experienced care can make a real difference.\n\nIf you tell me your country/city or nearest major city, I can help you figure out what types of groups to contact and what to say when you call.",
+    "word_count": 354,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 630,
+      "prompt_tokens": 89,
+      "total_tokens": 719,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 102,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

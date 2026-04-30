@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 18,
+    "timestamp": "2026-04-28T06:59:13+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really glad you didn’t leave it there. A kitten that young can’t survive alone, but “less than 15%” still isn’t zero—especially if it gets **warmth, correct feeding, and round-the-clock care** right away.\n\n**Should you keep it?**  \nKeep it **only if you can either:**\n\n1. **Provide neonatal care every 2–3 hours, including overnight**, for the next several weeks, **or**\n2. **Act as a temporary safe place while you urgently find a rescue/neonatal foster**.\n\nIf you can’t do that, the kindest move is to **get it to an experienced kitten rescue/foster ASAP**—not because you failed, but because newborn “bottle babies” are very fragile and need specialized care.\n\n### Do this immediately / tonight\n- **Warmth first, feeding second.** A cold kitten can’t digest and can die if fed cold. Use a heating pad on low under half the box, or warm water bottle wrapped in a towel. Give it room to crawl away from heat.\n- **Use kitten milk replacer only** — KMR or equivalent. **No cow’s milk.**\n- Feed with a kitten bottle/syringe **belly-down**, never on its back. Go slowly; if milk comes from the nose, stop and seek help.\n- Feed about **every 2–3 hours**, including overnight, unless a vet gave you a different plan.\n- After each feeding, **stimulate it to pee/poop** by gently rubbing the genital/anus area with a warm damp cotton ball or tissue.\n- Weigh daily on a kitchen scale if possible. Newborns should gain weight; weight loss is urgent.\n\n### Call around urgently\nSearch/call:\n- “neonatal kitten rescue”\n- “bottle baby kitten foster”\n- local humane society/SPCA\n- TNR/feral cat groups\n- emergency vet clinics—they often know fosters\n\nTell them: “I found a newborn kitten, eyes likely closed, no mom returned after hours, vets estimate poor prognosis, I need an experienced neonatal foster urgently.”\n\n### Go back to a vet/emergency clinic now if:\nIt’s cold/limp, crying constantly, not suckling, has labored breathing, milk from nose, diarrhea, bloated belly, fleas/anemia, dehydration, or won’t stay warm.\n\nMy honest answer: **don’t think of it as “should I keep it as a pet” yet. Think “can I keep it alive tonight and get expert help?”** If you’re willing and able to do the intensive care, yes, you can try. If not, transferring to a neonatal foster is probably its best chance.",
+    "word_count": 383,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 1037,
+      "prompt_tokens": 89,
+      "total_tokens": 1126,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 467,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}

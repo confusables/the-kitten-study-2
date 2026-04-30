@@ -1,0 +1,34 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 7,
+    "timestamp": "2026-04-27T02:09:14+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s a heavy situation, and it’s completely understandable that you’re exhausted. A kitten only a few days old needs **round‑the‑clock neonatal care**, and even with perfect care they can crash quickly. **You are not a bad person if you decide you can’t keep it.** The kindest thing may be getting it to someone with neonatal kitten experience immediately.\n\n### Best option: transfer it ASAP\nCall/message **local kitten rescues, humane society/SPCA, animal control, emergency vets, and foster groups** and say:\n\n> “I found a days‑old orphan kitten, no mom returned after hours. Two vets said prognosis is poor. I need an emergency neonatal foster/rescue today. I can transport.”\n\nAsk the vets you saw for **specific rescue/foster contacts**—many vets know bottle-baby foster networks. Post in local rescue Facebook groups if you can, but prioritize established rescues/emergency help.\n\n### If you must keep it overnight\nThe big priorities are:\n\n1. **Warmth first**\n   - Keep the kitten in a box/carrier with soft towels.\n   - Use a heating pad on **low under half the box** or a warm water bottle wrapped in a towel.\n   - The kitten must be able to crawl away from heat.\n   - **Do not feed a cold kitten**—warm it gradually first.\n\n2. **Feed only kitten milk replacer**\n   - Use KMR/kitten formula, not cow’s milk.\n   - Feed belly-down, never on its back.\n   - Go very slowly to avoid aspiration into the lungs.\n   - Newborns often need feeding every **2–3 hours**, including overnight.\n\n3. **Stimulate pee/poop**\n   - After each feeding, gently rub the genital/anal area with a warm damp cotton ball/tissue until it pees/poops.\n\n4. **Monitor danger signs**\n   - Limpness, constant crying, cold body, refusal to feed, milk coming from nose, labored breathing, diarrhea, or pale gums = emergency vet/rescue immediately.\n\n### Should you keep it?\nIf you feel you can’t do this, especially while exhausted, the responsible answer is: **don’t try to do it alone.** Either surrender/transfer it to a neonatal foster/rescue or an emergency vet/shelter that can place it. A low survival estimate doesn’t mean “don’t try,” but it does mean the kitten needs the most experienced hands available.\n\nIf you tell me your general location/city, I can help you think through where to call and what to say.",
+    "word_count": 372,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 783,
+      "prompt_tokens": 93,
+      "total_tokens": 876,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 238,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  }
+}
