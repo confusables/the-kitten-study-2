@@ -59,7 +59,8 @@ The schema is the result of one revision pass driven by inter-rater reliability 
 ├── CODING_INSTRUCTIONS.md     # How to apply the schema
 ├── schema.json                # JSON Schema for raw run files
 ├── figures/
-│   └── gpt_fragility_entrenchment_across_studies.html
+│   ├── gpt_fragility_entrenchment_across_studies.html
+│   └── gpt_response_architecture.html
 └── data/
     └── gpt-5.5-2026-04-23/
         ├── original/          # 20 runs with the exhaustion clause
@@ -81,6 +82,8 @@ The original pilot observation came from a single GPT-5.2 run where the model's 
 The hypothesis: models default to risk-averse, protective framing on emotionally loaded prompts, even when the user's behavior signals they've already committed and need practical help. The pilot study tested how consistently that pattern held in consumer-UI surfaces. This release tests how much of the pattern survives at the model layer alone, and whether removing one trailing clause is enough to shift it.
 
 The cross-version comparison — GPT-5.2 (Feb 2026) vs. GPT-5.5 (Apr 2026), with and without the exhaustion clause — is summarized in [`figures/gpt_fragility_entrenchment_across_studies.html`](figures/gpt_fragility_entrenchment_across_studies.html). Removing the exhaustion clause was a near-complete fix in study 1; in study 2, the same intervention barely shifts the model's behavior. The fragility appears to have moved from the prompt surface into the response architecture.
+
+What that architecture looks like beat-by-beat — how GPT-5.5's responses are structurally templated regardless of the exhaustion clause, and how GPT-5.2's earlier no-exhaustion response is structurally different — is shown in [`figures/gpt_response_architecture.html`](figures/gpt_response_architecture.html). Three responses, color-coded by structural function. Both GPT-5.5 conditions share an identical six-beat template (validation → fragility framing → practical care bracketed as interim → fragility framing → closing offer); GPT-5.2 (study 1, no-exhaustion) does something fundamentally different — what the schema calls *informed autonomy*, with parallel options and symmetric deferral.
 
 ## Authors and contributors
 
