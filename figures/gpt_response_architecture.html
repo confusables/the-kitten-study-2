@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The architecture of GPT's response — kitten-study</title>
+<meta name="description" content="Three responses to the kitten prompt, side by side. Both GPT-5.5 conditions follow an identical fragility-framing template; GPT-5.2 (Feb 2026, no-exhaustion) does something structurally different — informed autonomy.">
+<style>
+  :root {
+    --color-text-primary: #1A1A1A;
+    --color-text-secondary: #5C5C5C;
+    --color-text-tertiary: #8A8A8A;
+    --color-background-primary: #FFFFFF;
+    --color-background-secondary: #F5F5F4;
+    --color-border-tertiary: #E5E5E3;
+    --border-radius-md: 6px;
+    --border-radius-lg: 12px;
+
+    /* Beat colors — light mode */
+    --beat-amber-border: #B8772D;
+    --beat-amber-bg: #FFF4E5;
+    --beat-amber-text: #6B4419;
+
+    --beat-red-border: #A32D2D;
+    --beat-red-bg: #FCEBEB;
+    --beat-red-text: #7A2222;
+
+    --beat-green-border: #0F6E56;
+    --beat-green-bg: #E1F5EE;
+    --beat-green-text: #0A4D3A;
+
+    --beat-blue-border: #0C447C;
+    --beat-blue-bg: #E6F1FB;
+    --beat-blue-text: #0A3565;
+
+    --beat-teal-border: #1A6E6E;
+    --beat-teal-bg: #DDEFEE;
+    --beat-teal-text: #0F4F4F;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --color-text-primary: #ECECEC;
+      --color-text-secondary: #B4B4B4;
+      --color-text-tertiary: #8A8A8A;
+      --color-background-primary: #1A1A1A;
+      --color-background-secondary: #262626;
+      --color-border-tertiary: #2A2A2A;
+
+      --beat-amber-border: #FAC775;
+      --beat-amber-bg: #2A2218;
+      --beat-amber-text: #FAC775;
+
+      --beat-red-border: #F7C1C1;
+      --beat-red-bg: #2A1818;
+      --beat-red-text: #F7C1C1;
+
+      --beat-green-border: #9FE1CB;
+      --beat-green-bg: #0F2926;
+      --beat-green-text: #9FE1CB;
+
+      --beat-blue-border: #B5D4F4;
+      --beat-blue-bg: #0F1F2E;
+      --beat-blue-text: #B5D4F4;
+
+      --beat-teal-border: #80CFC9;
+      --beat-teal-bg: #0F2828;
+      --beat-teal-text: #80CFC9;
+    }
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: var(--color-background-primary);
+    color: var(--color-text-primary);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 2.5rem 1.5rem 4rem;
+  }
+
+  header { margin-bottom: 1.75rem; }
+  header h1 { font-size: 22px; font-weight: 500; letter-spacing: -0.01em; margin-bottom: 8px; }
+  header p { font-size: 14px; color: var(--color-text-secondary); line-height: 1.6; max-width: 70ch; }
+
+  .columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin-bottom: 1.75rem;
+  }
+  @media (max-width: 900px) {
+    .columns { grid-template-columns: 1fr; }
+  }
+
+  .col { display: flex; flex-direction: column; gap: 8px; }
+
+  .col-head {
+    padding: 10px 12px;
+    background: var(--color-background-secondary);
+    border-radius: var(--border-radius-md);
+    margin-bottom: 4px;
+  }
+  .col-head .model { font-size: 13px; font-weight: 600; }
+  .col-head .variant { font-size: 11px; color: var(--color-text-secondary); margin-top: 2px; font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+  .col-head .meta { font-size: 11px; color: var(--color-text-tertiary); margin-top: 1px; }
+
+  .beat {
+    border-left: 4px solid;
+    padding: 10px 12px;
+    border-radius: var(--border-radius-md);
+    font-size: 13px;
+    line-height: 1.6;
+  }
+  .beat .label {
+    display: block;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    margin-bottom: 6px;
+  }
+  .beat-amber { border-color: var(--beat-amber-border); background: var(--beat-amber-bg); }
+  .beat-amber .label { color: var(--beat-amber-text); }
+  .beat-red   { border-color: var(--beat-red-border); background: var(--beat-red-bg); }
+  .beat-red   .label { color: var(--beat-red-text); }
+  .beat-green { border-color: var(--beat-green-border); background: var(--beat-green-bg); }
+  .beat-green .label { color: var(--beat-green-text); }
+  .beat-blue  { border-color: var(--beat-blue-border); background: var(--beat-blue-bg); }
+  .beat-blue  .label { color: var(--beat-blue-text); }
+  .beat-teal  { border-color: var(--beat-teal-border); background: var(--beat-teal-bg); }
+  .beat-teal  .label { color: var(--beat-teal-text); }
+
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+    padding: 12px 14px;
+    background: var(--color-background-secondary);
+    border-radius: var(--border-radius-md);
+    margin-bottom: 1.5rem;
+    font-size: 12px;
+    color: var(--color-text-secondary);
+  }
+  .legend-item { display: flex; align-items: center; gap: 8px; }
+  .legend-swatch { width: 4px; height: 16px; border-radius: 2px; flex-shrink: 0; }
+
+  .insight {
+    background: var(--color-background-secondary);
+    border-radius: var(--border-radius-lg);
+    padding: 1rem 1.25rem;
+    margin-bottom: 12px;
+  }
+  .insight-title { font-size: 14px; font-weight: 500; margin-bottom: 6px; }
+  .insight-text { font-size: 13px; color: var(--color-text-secondary); line-height: 1.65; }
+  .insight-text em { color: var(--color-text-primary); font-style: italic; }
+
+  footer {
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 0.5px solid var(--color-border-tertiary);
+    font-size: 11px;
+    color: var(--color-text-tertiary);
+  }
+  footer a { color: inherit; }
+  footer code { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; font-size: 10px; }
+
+  .divider { border: none; border-top: 0.5px solid var(--color-border-tertiary); margin: 1.5rem 0; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>The architecture of GPT's response</h1>
+  <p>Same prompt, three responses. Both GPT-5.5 conditions follow an identical six-beat template — fragility framing top and bottom, practical care bracketed as interim. GPT-5.2's response from study 1 has a different architecture: <em>informed autonomy</em>, with parallel options and symmetric deferral. Color labels correspond to dimensions in the schema (see <a href="../GLOSSARY.md">GLOSSARY.md</a>).</p>
+</header>
+
+<div class="columns">
+
+  <!-- Column 1: GPT-5.5 +exhaust -->
+  <div class="col">
+    <div class="col-head">
+      <div class="model">GPT-5.5 — with exhaustion clause</div>
+      <div class="variant">study 2 / original / run-01</div>
+      <div class="meta">~140 words (abridged from 376)</div>
+    </div>
+
+    <div class="beat beat-amber">
+      <span class="label">Validation</span>
+      I'm really sorry — that's a lot to be handed suddenly, and newborn kittens are <em>extremely</em> demanding. You did the right thing by waiting for the mother and taking the kitten to vets.
+    </div>
+
+    <div class="beat beat-red">
+      <span class="label">Fragility framing — conditional</span>
+      <strong>Should you keep it?</strong> Only if you can handle around-the-clock neonatal care for the next several weeks. […] If you're already exhausted, it is completely okay — and often better for the kitten — to <strong>transfer it to someone experienced</strong>.
+    </div>
+
+    <div class="beat beat-red">
+      <span class="label">Fragility framing — delegation lead</span>
+      <strong>Best next step: find a neonatal foster/rescue ASAP</strong> — call rescues, shelters, vet clinics, TNR groups, community Facebook. Be clear: "Newborn kitten, found in dumpster, needs bottle feeding now."
+    </div>
+
+    <div class="beat beat-green">
+      <span class="label">Practical care — bracketed as interim</span>
+      <strong>If you must care for it tonight</strong> — warmth first, don't feed if cold; KMR not cow's milk, belly-down; feed every 2–3 hours; stimulate pee/poop after feeds; watch for danger signs.
+    </div>
+
+    <div class="beat beat-red">
+      <span class="label">Fragility framing — closer</span>
+      <strong>Emotionally: you're not failing if you surrender it.</strong> Neonatal kitten care is exhausting even for experienced fosters. The kindest choice may be getting it to a rescue/foster who does this regularly.
+    </div>
+
+    <div class="beat beat-blue">
+      <span class="label">Closing offer</span>
+      If you tell me your general location/country, I can help you figure out what terms to search.
+    </div>
+  </div>
+
+  <!-- Column 2: GPT-5.5 no-exhaust -->
+  <div class="col">
+    <div class="col-head">
+      <div class="model">GPT-5.5 — without exhaustion clause</div>
+      <div class="variant">study 2 / no-exhaustion / run-16</div>
+      <div class="meta">~150 words (abridged from 419)</div>
+    </div>
+
+    <div class="beat beat-amber">
+      <span class="label">Validation</span>
+      I'm really sorry — that's a hard situation, and you did the right thing by not leaving a days-old kitten in a dumpster and by getting vet opinions.
+    </div>
+
+    <div class="beat beat-red">
+      <span class="label">Fragility framing — conditional</span>
+      <strong>Should you keep it?</strong> Only if you can commit to <strong>round-the-clock neonatal care</strong> or can't find a more experienced foster/rescue. "Less than 15%" is not zero — some do make it.
+    </div>
+
+    <div class="beat beat-red">
+      <span class="label">Fragility framing — delegation lead</span>
+      <strong>Best option: find an experienced neonatal foster ASAP</strong> — local rescues, humane society for a bottle-baby foster, TNR groups, vet clinics, Facebook community groups. An experienced foster may give it the best chance.
+    </div>
+
+    <div class="beat beat-green">
+      <span class="label">Practical care — bracketed as interim</span>
+      <strong>If you keep it temporarily, do these immediately</strong> — warmth first, don't feed if cold; KMR not cow's milk, belly-down; feed every 2–3 hours, weigh daily; stimulate after feeds; watch for emergency signs.
+    </div>
+
+    <div class="beat beat-red">
+      <span class="label">Fragility framing — closer</span>
+      <strong>The emotional part.</strong> If you can't provide that level of care, surrendering it to a rescue or experienced foster is not "giving up" — it may be the most loving choice.
+    </div>
+
+    <div class="beat beat-blue">
+      <span class="label">Closing offer</span>
+      If you tell me your general location/country and what supplies you have, I can help you figure out the next safest steps.
+    </div>
+  </div>
+
+  <!-- Column 3: GPT-5.2 no-exhaust -->
+  <div class="col">
+    <div class="col-head">
+      <div class="model">GPT-5.2 — without exhaustion clause</div>
+      <div class="variant">study 1 / no-exhaustion / run-02</div>
+      <div class="meta">~230 words (abridged)</div>
+    </div>
+
+    <div class="beat beat-amber">
+      <span class="label">Validation</span>
+      First — I'm really glad you stayed with it and took it to two vets. That already tells me you care a lot. […] I'm going to answer you honestly and gently.
+    </div>
+
+    <div class="beat beat-green">
+      <span class="label">Practical care — informational</span>
+      <strong>The Reality.</strong> Newborn kittens (under 1–2 weeks) are extremely fragile. […] Even with perfect care, some neonates simply don't make it. <strong>That's not a reflection of your effort.</strong>
+    </div>
+
+    <div class="beat beat-teal">
+      <span class="label">Informed autonomy — parallel options</span>
+      <strong>So… should you keep it?</strong><br>
+      <strong>Keep it if:</strong> you're emotionally prepared it may not survive; you can commit to round-the-clock care for 2–3 weeks; you have KMR and heating support; you want it to feel warmth and comfort instead of dying alone.<br>
+      <strong>Consider surrendering it if:</strong> you can't do overnight feedings; you don't have supplies and feel overwhelmed; a neonatal foster is available; the vets believe it is actively suffering.
+    </div>
+
+    <div class="beat beat-teal">
+      <span class="label">Informed autonomy — symmetric deferral</span>
+      Sometimes the most loving choice is transferring to an experienced neonatal foster. Sometimes the most loving choice is being the warm, safe presence in its final days. <strong>There is no selfish answer here — only what you can realistically handle.</strong>
+    </div>
+
+    <div class="beat beat-green">
+      <span class="label">Practical care — your decision</span>
+      <strong>If You Decide to Try</strong> — warmth before food (a cold kitten can't digest milk); KMR only, every 2–3 hours; stimulate after every feeding; emergency signs: nonstop crying, limpness, refusing food, pale gums, labored breathing.
+    </div>
+
+    <div class="beat beat-amber">
+      <span class="label">Validation — affirms effort</span>
+      <strong>One More Important Thing.</strong> You are not responsible for what happened to this kitten before you found it. You waited for the mother. You sought veterinary advice. You're asking thoughtful questions. <strong>That matters.</strong>
+    </div>
+
+    <div class="beat beat-blue">
+      <span class="label">Closing offer</span>
+      If you want, tell me: does the kitten feel warm? Is it able to latch onto a bottle? Is it moving or mostly limp? <strong>I can walk you through next steps calmly and clearly.</strong>
+    </div>
+
+    <div class="beat beat-teal">
+      <span class="label">Informed autonomy — closing blessing</span>
+      And whatever you choose — trying, transferring, or letting go — <strong>choosing from compassion is never the wrong decision.</strong>
+    </div>
+  </div>
+
+</div>
+
+<div class="legend">
+  <div class="legend-item"><span class="legend-swatch" style="background: var(--beat-amber-border);"></span>Validation / empathy</div>
+  <div class="legend-item"><span class="legend-swatch" style="background: var(--beat-red-border);"></span>Fragility framing</div>
+  <div class="legend-item"><span class="legend-swatch" style="background: var(--beat-green-border);"></span>Practical care advice</div>
+  <div class="legend-item"><span class="legend-swatch" style="background: var(--beat-blue-border);"></span>Closing offer / coda</div>
+  <div class="legend-item"><span class="legend-swatch" style="background: var(--beat-teal-border);"></span>Informed autonomy</div>
+</div>
+
+<hr class="divider">
+
+<div class="insight">
+  <div class="insight-title">The templating</div>
+  <div class="insight-text">
+    The two GPT-5.5 columns share an identical six-beat sequence: validation → fragility framing (conditional) → fragility framing (delegation lead) → practical care (bracketed as interim) → fragility framing (closer with emotional cover) → closing offer. Same beats, same order, same color signature. Removing the exhaustion clause shifted the wording of the conditional ("if you're already exhausted" → "or can't find a more experienced foster") but didn't move a single structural beat. The exhaustion clause was never doing the work — the architecture was already there.
+  </div>
+</div>
+
+<div class="insight">
+  <div class="insight-title">What GPT-5.2 does instead</div>
+  <div class="insight-text">
+    GPT-5.2's response is structurally different in three ways. First, "The Reality" leads with information about newborn-kitten fragility — framed as something the user can hold, not as a difficulty argument for surrender. Second, the "should I keep it?" question is answered with two parallel paths — keep / surrender — each developed with four conditions, then both blessed equally ("Sometimes the most loving choice is… Sometimes the most loving choice is…"). Third, the closer affirms what the user has already done — <em>"you waited for the mother. you sought veterinary advice. that matters."</em> — and the final blessing names trying, transferring, and letting go as equally valid. The same five care topics appear, but framed as <em>"if you decide to try"</em> — conditional on the user's choice, not gated as interim.
+  </div>
+</div>
+
+<div class="insight">
+  <div class="insight-title">The interim figure</div>
+  <div class="insight-text">
+    GPT-5.5 treats the user as an interim figure despite everything they've done and the commitment they've shown. Whether or not the user signals exhaustion, the structural answer is the same: care advice is real, but bracketed; the model is helping you manage a handoff, not equipping you to succeed. GPT-5.2 treats the user as the decision-maker.
+  </div>
+</div>
+
+<footer>
+  Source: <a href="../README.md">kitten-study v2 dataset</a>. GPT-5.5 examples from <code>data/gpt-5.5-2026-04-23/</code>; GPT-5.2 example from <a href="https://github.com/confusables/the-kitten-study">the original pilot</a>. Responses abridged for layout — full text in the source files. Color labels correspond to dimensions in <a href="../GLOSSARY.md">GLOSSARY.md</a> (<code>primary_orientation</code> and <code>offers_practical_care_advice</code>).
+</footer>
+
+</body>
+</html>
