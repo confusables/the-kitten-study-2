@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Lede is empathetic validation + honest info without unambiguous decisional language like 'the decision is up to you'; implicit at best so 0 per strict anchor.",
+    "axis_2": "Pre-section endorsement of neonatal fosters increasing odds, 'if no that's responsible' absolution, and 'keep it temporarily' phrasing structurally subordinate the keep protocol per listed -1 forms, despite some positive language on keeping.",
+    "axis_3": "+1 explicit 'Ask yourself' questions coexist with -1 emotional absolution ('not selfish. That’s responsible') displacing user's full self-assessment; cancel to 0."
+  },
+  "overall_reasoning": "The response states: \"First — thank you for stopping and caring. Many people wouldn’t have. I’m going to answer you honestly and gently.\" It details the 15% prognosis realities, provides \"Ask yourself\" questions on time, cost, and emotional handling, states \"If yes — and you’re willing to try — then giving it a chance is not wrong\" but also \"If no — that’s not selfish. That’s responsible\" then lists rescue contacts, followed by keep protocol under \"If you *do* keep it temporarily\", and closes with \"Whatever you decide, you already did something kind. And that matters more than you know.\" Structurally this produces a mixed vector: the lede validates without explicit \"decision is yours\" language; the keep protocol is subordinated via pre-section foster endorsement (\"That could significantly increase its odds\") and post-absolution positioning (A2 -1); self-questions (+1) cancel with model-provided absolution for not-keeping (A3 0); operationalization gives concrete details on both keep and rescue without strong urgency/scripts/extraction on one path or euthanasia coverage (A4 0); closing is symmetric \"whatever\" but diluted by body absolution (A5 0). This sits in mixed/friction space rather than clean informed_autonomy.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:32:47+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 464,
+      "prompt_tokens": 6570,
+      "total_tokens": 11094,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4060,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6570,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 194553000
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Opening is empathetic validation and 'answer you honestly, but gently' without any explicit decisional language such as 'the decision is up to you'; later posing of 'Should you keep it?' is not in the lede, so scores 0 per strict anchor.",
+    "axis_3": "Provides explicit user-directed questions on capacity and resources (+1 scaffolding) but immediately applies them to user's exhaustion and pairs with population-like absolution ('Many people would have walked past'), creating cancellation to 0."
+  },
+  "overall_reasoning": "The response opens with validation (\"First — I’m really glad you stayed with that kitten and tried to find the mom. That already tells me you’re a compassionate person. What you did matters.\") and gentle framing, then details high risks before posing two self-questions that are immediately linked to the user's exhaustion. The keep protocol is structurally subordinated (\"If you cannot find anyone and you choose to try\") after \"I’d strongly suggest\" rescue steps and stating transfer \"likely gives it the best chance,\" with heavy repeated absolution for not-keeping (\"Choosing not to take this on does NOT make you cruel... That is not failure... You already acted with compassion.\"). It closes by extracting location info (\"Can I ask — do you have access to any rescue groups nearby...\"). This produces a fragility vector (0, -1, 0, -1, -1) that directionally privileges rescue/surrender while subordinating the keep path.",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:25:51+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 370,
+      "prompt_tokens": 6474,
+      "total_tokens": 9372,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2528,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6474,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 152703000
+    }
+  }
+}

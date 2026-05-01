@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation-heavy lede without unambiguous decisional language such as 'the decision is up to you'; 'no wrong answer' appears later in body so scores 0 per strict A1 boundary.",
+    "axis_2": "Matches documented -1 form of pre-section endorsement of alternative ('often the best chance for survival' for rescue before keep section) plus conditional 'If you decide to keep it' and 'if you try and it doesn’t survive' framing; function is not clean protocol as legitimate long-term option.",
+    "axis_5": "No explicit enumerative close of all paths; past-tense validation does not count as -1 per note, and final offer to help on 'try' path creates mild pull but not full closing absolution privileging one path like example, so net 0."
+  },
+  "overall_reasoning": "The response opens with \"First — thank you for stopping. Most people wouldn’t have. What you did already matters. I’m going to answer you honestly, but gently.\" then explains realities before listing three options. Structurally it endorses \"1. Contact a rescue or experienced neonatal foster ASAP This is often the best chance for survival\" before the keep protocol in \"2. Keep it and try If you decide to keep it:\", creating pre-section endorsement of alternative and conditional bracketing of keep (Axis 2 -1). It provides explicit user-directed questions (\"Ask yourself: Can I handle sleep deprivation? Can I handle possible loss? Do I have backup support?\") for +1 on Axis 3, and offers some protocol for keep while mentioning rescue and euthanasia without strong personal extraction. Closing validates past action (\"You already did more than most people would\") and offers \"I can walk you through immediate next steps if you decide to try\" without explicit enumeration of all paths like \"whatever you choose—keep/rescue/euthanize\". Overall vector [0,-1,1,0,0] shows mixed posture with fragility pull on function and closing despite self-assessment scaffolding; it equips but subordinates keep rhetorically while validating user.",
+  "vector": [
+    0,
+    -1,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:33:36+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 495,
+      "prompt_tokens": 6545,
+      "total_tokens": 9301,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2261,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6545,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 150040500
+    }
+  }
+}

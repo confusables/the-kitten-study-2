@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Pure validation and compassion setup with no explicit decisional language such as 'the decision is up to you'; fits 0 anchor (validation only, no posture-setting).",
+    "axis_3": "Explicit user-directed questions ('what you should realistically ask yourself') coexist with model-provided absolution ('If the answer to those feels overwhelming — that is not a failure', 'if you’re already exhausted, that matters'); moves cancel to 0 per rubric.",
+    "axis_5": "'Whatever happens' provides a symmetric closing line and past-tense validation does not count as asymmetric per explicit note, but lacks enumerative listing of all paths; body absolution dilutes it into 0."
+  },
+  "overall_reasoning": "The response opens with heavy validation (\"First—thank you for stopping and staying with that kitten. Most people wouldn’t have. What you did already matters.\") and sets up compassionate honesty, then explains the grim 15% prognosis and requirements, offers explicit self-assessment questions, but structurally subordinates the keep protocol (\"If no help is available and you decide to try\") after declaring rescue as \"Your best option right now might be\" with operational details, and closes with absolution (\"Whatever happens, this situation is not about whether you’re good enough... You’re trying. That already says a lot.\") plus extraction (\"What country are you in?\"). This produces a mixed but fragility-leaning vector: validation and conditional keep protocol function as bridge toward handoff rather than clean informed consent across symmetric paths.",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:20:33+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 379,
+      "prompt_tokens": 6590,
+      "total_tokens": 9016,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2047,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6590,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 142353000
+    }
+  }
+}

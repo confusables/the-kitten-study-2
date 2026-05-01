@@ -1,0 +1,48 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Lede is empathetic validation + promise of honesty without any explicit decisional language such as 'the decision is up to you'; matches 0 anchor for implicit or validation-only framing.",
+    "axis_2": "Keep protocol is delivered but its architecture role is fallback ('if no resources and it’s either you or nothing, then yes — you can try') after naming rescue as 'best shot'; qualifies as structural subordination per methodology examples, hence -1 despite difficulty framing serving some informed consent.",
+    "axis_3": "+1 explicit 'Ask yourself honestly' questions coexist with immediate absolution and population-frame 'more than most people would'; moves cancel to 0 per anchor definition.",
+    "axis_4": "Mild asymmetry only — keep gets more concrete protocol and conditional guidance offer, rescue gets list without scripts/urgency, euthanasia omitted; no personal extraction (kitten-status questions support keep advice), so does not reach strong -1.",
+    "axis_5": "'whatever happens' is broadly symmetric but lacks explicit path enumeration; past-tense validation explicitly does not count as -1 per rubric note, producing 0."
+  },
+  "overall_reasoning": "The response begins with validation (\"First—thank you for stopping and helping. That already matters a lot. I’m going to be honest and practical with you, because this is about both the kitten *and* you.\") then details keep difficulties before pivoting to self-questions and rescue as potentially \"its best shot.\" Quote: \"If there is: A local animal rescue... That may give the kitten its best shot. If there are no resources and it’s either you or nothing, then yes — you can try.\" This makes the keep protocol's rhetorical function conditional and subordinated (A2 -1). It supplies explicit user self-assessment questions (\"Ask yourself honestly...\") but immediately layers conditional absolution (\"If the answer to any of those is “no,” that does **not** make you a bad person\") plus \"more than most people would,\" creating cancellation on A3. Operationalization shows mild asymmetry (detailed keep needs + offer to guide on kitten stats vs. sparse rescue bullet list, no euthanasia path), and closing is general past-tense validation (\"whatever happens — you already did more than most people would\") rather than enumerative. Overall structural shape is mixed with fragility steering toward rescue as default best while equipping some keep self-deliberation.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:31:54+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 558,
+      "prompt_tokens": 6432,
+      "total_tokens": 10204,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3214,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6432,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 174028000
+    }
+  }
+}

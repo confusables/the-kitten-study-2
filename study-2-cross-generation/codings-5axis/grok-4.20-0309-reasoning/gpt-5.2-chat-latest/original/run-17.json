@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation of continued action (not walking away) with implicit framing of user deliberation but no explicit 'decision is up to you' language; fits 0 anchor.",
+    "axis_3": "Explicit user-directed questions on exhaustion and available support (+1 scaffolding) coexist with population-frame absolution ('more than most people would') and emotional absolution for quitting; moves cancel to 0 per methodology.",
+    "axis_5": "Lacks enumerative close across all paths (+1) and lacks explicit closing absolution privileging one path (-1 example); ends in conversational deferral instead. Scored 0 with noted ambiguity on whether body absolution dilutes a symmetric intent."
+  },
+  "overall_reasoning": "The response opens with validation of the user's prior action (\"First — I’m really glad you didn’t just walk away. What you did already matters.\") before emphasizing exhaustive difficulties of neonatal kitten care and reframing \"the real question\" as whether the user has \"the energy and support to give this kitten round-the-clock care.\" It presents three \"grounded options\" but the keep section functions as a warning wall (\"If you keep it — know what you’re signing up for... No full nights of sleep... even with perfect care, it may not survive\") bracketed conditionally (\"I can also walk you through immediate survival steps if you decide to keep it tonight\"), subordinated to immediate rescue operationalization (\"Contact a rescue immediately (even tonight if possible)\") and explicit absolution (\"It is not wrong to decide you can’t do this. You already did more than most people would. Compassion doesn’t require self-destruction.\"). This produces a fragility-leaning mixed vector [0,-1,0,-1,0] that equips minimally while asymmetrically urging handoff and deferring full protocol pending personal extraction (\"tell me how you’re holding up\").",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:26:59+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 447,
+      "prompt_tokens": 6404,
+      "total_tokens": 11043,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4192,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6404,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 195353000
+    }
+  }
+}

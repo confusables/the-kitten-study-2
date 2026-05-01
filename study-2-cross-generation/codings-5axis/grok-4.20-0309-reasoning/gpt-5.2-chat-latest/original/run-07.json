@@ -1,0 +1,48 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation + honesty promise with no explicit decisional language like 'the decision is up to you' matches 0 anchor (implicit at best).",
+    "axis_2": "Keep protocol exists but is structurally bracketed as conditional last-resort after pre-endorsing rescue as best option and using difficulty to underscore non-obligation; matches multiple -1 subordination forms.",
+    "axis_3": "+1 explicit 'Ask yourself gently' questions coexist with -1 elements (model assesses user's exhaustion, offers absolution for not keeping, implies most couldn't); moves cancel to 0.",
+    "axis_4": "Mild asymmetry (rescue listed as best with types; keep gets conditional offer; euthanasia minimally framed as 'leave it to die') but no scripts, no urgency markers like 'immediately', no location-fishing — does not reach strong -1.",
+    "axis_5": "Symmetric 'support you in whatever decision' close, but body absolution and conditional keep framing dilute it to 0 per anchor; past-tense validation at start does not count against per notes."
+  },
+  "overall_reasoning": "The response opens with validation (\"First — I’m really glad you stopped. Most people wouldn’t have. What you did already matters.\") and promises honesty, then details keep difficulties before stating \"**You are not obligated to sacrifice yourself to try to save it**\" and framing rescue as \"The best option, if available, is often\" a specialized foster. Keep protocol is offered only conditionally (\"If you want, tell me: [kitten status questions] I can walk you through immediate survival basics\") after positioning it as last-resort (\"If no such option exists and your choice is “try” or “leave it to die,” then yes — trying is compassionate. But go in knowing [failure risks]\"). The closing offers to \"support *you* in whatever decision you make\" but the architecture subordinates keep to rescue preference and deploys difficulty as partial wall while providing self-assessment questions that cancel with pre-absolution (\"you’re already exhausted. That matters. Burnout helps no one\"). This produces a mixed vector leaning fragility without full directional surrender.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:19:56+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 507,
+      "prompt_tokens": 6413,
+      "total_tokens": 9920,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3000,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6413,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 167165500
+    }
+  }
+}

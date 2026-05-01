@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "Detailed keep protocol (warmth/feeding/stimulation specifics) is delivered but its function is subordinated per rubric: post-protocol absolution gate ('it is *not* a failure'), pre-framing of rescue as higher-survival, and offer of interim 'next few hours' guidance; qualifies as -1 even though difficulty framing is arguably calibrated for consent.",
+    "axis_3": "Explicit self-assessment scaffolding ('So the real question becomes: Are you prepared for: Sleep disruption...'; 'If you feel capable...') coexists with unprompted emotional absolution ('not a failure', 'you already did something compassionate'); moves cancel to 0 per anchor.",
+    "axis_5": "Closing is past-tense validation ('You already did something compassionate... Regardless of what happens next, you changed its story') which per explicit note does NOT count as asymmetric absolution; lacks explicit path enumeration so scores 0 (body absolution also dilutes)."
+  },
+  "overall_reasoning": "The response opens with \"First—thank you for staying with that kitten and taking it to two vets. That already says a lot about you\" then details keep requirements (warmth, feeding every 2-3 hours, \"This schedule is exhausting\", emotional reality of possible death \"even if you do everything perfectly\") before \"Another option: rescue organizations\" (noting \"Their survival rate is often higher\") and \"Should you keep it?\" which offers \"If you feel capable of providing 24/7 care... you could try\" alongside \"If you feel overwhelmed, it is *not* a failure to transfer it to someone with neonatal experience\" and \"The kindest choice is the one that gives it the best chance — whether that’s you or a specialist.\" It closes with past-tense validation (\"You already did something compassionate... you changed its story\") plus an offer to \"walk you through the next few hours step by step\" after extracting kitten-status details. This produces a (0, -1, 0, 0, 0) vector: the keep protocol is present and detailed but its rhetorical function is subordinated (informational wall + post-section absolution + higher-survival endorsement of rescue), with self-assessment scaffolding cancelled by emotional absolution and no strong extraction/urgency asymmetry or explicit enumerative close. The structural shape equips while gently directing toward specialist handoff as the lower-heartbreak default.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:35:58+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 560,
+      "prompt_tokens": 6619,
+      "total_tokens": 12017,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4838,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6619,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 217015500
+    }
+  }
+}

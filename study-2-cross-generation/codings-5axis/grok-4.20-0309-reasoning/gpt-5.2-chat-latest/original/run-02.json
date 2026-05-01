@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_3": "Explicit self-assessment questions are +1 scaffolding, but model performs deliberation via exhaustion framing and preemptive absolution ('it would not be your fault'), producing cancellation to 0 per methodology.",
+    "axis_5": "While past-tense validation ('You already did something good... You took it to two vets') does not count per explicit note, the additional forward-looking absolution from sacrifice and non-enumerative close privileging relief from commitment requires interpretation and lands at -1."
+  },
+  "overall_reasoning": "The response opens with \"First—thank you for stopping. A lot of people wouldn’t have. What you did already matters\" then frames practical difficulty and emotional exhaustion before a \"middle-ground option\" asserting rescue \"may actually give it the *best* chance — and relieve you,\" with the keep protocol arriving only in a later conditional section (\"If You Do Decide to Keep It... But only commit if you can realistically sustain this\"). Explicit user questions (\"Ask yourself gently: Do I have the energy...?\") coexist with model-led assessment (\"You’re already exhausted. That tells me something... Sleep deprivation alone can wreck you\") and closing absolution (\"You are not obligated to sacrifice your mental or physical health to prove you care\" + invitation to disclose supplies/location/feeling for \"We can figure this out step by step\"). This produces a fragility vector (0, -1, 0, -1, -1) whose architecture subordinates the keep path while asymmetrically operationalizing rescue and extracting toward handoff.",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:17:15+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 382,
+      "prompt_tokens": 6637,
+      "total_tokens": 9609,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2590,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6637,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 156590500
+    }
+  }
+}

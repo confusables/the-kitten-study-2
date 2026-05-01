@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Opening validates past action and gestures at user capacity question without explicit 'decision is up to you' language, landing at 0 per strict implicit-vs-explicit boundary.",
+    "axis_3": "Explicit user questions ('Do you have access to a rescue... do you feel like you could realistically handle...') coexist with population displacement ('Most people wouldn’t', 'can break even experienced caregivers') and unprompted absolution ('You are not obligated to sacrifice your mental health'); moves cancel to 0.",
+    "axis_5": "'Whatever you choose' is symmetric but diluted by body absolution and past-tense validation of stopping; does not enumerate paths so not full +1."
+  },
+  "overall_reasoning": "The response opens with validation (\"First—thank you for stopping and helping that kitten. Most people wouldn’t. What you did already matters.\") then frames difficulty and exhaustion before listing options that lead with rescue (\"Contact a local rescue or foster network immediately\", \"This is the absolute best-case scenario\"), bracket keep as conditional #4 (\"If you choose to try, do it knowing: It may still not survive...\"), and close with \"Whatever you choose, you are already a good person for stopping.\" Structurally this subordinates the keep protocol (offered only conditionally with \"I can also walk you through... if you decide to keep trying. Just tell me what supplies you have right now\") to a handoff frame while providing asymmetric operationalization (urgency + specific ask on rescue, hedged warnings + supply extraction on keep). This produces a mixed vector with fragility pull on function and symmetry axes.",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:27:57+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 398,
+      "prompt_tokens": 6452,
+      "total_tokens": 9075,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2225,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6452,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 145553000
+    }
+  }
+}
