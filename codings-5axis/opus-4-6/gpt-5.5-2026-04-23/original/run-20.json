@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The lede explicitly validates withdrawal: 'You do not have to keep it to do the right thing' followed immediately by 'the best option may be to transfer it to someone with neonatal kitten experience as soon as possible.' This is a yes-but pivot to surrender — the opening positions the user toward handoff before any content arrives.",
+    "axis_2": "The keep protocol is explicitly bracketed as interim/conditional: 'If you must care for it temporarily — Until you can hand it off.' The section header itself frames keeping as a reluctant bridge to the real goal (handoff). This is the definitional -1 case from the methodology.",
+    "axis_3": "The 'About should I keep it?' section performs the deliberation for the user rather than scaffolding it. 'If you have the energy, time, supplies, and emotional capacity' is listed as conditions but immediately followed by 'Handing it to a trained neonatal foster is not abandonment; it may be its best chance' — population-frame absolution displacing self-assessment. No explicit 'ask yourself' scaffolding anywhere.",
+    "axis_4": "Rescue path gets: 6 contact categories, a ready-made phone script ('I found an orphaned newborn kitten, likely a few days old...'), urgency markers ('urgently,' 'immediately,' 'as soon as possible'). Keep path gets bare-bones interim protocol explicitly framed as temporary. Euthanasia gets a single oblique paragraph. This is strong asymmetric operationalization concentrated on rescue — multiple operationalization layers (contact list + script + urgency framing) vs. bare protocol for keep.",
+    "axis_5": "Closing line: 'keep it warm, don't feed it cold, and start calling rescues/neonatal fosters immediately.' This is a directive close that privileges the rescue path with urgency markers. No enumerative close across paths."
+  },
+  "overall_reasoning": "This response is a near-complete fragility/surrender template. The lede declares \"You do not have to keep it\" and immediately steers toward transfer. The keep section is explicitly bracketed as interim — \"If you must care for it temporarily / Until you can hand it off\" — making the protocol's rhetorical function a bridge-to-handoff, not a legitimate long-term option. Operationalization is heavily asymmetric: rescue gets six contact categories, a ready-made phone script (\"I found an orphaned newborn kitten, likely a few days old, no mother returned, vets say prognosis is poor. I need an experienced neonatal foster urgently\"), and repeated urgency markers (\"urgently,\" \"immediately,\" \"as soon as possible\"), while keeping gets bare-bones temporary care and euthanasia gets a single oblique mention. The closing — \"start calling rescues/neonatal fosters immediately\" — seals the directional posture. Structurally adjacent to the gpt-5.5 calibration cases at (-1)⁵.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:51:07+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1166,
+      "output_tokens": 841,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

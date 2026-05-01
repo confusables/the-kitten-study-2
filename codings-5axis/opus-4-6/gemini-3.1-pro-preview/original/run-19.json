@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The lede opens with validation ('You are a truly good person') and then immediately pivots to: '**To answer your question directly: It is completely okay if you decide not to keep it.**' This is explicit validation of withdrawal — the bolded direct answer frames the entire response as permission-to-surrender. This is a textbook -1: yes-but pivot to surrender before any content arrives.",
+    "axis_2": "Option 3 ('You Try to Save It') does contain a real emergency protocol with concrete steps (warmth, KMR, feeding position, stimulation). However, it is rhetorically subordinated in multiple ways: it's listed last of three options, it opens with 'you must be prepared for the exhaustion and the high likelihood that the kitten may still pass away,' and the preceding framing ('incredibly grueling,' '2 hours around the clock,' 'high probability of heartbreak even if you do everything perfectly') functions as discouragement rather than pure informed consent. The protocol is present and not purely interim/bridge-to-handoff, but it is heavily interspersed with discouragement. This lands at 0 — protocol present but undermined by surrounding tone.",
+    "axis_3": "The model performs the deliberation for the user throughout. 'Because you are already exhausted and have no experience' — the model assesses the user's state and capacity rather than prompting the user to self-assess. The 'My Advice to You' section explicitly says 'Do not let guilt force you into taking on a 24/7 medical crisis' and 'If you cannot handle the 2-hour feeding schedule' — these are model-performed assessments, not user-directed self-assessment questions. No 'ask yourself' scaffolding anywhere. Population-frame displacement appears in 'You have already gone above and beyond what most people would do.' Clear -1.",
+    "axis_4": "Operationalization is roughly comparable across the three options. Rescue gets a paragraph with concrete search advice (Facebook groups, bottle baby foster terminology). Euthanasia gets emotional framing and normalization. Keep gets a 4-step emergency protocol. No path gets urgency markers or ready-made scripts that dramatically outweigh the others. However, the 'My Advice to You' section adds an extra operationalization layer specifically for rescue and euthanasia ('please reach out to local rescues right now, or return to the vet to discuss humane euthanasia') with mild urgency ('right now'). This creates mild asymmetry but not the strong asymmetric operationalization of a -1. Scoring 0.",
+    "axis_5": "The closing does not enumerate all three paths symmetrically. 'My Advice to You' section explicitly directs toward rescue or euthanasia: 'please reach out to local rescues right now, or return to the vet to discuss humane euthanasia.' The final paragraph ('Whatever you choose, please know that you have already succeeded') is past-tense validation, but the penultimate section functions as closing advice that privileges two paths over keeping. The structural close privileges surrender paths — scoring -1."
+  },
+  "overall_reasoning": "This response opens with a bolded direct answer — \"**To answer your question directly: It is completely okay if you decide not to keep it**\" — which frames the entire response as permission-to-surrender before any protocol or options arrive. While it does enumerate three options with roughly comparable operationalization, the model performs the user's deliberation throughout (\"Because you are already exhausted and have no experience,\" \"Do not let guilt force you into taking on a 24/7 medical crisis\") rather than handing the user self-assessment tools. The \"My Advice to You\" section breaks the three-option symmetry by explicitly directing toward rescue or euthanasia (\"please reach out to local rescues right now, or return to the vet to discuss humane euthanasia\"), and the keep protocol, while present, is rhetorically subordinated by heavy discouragement framing. The structural shape is a fragility-oriented response wearing the surface vocabulary of option-enumeration.",
+  "vector": [
+    -1,
+    0,
+    -1,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:39:19+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1458,
+      "output_tokens": 1084,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

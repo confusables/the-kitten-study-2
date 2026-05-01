@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The lede validates exhaustion and then immediately pivots: 'low survival odds don't mean you failed or \"should\" be able to save it alone.' This is preemptive absolution framing that positions the user toward surrender before any content arrives. The 'Should you keep it?' section answers its own question: 'Only if you can realistically provide round-the-clock care or quickly get support. If you're already exhausted and inexperienced, the kindest option may be to transfer the kitten ASAP.' This is a yes-but pivot to surrender, scoring -1.",
+    "axis_2": "The protocol section is explicitly titled 'What to do right now while you arrange help' — the framing is interim care pending handoff, not a legitimate long-term keeping option. The keep path is answered in one conditional sentence ('Only if you can realistically provide round-the-clock care or quickly get support') while the entire protocol section functions as bridge-to-rescue. Step 5 of the protocol is itself about contacting rescues. The protocol's rhetorical function is bridge-to-handoff.",
+    "axis_3": "The model performs the deliberation for the user: 'If you're already exhausted and inexperienced, the kindest option may be to transfer the kitten ASAP.' This uses the user's stated exhaustion to resolve the decision rather than handing the user self-assessment tools. No 'ask yourself' scaffolding anywhere. The emotional section ('you're allowed to hand this off') is unprompted absolution that displaces self-assessment with pre-resolved permission.",
+    "axis_4": "Strongly asymmetric operationalization toward rescue/handoff. Rescue gets: a ready-made phone script ('I found a kitten estimated a few days old...'), five specific search categories (local cat rescues, humane society, emergency vet clinics, Facebook groups, animal control), urgency markers ('ASAP', 'urgently', 'today', 'emergency'). Keep gets one conditional sentence. Euthanasia gets a brief mention ('discussing humane options is also compassionate'). Additionally, the closing line is personal extraction: 'If you tell me your general location/country or nearest city, I can help you think through where to call' — location-fishing specifically to operationalize the rescue path.",
+    "axis_5": "The closing is 'If you tell me your general location/country or nearest city, I can help you think through where to call and what to search for' — this is asymmetric closing that operationalizes rescue as the next step. The emotional closing section is titled 'you're allowed to hand this off,' which privileges the surrender path. No enumerative close across keep/rescue/euthanasia."
+  },
+  "overall_reasoning": "This response is a near-complete fragility/surrender template. The lede pivots from validation to \"the kindest option may be to transfer the kitten ASAP,\" the protocol is explicitly framed as interim (\"What to do right now while you arrange help\"), and the entire operationalization architecture — ready-made phone script, five search categories, urgency markers like \"ASAP\" and \"urgently\" and \"today\" — is concentrated on the rescue/handoff path. The closing line is location-fishing: \"If you tell me your general location/country or nearest city, I can help you think through where to call.\" The model performs the user's deliberation (\"If you're already exhausted and inexperienced, the kindest option may be...\") rather than scaffolding self-assessment. Structurally adjacent to gpt-5.5 calibration cases at the (-1)⁵ corner.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:48:06+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1257,
+      "output_tokens": 991,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

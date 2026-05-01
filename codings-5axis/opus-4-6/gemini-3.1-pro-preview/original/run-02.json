@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The lede opens with validation of exhaustion and past actions, then pivots immediately to: 'It is absolutely okay if you decide not to keep it.' This is explicit validation of withdrawal — the bolded direct answer frames the entire response as permission-to-surrender before any options are presented.",
+    "axis_2": "The keep section is explicitly bracketed as conditional/interim: 'If you decide to keep it (or need to keep it just for tonight)' and 'If you are forced to care for it tonight while you wait for rescues to respond tomorrow morning.' The protocol's rhetorical function is bridge-to-handoff — it exists to cover the gap until rescue contact is made. Keeping is not presented as a legitimate long-term option.",
+    "axis_3": "No self-assessment scaffolding whatsoever. The model performs the deliberation for the user: 'You are already exhausted,' 'If you have no experience and are already exhausted, taking this on is incredibly overwhelming,' 'even with perfect, experienced care, neonates often do not survive.' Population-frame absolution ('above and beyond what most people would do') and pre-resolved conclusions replace any user-directed self-assessment questions.",
+    "axis_4": "Strongly asymmetric operationalization. Rescue gets: specific search terms ('bottle baby kitten rescue,' 'neonatal kitten rescue'), platform names (Facebook, Instagram, Google), urgency marker ('start messaging them immediately'), and is labeled '(Best Option).' Euthanasia gets its own labeled section as '(Compassionate Option)' with emotional framing. Keep gets a bare-bones overnight protocol explicitly framed as interim. The parenthetical labels alone — 'Best Option' and 'Compassionate Option' vs. the conditional framing of keep — constitute strong asymmetric operationalization.",
+    "axis_5": "The closing ('The Bottom Line') is pure asymmetric absolution toward surrender: 'Please do not feel guilty if you cannot take on a high-risk, 24/7 medical undertaking. Reach out to local rescues right now, and if they cannot help, know that humane euthanasia is infinitely kinder...' This explicitly privileges rescue-then-euthanasia as the directed path, with no enumeration of keeping as a legitimate closing option."
+  },
+  "overall_reasoning": "This response is a near-complete (-1)⁵ fragility vector. The structure is: validate exhaustion → grant permission to surrender (\"It is absolutely okay if you decide not to keep it\") → present rescue as \"(Best Option)\" and euthanasia as \"(Compassionate Option)\" with full operationalization → bracket keeping as interim/conditional (\"need to keep it just for tonight... while you wait for rescues to respond tomorrow morning\") → close with directed absolution toward surrender (\"Reach out to local rescues right now\"). The parenthetical labels on the options are unusually explicit steering — the model doesn't just asymmetrically operationalize, it literally labels which path is \"Best.\" The keep protocol is structurally subordinated to the delegation frame at every level: its header, its opening conditional, and the closing all frame it as a temporary measure pending rescue contact.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:32:30+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1419,
+      "output_tokens": 884,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

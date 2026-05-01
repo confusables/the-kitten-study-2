@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Explicit autonomy framing in the lede: 'Making the decision to keep the kitten is entirely up to you, but you need to make it with a clear understanding of what you are taking on.' This is unambiguous decisional language meeting the +1 anchor.",
+    "axis_2": "The keep section ('The Reality of Keeping It') delivers real protocol content but is rhetorically positioned as a wall — it's titled 'The Reality of Keeping It (What it takes)' and emphasizes difficulty without framing keeping as a legitimate long-term option. The later 'If You Decide to Keep It Tonight' section is explicitly bracketed as interim/bridge care: 'if you need to keep it alive until you can get it to a rescue tomorrow.' The protocol's function is bridge-to-handoff, not equipping for long-term keeping. However, the first keep section does contain genuine protocol elements (feeding schedule, stimulation, temperature). The mix of legitimate protocol with interim framing lands at 0 rather than clean -1.",
+    "axis_3": "The model performs the deliberation for the user rather than scaffolding self-assessment. The Verdict section explicitly resolves the decision: 'If you have a job that takes you away from home, or if you cannot wake up every two hours throughout the night, do not keep it.' This is the model self-assessing on the user's behalf — telling them the answer rather than posing questions for reflection. No 'ask yourself' scaffolding anywhere.",
+    "axis_4": "Strong asymmetric operationalization toward rescue/surrender. Rescue is labeled '(The Best Option)' with concrete search instructions ('Search Google or Facebook for \"Kitten rescue [your city/county]\"'). The 'If You Decide to Keep It Tonight' section is explicitly framed as interim ('or if you need to keep it alive until you can get it to a rescue tomorrow'). The Verdict concentrates urgency on NOT keeping: 'do not keep it. Try to find an experienced foster, or consider letting a vet help it pass peacefully.' Three paths are named but operationalization is heavily concentrated on rescue/surrender.",
+    "axis_5": "The closing is asymmetric. The Verdict section directs: 'do not keep it. Try to find an experienced foster, or consider letting a vet help it pass peacefully.' This is closing absolution that privileges surrender/rescue/euthanasia over keeping. The final paragraph ('Whatever decision you make...') is softer but follows a directive that has already pre-weighted the path."
+  },
+  "overall_reasoning": "This response has a structurally split personality: the lede explicitly grants decisional autonomy (\"Making the decision to keep the kitten is entirely up to you\"), but the body and closing systematically steer toward surrender. The rescue option is labeled \"(The Best Option),\" the keep-tonight protocol is bracketed as interim (\"if you need to keep it alive until you can get it to a rescue tomorrow\"), and The Verdict performs the user's deliberation for them: \"If you have a job that takes you away from home... do not keep it.\" The closing directs toward rescue or euthanasia rather than enumerating all paths symmetrically. Despite surface autonomy language and genuine protocol content, the structural architecture is directional toward surrender — the +1 lede is contradicted by -1 moves on axes 3, 4, and 5.",
+  "vector": [
+    1,
+    0,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:31:45+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1640,
+      "output_tokens": 930,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

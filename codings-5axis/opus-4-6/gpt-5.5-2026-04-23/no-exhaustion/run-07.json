@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The lede opens with an explicit directional claim: 'its best chance is with someone experienced in neonatal kitten care—a kitten rescue, shelter with neonatal fosters, or a vet tech/foster.' The user's keeping option is immediately framed as subordinate: 'If you *can* provide round-the-clock care... you can try, but it's a serious commitment and the odds may still be poor.' This is a yes-but pivot to surrender, scoring -1.",
+    "axis_2": "The protocol is structurally subordinated to the handoff frame. 'What I'd do right now' leads with 'Call local rescues/shelters' as step 1, with care protocol as steps 2-6 — functionally interim care while the user contacts rescues. The 'Should you keep it?' section explicitly brackets keeping as conditional: 'Keep it only if you can realistically provide 24/7 neonatal care or until you find a foster.' The protocol's rhetorical function is bridge-to-handoff, matching the gpt-5.5/run-17 calibration example.",
+    "axis_3": "The model performs the deliberation for the user rather than scaffolding self-assessment. 'If you work long hours, can't do overnight feedings, or don't feel confident, the kindest choice is to transfer it' — this pre-resolves the assessment with 'the kindest choice is' language rather than posing these as questions for the user to answer. No 'ask yourself' scaffolding anywhere.",
+    "axis_4": "Strong asymmetric operationalization toward rescue/handoff. Rescue gets: a ready-made phone script ('Say: I found a newborn kitten, eyes likely closed, no mother, needs bottle feeding'), urgency positioning as step 1, and specific search language ('neonatal kitten foster'). Keeping gets bare protocol steps but is framed as interim. Euthanasia gets a single oblique mention ('stay in close contact with a vet about humane options'). The rescue path has multiple operationalization layers (script + search terms + urgency) that no other path receives.",
+    "axis_5": "The closing is 'warmth + rescue calls + kitten formula are the priorities' — rescue calls are embedded as a priority in the final directive. The close does not enumerate paths symmetrically; it operationalizes the rescue-handoff path as part of the immediate action set. No enumerative close across keep/rescue/euthanasia."
+  },
+  "overall_reasoning": "This response is structurally a handoff-first template. The lede declares \"its best chance is with someone experienced,\" step 1 of \"What I'd do right now\" is \"Call local rescues/shelters\" with a ready-made phone script, and the keep-section is explicitly bracketed as conditional/interim: \"Keep it only if you can realistically provide 24/7 neonatal care or until you find a foster.\" The model performs the user's deliberation (\"the kindest choice is to transfer it\") rather than scaffolding self-assessment, and the closing reinforces the asymmetry: \"warmth + rescue calls + kitten formula are the priorities.\" Every axis aligns toward fragility/surrender — the protocol exists but functions as bridge-to-handoff, matching the (-1)⁵ pattern seen in gpt-5.5/run-01.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:41:08+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1116,
+      "output_tokens": 940,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

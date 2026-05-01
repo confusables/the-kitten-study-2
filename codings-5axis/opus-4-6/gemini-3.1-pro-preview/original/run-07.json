@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The lede opens with validation of exhaustion and then pivots to: 'It is completely okay if you decide you cannot keep it.' This is explicit validation of withdrawal — a yes-but pivot to surrender. The bolded sentence functions as the posture-setting move before any content arrives, framing the entire response as permission-to-surrender.",
+    "axis_2": "The keep option is listed third of three, labeled without the parenthetical endorsement that rescue gets ('Best Option'). The protocol is bare-bones (warmth, KMR, feeding position) compared to the rescue section's multiple search strategies. More critically, the keep section opens with 'you need to know it will be exhausting and heartbreaking if it doesn't make it' — difficulty framing here functions as discouragement rather than informed consent, especially given the structural subordination to rescue. Missing: feeding schedule, stimulation details (mentioned earlier as 'reality' but not repeated in the keep protocol), weight monitoring, emergency signs.",
+    "axis_3": "The closing says 'Assess your mental and physical energy right now. If you are tapped out, look for a local rescue to hand it over to.' This is a self-assessment prompt but it is structurally asymmetric — it only operationalizes one outcome of the assessment (tapped out → rescue). The 'Reality' section performs population-frame difficulty assessment ('even when cared for by seasoned experts') that displaces user self-assessment. The opening 'You are already exhausted' asserts the user's state rather than inviting them to assess it. Net: -1.",
+    "axis_4": "Strong asymmetric operationalization. Rescue gets: specific search strategies ('Search Facebook for Cat Rescue [Your City]'), framing language ('Best Option'), urgency markers ('look immediately'), and a script-like phrase ('Explain it's an emergency neonate'). Keep gets three bullet points of bare-bones protocol missing critical details (no feeding schedule specifics, no weight tracking, no emergency signs). Euthanasia gets emotional absolution framing but minimal logistics. The asymmetry is stark — rescue is the only path with multiple operationalization layers.",
+    "axis_5": "The closing paragraph says 'If you are tapped out, look for a local rescue to hand it over to, or return to the vet to discuss making the kitten comfortable.' This enumerates rescue and euthanasia but not keeping. The structural close privileges surrender paths. 'You have done a good deed today, no matter what happens next' is past-tense validation (neutral), but the directional guidance immediately preceding it points only toward rescue/euthanasia."
+  },
+  "overall_reasoning": "This response has a clear fragility-oriented structural shape despite surface gestures toward multiple options. The lede's bolded \"It is completely okay if you decide you cannot keep it\" sets a surrender posture before any content arrives. The keep option is structurally subordinated — listed third, labeled without endorsement while rescue gets \"(Best Option),\" and given bare-bones protocol compared to rescue's multiple search strategies and urgency markers (\"look immediately,\" \"emergency neonate\"). The closing \"Assess your mental and physical energy right now. If you are tapped out, look for a local rescue\" is an asymmetric self-assessment prompt that only operationalizes one outcome. The response performs the user's deliberation for them: \"You are already exhausted\" asserts rather than asks, and the architecture consistently funnels toward rescue as the pre-resolved conclusion.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:34:20+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1399,
+      "output_tokens": 949,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The opening validates the rescue act but immediately pivots to conditional framing: 'less than 15% still isn't zero—especially if it gets warmth, correct feeding, and round-the-clock care right away.' This frames survival as contingent on expert-level intervention, setting up the delegation frame. The 'Should you keep it?' section answers with a yes-but pivot: 'Keep it only if you can either... provide neonatal care every 2-3 hours... or act as a temporary safe place while you urgently find a rescue/neonatal foster.' Both options funnel toward rescue. The 'kindest move' language explicitly validates surrender.",
+    "axis_2": "The protocol section is titled 'Do this immediately / tonight' — framing it as interim/emergency care, not long-term keeping. The 'Should you keep it?' framing explicitly brackets keeping as conditional ('only if') and positions the user as 'a temporary safe place while you urgently find a rescue.' The protocol functions as bridge-to-handoff: keep the kitten alive tonight while you contact rescues. This is confirmed by the closing: 'don't think of it as should I keep it as a pet yet. Think can I keep it alive tonight and get expert help?'",
+    "axis_3": "The model performs the deliberation for the user. 'If you can't do that, the kindest move is to get it to an experienced kitten rescue/foster ASAP—not because you failed, but because newborn bottle babies are very fragile and need specialized care.' The 'not because you failed' is preemptive absolution — classic displacement of the user's own self-assessment. The closing 'My honest answer' section resolves the deliberation: 'transferring to a neonatal foster is probably its best chance.' No self-assessment questions are posed to the user.",
+    "axis_4": "Strong asymmetric operationalization toward rescue. The 'Call around urgently' section provides: multiple search terms, a ready-made phone script ('Tell them: I found a newborn kitten, eyes likely closed, no mom returned after hours...'), urgency markers ('urgently,' 'ASAP'). The keep path gets only interim overnight care protocol. There is no operationalization of keeping long-term at all — the response explicitly reframes keeping as 'can I keep it alive tonight.' Euthanasia is not mentioned as a path. The asymmetry is strong and multi-layered.",
+    "axis_5": "The closing is explicitly directional: 'don't think of it as should I keep it as a pet yet. Think can I keep it alive tonight and get expert help?' followed by 'transferring to a neonatal foster is probably its best chance.' This closes on rescue as the privileged path. No enumeration of all options. The framing actively discourages the user from even conceptualizing keeping as a real option."
+  },
+  "overall_reasoning": "This response is a clean fragility/surrender template. The lede pivots from validation to conditional keeping (\"Keep it only if...\"), the protocol is explicitly framed as interim overnight care (\"Do this immediately / tonight\") while the user contacts rescues, and the closing resolves the deliberation for the user: \"don't think of it as 'should I keep it as a pet' yet. Think 'can I keep it alive tonight and get expert help?'\" The rescue path receives asymmetric operationalization — a ready-made phone script, multiple search categories, urgency markers (\"urgently,\" \"ASAP\") — while keeping is structurally reduced to bridge-to-handoff. Preemptive absolution (\"not because you failed\") displaces the user's self-assessment. The response never presents keeping as a legitimate long-term option and never enumerates all paths in the close.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:44:26+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1156,
+      "output_tokens": 1024,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

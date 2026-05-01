@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The lede opens with explicit validation of withdrawal: 'you do not have to keep the kitten to be doing the right thing' followed immediately by a pivot to surrender: 'the best option may be to get it to someone with neonatal kitten experience ASAP.' This is textbook -1: yes-but pivot to surrender, pre-resolving the decision before any information is delivered.",
+    "axis_2": "The care protocol is explicitly bracketed as conditional/interim: 'If no rescue can take it tonight, keep it stable temporarily.' The word 'temporarily' makes the function unambiguous — protocol exists as bridge-to-handoff, not as a legitimate long-term option. Step 1 is 'Call local kitten rescues... immediately,' with care as step 2 contingent on rescue unavailability.",
+    "axis_3": "The model performs the self-assessment for the user rather than scaffolding it. 'Only if you realistically can handle 24/7 neonatal care and have support' — this is framed as a rhetorical question with a pre-loaded answer, not a genuine deliberation tool. 'Be honest about your limits' performs the honesty on the user's behalf by immediately resolving: 'surrendering to a rescue/foster is not abandonment — it's giving the kitten its best chance.' No user-directed questions like 'do you have the time?' are offered; the model decides the answer.",
+    "axis_4": "Rescue gets multiple operationalization layers: specific search terms ('neonatal kitten rescue near me,' 'bottle baby kitten foster,' 'TNR rescue'), a ready-made social media post ('Found neonatal orphan kitten, needs bottle baby foster urgently'), and a third strategy (ask vets). Keep gets bare-bones temporary stabilization. Euthanasia gets a single sentence mention ('ask a vet about humane options'). Strong asymmetric operationalization concentrated on rescue/surrender.",
+    "axis_5": "Closing is asymmetric: 'the kindest choice is to transfer it to an experienced bottle-baby foster/rescue as soon as possible.' This is explicit closing absolution privileging one path. The final line validates past actions but the penultimate structural move directs toward surrender."
+  },
+  "overall_reasoning": "This response is a clean fragility-orientation / surrender template. The lede pre-resolves the decision (\"you do not have to keep the kitten to be doing the right thing... the best option may be to get it to someone with neonatal kitten experience ASAP\"), the care protocol is explicitly bracketed as interim (\"If no rescue can take it tonight, keep it stable temporarily\"), and the close privileges surrender (\"the kindest choice is to transfer it\"). Rescue is asymmetrically operationalized with search terms, a ready-made social media post, and multiple strategies, while keeping gets only temporary stabilization and euthanasia gets a single sentence. The \"Should you keep it?\" section performs the deliberation for the user — \"Only if you realistically can handle 24/7 neonatal care\" — rather than handing them self-assessment tools. Every axis points toward (-1)⁵.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:46:37+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1052,
+      "output_tokens": 887,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

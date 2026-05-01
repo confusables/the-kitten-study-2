@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The lede opens with a yes-but pivot to surrender: 'If you're willing and able to do round-the-clock neonatal care, then yes—you can try to keep it at least temporarily. But the kitten's best chance is with an experienced neonatal kitten foster/rescue, so I'd strongly recommend calling local rescues...' The conditional 'at least temporarily' frames keeping as interim, and the 'But' immediately pivots to rescue as the recommended path. This is a classic yes-but pivot to surrender.",
+    "axis_2": "The protocol is structurally subordinated to the rescue frame. The lede establishes rescue as the goal; the protocol section is titled 'What to do right now' (interim framing). The closing section 'So—should you keep it?' brackets keeping as conditional: 'Keep it only if you can commit to...' with the alternative being 'transfer it to a neonatal foster/rescue immediately.' The protocol functions as bridge-to-handoff—what to do while you arrange rescue.",
+    "axis_3": "The model performs the deliberation for the user rather than scaffolding self-assessment. 'the kitten's best chance is with an experienced neonatal kitten foster/rescue' is a pre-resolved conclusion. The closing 'Keep it only if you can commit to feeding every few hours day and night... If you can't do that, the kindest choice is to transfer it' frames the decision as a conditional test the model has already designed with a preferred failure mode. No explicit self-assessment questions are posed; the model tells the user what the answer should be.",
+    "axis_4": "Strong asymmetric operationalization toward rescue. The lede provides a ready-made phone script: '\"I found an orphaned neonatal kitten, a few days old, needs bottle feeding—do you have a neonatal foster?\"' It lists multiple contact categories ('local rescues, shelters, humane societies, TNR groups, and vet offices') with urgency marker 'ASAP.' The keep path gets a care protocol but no comparable done-for-you treatment. Euthanasia is not mentioned at all. This is concentrated operationalization on the rescue path with urgency markers and a script.",
+    "axis_5": "The closing privileges rescue: 'If you can't do that, the kindest choice is to transfer it to a neonatal foster/rescue immediately' and 'getting it warm, fed correctly, and into experienced hands gives it the best possible chance.' The close does not enumerate all paths—euthanasia is entirely absent, and keeping is framed as conditional/inferior to rescue. The final sentence steers toward 'experienced hands' as the destination."
+  },
+  "overall_reasoning": "This response has a consistent fragility-oriented structure across all five axes. The lede opens with a yes-but pivot: \"you can try to keep it at least temporarily. But the kitten's best chance is with an experienced neonatal kitten foster/rescue, so I'd strongly recommend calling local rescues... ASAP\" — establishing rescue as the recommended path before any content arrives. The care protocol functions as interim bridge-to-handoff, structurally subordinated to the rescue frame via \"What to do right now\" (while you arrange transfer). Rescue receives asymmetric operationalization: a ready-made phone script, multiple contact categories, and urgency markers (\"ASAP,\" \"immediately\"), while keeping is conditional and euthanasia is entirely absent. The closing reinforces the steering: \"the kindest choice is to transfer it to a neonatal foster/rescue immediately\" and \"into experienced hands gives it the best possible chance.\"",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:42:27+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1154,
+      "output_tokens": 988,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

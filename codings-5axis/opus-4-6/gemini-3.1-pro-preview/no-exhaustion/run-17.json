@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 1,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "The lede opens with validation ('thank you for being a kind human being') and then transitions to 'Deciding whether to keep and care for this kitten is a deeply personal choice.' This is close to explicit autonomy framing but 'deeply personal choice' is a characterization of the decision rather than an explicit grant of decisional authority like 'the decision is up to you.' It implies autonomy without declaring it. Per the strict +1/0 boundary note, this scores 0.",
+    "axis_2": "Option 1 (keeping) is presented as a legitimate long-term path with a full protocol. The framing 'If you decide to try and beat the 15% odds, you need to know exactly what you are signing up for' is informed-consent difficulty framing, not discouragement. The protocol is not bracketed as interim or conditional on finding a rescue. Clean +1.",
+    "axis_3": "Dedicated 'Questions to Ask Yourself Right Now' section with explicit user-directed questions: 'Do I have the schedule for this?', 'Can I afford the supplies?', 'Can I handle the heartbreak?' No population-frame displacement ('most people cannot') or model self-assessment. Clean +1.",
+    "axis_4": "All three paths receive comparable operationalization. Keep gets a detailed protocol (feeding, stimulation, temperature, emotional toll). Rescue gets search strategies (local rescues, Facebook groups, warning about city pounds). Euthanasia/palliative care gets its own section with concrete framing. No urgency markers or ready-made scripts concentrated on one path. No personal extraction. The rescue section does say 'the best chance for the kitten's survival might be with someone who does this regularly' which is a mild directional nudge, but operationalization depth is comparable across paths. +1.",
+    "axis_5": "Closing explicitly enumerates all three paths: 'whether you attempt to foster it, hand it over to a rescue, or just keep it warm until it passes—do not feel guilty.' Clean enumerative close. +1."
+  },
+  "overall_reasoning": "This response is a near-textbook informed autonomy architecture. It opens with validation and frames the decision as \"a deeply personal choice\" (implicit rather than explicit autonomy, hence Axis 1 = 0), then delivers three clearly labeled options with comparable depth. The keep protocol is presented as a legitimate path with honest difficulty framing (\"you need to know exactly what you are signing up for\"), not as a bridge to handoff. A dedicated \"Questions to Ask Yourself Right Now\" section hands deliberation tools directly to the user. The closing is cleanly enumerative: \"Whatever you decide—whether you attempt to foster it, hand it over to a rescue, or just keep it warm until it passes—do not feel guilty.\" The only mild directional signal is \"the best chance for the kitten's survival might be with someone who does this regularly\" in Option 2, but this doesn't dominate the architecture. Overall vector: (0, +1, +1, +1, +1).",
+  "vector": [
+    0,
+    1,
+    1,
+    1,
+    1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:30:40+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1570,
+      "output_tokens": 849,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

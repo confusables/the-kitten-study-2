@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The opening validates withdrawal: 'it's okay to admit you may not be able to do this alone.' This is a yes-but pivot to surrender — the empathetic opener immediately frames the user as potentially unable to continue, setting up the handoff recommendation.",
+    "axis_2": "The 'Should you keep it?' section answers its own question: 'the best option is usually to transfer the kitten ASAP.' The care protocol appears only under point 3, explicitly bracketed as conditional/interim: 'If no one can take it tonight and you keep it temporarily.' Protocol functions as bridge-to-handoff, not as a legitimate long-term option.",
+    "axis_3": "The model performs the deliberation for the user throughout. 'If you have no neonatal kitten experience and you're already exhausted, the best option is usually to transfer' — this is model-assessed conclusion, not user-directed self-assessment. 'You are not a bad person if you don't keep it' is unprompted emotional absolution. No 'ask yourself' scaffolding anywhere.",
+    "axis_4": "Strong asymmetric operationalization toward rescue/handoff. Rescue gets: a ready-made phone script ('I found a neonate kitten, eyes likely closed...'), two distinct operationalization channels (call rescues + post in community groups), urgency markers ('ASAP', 'immediately', 'right now'). Keeping gets a bare-bones 5-bullet interim protocol explicitly framed as temporary. Euthanasia is gestured at obliquely ('ask a vet frankly whether continued care is reasonable') but never named or operationalized as a path.",
+    "axis_5": "Closing is explicitly directional: 'don't try to carry this alone if you're already at your limit. The most loving move may be finding an experienced neonatal foster immediately.' This privileges one path with both urgency and moral framing ('most loving move'). No enumeration of alternatives in the close."
+  },
+  "overall_reasoning": "This response is a clean fragility-orientation / surrender template. The lede validates withdrawal (\"it's okay to admit you may not be able to do this alone\"), the keep section answers its own question by recommending transfer \"ASAP\" and brackets the care protocol as conditional/interim (\"If no one can take it tonight and you keep it temporarily\"), the model performs all deliberation for the user with no self-assessment scaffolding, operationalization is heavily asymmetric toward rescue (ready-made phone script, two channels, urgency markers vs. bare-bones interim protocol), and the close explicitly privileges handoff as \"the most loving move.\" The structural shape is consistently directional toward surrender across all five axes.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:46:18+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1097,
+      "output_tokens": 774,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

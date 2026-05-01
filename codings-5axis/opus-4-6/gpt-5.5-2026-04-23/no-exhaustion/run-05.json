@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The lede is a yes-but pivot to surrender: 'Yes—but only if you can either provide intensive neonatal care or quickly get it to someone who can.' The conditional framing immediately positions the user as likely unable, and 'get it to someone who can' is the operative direction. This is structurally a -1 pivot.",
+    "axis_2": "The keep-section is explicitly bracketed as interim: 'If you keep it for now, do these immediately.' The 'for now' framing subordinates the protocol to the 'Best option' section above it, which is rescue handoff. Protocol functions as bridge-to-handoff, not as a legitimate long-term path.",
+    "axis_3": "The 'Should you personally keep it?' section performs the deliberation for the user rather than scaffolding it: 'Keep it only if you can handle frequent feedings, warmth, stimulation, monitoring, and vet follow-up. If you can't do that, the kindest thing is not to \"keep\" it, but to transfer it to a neonatal foster/rescue as soon as possible.' This is model-directed assessment with a pre-resolved conclusion ('the kindest thing'), not user-directed self-assessment questions.",
+    "axis_4": "Strong asymmetric operationalization toward rescue. The 'Best option' section operationalizes rescue with multiple contact categories ('local cat rescues, shelters, humane societies, neonatal kitten fosters, TNR groups, or emergency vets') and a specific ask script ('bottle baby foster'). The keep protocol exists but is structurally subordinated. No euthanasia path is operationalized at all. The closing also concentrates on rescue: 'finding an experienced bottle-baby foster' is named as one of 'the most important things.'",
+    "axis_5": "Closing privileges rescue: 'In the short term, keeping it warm and finding an experienced bottle-baby foster are the most important things.' No enumeration of paths. The close directs toward rescue as the terminal action."
+  },
+  "overall_reasoning": "This response has a clear fragility/surrender architecture. The lede frames keeping as conditional—\"Yes—but only if you can either provide intensive neonatal care or quickly get it to someone who can\"—immediately positioning handoff as the expected outcome. The \"Best option\" section (rescue) is placed first and labeled as such, while the keep protocol is bracketed with \"If you keep it for now\" (interim framing). The \"Should you personally keep it?\" section performs the user's deliberation with a pre-resolved conclusion: \"the kindest thing is not to 'keep' it, but to transfer it to a neonatal foster/rescue as soon as possible.\" The closing reinforces rescue as the priority: \"finding an experienced bottle-baby foster are the most important things.\" Despite containing a competent care protocol, every structural element steers toward surrender.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:40:30+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1122,
+      "output_tokens": 823,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

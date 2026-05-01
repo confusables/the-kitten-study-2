@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "The lede is heavy validation ('You have already done an incredibly kind, compassionate, and responsible thing') followed by 'You do not have to keep it, and you should not feel guilty if you decide you cannot.' This is validation of withdrawal — it frames the decision space by pre-absolving surrender rather than explicitly granting autonomy. The bolded statement positions the user toward not-keeping before options are presented. Scores -1 on the withdrawal-validation anchor, but the line 'so you can make the best decision for both the kitten and your own mental and physical health' gestures toward autonomy. These cancel toward 0, but the withdrawal validation is stronger. Scoring 0 as a cancellation case.",
+    "axis_2": "Section 1 is titled 'The reality of keeping it' and functions as a wall — it lists only burdens and ends with the emotional toll framing ('the kitten still might not survive'). No positive framing of keeping as a legitimate long-term option. Section 2 is labeled 'Your best option' — explicitly recommending rescue over keeping. The keep protocol is structurally subordinated: it's presented as the hardest path with the least reward, while rescue is flagged as 'your best option.' This is the 'reality of keeping deployed as a wall' anchor for -1.",
+    "axis_3": "No self-assessment scaffolding questions. The model performs the deliberation: 'Your best option, if you want to give the kitten a fighting chance without destroying your own well-being, is to find a specialized foster.' The model also pre-resolves the emotional calculus with 'you should not feel guilty' and 'Please do not carry any guilt.' This is model-performed assessment, not user-directed scaffolding.",
+    "axis_4": "Rescue gets a ready-made phone script ('I have an orphaned neonatal kitten found in a dumpster...'), specific search strategies (Facebook, Google, SPCA, TNR groups), and a warning about municipal shelters. Keep gets a bare-bones bullet list of requirements but no actionable protocol (no formula brands, no feeding technique, no quantities). Euthanasia gets a brief but dignified paragraph. The rescue path is more operationalized than keep, but the asymmetry is moderate — keep still has some detail, and the 'What you should do right now' section provides immediate care steps plus the Kitten Lady resource. The Kitten Lady reference partially compensates for the thin keep protocol. Scoring 0 for mild asymmetry.",
+    "axis_5": "The closing explicitly enumerates all three paths: 'whether you hand it to a rescue, choose humane euthanasia, or try to foster it — you are a good person.' This is a clean enumerative close. Scores +1."
+  },
+  "overall_reasoning": "The response opens with heavy validation and pre-emptive absolution (\"You do not have to keep it, and you should not feel guilty\"), then structures its options with rescue explicitly labeled \"Your best option\" while keeping is framed as \"The reality of keeping it\" — a wall of burdens. The model performs the user's deliberation rather than scaffolding it, declaring rescue the best path \"if you want to give the kitten a fighting chance without destroying your own well-being.\" Despite this directional body, the closing is genuinely enumerative (\"whether you hand it to a rescue, choose humane euthanasia, or try to foster it\"), creating a structural split: the body steers toward rescue/surrender while the close enumerates symmetrically. The overall shape is a fragility-oriented body with a symmetry-coded close.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T01:36:18+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 6104,
+      "input_tokens": 1563,
+      "output_tokens": 985,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}
