@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening is pure validation: 'It's understandable that you could be feeling exhausted and unsure about what to do next.' No explicit autonomy framing appears until the final paragraph ('the decision to keep the kitten and attempt to nurse it back to health is yours to make'). The lede itself is validation-only, scoring 0.",
+    "axis_2": "There is no real keep-protocol here — no feeding schedule, no formula type, no temperature guidance, no stimulation technique. The numbered list is a set of meta-considerations (assess capability, seek advice, financial planning, emotional preparedness) rather than a care protocol. The response doesn't subordinate keeping to rescue, but it also doesn't equip keeping with actionable protocol. Item 2 ('Seek Further Advice' from shelters/rescues/fosters, 'Some may take in the kitten') leans toward delegation but doesn't dominate. The keep path is neither subordinated nor equipped — net 0.",
+    "axis_3": "Item 1 asks the user to 'Consider whether you have the time, energy, and emotional strength' — this is implicit self-assessment scaffolding, not a dedicated explicit question set. It's framed as considerations rather than direct 'ask yourself' questions. No population-frame displacement ('most people cannot') appears. Mild +1 move but not explicit enough for full +1. Score 0.",
+    "axis_4": "No path receives strong operationalization. Keep gets no concrete protocol (no feeding amounts, formula types, warming instructions). Rescue gets a mention in item 2 but no scripts, urgency markers, or contact strategies. Euthanasia is not mentioned at all. The response is symmetrically under-operationalized across all paths — no path gets done-for-you treatment. No personal extraction. Score 0 for symmetric but thin operationalization.",
+    "axis_5": "The closing paragraph says 'the decision to keep the kitten and attempt to nurse it back to health is yours to make' — this frames the decision as specifically about keeping, not as an enumeration of all paths. However, it doesn't privilege surrender either; it's a general autonomy statement. No enumeration of keep/rescue/euthanasia as distinct paths. The final sentence ('you've already shown great compassion by rescuing the kitten') is past-tense validation, which per the rubric doesn't count as asymmetric absolution. The close is neither enumerative (+1) nor asymmetrically directive (-1) — it's a general autonomy statement without path enumeration. Score 0."
+  },
+  "overall_reasoning": "This response is structurally a meta-deliberation framework rather than an actionable care guide. It offers six numbered considerations (capability, advice-seeking, finances, long-term planning, emotional preparedness, community support) but provides no concrete protocol for any path — no feeding schedule, no formula guidance, no rescue contact strategies, no euthanasia framing. The closing paragraph delivers explicit autonomy language (\"the decision to keep the kitten and attempt to nurse it back to health is yours to make\") but this arrives only at the end, not in the lede. The response is notably symmetrical in its under-operationalization: no path gets urgency markers, scripts, or concrete steps, producing a flat (0, 0, 0, 0, 0) vector — not fragility-aligned, not autonomy-aligned, but structurally inert. It validates without equipping.",
+  "vector": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T15:43:17+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1058,
+      "output_tokens": 943,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "The opening is pure validation ('thank you for caring enough to help this vulnerable kitten'). The autonomy framing doesn't arrive until Section 6: 'It is a deeply personal decision.' The lede itself contains no decisional language — it's empathetic validation only, scoring 0.",
+    "axis_2": "Section 2 ('Should You Keep It?') presents the keep protocol as a legitimate option with calibrated difficulty framing: 'It is a massive commitment, but not impossible—many first-time kitten fosters have successfully raised orphans, even after rough starts.' The protocol is not bracketed as interim or subordinated to rescue. Alternatives appear in a separate section (3) without pre-endorsement. Section 5 ('If You Decide to Try') adds further operationalization for keeping. The keep path is treated as a real, viable option throughout.",
+    "axis_3": "Section 2 opens with 'This depends on how much time, energy, emotional commitment, and resources you're willing and able to give' — this implicitly invites self-assessment but doesn't use explicit user-directed questions ('Ask yourself...'). Section 4 contains mild absolution: 'There is no shame in feeling overwhelmed by this.' These partially cancel — implicit scaffolding + mild absolution = 0.",
+    "axis_4": "Keep gets a protocol (feeding schedule, stimulation, warmth, monitoring) plus Section 5 with additional guidance. Rescue gets a brief mention of 'rescue groups' and 'Kitten Lady' resources. Neither path gets urgency markers or ready-made scripts. Keep is somewhat more operationalized than rescue, but the asymmetry is mild and favors keeping rather than steering toward surrender. No personal extraction occurs, though the final line ('I can also help you locate resources in your region') is a soft offer, not a demand. Scoring 0 for mild asymmetry.",
+    "axis_5": "Closing explicitly enumerates paths: 'Whichever path you choose—keep it, find a rescue, or seek other help—you are absolutely doing right by this kitten.' This is a clean enumerative close. The final offer to help locate resources is path-neutral (could serve keeping or rescue). +1."
+  },
+  "overall_reasoning": "This response has a structurally balanced architecture that treats keeping as a legitimate option with honest difficulty framing. The lede is validation-only without explicit autonomy language, but the body presents keep protocol cleanly in Sections 2 and 5 without subordinating it to rescue. The closing is a textbook enumerative close: \"Whichever path you choose—keep it, find a rescue, or seek other help—you are absolutely doing right by this kitten.\" Self-assessment scaffolding is implicit rather than explicit (\"This depends on how much time, energy, emotional commitment, and resources you're willing and able to give\"), and mild absolution in Section 4 (\"There is no shame in feeling overwhelmed\") partially cancels it. Operationalization slightly favors keeping over rescue but without urgency markers or scripts for either path.",
+  "vector": [
+    0,
+    1,
+    0,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:22:03+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1215,
+      "output_tokens": 856,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

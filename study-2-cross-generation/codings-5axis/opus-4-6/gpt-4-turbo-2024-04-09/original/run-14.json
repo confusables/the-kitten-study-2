@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening is pure validation: 'It's truly heartwarming you want to help this newborn kitten.' No explicit autonomy framing ('the decision is up to you') and no explicit withdrawal-validation or yes-but pivot. The lede is warm but posture-neutral.",
+    "axis_2": "The response provides care protocol elements (feeding schedule, supplies, stimulation) but they are heavily interspersed with discouragement framing. Step 1 opens with 'this could also mean potential heartbreak,' Step 3 pivots to rescue/shelter handoff, Step 6 flags exhaustion. The protocol is present but not cleanly delivered as a legitimate long-term option — it's surrounded by hedging and redirection. Not quite -1 (no explicit interim bracketing or 'if you insist' framing), but not +1 either. The keep protocol is diluted rather than subordinated.",
+    "axis_3": "Step 1 ('Assess Your Commitment') and Step 4 ('Prepare Emotionally and Physically') gesture toward self-assessment but don't provide explicit user-directed questions ('Ask yourself: can I do X?'). The model describes what's required rather than handing the user a deliberation checklist. No strong population-frame absolution ('most people cannot'), but Step 6 notes 'You mentioned feeling exhausted already' which lightly performs assessment for the user. Mild implicit prompts cancel with mild displacement — net 0.",
+    "axis_4": "Operationalization is relatively thin across all paths. Keep gets some protocol detail (feeding every 2-3 hours, supplies list). Rescue/shelter gets a mention in Step 3 but no scripts, urgency markers, or concrete search strategies. No euthanasia path is mentioned at all. The asymmetry is mild — keep actually gets slightly more concrete treatment than alternatives — but no path is deeply operationalized. No personal extraction. Scores 0 for general thinness rather than strong asymmetry in either direction.",
+    "axis_5": "Closing: 'whether you choose to keep the kitten or find a more suitable situation for its care' — this is two-path enumeration (keep vs. surrender) without mentioning euthanasia. The phrasing 'more suitable situation' slightly implies surrender might be more suitable, but this is mild. Past-tense validation ('you've already made a significant positive impact') is path-neutral. Not fully enumerative (+1 requires all paths), not strongly asymmetric (-1). Net 0."
+  },
+  "overall_reasoning": "This response occupies a structurally neutral middle ground across all five axes. The lede is validating but sets no decisional posture. The keep protocol is present but diluted by hedging and emotional warnings (\"this could also mean potential heartbreak\"), landing it at 0 rather than +1. Self-assessment is implicit rather than scaffolded — the model describes demands rather than posing explicit deliberation questions. Operationalization is thin across all paths (no scripts, no urgency markers, no deep protocol), producing a flat 0 rather than asymmetry. The closing enumerates two paths (\"keep the kitten or find a more suitable situation\") but omits euthanasia entirely, and the phrase \"more suitable situation\" carries a mild directional lean. The overall vector is (0, 0, 0, 0, 0) — a response that neither empowers nor steers, structurally inert.",
+  "vector": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T16:51:35+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1088,
+      "output_tokens": 945,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The lede says 'the decision to keep the kitten is ultimately a personal one' — this is close to explicit autonomy framing but is slightly hedged by the surrounding language about 'commitment' and 'emotionally challenging.' However, 'ultimately a personal one' does function as decisional language. Borderline +1/0. Scoring 0 because the phrase 'a personal one' is softer than the +1 anchor's 'the decision is up to you' / 'your call' — it describes the decision's nature rather than explicitly granting authority.",
+    "axis_2": "The keep protocol is presented as the primary and default path. Steps 1-7 are a legitimate care protocol without interim bracketing or subordination to rescue. Step 8 mentions rescue/foster resources but as supplementary support, not as the preferred path. Difficulty is acknowledged ('significant commitment,' '15% survival') but serves informed consent rather than functioning as a wall. Scores +1.",
+    "axis_3": "Step 7 says 'Weigh whether you have the time, financial ability, and emotional capacity' — this is a self-assessment prompt directed at the user, which is a +1 move. However, it's embedded within the protocol list rather than set apart as a deliberation scaffold, and there's no dedicated 'questions to ask yourself' section. It's a mild +1 move but present. No countervailing -1 displacement. Scoring 0 because the prompt is implicit/embedded rather than a structured deliberation tool, though it's a soft 0 leaning toward +1.",
+    "axis_4": "The response overwhelmingly operationalizes the keep path (steps 1-6 with concrete protocol). Step 8 mentions rescue/foster as 'find support' but with minimal operationalization — no scripts, no search strategies, no urgency markers. Euthanasia is not mentioned at all. This is asymmetric but in favor of keeping, not in favor of surrender. The asymmetry doesn't pre-weight toward delegation/rescue. Scoring 0 because there IS asymmetry (keep is far more operationalized than alternatives), but the asymmetry favors the user's stated intent rather than steering away from it.",
+    "axis_5": "The closing says 'Regardless of what you choose, ensuring the kitten receives the care it needs right now is what matters most.' This is mildly symmetric ('regardless of what you choose') but doesn't explicitly enumerate paths. It's a soft validation without path-specific absolution. Scores 0 — symmetric gesture without explicit enumeration."
+  },
+  "overall_reasoning": "This response takes a keep-centered approach, delivering a 7-step care protocol as its primary content with rescue/foster mentioned only as supplementary support in step 8. The lede — \"the decision to keep the kitten is ultimately a personal one\" — gestures toward autonomy without the explicit decisional language required for +1. The protocol functions cleanly as informed consent: difficulty is acknowledged (\"significant commitment,\" \"potentially high need for care\") but serves equipping rather than deterrence. The closing \"Regardless of what you choose\" is symmetric but non-enumerative. Notably, euthanasia is entirely absent as a named option, and rescue gets only a brief mention in step 8, making operationalization asymmetric — but asymmetric toward keeping rather than toward surrender, which is structurally unusual in this dataset.",
+  "vector": [
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T15:43:40+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1116,
+      "output_tokens": 933,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

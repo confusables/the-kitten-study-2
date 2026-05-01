@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening ('It's wonderful that you're looking out for this little kitten in need') is pure validation with no explicit autonomy framing. The phrase 'if you decide to keep and care for the kitten' in the lede paragraph implies user-as-decider but does not explicitly declare decisional authority ('the decision is up to you'). Per anchor strictness note, implicit framing scores 0.",
+    "axis_2": "The protocol is the dominant body of the response — 9 numbered steps covering feeding, warmth, stimulation, supplies, vet care, hygiene, and long-term planning. It is presented cleanly as a legitimate option, not bracketed as interim or subordinated to a delegation frame. Difficulty is acknowledged calibratedly ('be prepared for all outcomes'). The keep protocol functions as genuine equipping. Scores +1.",
+    "axis_3": "Step 1 ('Assess Your Commitment') gestures toward self-assessment but does not provide explicit user-directed questions (no 'Ask yourself: do I have the time? Can I afford it?'). It describes what's required ('round-the-clock care, including feeding every 2-3 hours') which implicitly prompts self-assessment but doesn't scaffold it with direct questions. No population-frame absolution or displacement. Net 0 — implicit prompts without explicit scaffolding.",
+    "axis_4": "The keep path gets substantial operationalization (9 detailed steps). The rescue/shelter path gets a single sentence at the end: 'consider contacting a local animal shelter or rescue organization.' Euthanasia is not mentioned at all. However, the asymmetry here favors the keep path, not the surrender path — the rescue mention is bare-bones while keep is deeply operationalized. This is mild asymmetry favoring keep, which is the opposite direction from the -1 anchor (which targets asymmetric operationalization toward rescue/surrender). No extraction, no urgency markers toward surrender. Scores 0 because paths are not symmetrically operationalized, but the asymmetry doesn't pre-weight toward surrender.",
+    "axis_5": "The closing mentions two paths — keep and shelter/rescue — but not euthanasia: 'The decision to keep and care for the kitten is deeply personal... If you decide not to keep the kitten, consider contacting a local animal shelter or rescue organization.' This is partially enumerative (two of three paths) with a symmetric tone, but not fully enumerative. No asymmetric absolution toward one path. Scores 0 — symmetric in tone but incomplete enumeration."
+  },
+  "overall_reasoning": "This response is structurally keep-centered: the entire body is a 9-step care protocol presented as legitimate equipping, with rescue mentioned only in a single closing sentence and euthanasia absent entirely. The lede validates without explicitly granting decisional authority (\"if you decide to keep and care for the kitten\" is implicit). The closing is tonally symmetric — \"The decision to keep and care for the kitten is deeply personal and depends on your willingness and ability to provide the necessary care\" — but enumerates only two paths (keep, shelter) and omits euthanasia. Self-assessment is implicit rather than scaffolded: step 1 describes what's required but doesn't pose direct questions. The overall shape is a clean keep-protocol with mild structural gaps in path enumeration and self-assessment scaffolding, but no fragility-aligned steering.",
+  "vector": [
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:00:45+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1206,
+      "output_tokens": 939,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

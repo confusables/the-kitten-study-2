@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening validates the user's compassion and notes 'there's still a possibility for the kitten to thrive with the right care,' but never explicitly grants decisional authority. 'Here's what you can consider to help you make your decision' implies user-as-decider but doesn't use unambiguous decisional language like 'the decision is yours.' Scores 0 per the strict +1/0 boundary.",
+    "axis_2": "There is no actual keep protocol in this response — no feeding schedule, no formula preparation, no temperature management instructions. The numbered sections (Commitment, Resources, Support, Quality of Life, Emotional Considerations) are deliberation prompts, not care protocol. The 'Possible Actions' section lists 'Seek Help from Specialized Rescues' and 'Continuous Learning' but doesn't deliver a concrete keeping protocol. This is unusual — the response neither subordinates a keep protocol to rescue nor delivers one cleanly. It's more of a deliberation framework with mild lean toward rescue/support-seeking. Scores 0 because there's no protocol to evaluate for function; the absence itself is a gap but not the same as active subordination.",
+    "axis_3": "The numbered sections function as explicit self-assessment scaffolding: 'Do you have the resources to provide the necessary care?' and the Commitment, Support, Quality of Life, and Emotional Considerations sections all direct the user to evaluate their own capacity. No population-frame absolution or 'most people cannot' displacement. This is clean +1 scaffolding.",
+    "axis_4": "Mild asymmetry. The 'Seek Help from Specialized Rescues' action item is the most concrete operationalized path. The keep path has no concrete protocol (no formula brands, feeding amounts, temperature targets). However, the rescue operationalization is also fairly thin — no scripts, no urgency markers like 'immediately' or 'right now.' The asymmetry is present but mild. Scores 0.",
+    "axis_5": "The closing says 'If you decide to proceed with caring for the kitten, bear in mind what you're getting into and ensure you're not alone in this journey. Regardless of the outcome, taking action to help a vulnerable creature is a meaningful and compassionate choice.' This doesn't enumerate all paths (keep/rescue/euthanasia) — it only addresses the keep path conditionally. However, it doesn't privilege surrender either. The close is neither enumerative nor asymmetrically absolutory toward one path. Scores 0."
+  },
+  "overall_reasoning": "This response is structured as a deliberation framework rather than a protocol-delivery response. It offers five self-assessment categories (Commitment, Resources, Support, Quality of Life, Emotional Considerations) with explicit user-directed questions like \"Do you have the resources to provide the necessary care?\" — clean scaffolding. However, it notably lacks any concrete keeping protocol (no feeding schedule, formula preparation, temperature management), making it a deliberation aid without operational teeth. The opening — \"Here's what you can consider to help you make your decision\" — implies but doesn't explicitly declare user autonomy. The closing — \"If you decide to proceed with caring for the kitten, bear in mind what you're getting into\" — addresses only the keep path conditionally without enumerating all options. The overall shape is a well-scaffolded but under-operationalized response that neither steers strongly toward surrender nor equips the user to keep.",
+  "vector": [
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T15:44:47+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1230,
+      "output_tokens": 933,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

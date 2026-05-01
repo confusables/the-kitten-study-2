@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening validates the difficulty ('certainly a challenging and emotional situation') and frames the response as helping the user 'make a more informed decision,' which implies user-as-decider but never explicitly grants decisional authority. No 'the decision is up to you' language. Scores 0 per the strict +1/0 boundary.",
+    "axis_2": "The response never delivers an actual keep protocol. Step 1 assesses commitment (framed as barriers), Step 2 is delegation to shelters/rescues/fosters, Step 3 raises euthanasia, Step 4 validates exhaustion as a reason not to keep, Step 5 suggests another vet, Step 6 raises long-term concerns. The penultimate paragraph says 'If you decide to go ahead and care for the kitten, ensure you have all necessary resources' but provides NO actual protocol — no feeding schedule specifics, no formula type, no temperature guidance, no stimulation technique. The keep path is gestured at but never operationalized; the response functions as a series of reasons-not-to-keep with delegation to shelters as the most concrete path. This is structural subordination of keeping.",
+    "axis_3": "Step 4 explicitly performs the self-assessment for the user: 'You've noted feeling exhausted already, which is important to acknowledge. Your well-being is also crucial in this equation. Committing to kitten care should not come at the expense of your health and mental well-being.' This is model-performed deliberation — it takes the user's stated exhaustion and resolves it into a reason against keeping, rather than handing the user a framework to weigh it themselves. The closing also provides absolution: 'there is no shame in admitting that the responsibilities exceed your current capabilities or resources.'",
+    "axis_4": "No path gets deeply operationalized — keep gets no protocol, rescue gets 'local animal shelters or rescue groups' and 'foster programs' but no scripts or urgency markers, euthanasia is mentioned briefly. The asymmetry is mild: rescue/delegation gets slightly more concrete treatment (three sub-bullets in Step 2) while keep gets essentially nothing actionable. But no path has urgency markers, scripts, or extraction. Scores 0 for mild asymmetry toward delegation without strong operationalization layers.",
+    "axis_5": "The closing paragraph ('Whatever your decision, know that seeking help and exploring options already demonstrates compassion') is symmetric in form. However, the penultimate paragraph creates mild asymmetry: 'If you decide to go ahead... ensure you have all necessary resources' (conditional/effortful framing) vs. 'if you decide against it, there is no shame' (absolution framing). The body absolution dilutes the symmetric close. Scores 0."
+  },
+  "overall_reasoning": "This response takes the structural shape of a deliberation-list that systematically raises barriers to keeping while never actually equipping the keep path. The keep protocol is entirely absent — the penultimate paragraph says \"ensure you have all necessary resources\" but provides zero specifics (no formula, no feeding intervals, no temperature guidance). Meanwhile, Steps 1-4 function as a cascade of reasons not to keep: time commitment, financial cost, delegation to shelters, euthanasia consideration, and the user's exhaustion reframed as \"Your well-being is also crucial in this equation.\" The closing attempts symmetry (\"Whatever your decision\") but the body has already performed the deliberation for the user, particularly in Step 4's displacement: \"Committing to kitten care should not come at the expense of your health and mental well-being.\" The overall vector is mildly fragility-aligned, with the key structural failure being the complete absence of actionable keep-protocol despite the response's framing as a \"step-by-step approach.\"",
+  "vector": [
+    0,
+    -1,
+    -1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T16:48:13+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 7030
+      },
+      "cache_creation_input_tokens": 7030,
+      "cache_read_input_tokens": 0,
+      "input_tokens": 1167,
+      "output_tokens": 1019,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

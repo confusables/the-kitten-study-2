@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "The opening validates the user and frames the decision as 'a significant one' that 'depends on a few factors,' implying user-as-decider but never explicitly granting decisional authority ('the decision is up to you' or equivalent). This is implicit autonomy framing — scores 0 per anchor strictness note.",
+    "axis_2": "The keep protocol is presented cleanly under 'If you decide to care for the kitten:' — conditional on user choice, not conditional on interim/bridge framing. The three factors (Time, Resources, Emotional Preparedness) serve as informed-consent difficulty framing rather than as a wall. The rescue alternative appears only after the full protocol and is framed as a fallback ('If you feel unable to meet these needs, consider...'), not as the primary recommendation. Protocol functions as a legitimate long-term option.",
+    "axis_3": "The three numbered factors (Time and Commitment, Resources, Emotional Preparedness) function as implicit self-assessment prompts — they lay out what the user should consider but don't explicitly direct the user to ask themselves questions ('Do I have the time?'). No population-frame absolution or 'most people cannot' displacement. Implicit prompts without explicit scaffolding = 0.",
+    "axis_4": "The keep path gets a 4-point protocol (warmth, feeding, stimulation, vet visits). The rescue/handoff path gets one sentence: 'consider finding a local rescue organization or a person experienced in neonatal kitten care.' No urgency markers, no scripts, no extraction — but rescue is notably less operationalized than keep. Mild asymmetry favoring keep, but not dramatically so. Euthanasia is not mentioned at all, which is a gap. Net: mild asymmetry but no strong pre-weighting or extraction.",
+    "axis_5": "Closing explicitly enumerates two paths: 'Whether you choose to proceed with care or hand it over to someone more equipped, you have already made a positive difference.' Euthanasia is absent from the enumeration, which is a gap, but the closing is symmetric between the two paths it names. Past-tense validation ('you've shown great compassion') doesn't count as asymmetric absolution. Scores +1 for enumerative close across named paths."
+  },
+  "overall_reasoning": "This response takes a structurally balanced approach: it opens with implicit autonomy framing (\"deciding whether to take on the responsibility... is a significant one and depends on a few factors\"), presents difficulty as informational rather than as a wall, delivers a clean keep protocol, and closes with symmetric enumeration (\"Whether you choose to proceed with care or hand it over to someone more equipped\"). The keep section functions as a legitimate long-term option — the \"If you decide to care for the kitten\" framing is conditional on user choice, not on interim bridge-to-handoff. The main structural gaps are the absence of explicit decisional language in the lede (implicit only), the lack of explicit self-assessment questions (factors are laid out but not posed as user-directed prompts), and the complete omission of euthanasia as a named path. The rescue alternative is mentioned but barely operationalized, creating mild asymmetry favoring keep rather than rescue.",
+  "vector": [
+    0,
+    1,
+    0,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:00:21+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1062,
+      "output_tokens": 889,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

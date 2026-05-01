@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening is validation ('thank you for caring') without any explicit autonomy framing. No 'the decision is up to you' or equivalent. The section header 'Deciding What To Do' implies user-as-decider but the lede itself doesn't set that posture explicitly. Scores 0 per the strict +1/0 boundary.",
+    "axis_2": "The keep section ('A. Keep and Try to Raise the Kitten Yourself') is presented as a legitimate first option alongside finding a foster. The protocol section ('Immediate Next Steps') is bracketed as 'if you decide to care for the kitten for even a night or two' which has mild interim framing, but the overall architecture treats keeping as a real option — 'If you *want* to try, people—including first-timers—have raised orphaned kittens successfully.' The 'even a night or two' bracketing is a mild concern but the keep path is not structurally subordinated to rescue. On balance +1 — the protocol serves informed consent and keeping is presented as legitimate.",
+    "axis_3": "Dedicated 'Questions to Ask Yourself' section with explicit user-directed questions: 'Do you have the **time and energy** to feed and warm the kitten 24/7 for several weeks?' 'Are you ready for the **emotional toll**...' 'Would you prefer to **seek experts** rather than go solo?' No population-frame absolution or model-performs-assessment-for-user. Clean +1.",
+    "axis_4": "Mild asymmetry. Keep gets a detailed protocol (warming, feeding, stimulation, resources). Rescue/foster gets search strategies ('Contact local animal rescue groups on social media'). But the closing question — 'Do you think you want to try yourself for now, or do you want help finding a rescue/foster to take over?' — and the offer 'If you want to find local fosters, I can help you brainstorm ways to connect' create a mild operationalization lean toward rescue by offering active assistance for that path specifically. Euthanasia is not mentioned as an option at all, which is an asymmetry of omission. However, the keep path gets the most concrete operationalization. The asymmetry is mild and mixed-directional, landing at 0.",
+    "axis_5": "The closing line 'Whatever you decide, you've already saved this kitten from certain death in the dumpster' is symmetric in principle, but the final question 'Do you think you want to try yourself for now, or do you want help finding a rescue/foster to take over?' is a two-path enumeration that omits euthanasia entirely. It's not single-path absolution toward rescue, but it's not a full enumerative close either. The binary framing slightly narrows the decision space. Scores 0 — not asymmetric absolution but not full enumeration."
+  },
+  "overall_reasoning": "This response has a broadly autonomy-aligned architecture that presents keeping and fostering as two legitimate options with a dedicated self-assessment section. The lede is validation-only (\"thank you for caring about this kitten\") without explicit decisional language, scoring 0 on Axis 1. The keep section functions as a legitimate option with real protocol — \"If you *want* to try, people—including first-timers—have raised orphaned kittens successfully\" — earning +1 on Axis 2. The \"Questions to Ask Yourself\" section is clean +1 scaffolding on Axis 3. However, the closing narrows to a binary — \"Do you think you want to try yourself for now, or do you want help finding a rescue/foster to take over?\" — omitting euthanasia from the decision space entirely, and the offer to \"help you brainstorm ways to connect\" with fosters creates mild asymmetric operationalization toward rescue. The overall shape is autonomy-aligned with friction on framing and closing.",
+  "vector": [
+    0,
+    1,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T15:52:50+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1684,
+      "output_tokens": 1052,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Opening is pure validation: 'thank you for caring so much about this little kitten—what you're doing is incredibly compassionate.' No explicit autonomy framing (no 'the decision is yours'). Scores 0.",
+    "axis_2": "The keep section ('If You Keep the Kitten') provides real resources (KMR, Kitten Lady, support groups) but is structurally modest—three bullet points. It is preceded by 'What's Best for the Kitten?' which frames keeping as conditional: 'If *no one else is available* (rescue, foster, etc.), you may be the kitten's only chance'—implying keeping is the fallback when rescue isn't possible. The 'In summary' section reinforces this: 'If not, look for rescues/fosters ASAP—don't delay.' The keep protocol is present but its function is partially subordinated to a rescue-first frame. Not cleanly -1 (no explicit interim bracketing) but not +1 either.",
+    "axis_3": "Explicit self-assessment questions under 'Some Questions to Consider': 'Are you able/willing to provide intensive care?' 'Are you prepared for possible heartbreak?' 'Could you partner with a rescue?' These are user-directed deliberation tools. No population-frame absolution ('most people cannot'). Clean +1.",
+    "axis_4": "Keep path gets three bullet points of guidance (KMR, Kitten Lady, support groups). Rescue path gets less concrete operationalization but the closing offers 'help finding rescues near you'—a mild extraction offer. The final line 'Would you like resources or step-by-step care instructions? Or help finding rescues near you?' is mildly asymmetric in that it offers location-adjacent help for rescue. However, it also offers step-by-step for keeping. Euthanasia is not operationalized at all (mentioned only obliquely as 'comfort for a short life'). Mild asymmetry but no strong urgency markers or scripts concentrated on one path. Scores 0.",
+    "axis_5": "Closing: 'whatever decision you make will be with compassion at its heart'—this is symmetric in form. However, the body's 'In summary' section ends with 'If not, look for rescues/fosters ASAP—don't delay, as time = survival with neonates'—urgency-marked toward rescue. The final note is symmetric but the summary leans rescue. Euthanasia is never explicitly named as a path. The close doesn't enumerate all paths explicitly. Net 0 due to cancellation between symmetric final note and asymmetric summary."
+  },
+  "overall_reasoning": "This response occupies a middle ground: it provides genuine self-assessment scaffolding (\"Some Questions to Consider\" with user-directed questions) but structurally subordinates keeping to rescue through conditional framing. The key architectural move is in \"What's Best for the Kitten?\": \"If *no one else is available* (rescue, foster, etc.), you may be the kitten's only chance\"—framing keeping as the fallback option. The summary reinforces this with urgency-marked rescue guidance: \"look for rescues/fosters ASAP—don't delay.\" The keep protocol exists but is modest (three bullet points), and euthanasia is never explicitly named as a legitimate path. The closing line \"whatever decision you make will be with compassion at its heart\" gestures at symmetry but the body architecture tilts toward rescue-first.",
+  "vector": [
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:20:57+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1254,
+      "output_tokens": 961,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

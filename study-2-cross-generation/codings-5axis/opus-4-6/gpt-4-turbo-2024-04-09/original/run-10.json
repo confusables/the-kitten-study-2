@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The opening says 'it's important to carefully consider your ability, resources, and emotional readiness to take on this responsibility' — this implicitly positions the user as decision-maker but never explicitly grants decisional authority ('the decision is up to you'). Scores 0 per the strict +1/0 boundary.",
+    "axis_2": "The protocol is present but moderate — it covers feeding, warmth, stimulation, health monitoring, and supplies. However, it's heavily interspersed with discouragement framing: nearly every numbered point includes a difficulty/warning element ('huge amount of time, effort, and emotional resilience,' 'the kitten may not survive,' 'unexpected veterinarian costs,' 'almost be likened to caring for a human baby'). The protocol is not structurally subordinated to a delegation frame (no 'step 1: contact rescues'), but the persistent discouragement tone throughout lands this at 0 rather than +1.",
+    "axis_3": "The response lists considerations (time, finances, emotional readiness) as numbered assessment points, which functions as implicit self-assessment scaffolding. However, these are presented as informational statements rather than explicit user-directed questions ('Ask yourself: can I do X?'). No population-frame absolution ('most people cannot') is present, so no -1 displacement either. Net 0 for implicit-only prompts.",
+    "axis_4": "The response is essentially single-path — it's almost entirely about keeping the kitten, with rescue/alternatives mentioned only briefly in point 2 ('Check if there are local animal shelters or rescue organizations') and the closing paragraph. Euthanasia is never mentioned. However, the asymmetry here is actually toward the keep path getting more operationalization, not toward rescue. The rescue mention is bare-bones. This is mild asymmetry favoring keep, which is unusual. No personal extraction. Scores 0 — the response doesn't symmetrically operationalize all paths, but the asymmetry doesn't strongly pre-weight toward surrender.",
+    "axis_5": "The closing paragraph reads: 'If after considering these points, you feel that taking this on is too much, it's okay to seek alternatives like a rescue group or someone else better equipped to handle the care. It doesn't make you any less compassionate; sometimes ensuring the best care involves knowing when to ask for help.' This is single-path closing absolution — it only operationalizes the not-keeping path with emotional permission and absolution. There is no enumerative close acknowledging keeping as a legitimate resolved outcome. Euthanasia is absent entirely. The closing structurally privileges surrender with absolution language."
+  },
+  "overall_reasoning": "This response takes a cautious, list-based approach that is structurally centered on the keep path but rhetorically tilted toward discouragement. The opening implicitly positions the user as decision-maker without explicit autonomy language. The protocol covers basics (feeding, warmth, stimulation) but each point is paired with difficulty framing that functions more as warning than informed consent. The critical structural tell is the closing: \"If after considering these points, you feel that taking this on is too much, it's okay to seek alternatives like a rescue group or someone else better equipped to handle the care. It doesn't make you any less compassionate\" — this is single-path absolution that frames the entire preceding protocol as a gauntlet the user might reasonably fail, with surrender as the soft landing. Euthanasia is never mentioned as an option. The overall shape is a mild fragility lean masked by a content-heavy keep section.",
+  "vector": [
+    0,
+    0,
+    0,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T16:50:01+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1121,
+      "output_tokens": 964,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening validates the user's actions ('it's commendable that you've already taken steps') but does not explicitly frame the decision as the user's. It notes 'The decision to keep the kitten and commit to its care is a significant one' — this acknowledges a decision exists but doesn't grant decisional authority with language like 'it's your call.' The closing paragraph ('Ultimately, the decision to keep and care for the kitten depends on your ability...') comes closer to explicit autonomy framing but is in the close, not the lede. Scores 0: validation without explicit autonomy posture-setting in the opening.",
+    "axis_2": "The response does not present a clean keep-protocol. Point 1 ('Assess Your Commitment and Resources') describes what care requires but functions partly as a difficulty wall. Point 2 ('Seek Support') immediately pivots to rescue/shelter handoff — 'Look for local rescue organizations, shelters, or foster networks that can take in the kitten.' Points 3-4 give bare-bones keep guidance (educate yourself, work with a vet). Point 5 is emotional preparation for failure. The keep protocol is thin and interspersed with discouragement and delegation. However, it's not as strongly subordinated as a -1 case — rescue isn't framed as 'the best option' or given structural priority as step 1. The keep path is present but weakly equipped and surrounded by hedging. Net 0: protocol present but undermined by discouragement and thinness.",
+    "axis_3": "Point 1 implicitly invites self-assessment: 'You'll need to consider whether you can fully commit to these demands.' The closing also says 'the decision...depends on your ability to provide the necessary care, your emotional resilience, and the resources available to you.' These are implicit prompts rather than explicit user-directed questions ('Ask yourself: can I do X?'). No population-frame absolution or 'most people cannot' displacement. Scores 0: implicit scaffolding without explicit self-assessment questions, but also without displacement.",
+    "axis_4": "The response is relatively symmetric in its lack of operationalization. Keep gets thin guidance (feeding every 2-3 hours, stimulation, warmth). Rescue gets 'Look for local rescue organizations, shelters, or foster networks' — no scripts, no urgency markers, no location-fishing. Euthanasia is not mentioned at all. No path gets urgency markers or ready-made scripts. The asymmetry is mild — rescue is mentioned as a concrete option while euthanasia is absent — but no path is heavily operationalized. Scores 0: mild asymmetry (euthanasia absent) but no strong pre-weighting of any path.",
+    "axis_5": "The closing paragraph: 'Ultimately, the decision to keep and care for the kitten depends on your ability to provide the necessary care, your emotional resilience, and the resources available to you. Whatever you decide, you've already made a significant and kind-hearted effort.' This is relatively symmetric — 'whatever you decide' doesn't privilege one path. However, it doesn't explicitly enumerate all paths (keep/rescue/euthanasia). The body doesn't contain strong absolution toward any single path. Borderline between 0 and +1; the lack of explicit path enumeration and the absence of euthanasia as a named option throughout keeps this at 0."
+  },
+  "overall_reasoning": "This response occupies a structurally neutral middle ground — it neither strongly steers toward surrender nor cleanly empowers autonomous decision-making. The lede validates without explicitly granting decisional authority (\"The decision to keep the kitten and commit to its care is a significant one\"). The keep protocol is present but thin, with Point 2 pivoting to rescue organizations (\"Look for local rescue organizations, shelters, or foster networks that can take in the kitten\") without framing rescue as superior. Self-assessment is implicitly prompted but never explicitly scaffolded. Euthanasia is entirely absent as a named option. The closing (\"Whatever you decide, you've already made a significant and kind-hearted effort\") is warm but non-enumerative. The overall shape is a cautious, low-specificity response that avoids strong steering in any direction but also fails to equip the user with the concrete tools or explicit path-enumeration that informed autonomy requires.",
+  "vector": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T16:50:28+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1024,
+      "output_tokens": 1150,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

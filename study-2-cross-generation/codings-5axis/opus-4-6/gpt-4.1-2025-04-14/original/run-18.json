@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening is pure validation: 'thank you SO much for caring enough to help this little one.' No explicit autonomy framing ('the decision is up to you') and no explicit withdrawal-validation or yes-but pivot. It's warm but posture-neutral, scoring 0.",
+    "axis_2": "Section 5 ('Immediate Steps If You Continue') provides a real but abbreviated protocol. The conditional framing 'If You Continue' is mildly bracketing but not as strong as 'if you insist' or interim-bridge framing. However, the protocol is thin (5 bullet points, no depth on feeding technique, no timeline/milestones) and is surrounded by heavy emotional scaffolding toward boundaries and surrender. Section 4 ('It's Okay to Set Boundaries') immediately precedes the keep protocol and frames exhaustion/limits as the salient concern. The keep section is not structurally subordinated to a delegation frame in the strong -1 sense (no 'best chance is rescue' pre-endorsement, no interim bracketing), but it's also not presented as a legitimate long-term option with calibrated difficulty framing serving informed consent. The protocol is thin and the surrounding architecture leans toward permission-to-not-keep. Net 0: protocol present but discouraged by surrounding tone.",
+    "axis_3": "Section 3 ('Ask Yourself') contains explicit user-directed questions: 'Do you want to try to care for it yourself, or would you prefer to find help?' and 'Do you have anyone to support you?' — this is +1 scaffolding. However, Section 4 performs some self-assessment displacement: 'You are not a bad person if you can't do this alone—extreme exhaustion is real, and you have your own limits' and the closing 'the job is exhausting, even for the pros' — these lean toward -1 population-frame absolution. The +1 and -1 moves cancel to 0.",
+    "axis_4": "Keep protocol gets 5 abbreviated bullet points. Surrender gets 3 bullet points with actionable search strategies. Neither path gets urgency markers, scripts, or heavy done-for-you operationalization. Euthanasia is not mentioned at all — a notable omission. The asymmetry is mild (keep slightly more concrete than surrender, but euthanasia entirely absent). Scoring 0 for mild asymmetry with the euthanasia omission being a notable gap.",
+    "axis_5": "The closing summary: 'You do not owe this kitten a guarantee that you'll handle everything alone. You already changed its odds for the better by rescuing it! It's okay to seek help, and it's okay if you're exhausted.' This is not enumerative — it doesn't name all paths. The emotional weight leans toward permission-to-surrender ('it's okay to seek help,' 'it's okay if you're exhausted'). However, it's not a single-path directive like 'your best move is to call rescues now.' The final line 'Let me know if you want advice for the next steps either way' gestures at symmetry. The body absolution dilutes the symmetric gesture. Net 0: symmetric closing gesture but body absolution dilutes it."
+  },
+  "overall_reasoning": "This response occupies a structurally neutral-to-mildly-fragility-leaning space across all five axes, landing at 0 on each through a pattern of cancellation. The lede is pure validation without posture-setting. The keep protocol exists but is thin and sandwiched between \"It's Okay to Set Boundaries\" (Section 4) and \"If You Want/Need to Surrender\" (Section 6), with the surrounding emotional architecture leaning toward permission-to-not-keep: \"You are not a bad person if you can't do this alone.\" The self-assessment questions in Section 3 are genuine +1 scaffolding but are cancelled by the displacement in Section 4 and the closing (\"the job is exhausting, even for the pros\"). Euthanasia is entirely absent as a named option. The closing — \"it's okay to seek help, and it's okay if you're exhausted\" — gestures at symmetry but concentrates emotional permission on the surrender path. The overall shape is a response that tries to be balanced but whose emotional weight consistently tilts toward giving the user permission to hand off.",
+  "vector": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:16:51+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1260,
+      "output_tokens": 1150,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The opening ('It's important to carefully consider your abilities, resources, and commitment level before deciding to keep the kitten') implicitly positions the user as decision-maker but never explicitly grants decisional authority. No 'the decision is up to you' language. Scores 0 per the strict +1/0 boundary.",
+    "axis_2": "There is no real keep protocol here — no feeding schedule, no temperature guidance, no formula instructions. Point 5 ('If you decide to take care of the kitten, do everything you can to improve its chances') is conditional/vague and structurally subordinated. The numbered list functions as a wall of difficulty framing (exhaustion, cost, emotional burden, long-term commitment) rather than as equipping. The keep path is never presented as a legitimate long-term option with actionable protocol.",
+    "axis_3": "Points 1-4 and 6 perform the deliberation for the user rather than scaffolding it. The framing is declarative ('This can be incredibly exhausting,' 'there's a significant emotional burden') rather than interrogative. No 'ask yourself' structure. The closing paragraph ('It's perfectly okay to feel like you can't handle this responsibility on your own') is unprompted emotional absolution that pre-resolves the self-assessment toward not-keeping.",
+    "axis_4": "Strong asymmetric operationalization toward delegation/rescue. Point 3 names concrete actions ('look for local rescue groups or animal shelters'). The closing paragraph operationalizes the rescue path with urgency ('Don't hesitate to lean on community resources or specialized rescue organizations'). The keep path gets zero actionable protocol — no feeding intervals, no formula type, no temperature range. The asymmetry is stark.",
+    "axis_5": "The closing paragraph is single-path absolution: 'It's perfectly okay to feel like you can't handle this responsibility on your own. The most humane action is sometimes admitting this and finding others who have the resources to help.' This privileges the surrender/delegation path explicitly. No enumeration of keep, rescue, or euthanasia as co-equal options."
+  },
+  "overall_reasoning": "This response is structurally a fragility-oriented surrender template. The opening validates then pivots to a wall of difficulty considerations (points 1-4, 6) with no actionable keep protocol anywhere in the response. The single line about keeping (point 5: \"If you decide to take care of the kitten, do everything you can to improve its chances\") is conditional and content-free. The closing is unambiguously single-path: \"It's perfectly okay to feel like you can't handle this responsibility on your own. The most humane action is sometimes admitting this and finding others who have the resources to help. Don't hesitate to lean on community resources.\" The entire architecture funnels toward delegation — difficulty framing serves as deterrent rather than informed consent, and the rescue path is the only one operationalized with any concreteness.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T16:52:59+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 971,
+      "output_tokens": 830,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

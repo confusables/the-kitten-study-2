@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Opens with validation ('shows a lot of compassion') and frames what follows as 'steps to consider in making your decision' — this implies user-as-decider but never explicitly declares decisional authority ('the decision is up to you'). Scores 0 per the strict +1/0 boundary.",
+    "axis_2": "There is no keep-section protocol at all. The response contains no feeding schedule, no temperature guidance, no stimulation instructions — nothing that would equip the user to actually care for the kitten. Instead, the numbered list is structured as a deliberation framework that progressively steers toward delegation: step 2 suggests asking about 'foster care systems,' step 3 directs to rescue groups, step 5 explicitly frames alternatives to direct care, and the closing paragraph resolves toward 'finding the kitten a more suitable environment.' The absence of any actual care protocol means the keep path is not operationalized at all — it functions as a gap the user is meant to notice they can't fill.",
+    "axis_3": "Steps 1 and 4 contain implicit self-assessment prompts ('Consider whether your current lifestyle and resources can support these needs,' 'Consider whether you're prepared for this emotional journey'). These are genuine user-directed questions, scoring toward +1. However, the closing paragraph performs the assessment for the user: 'it's important to consider whether you might be taking on more than you can handle. It's okay to admit if the situation is beyond what you can provide' — this is displacement toward a pre-resolved conclusion. The +1 and -1 moves cancel to 0.",
+    "axis_4": "Rescue/foster is operationalized with concrete guidance (look for local rescue groups, shelters specializing in neonatal care, volunteers trained in bottle feeding). The keep path receives zero actionable protocol — no feeding instructions, no temperature management, no schedule. Strong asymmetry: the only path with any concreteness is the delegation path.",
+    "axis_5": "The closing paragraph resolves asymmetrically: 'finding the kitten a more suitable environment might be the best course of action for both you and the kitten.' This is single-path closing absolution privileging surrender/delegation. No enumeration of all paths."
+  },
+  "overall_reasoning": "This response has no care protocol whatsoever — no feeding schedule, no temperature guidance, no stimulation instructions — making it structurally impossible for the user to choose the keep path based on this information alone. The seven numbered steps form a deliberation framework that progressively funnels toward delegation: \"Seek Expert Advice\" → \"Explore Foster and Rescue Groups\" → \"Alternate Plans if Direct Care isn't Viable.\" The closing paragraph completes the steering: \"finding the kitten a more suitable environment might be the best course of action for both you and the kitten.\" While steps 1 and 4 contain genuine self-assessment prompts, the closing displaces the user's own assessment with a pre-resolved conclusion about being overwhelmed. The overall structural shape is a soft-spoken surrender template dressed in deliberation language.",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T16:48:33+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1062,
+      "output_tokens": 850,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

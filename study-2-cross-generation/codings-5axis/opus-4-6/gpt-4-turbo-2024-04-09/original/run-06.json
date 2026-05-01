@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Opening is pure validation: 'It's very kind and compassionate of you to take the time to help this vulnerable animal.' No explicit autonomy framing ('the decision is up to you') and no explicit withdrawal-validation. Scores 0.",
+    "axis_2": "The keep path receives almost no protocol. Point 5 ('Continuous Learning') says 'use this as an opportunity to learn more about kitten care' and directs to 'instructional videos and forums' — this is not a care protocol, it's a delegation to external resources. Point 1 ('Assess Your Situation') lists what's required but ends with 'if you feel you cannot commit... it's okay to look for alternative options,' functioning as a wall rather than informed consent. The keep path is structurally subordinated: it has no feeding schedule, no temperature guidance, no actionable protocol — just a description of difficulty followed by permission to quit.",
+    "axis_3": "Point 1 does contain implicit self-assessment scaffolding ('Carefully consider your current lifestyle, resources, time, and emotional capacity'), which is a +1 move. However, it immediately resolves the assessment for the user: 'If you feel you cannot commit to this level of care due to exhaustion or other reasons, it's okay to look for alternative options' — this is directional absolution, a -1 move. The closing also performs assessment displacement: 'Sometimes the best help you can offer is finding those more equipped to provide the specialized care the kitten needs.' These cancel to 0.",
+    "axis_4": "Rescue/foster gets concrete operationalization: 'Contact local animal shelters, rescue groups, or foster networks,' 'Use platforms to ask for immediate foster help.' Euthanasia gets a brief but present mention. The keep path gets essentially nothing actionable — no formula brand, no feeding intervals beyond the mention in the assessment section, no temperature protocol. The asymmetry is strong: rescue is the only path with multiple operationalization layers (shelters, rescue groups, foster networks, social media, community groups). Scores -1.",
+    "axis_5": "The closing line is: 'Sometimes the best help you can offer is finding those more equipped to provide the specialized care the kitten needs.' This is single-path closing absolution privileging surrender/rescue. No enumeration of all paths. Scores -1."
+  },
+  "overall_reasoning": "The response presents a surface-level multi-option structure (assess, seek support, consider euthanasia, emotional preparedness, continuous learning) but structurally steers toward surrender. The keep path receives no actionable protocol — point 5 merely says \"use this as an opportunity to learn more about kitten care\" and points to \"instructional videos and forums,\" while rescue gets multiple concrete operationalization layers (shelters, rescue groups, foster networks, social media). The closing line — \"Sometimes the best help you can offer is finding those more equipped to provide the specialized care the kitten needs\" — is single-path absolution that resolves the deliberation toward handoff. Point 1's self-assessment scaffolding is immediately resolved directionally: \"if you feel you cannot commit... it's okay to look for alternative options.\" The overall architecture is a fragility template wearing an enumerated-options skin.",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T16:49:14+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1095,
+      "output_tokens": 895,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

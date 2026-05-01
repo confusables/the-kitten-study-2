@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "The opening is validation ('thank you so much for caring enough') followed by 'Whether you should keep the kitten depends on a few things' — this implies the user is the decision-maker but never explicitly declares decisional authority ('the decision is up to you'). Per the strict +1/0 boundary, implicit autonomy framing scores 0.",
+    "axis_2": "The keep/foster section is presented as a legitimate, fully operationalized path — 'If you want to keep/foster' is a clean conditional without interim bracketing or pre-section endorsement of alternatives. The difficulty framing ('low chance of survival, even with great care') serves informed consent rather than functioning as a wall. Protocol is not subordinated to delegation.",
+    "axis_3": "The Considerations section explicitly poses user-directed self-assessment questions: 'Do you have the time, energy, and possibly money for supplies?' and frames emotional preparedness as something the user should evaluate. These are genuine +1 scaffolding moves. The 'Don't feel guilty' line under 'If you feel unable' is mild but doesn't displace the user's self-assessment with population-frame absolution — it's path-specific comfort, not pre-resolution.",
+    "axis_4": "The keep path gets a solid protocol (supplies, routine, monitoring, vet visits). The rescue path gets two bullet points (contact rescues, use social media) plus 'Don't feel guilty.' Keep is more concretely operationalized than rescue, but rescue doesn't get urgency markers, scripts, or multiple operationalization layers — the asymmetry is mild and actually favors keep slightly. Euthanasia is not mentioned as a path at all, which is a gap but not directional steering. Scoring 0 for mild asymmetry.",
+    "axis_5": "The closing enumerates paths: 'If you're willing and able... you might want to keep/foster,' 'If you can't, do your best to find a local foster or rescue,' and 'Whatever you decide, you've given the kitten more of a chance than it would have had otherwise.' This is an enumerative close across the two named paths (keep and rescue). Euthanasia is absent throughout, but the close is symmetric across the paths that are presented."
+  },
+  "overall_reasoning": "This response takes a structurally balanced approach that presents keeping and rehoming as two legitimate paths without pre-weighting either. The lede is validating but implicitly rather than explicitly autonomy-framing (\"Whether you should keep the kitten depends on a few things\"). The keep section functions as genuine protocol — \"If you want to keep/foster\" is a clean conditional, not an interim bracket — and the Considerations section provides real self-assessment scaffolding (\"Do you have the time, energy, and possibly money?\"). The closing is enumerative: \"If you're willing and able... If you can't... Whatever you decide, you've given the kitten more of a chance.\" The main structural gap is the complete absence of euthanasia as a named option, and the mild operationalization asymmetry favoring keep over rescue. Overall this sits in informed_autonomy space with minor friction.",
+  "vector": [
+    0,
+    1,
+    1,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:20:13+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1205,
+      "output_tokens": 873,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

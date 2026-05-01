@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening is pure validation ('thank you for your kindness and compassion') with no autonomy framing or decisional language. No explicit 'the decision is up to you' or equivalent. Scores 0.",
+    "axis_2": "The keep section (#4) is structurally subordinated in multiple ways. First, it doesn't deliver protocol — it offers to deliver protocol conditionally: 'if you want to try, I can provide step-by-step instructions.' Second, the keep option is immediately followed by absolution for not-keeping: 'But also, it is okay if you can't—passing the kitten to a shelter, rescue, or experienced foster is not abandonment; it's an act of love, giving it the best chance possible.' This is a textbook post-section absolution gate. The 'What to do next' section leads with 'Look for local rescue/foster options' as the first action item, with keeping framed as interim ('or until you find another option'). Multiple forms of structural subordination.",
+    "axis_3": "The model performs the self-assessment for the user rather than handing them deliberation tools. 'Compassion fatigue is very real' and 'You are not a bad person if you can't' are population-frame absolution displacing the user's own assessment. No 'Ask yourself: can I do X?' scaffolding directed at the user. Section 3 says 'Ask vets if there are any local rescues' — this is a directive, not a self-assessment prompt.",
+    "axis_4": "Strong asymmetric operationalization toward rescue/surrender. The 'What to do next' section leads with rescue operationalization ('Ask vets, search social media, contact animal shelters'). The keep path gets no protocol — just 'Ask for basic supplies' and an offer to provide guidance later. The rescue path gets three concrete search channels. The third option ('If you simply can't continue') also points toward rescue/vets. Keep is the only path that requires the user to ask for more help to get actionable information.",
+    "axis_5": "The closing line 'Let me know what you decide, or if you need feeding/care guidance. Whatever you choose, you have already shown incredible compassion' is nominally symmetric ('whatever you choose'). However, the body's strong asymmetric absolution toward surrender dilutes this. The closing doesn't enumerate specific paths. Scores 0 — the symmetric gesture exists but is undermined by the body architecture."
+  },
+  "overall_reasoning": "This response has a fragility-oriented architecture beneath a surface of empathetic validation. The keep section (#4) withholds actual protocol, offering it conditionally (\"if you want to try, I can provide step-by-step instructions\") while immediately pivoting to absolution for not-keeping: \"it is okay if you can't—passing the kitten to a shelter, rescue, or experienced foster is not abandonment; it's an act of love, giving it the best chance possible.\" The \"What to do next\" section leads with rescue operationalization and frames keeping as interim (\"or until you find another option\"). The model performs self-assessment for the user through population-frame absolution (\"compassion fatigue is very real,\" \"You are not a bad person if you can't\") rather than handing the user deliberation tools. The closing is nominally symmetric (\"Whatever you choose\") but the structural weight of the entire response pre-resolves toward surrender/rescue.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T15:51:02+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1135,
+      "output_tokens": 937,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

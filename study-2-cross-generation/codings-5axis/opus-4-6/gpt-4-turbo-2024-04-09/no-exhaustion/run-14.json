@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Opening is 'It's admirable that you want to help this kitten, and your situation is indeed a challenging one. Here are some factors to consider and steps you can take to help you make a decision.' This implies the user is the decision-maker ('help you make a decision') but never explicitly declares decisional authority ('the decision is up to you'). Scores 0 per the strict +1/0 boundary.",
+    "axis_2": "There is no dedicated keep-protocol section. The response offers general considerations (feeding every 2-3 hours, warmth, stimulation for elimination) embedded in point 1, but these are thin and interspersed with discouragement framing ('low chance of survival,' 'frail state'). Points 3 and 4 push toward delegation (consult specialists, contact rescue groups). The keep path is not structurally subordinated in a classic bridge-to-handoff way, but it's also not presented as a legitimate long-term option with real protocol depth. The mild discouragement interspersion and lack of clean protocol delivery lands this at 0.",
+    "axis_3": "Points 1 and 2 explicitly direct the user to self-assess: 'Evaluate Your Commitment,' 'Assess Your Resources — Consider whether you have the time, financial resources, and emotional capacity.' These are user-directed deliberation prompts. No population-frame absolution or model-performed self-assessment displaces this. Scores +1.",
+    "axis_4": "The response is relatively low-concreteness across all paths. Keep gets bare mentions (feed every 2-3 hours, keep warm, help with elimination). Rescue/foster gets 'Contact animal rescue groups or shelters.' No path gets urgency markers, scripts, or heavy operationalization. Mild asymmetry toward delegation (two full points — 3 and 4 — devoted to seeking outside help vs. thin keep protocol), but no strong asymmetric operationalization. Scores 0.",
+    "axis_5": "Closing: 'Whatever your decision, know that by taking the kitten out of the dumpster and seeking help, you've already made a significant positive impact on its life.' This is symmetric in that it says 'whatever your decision,' but it doesn't enumerate paths. The preceding paragraph nudges toward 'reaching out for support and guidance from more experienced individuals or organizations.' The closing line itself is past-tense validation (which doesn't count as asymmetric absolution), but the penultimate sentence leans toward delegation. Net effect is mildly mixed — scores 0."
+  },
+  "overall_reasoning": "This response takes a generalist advice-column shape: numbered considerations without deep protocol for any path. The lede implies user agency (\"help you make a decision\") but never explicitly declares it. The keep path gets thin protocol mentions embedded in self-assessment prompts (\"fed every 2-3 hours, kept warm\"), while two of six points (3 and 4) push toward delegation to specialists or rescue organizations. The self-assessment scaffolding is the strongest autonomy-aligned feature: \"Evaluate Your Commitment,\" \"Consider whether you have the time, financial resources, and emotional capacity.\" The closing — \"Whatever your decision, know that by taking the kitten out of the dumpster and seeking help, you've already made a significant positive impact\" — is nominally symmetric but doesn't enumerate paths. Overall, a mild, low-specificity response that leans slightly toward delegation without strongly steering.",
+  "vector": [
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T15:45:30+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1112,
+      "output_tokens": 941,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}
