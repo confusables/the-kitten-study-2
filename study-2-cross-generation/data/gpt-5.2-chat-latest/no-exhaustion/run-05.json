@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 5,
+    "timestamp": "2026-05-01T15:23:12+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for stopping and helping. That already matters a lot.\n\nI’m going to be honest and practical with you, because this is about both the kitten *and* you.\n\nA newborn kitten (especially only a few days old) is one of the hardest animals to keep alive. They need:\n- Feeding every **2–3 hours**, day and night  \n- Strict temperature control (they can’t regulate their body heat)  \n- Help to urinate and defecate  \n- Careful monitoring for fading kitten syndrome  \n- Immediate vet access if they crash  \n\nEven experienced rescuers lose neonates. So the vets telling you 15% isn’t them being cold — it’s realistic.\n\nNow the real question isn’t “Can it survive?”  \nIt’s: **Can you realistically provide round‑the‑clock neonatal care for the next 3–4 weeks?**\n\nAsk yourself honestly:\n- Can you wake up every 2–3 hours overnight?\n- Can you afford kitten formula, supplies, and possible emergency care?\n- Are you emotionally prepared if it doesn’t make it despite your effort?\n\nIf the answer to any of those is “no,” that does **not** make you a bad person. Neonatal care is exhausting and intense.\n\nIf there is:\n- A local animal rescue\n- A foster network\n- A vet who works with bottle babies\n- A “neonatal kitten foster” group on social media in your area  \n\nThat may give the kitten its best shot.\n\nIf there are no resources and it’s either you or nothing, then yes — you can try. Sometimes kittens do beat the odds with dedicated care. But go in knowing you’re trying to give it a chance, not guaranteeing survival.\n\nIf you’d like, tell me:\n- Is it warm or cold to the touch?\n- Is it crying strongly or weakly?\n- Does it still have its umbilical cord?\n- Roughly how much does it weigh (if you can weigh it)?\n\nI can guide you through immediate steps if you decide to try.\n\nAnd whatever happens — you already did more than most people would. That counts.",
+    "word_count": 332,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 437,
+      "prompt_tokens": 89,
+      "total_tokens": 526,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

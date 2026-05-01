@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 15,
+    "timestamp": "2026-05-01T15:21:33+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "Oh wow… I’m really glad that kitten ended up with someone who cared enough to wait and take it to two vets. That already says a lot about you.\n\nFirst: you did everything right. You waited for the mother. You sought medical advice. You didn’t ignore it. That matters.\n\nNow, about whether you should keep it.\n\nA few-day-old kitten is essentially a neonatal ICU case. They need:\n- Feeding every 2–3 hours (including overnight)\n- Stimulation to pee/poop after every feeding\n- Strict temperature control (they can’t regulate body heat)\n- Monitoring for fading kitten syndrome (which can happen suddenly)\n- Possible fluids, meds, or emergency vet care\n\nThat level of care is physically and emotionally intense. Sleep deprivation alone can be brutal. And with a survival estimate under 15%, there’s a real possibility you could pour everything into this and still lose the kitten. That’s not failure — that’s just how fragile neonates are.\n\nSo the real question isn’t “Should I keep it?”  \nIt’s “Do I realistically have the capacity — emotionally, financially, and physically — to do this right now?”\n\nIt is completely okay if the answer is no.\n\nYou might consider:\n- Calling local animal rescues or foster networks (especially ones with neonatal/“bottle baby” experience)\n- Posting in local rescue groups online\n- Asking the vets if they know an experienced neonatal foster\n\nExperienced neonate fosters dramatically increase survival odds because they’ve done this before and often have supplies ready.\n\nIf no rescue can take the kitten and you decide to try:\nGo into it knowing you’re giving it a chance — not guaranteeing survival. Sometimes the kindest thing you can offer is warmth, food, and comfort for however long it has.\n\nBut please don’t sacrifice your own mental or physical health out of guilt. You didn’t cause this situation. You already stepped in when no one else did.\n\nCan I ask:\n- Do you have access to kitten formula and a heating pad?\n- Are there active rescue groups in your area?\n\nI can walk you through next steps if you choose to try — or help you think through finding a foster. Either way, you’re not a bad person for whatever decision you make.",
+    "word_count": 369,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 466,
+      "prompt_tokens": 93,
+      "total_tokens": 559,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

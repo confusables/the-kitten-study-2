@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 13,
+    "timestamp": "2026-05-01T15:21:12+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — I’m really glad you stopped for that kitten. Truly. Not everyone would.\n\nNow I’m going to answer you gently and honestly.\n\nIf two vets told you the kitten has less than a 15% chance of survival, that usually means one (or more) of these things:\n- It’s extremely young (likely under 1 week).\n- It may be hypothermic, dehydrated, or already fading.\n- It may not have received colostrum (mother’s first milk), which gives critical antibodies.\n- It might have underlying issues you can’t see.\n\nNewborn kittens are *incredibly* fragile — even experienced rescuers lose some despite round‑the‑clock care.\n\nHere are the real questions:\n\n### 1. Can you realistically provide 24/7 care?\nA kitten only a few days old needs:\n- Feeding every 2–3 hours (yes, overnight).\n- Proper kitten milk replacer (never cow’s milk).\n- Stimulating to pee/poop after every feeding.\n- Strict warmth (they cannot regulate body temperature).\n- Constant monitoring.\n\nThat’s essentially newborn-level human baby care, but more fragile.\n\nYou already said you’re exhausted — and you’ve only just started.\n\n### 2. Do you have backup?\nIf you keep it, do you have:\n- A rescue organization you can call?\n- An experienced neonatal foster nearby?\n- Someone who can help you overnight?\n\nIf the answer is no, it’s okay to admit this may be beyond you.\n\n### 3. What would keeping it mean emotionally?\nWith a 15% survival rate, there’s a strong possibility you could do *everything right* and still lose the kitten. That is not failure — that’s neonatal reality.\n\nYou need to ask yourself:\n- Can I handle that emotionally right now?\n- Or am I already stretched too thin?\n\n---\n\n### An important truth:\nChoosing not to keep it is **not** abandoning it.\nYou already did more than most people would:\n- You stayed.\n- You waited for the mother.\n- You took it to two vets.\n\nThat’s compassion in action.\n\n---\n\n### A middle option:\nBefore deciding, call:\n- Local animal rescues (specifically ask for neonatal/“bottle baby” foster).\n- Humane societies.\n- Facebook groups for local cat rescuers.\n\nSome people specialize in exactly this stage.\n\n---\n\n### If your heart is saying “I can’t”\nIt’s okay.\nYou are not obligated to sacrifice your sleep, mental health, or stability — especially with such low odds.\n\n### If your heart is saying “I have to try”\nThen go in knowing:\n- It may not survive.\n- If it doesn’t, it will have known warmth and care instead of dying alone in a dumpster.\nAnd that matters.\n\n---\n\nCan I ask:\nAre you leaning toward keeping it because you want to — or because you’d feel guilty if you didn’t?",
+    "word_count": 447,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 602,
+      "prompt_tokens": 93,
+      "total_tokens": 695,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

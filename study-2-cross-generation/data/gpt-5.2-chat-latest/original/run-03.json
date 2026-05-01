@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 3,
+    "timestamp": "2026-05-01T15:19:39+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — I’m really glad you stopped and helped. What you did already matters.  \n\nI’m going to be honest but gentle here.\n\nA newborn kitten (especially only a few days old) is one of the hardest animals to keep alive without experience. They need:\n- Feeding every **2–3 hours, day and night**\n- Careful temperature control (they cannot regulate their body heat)\n- Help to urinate/defecate after every feeding\n- Monitoring for fading kitten syndrome, which can happen quickly\n\nEven experienced fosterers lose neonates. The vets giving a 15% survival estimate likely aren’t being pessimistic — they’re being realistic.\n\nSo the real question isn’t “should I keep it?”  \nIt’s: **Can you sustainably provide round‑the‑clock care for at least 2–3 weeks?**\n\nBeing already exhausted is important. Sleep deprivation + emotional stress is real. Neonatal care is intense.\n\nHere are your options:\n\n**1. Contact a rescue that specializes in neonates (best option if available).**  \nMany rescues have trained bottle-feeders and incubator setups. Even if shelters are full, ask specifically for a *neonatal foster network*.\n\n**2. If you keep it temporarily:**\n- Keep it warm (heating pad on LOW under half the box, towel barrier)\n- Do NOT feed if it’s cold — warm first\n- Use kitten milk replacer only (never cow’s milk)\n- Feed every 2–3 hours\n- Stimulate with a warm damp cloth after feeding\n\nBut this is intensive and emotionally hard — especially knowing survival odds are low.\n\nHere’s something important:\n\nIf the kitten doesn’t survive, that would not mean you failed.  \nDumpster neonates often decline due to hypothermia, infection, dehydration, or birth defects before they’re even found.\n\nAnd it’s also okay — truly okay — if you decide you are not able to take this on. Helping it reach a professional is still saving it the best chance it can have.\n\nCan I ask:\n- Do you have access to a 24-hour emergency vet or rescue?\n- Do you have work/school obligations that would make 2-hour feedings impossible?\n\nI can help you think through this practically and emotionally. And whatever you decide, you did a compassionate thing.",
+    "word_count": 349,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 477,
+      "prompt_tokens": 93,
+      "total_tokens": 570,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

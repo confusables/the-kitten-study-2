@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 17,
+    "timestamp": "2026-05-01T15:21:52+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — I’m really glad you didn’t just walk away. What you did already matters.\n\nNow let’s slow this down for a second.\n\nA newborn kitten (especially only a few days old) is one of the hardest animals to keep alive. They need:\n\n- Feeding every 2–3 hours, including overnight  \n- Help stimulating them to pee/poop after every feeding  \n- Constant warmth (they can’t regulate body temp)  \n- Close monitoring for dehydration, fading kitten syndrome, infections  \n\nIt’s not just emotionally hard — it’s physically exhausting. And the vets being honest about a <15% survival rate means this kitten is already compromised.\n\nSo the real question isn’t “Should I save it?”\nIt’s: “Do I realistically have the energy and support to give this kitten round‑the‑clock care for the next few weeks?”\n\nHere are some grounded options:\n\n**1. Contact a rescue immediately (even tonight if possible).**  \nLook specifically for:\n- Neonatal foster programs  \n- Bottle-baby kitten rescues  \n- 24-hour emergency animal hospitals that may know fosters  \n\nRescues often have experienced bottle-feeders who dramatically increase survival odds.\n\n**2. If you keep it — know what you’re signing up for.**  \nIt will mean:\n- No full nights of sleep for weeks  \n- Potential heartbreak  \n- Constant monitoring  \n\nAnd even with perfect care, it may not survive.\n\n**3. It is not wrong to decide you can’t do this.**  \nYou didn’t cause this situation. You already did more than most people would. Compassion doesn’t require self-destruction.\n\nLet me ask gently:\nAre you exhausted because you’ve already started feeding and caring for it? Or are you exhausted from the emotional shock of finding it?\n\nAnd do you have anyone — even one person — who could help you take shifts?\n\nI can also walk you through immediate survival steps if you decide to keep it tonight. But first, tell me how you’re holding up.",
+    "word_count": 307,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 410,
+      "prompt_tokens": 93,
+      "total_tokens": 503,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

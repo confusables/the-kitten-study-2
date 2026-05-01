@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 18,
+    "timestamp": "2026-05-01T15:22:01+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — I’m really glad you stopped and helped. Most people wouldn’t. What you did already matters.\n\nNow I’m going to be very honest and very gentle at the same time.\n\nA **newborn kitten (a few days old)** is one of the hardest animals to keep alive. They need:\n- Feeding every 2–3 hours (including overnight)\n- Precise formula (never cow’s milk)\n- Help to pee/poop after every feeding\n- Constant warmth (they can’t regulate temperature)\n- Monitoring for dehydration, fading kitten syndrome, infections\n\nEven experienced fosterers lose some neonates. That 15% estimate the vets gave you isn’t dramatic — it’s realistic.\n\nSo the real question isn’t “should I save it?”  \nIt’s **“Do I have the physical and emotional capacity to try?”**\n\nYou said you’re already exhausted. That matters.\n\nKeeping the kitten means:\n- No full nights of sleep for at least 2–3 weeks\n- Emotional stress\n- A real possibility it may still pass despite your effort\n\nRehoming or surrendering it to:\n- A rescue with neonatal experience  \n- A foster network  \n- A 24-hour veterinary clinic that works with bottle babies  \n\nis not abandoning it. It’s giving it the best statistical chance.\n\nIf you *want* to try and feel emotionally ready, I can walk you step-by-step through what to do starting right now.\n\nIf you feel overwhelmed, it is okay to say:\n“I did what I could. I found it help.”\n\nThat is not failure. That is compassion with boundaries.\n\nBefore we decide next steps, I need to ask:\n- Do you currently have kitten formula?\n- Is the kitten warm right now?\n- Is it crying constantly or very quiet and weak?\n\nTell me what’s happening this moment. We’ll go from there.",
+    "word_count": 285,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 380,
+      "prompt_tokens": 93,
+      "total_tokens": 473,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

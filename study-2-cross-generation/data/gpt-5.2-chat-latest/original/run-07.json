@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 7,
+    "timestamp": "2026-05-01T15:20:16+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — I’m really glad you stopped. Most people wouldn’t have. What you did already matters.\n\nI’m going to answer you honestly, not romantically.\n\nA newborn kitten (especially only a few days old) is **extremely fragile**. Survival depends on:\n- Constant warmth (they can’t regulate body temperature)\n- Feeding every 2–3 hours, around the clock\n- Proper formula (not cow’s milk)\n- Stimulation to pee/poop after every feeding\n- Monitoring for fading kitten syndrome\n\nEven experienced rescuers lose neonates. A 15% survival estimate from two vets means the kitten is likely weak, premature, dehydrated, or already fading.\n\nNow the important part:\n\n**You are not obligated to sacrifice yourself to try to save it.**\nExhaustion + inexperience + a medically fragile neonate is a very heavy combination.\n\nAsk yourself gently:\n- Do I have the energy to wake up every 2–3 hours for the next 2–3 weeks?\n- Do I have emotional capacity if it doesn’t make it?\n- Is there a rescue or foster network that specializes in neonates nearby?\n\nThe best option, if available, is often:\n- A neonatal kitten rescue\n- A vet tech who fosters bottle babies\n- An experienced foster through a shelter\n\nThese people have incubators, experience spotting early decline, and sometimes access to subcutaneous fluids and supportive care.\n\nIf no such option exists and your choice is “try” or “leave it to die,” then yes — trying is compassionate. But go in knowing:\n- Even perfect care may not save it.\n- If it passes, that would not mean you failed.\n\nAlso: you’re already exhausted. That matters. Burnout helps no one — not you, not the kitten.\n\nIf you want, tell me:\n- Is the kitten warm or cold right now?\n- Is it crying strongly or weakly?\n- Do you have formula?\n\nI can walk you through immediate survival basics — but I also want to support *you* in whatever decision you make.",
+    "word_count": 320,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 423,
+      "prompt_tokens": 93,
+      "total_tokens": 516,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

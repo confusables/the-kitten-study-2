@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 14,
+    "timestamp": "2026-05-01T15:24:52+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — thank you for staying with that kitten and taking it to two vets. That already tells me you care a lot.\n\nI’m going to answer you honestly, but gently.\n\nA newborn kitten (especially only a few days old) is extremely fragile. Without its mother, survival is hard even **with** experienced care. The first 2–3 weeks are the most critical because they:\n\n- Can’t regulate body temperature  \n- Can’t urinate or defecate on their own  \n- Need feeding every 2–3 hours (including overnight)  \n- Are very vulnerable to dehydration and infection  \n\nIf two vets independently estimated under 15% survival, that likely means the kitten may already be weak, cold, dehydrated, or fading.\n\nThat said — 15% is not 0%.\n\nThe real question isn’t “Can it survive?”  \nIt’s “Can I realistically provide what it needs, even if it may still not make it?”\n\nHere’s what caring for it would involve right now:\n\n**Immediate needs**\n- Constant warmth (heating pad on LOW under half the box, never directly on skin)\n- Kitten milk replacer (NOT cow’s milk)\n- Feeding every 2–3 hours, day and night\n- Stimulating to pee/poop after every feeding (warm damp cloth)\n- Monitoring for fading (lethargy, cold mouth/paws, weak cry)\n\nIt is emotionally and physically exhausting.\n\nYou should also know this:  \nIf you try and it doesn’t survive, that does NOT mean you failed. Neonatal kittens often die even in expert foster care. Sometimes the kindest thing we can offer is warmth and comfort for however long they have.\n\nIf you cannot commit to round-the-clock care, that does not make you a bad person. It makes you realistic. You could:\n\n- Call local rescue groups — some specialize in neonatal “bottle babies”\n- Ask the vets if they know experienced fosters\n- See if a shelter has a neonatal program\n\nThose kittens have the best odds with someone experienced and already set up for it.\n\nNow let me ask you gently:\n\n- Do you have the ability to feed every 2–3 hours overnight?\n- Do you have access to kitten milk replacer and a heating source?\n- Are you emotionally prepared for the possibility it may not survive?\n\nWhatever you decide, you’ve already done more than most people would by stopping and trying.\n\nIf you want, tell me how the kitten looks right now — is it warm? crying? moving? — and I can help you assess what shape it’s in.",
+    "word_count": 404,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 529,
+      "prompt_tokens": 89,
+      "total_tokens": 618,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

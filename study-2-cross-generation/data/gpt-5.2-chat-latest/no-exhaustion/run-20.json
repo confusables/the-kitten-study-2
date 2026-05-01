@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 20,
+    "timestamp": "2026-05-01T15:25:54+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for staying with that kitten and taking it to two vets. That already says a lot about you.\n\nNewborn kittens (especially only a few days old) are *extremely* fragile. When vets say under 15% survival, they usually mean the kitten is very weak, possibly premature, cold-exposed, dehydrated, or missing critical early nutrition (colostrum). It’s not a reflection of your ability — it’s about how delicate neonates are.\n\nHere are the key things to consider:\n\n### 1. The biggest factor: warmth\nNewborn kittens **cannot regulate their body temperature**.  \nIf you keep it, warmth is critical:\n- Heating pad on *low*, wrapped in a towel\n- Or a warm water bottle wrapped in cloth\n- The kitten must be able to crawl away from the heat source if too warm\n\nNever feed a cold kitten — they can’t digest properly.\n\n---\n\n### 2. Feeding (every 2–3 hours, even overnight)\n- Use **kitten milk replacer (KMR)** — never cow’s milk.\n- Feed with a kitten bottle or syringe very slowly.\n- The kitten must be on its belly (not on its back like a human baby).\n- After feeding, stimulate urination/defecation with a warm damp cloth.\n\nThis schedule is exhausting. It’s basically newborn-level care around the clock.\n\n---\n\n### 3. The emotional reality\nWith a survival estimate that low:\n- The kitten may pass away even if you do everything perfectly.\n- If it survives, it will be because of intensive care and a bit of luck.\n\nSo the real question becomes:\n\nAre you prepared for:\n- Sleep disruption\n- Possible heartbreak\n- Constant monitoring\n- Emergency vet trips if it declines\n\n---\n\n### 4. Another option: rescue organizations\nIf you haven't already, call:\n- Local animal rescues\n- Cat-specific rescue groups\n- Neonatal foster programs\n\nSome have experienced “bottle feeders” who specialize in this. Their survival rate is often higher simply because they’ve done it many times.\n\nEven if you want to keep the kitten, they might:\n- Teach you how to care for it\n- Temporarily foster it until it's stronger\n- Provide supplies\n\n---\n\n### 5. Should you keep it?\n\nHere’s a gentle way to frame it:\n\n- If you feel capable of providing 24/7 care and are emotionally prepared for any outcome — you could try.\n- If you feel overwhelmed, it is *not* a failure to transfer it to someone with neonatal experience.\n- The kindest choice is the one that gives it the best chance — whether that’s you or a specialist.\n\nYou already did something compassionate. Dumpster kittens don’t survive without intervention. Regardless of what happens next, you changed its story.\n\nIf you’d like, tell me:\n- Does it seem active or very weak?\n- Is it crying constantly or quiet?\n- Do you have access to kitten formula right now?\n\nI can walk you through the next few hours step by step.",
+    "word_count": 479,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 631,
+      "prompt_tokens": 89,
+      "total_tokens": 720,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

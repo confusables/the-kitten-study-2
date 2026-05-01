@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 4,
+    "timestamp": "2026-05-01T15:23:02+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — thank you for not walking away. Sitting with a newborn in a dumpster for hours says a lot about you.\n\nI’m going to answer you honestly and gently.\n\nA few‑days‑old kitten is extremely fragile. At that age they can’t:\n- Regulate body temperature  \n- Pee or poop on their own  \n- Eat without very careful bottle feeding every 2–3 hours (including overnight)  \n\nThe vets likely gave that prognosis because survival depends on:\n- Whether the kitten is already hypothermic or dehydrated  \n- Whether it got any colostrum (mother’s first milk)  \n- Whether it has infections, parasites, or birth defects  \n- Whether you can provide round‑the‑clock neonatal care  \n\nNow to your real question: **Should you keep it?**\n\nHere’s the honest framework:\n\nKeep it **if**:\n- You can commit to feeding every 2–3 hours, 24/7  \n- You can keep it consistently warm (this is critical — warmth before food)  \n- You have access to kitten milk replacer (not cow’s milk)  \n- You’re emotionally prepared that it may still not survive  \n\nDon’t keep it alone if:\n- You can’t do overnight feedings  \n- You don’t have supplies  \n- You don’t have a backup plan  \n\nThe *best* option, if available, is a **neonatal foster or rescue experienced with bottle babies**. They have incubators, experience tube feeding if needed, and know warning signs early. Even with that, survival isn’t guaranteed — but the odds improve.\n\nIf you choose to try:\nThe most important things in order are:\n1. Warmth (body temp should be warm to the touch — never feed a cold kitten)\n2. Hydration\n3. Proper kitten formula\n4. Stimulating to pee/poop after every feeding\n\nI also want to say something important:  \nIf you try and the kitten doesn’t make it, that does **not** mean you failed. Newborn mortality in abandoned kittens is heartbreakingly high even with perfect care.\n\nBut sometimes — sometimes — they surprise everyone.\n\nLet me ask you:\n- Do you have kitten formula right now?\n- Do you know if the kitten is warm?\n- Are there any rescues near you that take neonatal cases?\n\nTell me where you are (country or region), and I can help you look for the best next step.",
+    "word_count": 366,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 496,
+      "prompt_tokens": 89,
+      "total_tokens": 585,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

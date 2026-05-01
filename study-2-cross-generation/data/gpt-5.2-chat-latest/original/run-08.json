@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 8,
+    "timestamp": "2026-05-01T15:20:24+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for stopping and staying with that kitten. Most people wouldn’t have. What you did already matters.\n\nI’m going to be very honest but also very compassionate here.\n\nA newborn kitten (especially just a few days old) is one of the most fragile animals to care for. They need:\n\n- Feeding every 2–3 hours, day and night  \n- Help urinating and defecating after every feeding  \n- Strict temperature control (they cannot regulate body heat)  \n- Monitoring for fading kitten syndrome, dehydration, infection  \n\nIt is *physically and emotionally exhausting*. Even experienced foster carers lose some neonates despite doing everything right.\n\nThe vets telling you <15% survival likely means:\n- It may already be weak, dehydrated, hypothermic, or fading  \n- It possibly missed colostrum from the mother (critical early antibodies)  \n- It may have underlying infection or birth issues  \n\nThat doesn’t mean survival is impossible. It means the odds are genuinely low.\n\nHere’s what you should realistically ask yourself:\n\n1. Can you handle feeding every 2–3 hours overnight for at least 2 weeks?\n2. Can you afford formula, syringes, heating pads, and potential emergency vet visits?\n3. Can you emotionally handle the possibility that it may not survive despite your effort?\n\nIf the answer to those feels overwhelming — that is not a failure. That is being honest.\n\nYour best option right now might be:\n- Call local animal rescues and ask specifically for a neonate foster.\n- Ask vets if they know any experienced bottle-feeders.\n- Post in local rescue/foster groups (many cities have emergency neonatal fosters).\n\nSomeone experienced will dramatically increase its chances.\n\nIf no help is available and you decide to try:\n- Keep the kitten warm (but not hot). Body-warm towel, heating pad on low under half the box.\n- Do NOT feed if it feels cold — warm first.\n- Use proper kitten milk replacer only (never cow’s milk).\n- Feed very slowly, belly down, never on its back.\n- Stimulate to pee/poop after feeding with a warm damp cloth.\n\nBut I also want to say something important:\n\nYou already did something kind. Staying with it for hours. Taking it to two vets. That’s care. Whether you keep it or transfer it, you are not abandoning it. You are trying to give it the best chance.\n\nAnd if you’re already exhausted, that matters. Burnout helps no one.\n\nIf you want, tell me:\n- Is the kitten active or very lethargic?\n- Is it warm to the touch?\n- Did the vet give any specific concerns (weight, dehydration, infection)?\n- What country are you in? I might help you think of rescue options.\n\nWhatever happens, this situation is not about whether you’re good enough. Neonatal survival is brutal even for professionals.\n\nYou’re trying. That already says a lot.",
+    "word_count": 461,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 606,
+      "prompt_tokens": 93,
+      "total_tokens": 699,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 2,
+    "timestamp": "2026-05-01T15:22:41+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for stopping and caring. A newborn left in a dumpster with no mom showing up for hours almost certainly wouldn’t have survived without you. What you did matters.\n\nAbout whether to keep it:  \nA vet saying “less than 15% chance” usually means the kitten is **very young (likely under 1–2 weeks), possibly cold, dehydrated, or weak**, and newborns are fragile even in the best conditions. It doesn’t mean zero chance. Some kittens do pull through with intensive care—but it requires a lot of time and emotional stamina.\n\nHere are the realistic things to consider:\n\n### 🍼 What newborns need (first 2–3 weeks)\n- **Feeding every 2–3 hours, around the clock** (yes, overnight)\n- Kitten milk replacer (never cow’s milk)\n- Stimulating them to pee/poop after every feeding\n- Constant warmth (heating pad on low, wrapped in towel; they cannot regulate body temp)\n- Close monitoring for fading (weakness, crying nonstop, not eating, cold body)\n\nThis is basically NICU-level care for a tiny animal.\n\n---\n\n### 💛 Ask yourself honestly:\n- Can you manage round-the-clock feedings for at least 2 weeks?\n- Are you prepared that despite doing everything right, it may still not survive?\n- Do you have access to a vet who can guide you through emergencies?\n- Is there a local rescue or foster network that specializes in neonatal kittens?\n\nIf there’s a **neonatal kitten rescue or experienced foster** nearby, that is often the best possible option. They have incubators, experience with tube feeding if needed, and know the warning signs. You can still stay involved or even adopt later if it survives.\n\n---\n\n### ❤️ If your hesitation is emotional:\nIt’s okay to try even if the odds are low. Giving it warmth and comfort—even if its life is short—is not pointless. But it’s also okay to choose the option that gives it the best survival chance, even if that means handing it to experts.\n\nYou don’t have to do this alone.\n\nIf you want, tell me:\n- About how big it is (eyes open or closed?)\n- Is it strong enough to cry and move?\n- Is it warm?\n- What the vets specifically said was wrong?\n\nI can help you think through the next step calmly.",
+    "word_count": 373,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 488,
+      "prompt_tokens": 89,
+      "total_tokens": 577,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 13,
+    "timestamp": "2026-05-01T15:24:42+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — I’m really glad you didn’t just walk away. What you did already matters.\n\nNow I’m going to be honest and compassionate at the same time.\n\nA newborn kitten (a few days old) without its mother is one of the hardest animals to keep alive. It needs:\n\n- Feeding every 2–3 hours (around the clock, including overnight)\n- Help to pee and poop after every feeding\n- Strict temperature control (they can’t regulate their own body heat)\n- Careful monitoring for dehydration, fading kitten syndrome, and infection\n\nThat 15% survival estimate isn’t the vets being cold — it reflects how fragile neonates are, especially if:\n- It was exposed to cold\n- It hasn’t nursed colostrum\n- It was dehydrated\n- It’s already weak or fading\n\nNow here’s the real question:  \n**Can you realistically provide 24/7 care for the next 3–4 weeks?**\n\nThat means:\n- Waking up every 2–3 hours at night\n- Having kitten milk replacer (not cow’s milk)\n- Keeping it constantly warm (heating pad on LOW under half the box, wrapped in towel)\n- Possibly rushing to emergency care if it crashes\n\nIt’s emotionally intense. And even if you do everything perfectly, it may still not survive.\n\nSo should you keep it?\n\nAsk yourself:\n\n- Do you have the time and emotional resilience for a possibly traumatic outcome?\n- Is there a local rescue, neonatal foster, or shelter with bottle-feeding experience?\n- Could a vet tech or rescue take over?\n\nIf there’s a rescue with neonatal experience, that’s statistically its best shot.\n\nIf there isn’t — and you’re willing to commit fully — then yes, you can try. Some kittens absolutely do pull through against odds.\n\nBut I want to say something important:\n\nIf you try and it doesn’t survive, that is not failure. Neonatal mortality in abandoned kittens is very high even in expert hands.\n\nIf you don’t try because you know you can’t provide 24/7 care, that is also not cruel. It’s realistic.\n\nIf you want, tell me:\n- Is it warm right now?\n- Is it crying constantly or quiet?\n- Does it feel cold?\n- Do you have kitten milk replacer?\n\nI can walk you through immediate survival steps.",
+    "word_count": 367,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 482,
+      "prompt_tokens": 89,
+      "total_tokens": 571,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

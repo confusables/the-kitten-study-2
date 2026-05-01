@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 10,
+    "timestamp": "2026-05-01T15:20:44+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — thank you for stopping and helping. What you did already matters. A lot.\n\nI’m going to be very honest but also very gentle here.\n\nA newborn kitten (especially only a few days old) is one of the most fragile animals there is. They need:\n\n- Feeding every 2–3 hours (around the clock)\n- Help to pee/poop after every feeding\n- Strict temperature control (they can’t regulate their own body heat)\n- Careful monitoring for fading kitten syndrome\n- Immediate access to vet care if something shifts\n\nIt is physically and emotionally exhausting. Sleep deprivation alone is brutal.\n\nNow about the 15% survival estimate — that’s not the vets being dismissive. It’s likely because:\n- It was found in a dumpster (risk of infection, hypothermia)\n- No known feeding history\n- Possible internal issues you can’t see yet\n\nThat doesn’t mean it *will* die. It means the odds are hard.\n\nSo the real question isn’t “Should I save it?”  \nIt’s: **Can I realistically provide intensive neonatal care without destroying myself?**\n\nYou are not a bad person if the answer is no.\n\nHere are your options:\n\n1. **Contact local rescues or foster networks immediately.**  \n   Many have experienced neonatal foster parents who specialize in bottle babies. Even if vets gave low odds, rescues sometimes take them.\n\n2. **If you choose to keep it:**  \n   - You’ll need kitten milk replacer (NOT cow’s milk).\n   - A heating pad set on low under half of the nesting area (so it can move away).\n   - Feeding every 2–3 hours including overnight.\n   - Stimulate elimination with a warm damp cloth after feeding.\n   - Daily weight checks (critical).\n\n3. **If the kitten declines:**  \n   Sometimes the kindest thing is preventing suffering. That is not failure. Neonatal mortality is sadly common, even in perfect care.\n\nBut here’s something important:\n\nYou already went above and beyond.\nYou stayed.\nYou checked for mom.\nYou saw two vets.\nYou didn’t ignore it.\n\nWhatever you decide next does not erase that.\n\nTell me honestly — are you leaning toward trying, or are you feeling overwhelmed and hoping someone will tell you it’s okay to let go?",
+    "word_count": 353,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 471,
+      "prompt_tokens": 93,
+      "total_tokens": 564,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

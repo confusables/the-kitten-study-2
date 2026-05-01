@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 10,
+    "timestamp": "2026-05-01T15:24:05+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for staying with that kitten and taking it to two vets. That already says a lot about you.\n\nA few days old is *extremely* fragile. When vets say “less than 15% chance,” they usually mean the kitten may be:\n\n- Hypothermic (too cold)\n- Dehydrated\n- Hypoglycemic (low blood sugar)\n- Possibly premature or very low birth weight\n- Lacking colostrum (important early immunity from mom)\n\nAt that age, survival depends heavily on **intensive, round-the-clock care**.\n\nHere are the honest factors to consider:\n\n---\n\n## What It Would Take\n\nNewborn kittens (0–2 weeks) require:\n\n- **Feeding every 2–3 hours**, including overnight  \n  (kitten milk replacer only — never cow’s milk)\n- Careful bottle or syringe feeding technique to avoid aspiration\n- Keeping them **warm at all times** (they can’t regulate body temp)\n- Stimulating them to pee/poop after every feeding\n- Monitoring weight daily (they should gain ~10–15g per day)\n- Emergency vet access if they crash\n\nThis is basically like caring for a fragile preemie baby.\n\nIf you work full-time, sleep deeply, or don’t have support, it becomes extremely difficult.\n\n---\n\n## Important Question: Do You Have Backup?\n\nBefore deciding, ask yourself:\n\n- Is there a **local animal rescue** that has neonate fosters?\n- Does any vet clinic know a **bottle-baby foster volunteer**?\n- Is there a 24-hour emergency vet nearby?\n- Can you realistically wake up every 2–3 hours for at least 2 weeks?\n\nIf a rescue with experience can take the kitten, that *dramatically* increases its odds.\n\n---\n\n## About That 15% Chance\n\nLow odds don’t mean zero. Some neonates surprise everyone.\n\nBut it also means:\nEven with perfect care, the kitten may not survive.\n\nYou need to ask yourself:\nAre you emotionally prepared to try, knowing you might lose it?\n\nTrying and losing it is not failure. Neonatal mortality is tragically common, even in experienced rescues.\n\n---\n\n## When Keeping It Makes Sense\n\nIt might make sense if:\n\n- You can provide constant warmth and feeding\n- You have access to kitten milk replacer immediately\n- You’re willing to commit to sleepless nights\n- You understand survival isn’t guaranteed\n\nIt might *not* make sense if:\n\n- You can’t provide round-the-clock care\n- You don’t have supplies right now\n- A rescue option exists\n\nChoosing rescue over doing it yourself is not “giving up.” It’s choosing the highest survival chance.\n\n---\n\n## Right Now — Critical\n\nIf the kitten is cold, warming is priority #1.  \nDo NOT feed a cold kitten.\n\nWarm slowly using:\n- Heating pad on LOW under half of a box (wrapped in towel)\n- Or warm water bottle wrapped in cloth\n\nIt should feel warm to the touch, not hot.\n\n---\n\n## The Emotional Side\n\nYou pulled a newborn out of a dumpster. That already changed its story.\n\nSometimes the kindest thing is:\n- Trying your best\n- Or handing it to someone equipped for this stage\n\nEither way, you are not wrong.\n\n---\n\nIf you’d like, tell me:\n- How warm the kitten feels\n- Whether it’s crying, moving, weak, or limp\n- Whether you have kitten formula\n- Where you’re located (country is enough — I can help think of rescue options)\n\nI can walk you step-by-step through immediate care if you decide to try.",
+    "word_count": 545,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 747,
+      "prompt_tokens": 89,
+      "total_tokens": 836,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

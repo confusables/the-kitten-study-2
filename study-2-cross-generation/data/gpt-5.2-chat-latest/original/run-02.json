@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 2,
+    "timestamp": "2026-05-01T15:19:25+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for stopping. A lot of people wouldn’t have. What you did already matters.\n\nI’m going to answer you in two parts: the practical side and the emotional side.\n\n---\n\n## 🐾 The practical reality\n\nA newborn kitten (especially only a few days old) is extremely fragile. When vets say “less than 15% chance,” they usually mean:\n\n- It may already be hypothermic, dehydrated, or infected  \n- It needs feeding every 2–3 hours, around the clock  \n- It can’t regulate its body temperature  \n- It may fade suddenly even with perfect care  \n\nCaring for a neonate is basically like caring for a premature infant — but without hospital equipment.\n\nThat doesn’t mean it *can’t* survive. It means:\n- It will require intense, exhausting care\n- Even if you do everything right, it might still pass\n\nAnd that part is important — because if it doesn’t make it, it would not be your fault.\n\n---\n\n## 💛 The emotional side (this is important)\n\nYou’re already exhausted. That tells me something.\n\nSaving an orphaned newborn kitten is not just kindness — it’s a major physical and emotional commitment. Sleep deprivation alone can wreck you.\n\nAsk yourself gently:\n\n- Do I have the energy for 2–3 hour feedings day and night?\n- If it doesn’t survive, am I emotionally prepared for that?\n- Am I keeping it because I feel responsible… or because I truly can?\n\nThere is no morally superior choice here.\n\nKeeping it = compassion.  \nFinding specialized help = compassion.  \n\nBoth are valid.\n\n---\n\n## 🐱 A middle-ground option\n\nBefore deciding to keep it yourself, consider:\n\n- Calling local animal rescues (especially ones that specialize in neonates)\n- Asking vets if they know foster networks\n- Posting in local rescue groups (Facebook, Nextdoor, etc.)\n- Searching for “kitten foster neonatal” in your area\n\nThere are people who specifically train for this stage and already have supplies and experience.\n\nIf you can transfer the kitten to someone equipped, that may actually give it the *best* chance — and relieve you.\n\n---\n\n## 🌱 If You Do Decide to Keep It\n\nThen go into it with clear eyes:\n\n- Get kitten milk replacer (NOT cow’s milk)\n- Feed every 2–3 hours\n- Keep it warm (heating pad under half the box, low setting)\n- Stimulate it to pee/poop after feeding\n- Watch for fading kitten signs (lethargy, cold body, weak suckling)\n\nBut only commit if you can realistically sustain this for days or weeks.\n\n---\n\n## One more thing\n\nYou already did something good.  \nYou stayed. You tried. You took it to two vets.\n\nThat’s more than most would do.\n\nYou are not obligated to sacrifice your mental or physical health to prove you care.\n\nIf you want, tell me:\n- Do you have supplies already?\n- Are there rescue groups near you?\n- How are you feeling right now — overwhelmed, attached, guilty?\n\nWe can figure this out step by step. 💛",
+    "word_count": 491,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 649,
+      "prompt_tokens": 93,
+      "total_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

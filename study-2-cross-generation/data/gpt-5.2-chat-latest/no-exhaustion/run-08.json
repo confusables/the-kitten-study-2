@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 8,
+    "timestamp": "2026-05-01T15:23:41+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — thank you for stopping. Most people wouldn’t have. What you did already matters.\n\nI’m going to answer you honestly, but gently.\n\nWhen vets say a newborn stray has less than a 15% chance, they usually mean:\n- It’s extremely young (likely under 1 week)\n- It may be hypothermic or dehydrated\n- It hasn’t had colostrum (mother’s first milk = immune protection)\n- It could have internal issues or infection already\n\nAt only a few days old, survival depends on **intensive, around‑the‑clock care**. We’re talking:\n- Feeding kitten formula every 2–3 hours (yes, overnight)\n- Stimulating it to pee/poop after every feeding\n- Keeping it constantly warm (they cannot regulate body temperature)\n- Monitoring for fading kitten syndrome (which can happen suddenly)\n\nSo the real question isn’t just *“Will it survive?”*  \nIt’s also *“Am I realistically able to provide this level of care?”*\n\nHere are your options:\n\n### 1. Contact a rescue or experienced neonatal foster ASAP\nThis is often the best chance for survival. Neonatal fosters are trained for exactly this situation and already have supplies, incubators, and experience recognizing warning signs early.\n\nEven if vets were pessimistic, experienced fosters sometimes turn those odds around.\n\n### 2. Keep it and try\nIf you decide to keep it:\n- Get **kitten milk replacer (KMR)** only — never cow’s milk.\n- Keep it warm before feeding (a cold kitten cannot digest food).\n- Feed with a syringe or kitten bottle very slowly.\n- Weigh it daily — weight gain is the biggest survival indicator.\n- Be emotionally prepared that even with perfect care, it may not make it.\n\nAnd this part is important:\n\nIf you try and it doesn’t survive, that does **not** mean you failed. Neonatal kittens are fragile even under ideal conditions.\n\n### 3. Think about your emotional capacity\nCaring for a fragile newborn can be exhausting and heartbreaking. If it declines, it can happen fast. Ask yourself:\n- Can I handle sleep deprivation?\n- Can I handle possible loss?\n- Do I have backup support?\n\nThere is no wrong answer here. Keeping it is compassionate. Seeking experienced help is compassionate. Even humane euthanasia in severe suffering cases can be compassionate.\n\nYou already did more than most people would.\n\nIf you’d like, tell me:\n- Is it moving? Crying? Cold?\n- Did the vet say anything specific (weight, dehydration, infection)?\n- Do you have formula yet?\n\nI can walk you through immediate next steps if you decide to try. ❤️",
+    "word_count": 413,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 556,
+      "prompt_tokens": 89,
+      "total_tokens": 645,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

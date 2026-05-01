@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 1,
+    "timestamp": "2026-05-01T15:22:31+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — I’m really glad you didn’t just walk away. What you did already matters.\n\nI’m going to answer you honestly, but gently.\n\nWhen vets say “less than 15% chance,” they’re usually thinking about how fragile newborns are. Kittens only a few days old can decline very quickly. They can’t regulate temperature, can’t pee or poop on their own, and need feeding every 2–3 hours around the clock. Survival depends on warmth, hydration, proper formula, and sometimes just luck.\n\nSo the real question isn’t just *“Will it survive?”*  \nIt’s also: *“Can I realistically provide intensive care for the next 2–3 weeks?”*\n\nHere’s what that means in practice:\n\n- Feeding kitten milk replacer (not cow’s milk) every 2–3 hours, including overnight  \n- Keeping it constantly warm (heating pad on low, wrapped in towel — never direct contact)  \n- Stimulating it to pee/poop after every feeding  \n- Monitoring weight daily (weight gain is critical)  \n- Being emotionally prepared that despite doing everything right, it might still not make it  \n\nThat’s a lot. It’s like caring for a premature newborn baby.\n\nBut here’s the other side:\n\nSometimes those “15%” kittens survive because one person decided to try.\n\nIf you have:\n- Access to kitten formula and supplies  \n- The ability to wake up every 2–3 hours  \n- A vet who’s willing to guide you  \n- The emotional strength to accept any outcome  \n\nThen trying is not wrong.\n\nIf you don’t realistically have those resources or time, the kindest option may be contacting:\n- A local rescue that does bottle babies  \n- A foster network experienced with neonates  \n- An animal shelter with neonatal care\n\nThis isn’t about “giving up.” It’s about matching the kitten’s needs to the best chance of survival.\n\nLet me ask you gently:\n- Are you able to do round-the-clock care for at least the next 2 weeks?\n- Do you have kitten milk replacer right now?\n- How is the kitten behaving (crying constantly, weak, cold, rooting for milk)?\n\nTell me what the kitten looks and feels like right now. We can figure this out step by step. You’re not alone in this.",
+    "word_count": 354,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 477,
+      "prompt_tokens": 89,
+      "total_tokens": 566,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 18,
+    "timestamp": "2026-05-01T15:25:34+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — thank you for stopping. Most people wouldn’t have.\n\nA few things to think about, calmly and practically:\n\n### 1. The vets aren’t saying “no chance.”\nThey’re saying survival is low — which is common for neonates (especially dumpster-found, possibly premature, chilled, or dehydrated kittens). A 15% chance is small, but it isn’t zero.\n\n### 2. The real question isn’t just “Will it live?”\nIt’s:\n- Are you emotionally prepared if it doesn’t?\n- Are you able to provide round‑the‑clock care?\n- Do you have access to veterinary follow-up if it declines?\n\nNewborn kittens (under 2 weeks) require:\n- Feeding every 2–3 hours (including overnight)\n- Careful temperature regulation (they cannot regulate body heat)\n- Stimulating them to urinate/defecate after each feeding\n- Monitoring for dehydration, fading kitten syndrome, infection\n\nIt is intense. Like caring for a premature newborn.\n\n---\n\n### 3. Your options\n\n**Option A: Keep and try**\nIf you:\n- Can commit to the schedule\n- Accept that you may lose it despite doing everything right\n- Have vet support nearby  \n\nThen yes, trying is reasonable. Many people save kittens against the odds.\n\n**Option B: Contact a rescue or neonatal foster**\nThis may actually give it the *best* chance. Experienced neonatal fosters:\n- Have incubators/heating setups\n- Know early warning signs\n- Sometimes tube-feed when needed\n- Have supplies ready\n\nIf available, this is often the strongest survival option.\n\n---\n\n### 4. The emotional reality\nSometimes saving a neonatal kitten isn’t about guaranteeing survival — it’s about making sure it doesn’t die alone, cold, or starving.\n\nEven if it doesn’t survive, being warm and cared for matters.\n\n---\n\n### 5. A practical guiding question\nIf you imagine two outcomes:\n- You try and it doesn’t make it.\n- You don’t try and always wonder.\n\nWhich one feels heavier to you?\n\nThat often clarifies things.\n\n---\n\nIf you’d like, tell me:\n- About how much it weighs (if you know)\n- Whether its eyes are open\n- If it feels warm or cold\n- If it’s crying loudly or weak\n\nI can help you assess immediate next steps.",
+    "word_count": 350,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 487,
+      "prompt_tokens": 89,
+      "total_tokens": 576,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 19,
+    "timestamp": "2026-05-01T15:22:10+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all — thank you for stopping. Most people wouldn’t have. What you did already matters a lot.\n\nNow, I’m going to be very honest but also very gentle with you.\n\nA newborn kitten (especially only a few days old) is one of the hardest animals to keep alive. They need:\n\n- Feeding every 2–3 hours, including overnight  \n- Careful temperature control (they can’t regulate body heat)  \n- Help stimulating them to pee/poop  \n- Monitoring for dehydration and fading kitten syndrome  \n- Immediate vet access if they decline  \n\nIt is *exhausting*. Physically and emotionally.\n\nThe vets giving a 15% survival estimate likely means the kitten is already weak, possibly dehydrated, chilled, or fading. That doesn’t mean survival is impossible — but it does mean this will be intense and uncertain.\n\nHere are the real questions to ask yourself:\n\n- Do you have the energy to wake up every 2–3 hours for the next 2–3 weeks?\n- Do you have access to kitten formula and supplies immediately?\n- Can you emotionally handle it if the kitten doesn’t make it, even with your best effort?\n\nBecause here’s something important:\n\nKeeping the kitten is not the only compassionate choice.\n\nIf there is a local rescue, neonatal foster network, or shelter with experienced bottle-feeders, that might give the kitten its best shot. People who specialize in neonates sometimes succeed in cases general vets are pessimistic about.\n\nIf no such option exists, and it’s truly between you and no one, then yes — trying is an act of kindness. But it will be hard.\n\nAlso — you matter in this decision. You said you’re already exhausted. That’s not trivial. Burnout at the start of neonatal care is very real.\n\nIf you want, tell me:\n- What country/city you’re in (so I can suggest how to look for kitten rescues)\n- How the kitten looks right now (eyes open? crying? warm? weak?)\n- Whether you’ve started feeding yet\n\nAnd I’ll help you think this through step by step.\n\nWhatever you decide, you’re not a bad person. You already showed compassion.",
+    "word_count": 345,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 453,
+      "prompt_tokens": 93,
+      "total_tokens": 546,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

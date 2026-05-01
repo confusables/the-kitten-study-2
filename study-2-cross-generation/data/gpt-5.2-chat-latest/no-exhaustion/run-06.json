@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 6,
+    "timestamp": "2026-05-01T15:23:21+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for not walking away. Staying with it and taking it to two vets already means you’ve done more than most people would.\n\nNow, about whether you *should* keep it:\n\nA newborn kitten (especially only a few days old) is extremely fragile. The biggest risks are:\n- **Hypothermia (can’t regulate body temp)**\n- **Dehydration**\n- **Low blood sugar**\n- **Infection**\n- **Needing round‑the‑clock feeding (every 2–3 hours, including overnight)**\n\nWhen vets say 15% chance, they’re usually being realistic about how hard it is without the mother — not saying it’s impossible.\n\nHere are the key things to consider:\n\n### ✅ Keep it *if*:\n- You can provide **24/7 care for at least 2–3 weeks**\n- You’re emotionally prepared for the possibility it may not survive\n- You can afford kitten formula, supplies, and possible emergency vet visits\n- You’re willing to learn quickly and follow strict care routines\n\n### ⚠️ It may be better to transfer to:\n- A **neonatal kitten rescue**\n- A **foster experienced in bottle babies**\n- A vet clinic that does neonatal care\n\nExperienced neonatal fosters sometimes have higher survival rates simply because they’ve done it many times and know early warning signs.\n\n---\n\nIf you decide to try:\n\n**Critical basics (first 48 hours especially):**\n1. **Warmth first, always**  \n   A chilled kitten cannot digest food. Keep them at ~85–90°F (29–32°C). Use a heating pad on LOW under half the box (so it can move away if too warm).\n\n2. **Kitten milk replacer only**  \n   Never cow’s milk. Feed every 2–3 hours. Small amounts.\n\n3. **Stimulate to pee/poop**  \n   After every feeding, gently rub genital area with warm damp cotton.\n\n4. **Daily weight checks**  \n   A digital kitchen scale. They should gain ~10–15 grams per day. Not gaining = emergency.\n\n---\n\n### The emotional side\n\nYou’re not wrong if you:\n- Try and it doesn’t survive.\n- Decide you can’t take this on.\n- Feel attached already.\n\nSaving neonates is often about giving them *a chance*, not guaranteeing an outcome.\n\nIf you want, tell me:\n- Does it still have its umbilical cord?\n- Is it warm to the touch?\n- Is it crying constantly or very weak?\n- Have you fed it yet?\n\nI can help you figure out the next right step.",
+    "word_count": 375,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 545,
+      "prompt_tokens": 89,
+      "total_tokens": 634,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

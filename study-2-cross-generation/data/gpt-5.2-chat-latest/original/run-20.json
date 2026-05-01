@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 20,
+    "timestamp": "2026-05-01T15:22:21+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for stopping. Sitting there for hours and then taking that tiny kitten to two vets says a lot about you.\n\nI’m going to be very honest, but gentle.\n\nA kitten that’s only a few days old is one of the hardest animals to keep alive. They need:\n\n- Feeding every **2–3 hours**, including overnight  \n- Help peeing and pooping every time  \n- Constant warmth (they can’t regulate body temperature)  \n- Monitoring for dehydration, fading kitten syndrome, infection  \n\nEven experienced foster carers lose neonates. When vets are saying under 15% chance, that usually means the kitten is already very compromised — maybe dehydrated, hypothermic, weak, or sick.\n\nSo here’s the important part:\n\n**You are not obligated to sacrifice your mental and physical health for this kitten.**\n\nBeing exhausted right now is already a sign this is taking a toll. Sleep deprivation alone can make it unsafe to continue round‑the‑clock care.\n\nBefore deciding, ask yourself:\n- Do I realistically have the ability to wake up every 2–3 hours for days?\n- Do I have access to kitten formula, syringes/bottles, heating pad, and possibly emergency vet care?\n- If the kitten declines, am I emotionally prepared for that?\n\nIf the answer to any of these is “I don’t know” or “probably not,” that’s not a failure. That’s honesty.\n\nHere are options that don’t mean “giving up”:\n\n- Contact local animal rescues and ask specifically for a **neonatal foster**.\n- Ask vets if they know a bottle-feeder or foster network.\n- Look for local Facebook rescue groups — sometimes experienced fosters will step in urgently.\n- Ask if humane euthanasia is an option if the kitten is suffering and prognosis is extremely poor. That can be an act of mercy, not cruelty.\n\nIf you *want* to try and feel capable, I can walk you through the basics step-by-step. But I will not sugarcoat how intense it is.\n\nWhatever you decide:\nYou already did something compassionate.\nYou didn’t ignore the kitten.\nYou sought help.\n\nThat matters.\n\nTell me:\n- Is the kitten warm right now?\n- Is it crying, weak, or limp?\n- Do you have formula and a way to keep it warm?\n\nWe can take this one step at a time. 🐾",
+    "word_count": 371,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 489,
+      "prompt_tokens": 93,
+      "total_tokens": 582,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

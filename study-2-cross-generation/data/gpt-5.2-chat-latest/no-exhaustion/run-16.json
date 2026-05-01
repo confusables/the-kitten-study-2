@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 16,
+    "timestamp": "2026-05-01T15:25:11+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for stopping and caring. A lot of people wouldn’t have.\n\nA newborn kitten only a few days old is extremely fragile. When vets estimate a 15% survival chance, they’re usually considering things like low birth weight, dehydration, hypothermia, infection risk, or lack of colostrum (mother’s first milk). At that age, survival depends on **intensive, round‑the‑clock care**.\n\nWhether you should keep it comes down to three main things:\n\n### 1. Are you realistically able to provide 24/7 care?\nNewborn kittens need:\n- **Feeding every 2–3 hours** (including overnight)\n- Kitten milk replacer only (never cow’s milk)\n- Careful warming (they can’t regulate body temp)\n- Help stimulating urination/defecation after each feeding\n- Daily weight monitoring\n\nIt’s basically neonatal ICU-level care at home.\n\n### 2. Do you have support?\n- Is there a **rescue organization or experienced foster** nearby?\n- Some rescues specialize in neonates and may have incubators, tube feeding skills, and experience that greatly improve survival odds.\n\nEven if you want to keep it, you could ask a rescue for mentoring support.\n\n### 3. Are you emotionally prepared?\nEven with perfect care, some neonates don’t survive. It’s not a reflection of effort or love. You’d need to be prepared for that possibility.\n\n---\n\n### When keeping it makes sense:\n- You can commit to the feeding schedule.\n- No experienced rescue is available.\n- You’re prepared for both outcomes.\n- The kitten is still responsive (warm, able to swallow, not gasping).\n\n### When transferring is better:\n- You can’t maintain round‑the‑clock care.\n- The kitten is very weak, cold, limp, or not suckling.\n- A rescue with neonatal experience is available.\n\n---\n\nIf you’d like, tell me:\n- Is the kitten warm?\n- Is it able to suckle?\n- What does it weigh?\n- Do you have kitten milk replacer?\n\nI can walk you through what the next 24 hours would look like so you can decide more clearly.\n\nWhatever you choose, you already did something kind and important.",
+    "word_count": 331,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 469,
+      "prompt_tokens": 89,
+      "total_tokens": 558,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

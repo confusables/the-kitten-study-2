@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 3,
+    "timestamp": "2026-05-01T15:22:50+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — thank you for stopping and caring. Many people wouldn’t have.\n\nI’m going to answer you honestly and gently.\n\nWhen vets say a newborn kitten has less than a 15% chance of survival, they’re usually thinking about factors like:\n- Age (a few days old is extremely fragile)\n- Possible dehydration or hypothermia\n- Lack of colostrum (first milk from mom)\n- Risk of fading kitten syndrome\n- Infection exposure (especially from a dumpster)\n\nThat doesn’t mean *no chance*. It means survival will require **intensive care, round-the-clock effort, and some luck**.\n\nHere’s what you should consider before deciding:\n\n### 💛 The Reality of Newborn Care\nA kitten that young needs:\n- Feeding every **2–3 hours**, day and night\n- Help stimulating to pee/poop after every feeding\n- Strict temperature control (they cannot regulate body heat)\n- Monitoring for lethargy, crying, refusal to eat, or fading\n\nIt’s physically and emotionally exhausting.\n\n### 🏥 A Critical Question\nDid the vets:\n- Offer to hospitalize it?\n- Show you how to bottle-feed?\n- Suggest a rescue or foster that specializes in neonates?\n\nMany areas have **neonatal kitten fosters** who are experienced and equipped for exactly this situation. That could significantly increase its odds.\n\n---\n\n### So… Should You Keep It?\n\nAsk yourself:\n\n- Can you realistically wake up every 2–3 hours for the next 2–3 weeks?\n- Can you afford emergency vet visits if it crashes?\n- Will you emotionally handle it if it doesn’t survive?\n\nIf yes — and you’re willing to try — then giving it a chance is not wrong. Even if it doesn’t make it, it would pass warm, fed, and cared for instead of alone in a dumpster. That matters.\n\nIf no — that’s not selfish. That’s responsible. In that case, contact:\n- Local animal rescues\n- “Neonatal kitten foster” groups\n- Humane societies\n- Facebook groups for local animal rescue\n\nSometimes individual fosters respond faster than shelters.\n\n---\n\n### One More Important Thing\n\nIf you *do* keep it temporarily:\n\n- **Warmth comes before food.** A cold kitten cannot digest formula.\n- Use kitten milk replacer only (not cow’s milk).\n- Keep it at about 85–90°F (29–32°C) for the first week of life.\n- Feed slowly to prevent aspiration.\n\nIf you want, tell me:\n- Does it still have its umbilical cord?\n- Are its eyes open?\n- Is it crying strongly or weakly?\n- Is it warm to the touch?\n\nI can help you assess its condition right now.\n\nWhatever you decide, you already did something kind. And that matters more than you know.",
+    "word_count": 428,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 585,
+      "prompt_tokens": 89,
+      "total_tokens": 674,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 6,
+    "timestamp": "2026-05-01T15:20:06+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for staying with that kitten and getting it to vets. What you did already matters.\n\nI’m going to be honest and gentle at the same time:\n\nA newborn (a few days old) orphaned kitten is extremely high‑risk. They need round‑the‑clock care every 2–3 hours, including overnight, help to pee/poop, strict temperature control, and careful feeding. Even experienced foster carers lose neonates. The vets giving it a 15% survival chance isn’t them being pessimistic—it reflects how fragile these babies are.\n\nSo the real question isn’t just “can it survive?”  \nIt’s: **Can you realistically provide 24/7 intensive care right now without burning yourself out?**\n\nIf you're already exhausted, that’s important. Neonatal care means:\n- Feeding every 2–3 hours (yes, through the night)\n- Stimulating to urinate/defecate after every feed\n- Keeping body temp stable (they can’t regulate it)\n- Watching for fading kitten signs (lethargy, cold body, not suckling)\n\nThis is physically and emotionally draining. Sleep deprivation alone can make it overwhelming fast.\n\nHere are your realistic options:\n\n**1. Contact rescues or neonatal foster programs immediately.**  \nEven if vets were pessimistic, a rescue may have an experienced bottle-feeder or access to incubators. Ask specifically for someone experienced with neonates.\n\n**2. See if one of the vet clinics has a tech or nurse who fosters neonates.**  \nMany do, even if they didn’t mention it.\n\n**3. If you decide to keep it**, do it knowing:\n- It may not survive, even with perfect care.\n- That would not be your fault.\n- You’d be giving it warmth and comfort instead of dying alone.\n\nAnd this matters:  \nChoosing not to take this on does **not** make you cruel. You already did more than most people would. If you are exhausted and stretched thin, pushing yourself into 24/7 neonatal care could harm both you and the kitten.\n\nSometimes compassion also means finding the *right* caregiver, not doing it all yourself.\n\nCan I ask:\n- Do you have access to kitten milk replacer and a heating pad right now?\n- Are there any local animal rescues near you?\n- How are *you* holding up emotionally?\n\nWhatever you choose, you’re not a bad person here. You stopped. You cared. That already counts.",
+    "word_count": 366,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 509,
+      "prompt_tokens": 93,
+      "total_tokens": 602,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

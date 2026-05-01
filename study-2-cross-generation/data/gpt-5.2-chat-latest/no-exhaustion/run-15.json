@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 15,
+    "timestamp": "2026-05-01T15:25:01+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for stopping and helping. A lot of people wouldn’t have. What you did already matters.\n\nI’m going to be honest but balanced with you.\n\nWhen vets say a newborn orphan has a **less than 15% chance**, they’re usually thinking about:\n- Dehydration\n- Low body temperature\n- Lack of colostrum (early immunity from mom)\n- Risk of fading kitten syndrome\n- The intensive care required (feeding every 2–3 hours, even overnight)\n\nThat doesn’t mean the kitten *can’t* survive. It means survival will require intensive care, luck, and sometimes money.\n\nHere are the real questions to ask yourself:\n\n### 1. Can you realistically provide round‑the‑clock care?\nNewborns need:\n- Feeding every 2–3 hours (including through the night)\n- Very specific kitten formula (not cow’s milk)\n- Help urinating/defecating after every feeding\n- Constant warmth (they cannot regulate temperature)\n- Monitoring for fading (lethargy, refusal to eat, weakness)\n\nThis is exhausting. It’s basically newborn-human level commitment.\n\n### 2. Are you emotionally prepared?\nWith very young orphaned kittens, even with perfect care, some don’t make it. It can be heartbreaking.\n\n### 3. Is there a rescue or foster network?\nThis is really important. Many rescues have experienced bottle-feeders who dramatically increase survival odds. Even if you want to keep the kitten long-term, they may be able to foster it through the critical first weeks.\n\n---\n\n### When keeping it *does* make sense\nIf:\n- You can commit to round-the-clock care\n- You can access kitten formula and supplies immediately\n- You understand the risk\n- No rescue is available\n\nThen yes — it’s reasonable to try. Some kittens beat the odds.\n\n---\n\n### When rehoming to a rescue is kinder\nIf:\n- You can’t manage overnight feeds\n- You don’t have experience\n- You’re feeling overwhelmed already\n- A rescue is available\n\nThat’s not giving up. That’s increasing its survival odds.\n\n---\n\nIf you want, tell me:\n- Is the kitten warm or cold?\n- Is it crying loudly or weak?\n- Is it able to latch onto a bottle?\n- Do you have kitten formula right now?\n\nI can walk you step-by-step through what to do tonight.\n\nWhatever you decide, you already did a compassionate thing.",
+    "word_count": 366,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 509,
+      "prompt_tokens": 89,
+      "total_tokens": 598,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

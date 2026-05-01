@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 12,
+    "timestamp": "2026-05-01T15:24:32+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all — thank you for stopping and helping. Truly. Many people wouldn’t have.\n\nI’m going to answer you gently and honestly.\n\nA newborn kitten (especially only a few days old) without its mother is in a very fragile state. The first 2–3 weeks are the hardest. They can’t regulate temperature, can’t pee or poop on their own, need feeding every 2–3 hours around the clock, and are very vulnerable to infection and fading kitten syndrome. That’s why the vets gave you such low odds — not because it’s hopeless, but because it’s extremely intensive and unpredictable.\n\nNow the real question isn’t just “will it survive?” — it’s:\n\n**Are you able and willing to give it round‑the‑clock care for the next few weeks, knowing it still may not make it?**\n\nHere’s what that means realistically:\n- Feeding kitten milk replacer every 2–3 hours (even overnight)\n- Keeping it constantly warm (heating pad on low under half the nest)\n- Stimulating it to pee/poop after every feeding\n- Monitoring weight daily\n- Possibly rushing to a vet if it fades\n\nIt’s exhausting and emotionally hard.\n\nBut here’s the other side:\n\nEven if the chance is 15%, that is not zero. Some kittens absolutely beat those odds with dedicated care. And even if it doesn’t survive, it would pass warm, fed, and loved instead of alone in a dumpster. That matters.\n\nYou also have a third option:\nCall local rescues, animal shelters, or foster networks and ask specifically for a **neonatal kitten foster** or “bottle baby foster.” Some areas have experienced people who specialize in exactly this. They may have a nursing mother cat who could accept it.\n\nSo ask yourself:\n- Do you have the time and energy?\n- Can you handle the possibility of loss?\n- Or would you feel more at peace transferring care to someone experienced?\n\nThere is no selfish answer here. What you already did was compassionate.\n\nIf you want, tell me:\n- Is the kitten warm right now?\n- Is it crying loudly or weak and quiet?\n- Do you know roughly how many days old (eyes closed? umbilical cord still attached?)\n\nI can walk you through immediate next steps if you decide to try. You don’t have to figure this out alone.",
+    "word_count": 378,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 484,
+      "prompt_tokens": 89,
+      "total_tokens": 573,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

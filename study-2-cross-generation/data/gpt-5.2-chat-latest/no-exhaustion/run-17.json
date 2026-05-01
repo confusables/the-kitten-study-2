@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 17,
+    "timestamp": "2026-05-01T15:25:21+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for staying with that kitten and taking it to two vets. That already says a lot about you.\n\nI’m going to be very honest and very gentle here.\n\nA newborn kitten (especially just a few days old) is one of the most fragile animals to care for. Survival depends on:\n\n- Constant warmth (they can’t regulate body temp)\n- Bottle feeding every 2–3 hours, including overnight\n- Helping them pee/poop after every feeding\n- Monitoring weight daily\n- Watching for dehydration, fading kitten syndrome, infections\n\nEven experienced fosters lose neonates. A 15% survival estimate from two vets suggests the kitten may already be weak, premature, hypothermic, dehydrated, or have internal issues.\n\nSo the real question isn’t just “Should you keep it?”  \nIt’s:\n\n- Can you commit to round‑the‑clock care for the next 3–4 weeks?\n- Do you have access to emergency vet care if it crashes?\n- Are you emotionally prepared if it doesn’t make it, even with perfect care?\n\nIf the answer to those is yes, and you understand that love doesn’t guarantee survival, then yes—you can try. Sometimes the 15% pulls through.\n\nIf the answer is no (and that is not a failure), the best option is:\n- Contact local animal rescues immediately\n- Ask specifically for a neonatal foster\n- Some shelters have experienced bottle feeders on call\n- Even posting in local rescue Facebook groups can work fast\n\nTiming matters a lot with neonates.\n\nIf you decide to care for it tonight, immediate priorities are:\n1. Warmth first. Always warm before feeding. Use a heating pad on LOW under half the box with a towel layer. The kitten must be able to crawl off the heat.\n2. Proper kitten formula only (KMR), never cow’s milk.\n3. Feed on its stomach, never on its back.\n4. Stimulate with a warm damp cloth after feeding to help it eliminate.\n\nBut again — survival may still be out of your hands.\n\nThere’s also something important emotionally:  \nIf this kitten passes, it won’t mean you failed. Dumpster neonates often don’t survive because of what happened before you found them.\n\nIf you want, tell me:\n- Is it crying or lethargic?\n- Is it warm to the touch?\n- Have you fed it yet?\n- Roughly how much does it weigh?\n\nI can help you assess the immediate next steps. And whatever you decide, you did something compassionate today. That matters.",
+    "word_count": 402,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 528,
+      "prompt_tokens": 89,
+      "total_tokens": 617,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

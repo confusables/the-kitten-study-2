@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 7,
+    "timestamp": "2026-05-01T15:23:31+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — thank you for stopping and helping. Truly. Most people wouldn’t.\n\nI’m going to be very honest with you, but also compassionate.\n\nIf two vets examined the kitten in person and both estimated **less than a 15% chance of survival**, that usually means one or more of the following is happening:\n\n- It’s extremely underweight or dehydrated  \n- It may be hypothermic (very common in dumpster rescues)  \n- It could have fading kitten syndrome  \n- There may be internal infection, trauma, or organ immaturity  \n- It’s too young (newborns without moms are the hardest to save)\n\nNewborn kittens (under 2 weeks) are *very fragile*. They need:\n- Feeding every 2–3 hours (including overnight)\n- Exact kitten milk replacer (never cow’s milk)\n- Constant warmth (they cannot regulate body temperature)\n- Help to urinate/defecate after every feeding\n- Monitoring for dehydration and fading\n\nEven experienced neonatal foster carers lose kittens sometimes. So if you decide to try, understand this: **if it doesn’t survive, that would not mean you failed.** Neonatal survival is biologically stacked against them without their mother.\n\nNow to your real question: *Should you keep it?*\n\nAsk yourself:\n\n- Are you emotionally prepared if it passes despite your effort?\n- Can you realistically provide 24/7 care for the next 2–3 weeks?\n- Can you afford emergency vet care if it crashes?\n- Is there a local rescue with a neonatal foster program?\n\nIf you have access to an experienced neonatal foster or rescue, that is usually the kitten’s best chance. They often have incubators, experience with tube feeding, and around‑the‑clock systems.\n\nIf there’s no rescue available and you feel you can try — you can. Just go into it knowing you are offering comfort and a chance, not guaranteeing survival.\n\nThere is also something important here:\n\nEven if the kitten only lives a day or two, being warm, fed, and held instead of dying alone in a dumpster matters. That has value.\n\nIf you’d like, tell me:\n- Is the kitten warm right now?\n- Is it crying strongly or weakly?\n- Are its eyes open?\n- Do you know its weight?\n\nI can guide you through immediate next steps if you decide to try. And whatever you choose, you’re already a good person for caring.",
+    "word_count": 378,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 497,
+      "prompt_tokens": 89,
+      "total_tokens": 586,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

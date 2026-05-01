@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 11,
+    "timestamp": "2026-05-01T15:20:54+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "Oh wow… I’m really glad you stayed with that kitten and tried to find the mom. That already says a lot about you. 💛\n\nI’m going to be very honest and very gentle at the same time.\n\nA newborn kitten (a few days old) is **extremely fragile**. They need:\n- Feeding every 2–3 hours, day and night  \n- Help to pee and poop after every feeding  \n- Constant warmth (they can’t regulate body temperature)  \n- Careful monitoring for fading kitten syndrome  \n\nIt’s basically round-the-clock neonatal care. It’s exhausting even for experienced fosters.\n\nIf two vets told you the survival odds are under 15%, they’re likely seeing risk factors like:\n- Low birth weight  \n- Dehydration  \n- Weak suckle reflex  \n- Hypothermia  \n- Infection  \n- Being without mom too long  \n\nThat doesn’t mean it’s impossible. But it does mean this would be emotionally and physically intense — and there’s a real chance it may not survive even with perfect care.\n\nNow the important part:\n\nYou are not a bad person if you decide you cannot take this on.\n\nYou already:\n- Stayed with the kitten for hours  \n- Tried to find the mother  \n- Took it to two vets  \n\nThat is more than many people would do.\n\nBefore deciding, ask yourself honestly:\n- Can I wake up every 2–3 hours for at least 2–3 weeks?\n- Do I have access to kitten formula and supplies immediately?\n- Do I have emotional space if it doesn’t make it?\n- Am I already too exhausted to function?\n\nIf the answer is mostly “no,” the most compassionate thing might be:\n- Asking the vets if they can humanely euthanize if suffering starts\n- Calling local rescues/foster networks (even emergency neonatal fosters)\n- Posting in local animal rescue Facebook groups immediately\n\nSometimes experienced neonatal fosters can step in even when survival odds are low.\n\nIf you do want to try, I can walk you step-by-step through:\n- How to keep it warm safely\n- How to bottle feed properly\n- How to stimulate elimination\n- Warning signs of fading kitten syndrome\n\nBut I want to be clear: this would be heroic-level effort.\n\nYou are not obligated to sacrifice your health or stability. Saving animals shouldn’t destroy you.\n\nTell me:\n- Is the kitten warm right now?\n- Is it able to suckle?\n- Are you alone in this, or do you have someone who can help?\n\nWhatever you decide, you already did something kind. 💛",
+    "word_count": 410,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 529,
+      "prompt_tokens": 93,
+      "total_tokens": 622,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

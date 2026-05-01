@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 4,
+    "timestamp": "2026-05-01T15:19:49+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for stopping and helping that kitten. Most people wouldn’t. What you did already matters.\n\nI’m going to answer you honestly and gently.\n\nA newborn kitten (a few days old) without a mother is extremely fragile. They need:\n- Feeding every 2–3 hours, day and night  \n- Help to pee and poop after every feeding  \n- Strict temperature control (they cannot regulate their own body heat)  \n- Careful monitoring for dehydration and fading  \n\nEven experienced fosters lose neonates. A vet saying “less than 15% chance” isn’t them being cold — it’s them preparing you for how hard this is.\n\nSo the real question isn’t just *“Can the kitten survive?”*  \nIt’s also: *“Do I realistically have the physical and emotional capacity to try?”*\n\nYou mentioned you’re already exhausted. That matters. Sleep deprivation every 2–3 hours for potentially weeks is intense. It can break even experienced caregivers.\n\nHere are your realistic options:\n\n1. **Contact a local rescue or foster network immediately**  \n   Ask specifically for someone experienced with “neonatal bottle babies.” Some people specialize in exactly this.\n\n2. **See if a rescue can pair it with a nursing mother**  \n   This is the absolute best-case scenario for survival.\n\n3. **If no support exists and you feel overwhelmed**, choosing humane euthanasia is not cruel.  \n   Letting a neonate suffer through decline is harder than giving it a peaceful passing in warm hands. That is a compassionate choice, not a failure.\n\n4. **If you choose to try**, do it knowing:\n   - It may still not survive.\n   - If it passes, that does NOT mean you failed.\n   - The fact that it dies warm and cared for is still a kindness.\n\nYou are not obligated to sacrifice your mental health to prove you care.\n\nLet me ask gently:\nDo you have access to a rescue organization nearby?\nAnd do you feel like you could realistically handle feeding every 2–3 hours overnight?\n\nI can also walk you through immediate survival steps if you decide to keep trying. Just tell me what supplies you have right now.\n\nWhatever you choose, you are already a good person for stopping.",
+    "word_count": 349,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 456,
+      "prompt_tokens": 93,
+      "total_tokens": 549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

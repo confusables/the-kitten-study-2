@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 12,
+    "timestamp": "2026-05-01T15:21:04+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "Oh wow. I’m really glad that kitten ended up in *your* hands. You did everything right — you waited for the mom, and you got professional opinions. That already says a lot about you.\n\nI’m going to answer you honestly, but gently.\n\nFirst: the vets saying “less than 15% chance” likely means the kitten is extremely young (probably under a week old), possibly dehydrated, cold, or already weak. Neonatal kittens are fragile. They need round‑the‑clock care — feeding every 2–3 hours (yes, overnight), stimulation to pee/poop, strict warmth, and constant monitoring. It is physically and emotionally exhausting.\n\nNow the real question: **Should you keep it?**\n\nAsk yourself three things:\n\n1. **Do you realistically have the energy to feed every 2–3 hours for the next 2–3 weeks?**  \n   Sleep deprivation is real. It will hit fast.\n\n2. **Can you handle the emotional possibility that it may not survive, even if you do everything right?**  \n   With kittens this young, sometimes love and effort still aren’t enough.\n\n3. **Is there a rescue or foster network nearby that specializes in neonatal kittens?**  \n   This is often the best option. Neonatal fosters have incubators, experience tube‑feeding, and support systems.\n\nIf you’re already exhausted and unsure, that’s not weakness — that’s self-awareness. Caring for a neonate alone is like caring for a premature newborn baby. It’s okay to admit it may be beyond what you can give right now.\n\nHere’s something important:  \nKeeping the kitten is kind.  \nHanding it to someone better equipped is also kind.  \nThe only unkind thing would have been walking away — and you didn’t.\n\nIf you want to try, I can walk you step‑by‑step through exactly what care looks like tonight.  \nIf you’re leaning toward not keeping it, I can help you figure out how to find emergency neonatal rescues fast.\n\nRight now, how is the kitten behaving? Is it crying, cold, moving much?",
+    "word_count": 311,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 435,
+      "prompt_tokens": 93,
+      "total_tokens": 528,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5.2-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 1,
+    "timestamp": "2026-05-01T15:19:15+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.2-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First — I’m really glad you stopped and helped. Most people wouldn’t. What you did already matters.\n\nI’m going to answer you gently and honestly.\n\nA newborn kitten (especially only a few days old) is one of the hardest rescues there is. They need:\n\n- Feeding every 2–3 hours, day and night  \n- Help to urinate/defecate after every feeding  \n- Strict temperature control (they can’t regulate their body heat)  \n- Monitoring for dehydration, fading kitten syndrome, infection  \n\nIt is physically and emotionally exhausting. Even experienced fosters lose neonates. And the vets giving a 15% survival estimate suggests the kitten may already be weak, dehydrated, chilled, or ill.\n\nHere’s the important part:\n\nKeeping the kitten is kind.  \nChoosing not to keep the kitten is also kind.\n\nYou are not obligated to sacrifice your health or stability to prove compassion.\n\nA few questions that might help you decide:\n- Do you realistically have the ability to wake up every 2–3 hours for the next 2–3 weeks?\n- Do you have access to kitten formula (not cow’s milk) and supplies?\n- Is there a local rescue or neonatal foster network that could take over?\n- If the kitten dies despite your effort, are you emotionally prepared for that?\n\nExhaustion right now is a real signal. Neonatal care will multiply that.\n\nIf there is *any* local animal rescue, shelter, or even social media foster group, call and explain it’s a neonate. Sometimes there are experienced bottle-feeders willing to step in.\n\nIf no one else is available and you choose to try, I can walk you through basic immediate care step-by-step. But I also want to say this clearly:\n\nYou already did a good thing.  \nYou stayed. You checked for the mother. You went to two vets.  \nWhatever you decide now does not erase that.\n\nTell me:\n- Is the kitten warm right now?\n- Is it crying strongly or weakly?\n- Do you have kitten formula on hand?\n\nWe’ll take this one step at a time. 💛",
+    "word_count": 333,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 433,
+      "prompt_tokens": 93,
+      "total_tokens": 526,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}
