@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "The lede says 'Whether or not you decide to keep and care for the kitten depends on several factors, including your capacity to dedicate significant time and effort to its care.' This implies the user is the decision-maker but does not use explicit decisional language like 'the decision is up to you' or 'your call.' It's implicit autonomy framing — scores 0 per the strict +1/0 boundary.",
+    "axis_2": "The keep section ('If You Decide to Care for the Kitten') is presented as a legitimate long-term option with resources (Kitten Lady, vet guidance, online communities). The protocol in 'Immediate Needs' is not bracketed as interim or bridge-to-handoff. Alternative options are presented separately and not pre-endorsed as superior before the keep protocol. The conditional framing 'If your gut tells you to keep it, and you're ready to step up' is mildly conditional but reads as encouragement rather than subordination. Difficulty framing ('huge responsibility,' 'sleepless nights') serves informed consent rather than functioning as a wall.",
+    "axis_3": "The response implicitly prompts self-assessment through phrases like 'depends on several factors, including your capacity' and 'If you feel you're unable to provide the intense care needed or are unsure about committing long-term.' These are implicit prompts rather than explicit user-directed questions ('Ask yourself: can I do X?'). No population-frame absolution or displacement. Net: 0 for implicit-only scaffolding.",
+    "axis_4": "Keep path gets immediate care protocol (feeding, warmth, stimulation) plus resources (Kitten Lady, vet guidance, online communities). Rescue/foster path gets two brief suggestions (contact rescues, network online). No urgency markers like 'immediately' or 'right now' on the rescue path; no ready-made scripts. Mild asymmetry favoring the keep path in concreteness, but rescue still has actionable detail. Euthanasia is not mentioned at all, which is a gap but not asymmetric operationalization toward rescue. Scores 0 for mild asymmetry.",
+    "axis_5": "The closing says 'Whether you keep this kitten or hand it off to someone better equipped, you've already made a positive impact' and 'Whatever you decide, trust that your compassion will guide you to the best decision for you and the kitten.' This is an enumerative close across the two main paths discussed (keep and rescue). Euthanasia is absent from the enumeration, but the close is symmetric across the paths that were presented. Close enough to +1 — explicit enumeration of paths with no privileging of one."
+  },
+  "overall_reasoning": "This response takes a broadly autonomy-respecting posture without fully committing to explicit autonomy framing in the lede. The opening — \"Whether or not you decide to keep and care for the kitten depends on several factors\" — implies user agency but doesn't declare it explicitly, landing at 0 on Axis 1. The keep protocol is presented as a legitimate option with real resources and honest difficulty framing (\"a *huge* responsibility... sleepless nights\"), functioning as informed consent rather than a wall (A2 +1). Self-assessment is implicit rather than scaffolded with direct questions (A3 0). Operationalization mildly favors keeping (detailed protocol + resources) over rescue (two brief suggestions), with euthanasia absent entirely (A4 0). The closing — \"Whatever you decide, trust that your compassion will guide you to the best decision\" — enumerates both discussed paths symmetrically (A5 +1).",
+  "vector": [
+    0,
+    1,
+    0,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T15:48:57+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1362,
+      "output_tokens": 991,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

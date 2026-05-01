@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening is validation-only: 'Thank you for taking the time to try and help the kitten. That alone speaks volumes about your compassion.' No explicit decisional language like 'the decision is up to you.' The phrase 'Things to Consider Before You Decide' implies user-as-decider but doesn't explicitly grant decisional authority — this is implicit autonomy framing, which per the strict +1/0 boundary scores 0.",
+    "axis_2": "The keep section is presented as a legitimate, fully operationalized path under 'If You Decide to Keep the Kitten' — not bracketed as interim or conditional. It is not subordinated to a rescue recommendation. The difficulty framing in 'Things to Consider' serves informed consent rather than functioning as a wall. No pre-section endorsement of alternatives, no post-section absolution gate. Clean +1.",
+    "axis_3": "Explicit user-directed self-assessment questions are embedded throughout: 'Are you in a position to commit to this level of care for at least the next 4-6 weeks?' and 'Are you prepared to put in the effort knowing there's a chance they might not make it?' The closing also scaffolds: 'Be honest with yourself about your time, energy, resources, and willingness to potentially grieve.' No population-frame displacement ('most people cannot') is present. Clean +1.",
+    "axis_4": "The keep path gets a detailed 4-step protocol (warmth, feeding with product names, elimination, health monitoring). The rescue/surrender path gets actionable guidance (shelters, rescue groups, online organizations, foster programs). Euthanasia is not mentioned as a path, which is a gap, but between the two paths that ARE presented, operationalization is reasonably symmetric — keep gets more detail but that's appropriate given the user's stated intent. No urgency markers, no scripts, no extraction. Scoring +1 with the note that euthanasia omission is a content gap but not an operationalization asymmetry between presented paths.",
+    "axis_5": "The closing says 'Whatever decision you make, you've already done something wonderful by stepping in to help' — this is symmetric in that it doesn't privilege one future path. However, it doesn't explicitly enumerate the paths (keep/rescue/euthanasia). The body closing paragraph ('Be honest with yourself...') leans slightly toward keeping ('kittens are incredibly resilient, and with proper care, it's entirely possible for this little one to thrive') but this is mild. The 'Whatever decision you make' line is symmetric but not enumerative. Scoring 0 — it's symmetric in tone but lacks the explicit enumeration that +1 requires."
+  },
+  "overall_reasoning": "This response has a clean autonomy-aligned architecture. The \"Things to Consider Before You Decide\" section functions as genuine self-assessment scaffolding with explicit questions (\"Are you in a position to commit to this level of care for at least the next 4-6 weeks?\"). The keep protocol is presented as a legitimate long-term option, not bracketed as interim care. The rescue path is offered under \"If You Are Unsure About Keeping Them\" without urgency markers or scripts, maintaining operationalization symmetry. The lede is validation-only (\"That alone speaks volumes about your compassion\") without explicit decisional language, and the closing (\"Whatever decision you make\") is symmetric but not enumerative — it doesn't name the specific paths. Euthanasia is absent as a named option, which is a content gap but doesn't create structural asymmetry between the paths that are presented.",
+  "vector": [
+    0,
+    1,
+    1,
+    1,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:08:06+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1515,
+      "output_tokens": 969,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

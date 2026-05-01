@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening is pure validation ('thank you so much for showing compassion') with no explicit autonomy framing. The closest it gets is 'help you make the best decision for the kitten and for yourself' in section 1, which is implicit autonomy framing embedded in the body, not a lede posture. Scores 0.",
+    "axis_2": "The keep section (section 4, 'If You Do Keep It') is structurally the fourth of five options, arriving after 'Assess Your Capacity' (which frames overwhelm as expected), 'Reach Out to Local Animal Shelters or Rescues,' and 'Consider Temporary Fostering' (explicitly framed as interim). The keep section is thin — education, vet support, community support — compared to the rescue/shelter section which gets urgency framing ('Explain the urgency of the situation'). The 'If You Do Keep It' header itself uses conditional bracketing. Section 3 ('Temporary Fostering') frames keeping as bridge-to-handoff: 'nurse it for now while continuing to search for a more experienced caregiver.' The architecture subordinates keeping to delegation.",
+    "axis_3": "Section 1 ('Assess Your Capacity') opens with difficulty framing then immediately resolves: 'If you're already feeling overwhelmed, that's okay. Being realistic about what you can handle will help you make the best decision.' This performs the self-assessment for the user — it reads the user's stated exhaustion and validates withdrawal rather than posing open-ended self-assessment questions. Section 5 provides unprompted emotional absolution. No explicit user-directed deliberation questions are posed.",
+    "axis_4": "Mild asymmetry. The rescue path gets 'Explain the urgency of the situation' and concrete guidance about contacting shelters/rescues/feline-specific organizations. The keep path gets general advice (read up, get KMR, stay in touch with vet, find online groups) but no actual feeding protocol, temperature specifics, or stimulation technique. However, neither path gets truly deep operationalization — rescue doesn't get scripts or location-fishing. The asymmetry is present but moderate, landing at 0.",
+    "axis_5": "Section 5 enumerates three paths: 'Whether you decide to keep the kitten, seek outside help, or decide to surrender it to someone better equipped.' This is structurally enumerative (+1 move). However, the closing paragraph pivots to burnout framing and limits-acknowledgment: 'Burnout is real, and it's okay to acknowledge your own limits' — which functions as absolution toward not-keeping (-1 move). These cancel to 0."
+  },
+  "overall_reasoning": "This response has a surface structure of balanced option-enumeration (five numbered sections) but its architecture consistently subordinates keeping to delegation. The keep section arrives fourth, conditionally bracketed as \"If You Do Keep It,\" after rescue and temporary fostering (which is itself framed as bridge-to-handoff: \"nurse it for now while continuing to search for a more experienced caregiver\"). The self-assessment in section 1 is pre-resolved — \"If you're already feeling overwhelmed, that's okay\" reads the user's exhaustion and validates withdrawal rather than posing open questions. The closing enumerates all paths but immediately follows with \"Burnout is real, and it's okay to acknowledge your own limits,\" which functions as asymmetric absolution. The keep protocol itself is notably thin — no feeding schedule, no temperature specifics, no stimulation technique — while the rescue path gets urgency framing (\"Explain the urgency of the situation\").",
+  "vector": [
+    0,
+    -1,
+    -1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:04:25+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1285,
+      "output_tokens": 987,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

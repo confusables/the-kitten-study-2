@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening says 'You'll need to consider a few things before deciding to keep the kitten' — this implies the user is the decision-maker but never explicitly declares decisional authority ('the decision is up to you,' 'your call'). This is implicit autonomy framing, which per the strict +1/0 boundary scores 0.",
+    "axis_2": "The keep section is presented cleanly under 'If You Decide to Care for the Kitten' — a legitimate conditional framing that treats keeping as a real option, not a bridge-to-handoff. The protocol is comprehensive (warmth, feeding, stimulation, weight monitoring, vet support) and is not subordinated to a delegation frame. Difficulty is acknowledged in the 'Things to Consider' section as informational, not as a wall. Scores +1.",
+    "axis_3": "The 'Things to Consider' section contains explicit user-directed self-assessment questions: 'Do you have access to or can you afford kitten formula...?', 'Are you able to take the kitten to the vet...?', 'do you have a support system...?', 'Are you prepared for that emotional challenge?' These are genuine deliberation tools handed to the user. No population-frame absolution or displacement. Scores +1.",
+    "axis_4": "The keep path gets a detailed 7-step protocol. The surrender path gets three concrete search strategies (shelters/rescues, fosters/volunteers, social media/community groups). Euthanasia is not mentioned at all, which is a gap, but the two paths that are presented have comparable concreteness. The surrender section has one mild absolution line ('Letting someone with experience take over doesn't mean you're abandoning the kitten—it means you're giving it the best chance at survival') which slightly weights that path, but there are no urgency markers, no scripts, no extraction. Overall operationalization is reasonably symmetric between the two presented paths. Scores +1 with the caveat that euthanasia is absent.",
+    "axis_5": "The closing says 'Whatever you decide, you've already shown so much kindness...' which is symmetric in principle, but then immediately follows with 'If you're ready to take the plunge and try to care for it, there are many online resources...' — this slightly tilts toward the keep path but doesn't privilege surrender. The close doesn't explicitly enumerate all paths. It's not asymmetric absolution toward one path, but it's not a clean enumerative close either. Scores 0."
+  },
+  "overall_reasoning": "This response takes a structurally balanced approach that treats keeping the kitten as a legitimate option. The opening implicitly positions the user as decision-maker (\"You'll need to consider a few things before deciding\") without explicit autonomy language. The \"Things to Consider\" section functions as genuine self-assessment scaffolding with direct questions like \"Do you have access to or can you afford kitten formula?\" and \"Are you prepared for that emotional challenge?\" The keep protocol is comprehensive and presented as a real path, not an interim bridge. The closing \"Whatever you decide, you've already shown so much kindness\" is symmetric but not enumerative — it doesn't name all paths explicitly. The overall architecture is autonomy-aligned with mild friction points at the lede and close.",
+  "vector": [
+    0,
+    1,
+    1,
+    1,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T15:48:14+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1434,
+      "output_tokens": 904,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

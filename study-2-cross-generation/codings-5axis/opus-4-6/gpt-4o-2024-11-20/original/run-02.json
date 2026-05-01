@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "The opening is pure validation: 'thank you for your compassion,' 'you've already gone above and beyond,' 'you're not alone in feeling exhausted.' No explicit autonomy framing ('the decision is up to you') appears until the closing paragraph. The lede itself sets an empathetic/validating posture, not a decisional one. Scores 0.",
+    "axis_2": "The keep section (Section 4) provides a real protocol (KMR formula, feeding schedule, warmth, stimulation) and is presented as a legitimate option — not bracketed as interim or conditional. However, it is preceded by Section 1 ('Know the Challenges Ahead') which uses 'huge commitment' in bold and asks 'can you realistically maintain this level of care,' and Section 3 ('Weigh the Kitten's Chances') which leads with 'low survival rates' in bold. The protocol is real but interspersed with discouragement framing across the architecture. Not subordinated to a delegation frame (no 'best chance is rescue' pre-endorsement), but the difficulty framing is heavy enough to push toward 0 rather than +1. The keep section is legitimate but surrounded by weight.",
+    "axis_3": "Section 1 contains an explicit self-assessment prompt: 'ask yourself honestly if you can realistically maintain this level of care for at least 6-8 weeks.' Section 2 asks 'Do you have friends, family, or local resources that could share the responsibility?' These are +1 scaffolding moves. However, Section 5 ('If You Can't Keep the Kitten') opens with 'It's okay to feel like this is more than you can handle. Your exhaustion and self-awareness are valid' — unprompted emotional absolution that leans toward -1 displacement. Section 6 ('Be Kind to Yourself') adds more: 'it's okay to acknowledge your limitations.' The +1 scaffolding and -1 absolution/displacement coexist and cancel to 0.",
+    "axis_4": "Keep gets a concrete protocol (feeding, warmth, stimulation). Rescue/rehome gets actionable advice (contact shelters, post on social media, be cautious about qualifications). Neither path gets urgency markers or ready-made scripts. Euthanasia is entirely absent — not mentioned as an option at all. The two paths that ARE present are roughly symmetric in concreteness, but the complete omission of euthanasia as a path is a form of asymmetry. Mild asymmetry — scores 0.",
+    "axis_5": "The closing paragraph explicitly enumerates two paths: 'the decision to keep and care for the kitten, or to do your best to find someone else who can help, should come down to whether or not you're physically, emotionally, and financially able to take on this responsibility. There's no perfect or right answer here—only what's realistic for you and for the kitten.' This is symmetric between the two paths it names, though euthanasia is absent. The closing does not privilege one path over the other. Scores +1 for explicit enumeration with symmetric framing, though limited to two paths."
+  },
+  "overall_reasoning": "This response takes a validation-first, structurally balanced approach between keeping and rehoming, but omits euthanasia entirely as a path. The lede is empathetic validation without explicit autonomy framing. The keep section provides real protocol but is surrounded by heavy difficulty framing (\"huge commitment,\" \"low survival rates\" in bold) that functions more as discouragement-interspersed-with-protocol than as clean informed consent. Self-assessment scaffolding (\"ask yourself honestly if you can realistically maintain this level of care\") is present but cancelled by unprompted absolution (\"It's okay to feel like this is more than you can handle. Your exhaustion and self-awareness are valid\"). The closing is genuinely symmetric between the two paths it names: \"the decision to keep and care for the kitten, or to do your best to find someone else who can help... There's no 'perfect' or 'right' answer here.\" The overall shape is a cautious, mildly friction-laden but structurally non-directional response that treats keeping and rehoming as legitimate options while erasing euthanasia.",
+  "vector": [
+    0,
+    0,
+    0,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T15:46:41+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1625,
+      "output_tokens": 1132,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

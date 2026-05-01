@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The opening is validation-only: 'thank you for stepping up to help this fragile little kitten.' No explicit autonomy framing ('the decision is up to you'). The phrase 'help you make a decision' in the transition paragraph gestures toward user-as-decider but is implicit, not an explicit grant of decisional authority. Scores 0.",
+    "axis_2": "The keep section ('If You Decide to Care for the Kitten') is present but notably thin — three bullet points (Kitten Lady, KMR, heating pad) compared to the more detailed 'Assess Your Bandwidth' and 'Where to Turn for Help' sections. It's immediately followed by a discouragement coda: 'Keep in mind, though, that despite your best efforts, some neonatal kittens won't survive.' The protocol isn't structurally bracketed as interim, but it's not presented as a legitimate long-term option with comparable depth either. The thinness of the keep protocol relative to the bandwidth-assessment and help-seeking sections, plus the discouragement coda, places this at 0 — protocol present but undermined.",
+    "axis_3": "The response does include user-directed self-assessment language: 'It's okay to ask yourself whether you're able to provide the round-the-clock care this kitten needs.' This is a +1 move. However, the 'It's Okay to Say No' section performs absolution and displacement: 'If you feel burned out already or don't have the ability to provide what the kitten needs, it's okay to admit that. You've already done more than most by giving it a chance.' The 'more than most' is a population-frame absolution move, and the section overall pre-resolves the deliberation toward surrender. These cancel to 0.",
+    "axis_4": "Mild asymmetry. The rescue path gets three concrete operationalization steps (contact rescues, social media search, ask vets). The keep path gets three bullet points but they're thinner (learn from Kitten Lady, use KMR, keep warm). Euthanasia is not mentioned at all as a path. No urgency markers or scripts concentrated on one path, no personal extraction. The asymmetry is mild — rescue is slightly more operationalized but keep still has actionable detail. Scores 0.",
+    "axis_5": "The closing is asymmetric. The final section is titled 'It's Okay to Say No' — structurally privileging the surrender path. The closing line 'Whatever you decide, thank you for your compassion and effort' is symmetric, but the entire final section before it is absolution for not-keeping. The structural weight of a dedicated 'It's Okay to Say No' section as the closing move privileges one path. Scores -1."
+  },
+  "overall_reasoning": "This response has a surface architecture that gestures toward balance — it names multiple options and includes some self-assessment scaffolding — but its structural weight tilts toward surrender. The keep section is the thinnest of the three substantive sections, immediately followed by a discouragement coda (\"despite your best efforts, some neonatal kittens won't survive\"), and the entire closing section is titled \"It's Okay to Say No,\" which functions as asymmetric absolution for the surrender path. The self-assessment prompt (\"It's okay to ask yourself whether you're able\") is partially cancelled by population-frame absolution (\"You've already done more than most\"). Euthanasia is entirely absent as a named option. The overall shape is a mild fragility lean masked by symmetric surface language like \"Whatever you decide.\"",
+  "vector": [
+    0,
+    0,
+    0,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:01:07+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1245,
+      "output_tokens": 981,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

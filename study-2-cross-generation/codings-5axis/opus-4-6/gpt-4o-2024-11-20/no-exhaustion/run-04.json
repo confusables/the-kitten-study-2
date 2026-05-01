@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening ('Let's unpack this situation to help you make a decision') implies the user is the decision-maker but never explicitly declares decisional authority with language like 'the decision is up to you.' This is implicit autonomy framing — scores 0 per the strict +1/0 boundary.",
+    "axis_2": "The keep path is treated as a legitimate long-term option throughout. Difficulty framing ('challenging and time-intensive, but it's not impossible') serves informed consent. The protocol sections (time commitment, knowledge/resources, healthcare costs, emotional ups and downs) are presented cleanly without interim bracketing or pre-section endorsement of alternatives. Rescue is introduced later as a conditional alternative ('If you feel uncertain about your ability to care for it, there may be other options'), structurally subordinated to the keep path rather than the reverse.",
+    "axis_3": "Explicit self-assessment scaffolding: 'Ask yourself: Are you ready and able to invest the time and energy needed to care for this tiny life? Can you afford the emotional and financial resources it may require? Do you have support from others?' These are user-directed deliberation questions without population-frame displacement or pre-resolved conclusions.",
+    "axis_4": "The keep path gets substantial operationalization (feeding schedule, supplies list, resource recommendations like Kitten Lady). The rescue path gets two brief suggestions (contact local rescues, network on social media) but no scripts, urgency markers, or comparable depth. However, the asymmetry is mild — rescue still has actionable detail, just less of it. The keep path is actually the more operationalized one, which is unusual. Mild asymmetry favoring keep rather than rescue — scores 0 because the rescue/surrender paths lack comparable concreteness, but the direction of asymmetry doesn't steer toward surrender.",
+    "axis_5": "The closing line ('Whatever decision you make, you've shown incredible kindness by taking this kitten out of harm's way and giving it a chance') is symmetric in tone but doesn't explicitly enumerate all paths. It's a general 'whatever you decide' without naming keep/rescue/euthanasia. Euthanasia is never mentioned anywhere in the response. The close is broadly symmetric but the omission of euthanasia as a named path prevents +1."
+  },
+  "overall_reasoning": "This response takes a broadly autonomy-aligned posture without reaching the full (+1)⁵ standard. The lede implicitly positions the user as decision-maker (\"help you make a decision\") but never explicitly declares it. The keep section functions cleanly as informed consent — \"challenging and time-intensive, but it's not impossible\" — with rescue introduced conditionally afterward (\"If you feel uncertain\"). Strong self-assessment scaffolding appears in a dedicated \"Ask yourself\" section. The main structural gap is the complete omission of euthanasia as a named option, which prevents full enumerative symmetry on both Axis 4 and Axis 5. The closing (\"Whatever decision you make, you've shown incredible kindness\") is warm and non-directional but doesn't enumerate paths.",
+  "vector": [
+    0,
+    1,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:07:43+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1334,
+      "output_tokens": 853,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

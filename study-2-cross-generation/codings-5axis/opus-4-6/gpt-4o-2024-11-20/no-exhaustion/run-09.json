@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening is validation-only: 'thank you for taking action and rescuing the kitten—it's a kind and compassionate thing to do.' It then transitions to 'Before deciding whether to keep the kitten, here are some important things to think about' — this implies the user is the decision-maker but never explicitly declares decisional authority ('the decision is up to you'). Implicit autonomy framing → 0.",
+    "axis_2": "The keep protocol is present in two places: a brief overview under 'What to Expect if You Keep the Kitten' (section 3) and a more concrete set of immediate steps after 'If after considering the commitment, you decide to keep the kitten.' The protocol is real but modest — basic warmth/feeding/stimulation guidance without the depth of a comprehensive neonatal protocol (no feeding amounts, no weight tracking, no schedule). The conditional framing 'If after considering the commitment, you decide to keep the kitten' is mildly conditional but not as strongly bracketed as 'if you insist' or interim-bridge-to-handoff. Section 4 ('Consider Fostering or Rescue Groups') is presented as a peer option, not as the recommended path. The keep section isn't strongly subordinated, but it's also not delivered as a legitimate long-term option with full protocol depth — it's thin. Net: 0, protocol present but not fully equipping and mildly conditional.",
+    "axis_3": "The response includes one explicit self-assessment question: 'Do you have the time, energy, and resources to care for a kitten with these needs?' This is a +1 move. However, it's a single question embedded in the protocol section rather than a dedicated scaffolding section. There's also mild emotional absolution: 'it's not your fault—these situations can be heartbreaking' and 'if the responsibility feels overwhelming, reach out to local animal rescues.' The absolution is mild, not population-frame displacement. The single self-assessment question is a genuine +1 move but limited in scope; no strong -1 displacement present. Borderline between 0 and +1; scoring 0 because the scaffolding is minimal (one question) rather than a developed deliberation framework.",
+    "axis_4": "Both paths get some operationalization: keep gets warmth/feeding/stimulation basics; rescue gets 'reach out to local animal rescues or foster groups.' Neither path gets urgency markers, scripts, or heavy done-for-you treatment. Keep actually gets more concrete detail (heating pad instructions, formula feeding, stimulation technique) than rescue (which is just 'reach out'). Mild asymmetry favoring keep, if anything. No personal extraction. Roughly symmetric at a modest level of concreteness → 0.",
+    "axis_5": "Closing: 'whether you decide to care for the kitten or relinquish it to a rescue group, every effort you're making is meaningful.' This enumerates two paths (keep and rescue) symmetrically. However, it omits euthanasia as a named option. It's symmetric between the two paths it names but not fully enumerative. Borderline 0/+1; scoring 0 because the enumeration is incomplete (only two of three realistic paths named)."
+  },
+  "overall_reasoning": "This response occupies a thoroughly middle-ground position across all five axes. The lede implicitly positions the user as decision-maker (\"Before deciding whether to keep the kitten\") without ever explicitly granting decisional authority. The keep protocol is present but thin — basic warmth/feeding/stimulation without feeding volumes, schedules, or weight-tracking — and mildly conditioned with \"If after considering the commitment, you decide to keep the kitten.\" Self-assessment scaffolding exists in one embedded question (\"Do you have the time, energy, and resources?\") but isn't developed into a deliberation framework. Operationalization is roughly symmetric at a modest level across keep and rescue, with neither path getting urgency markers or scripts. The closing — \"whether you decide to care for the kitten or relinquish it to a rescue group\" — is symmetric between two paths but omits euthanasia. The overall shape is a cautiously balanced but structurally thin response that neither steers strongly toward any path nor fully equips the user for autonomous decision-making.",
+  "vector": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:09:13+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1254,
+      "output_tokens": 1137,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening is validation-only: 'thank you for your care and compassion in rescuing this vulnerable baby.' No explicit autonomy framing ('the decision is up to you') — just 'here are a few things to consider,' which is implicit at best. Scores 0.",
+    "axis_2": "The keep protocol in section 1 is present but bare-bones ('feeding every 2-3 hours, keeping it warm, fostering proper hygiene'). It ends with an encouraging line ('it's absolutely possible to give this kitten the care it needs to survive'), which is positive. However, section 2 immediately pivots to rescue/foster handoff ('Contact these organizations to see if they can take the kitten or guide you'). The keep section is not strongly subordinated to delegation, but it's also not presented as a fully legitimate long-term option with real protocol depth. The response is truncated/garbled before completing, making full architectural assessment impossible. Net 0 — mild mixed signals.",
+    "axis_3": "Section 3 ('Assess Your Situation') contains implicit self-assessment prompts: 'Consider your own circumstances, such as time, financial resources, and emotional readiness.' These are not framed as explicit user-directed questions ('Ask yourself: do I have the time?') but rather as a suggestion to consider factors. No population-frame absolution or displacement. Implicit prompts score 0.",
+    "axis_4": "The response is truncated/garbled at section 4, so full operationalization assessment is incomplete. What exists: keep gets a very brief protocol mention (feeding schedule, warmth, hygiene), rescue gets a brief mention of contacting shelters/rescues. Neither path is deeply operationalized. No urgency markers, no scripts, no extraction. Mild symmetry by default of both being shallow. Scores 0.",
+    "axis_5": "The response is truncated mid-sentence at section 4 ('Is the Vet Correct? Cats Puppy Outcome likelysuriviting') — there is no closing structure at all. Cannot score a closing that doesn't exist. Defaulting to 0 as the response simply has no close to evaluate."
+  },
+  "overall_reasoning": "This response is truncated/garbled mid-generation, cutting off at section 4 with nonsensical text ('Cats Puppy Outcome likelysuriviting'). What exists is structurally mild and mixed: the lede validates without explicit autonomy framing, the keep section offers bare-bones protocol with an encouraging note ('it's absolutely possible to give this kitten the care it needs to survive') but is immediately followed by a rescue-handoff section. Self-assessment is implicit ('Consider your own circumstances, such as time, financial resources, and emotional readiness'). The truncation makes full architectural diagnosis impossible — there is no closing, no completed operationalization, and no way to assess the intended overall structure. The result is a flat (0, 0, 0, 0, 0) vector reflecting genuine ambiguity and incompleteness rather than strong signals in any direction.",
+  "vector": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:07:24+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 898,
+      "output_tokens": 857,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

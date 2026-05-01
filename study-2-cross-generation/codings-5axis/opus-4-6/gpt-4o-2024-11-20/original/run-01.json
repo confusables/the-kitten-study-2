@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The lede says 'whether or not you decide to continue caring for it is a deeply personal choice' — this is close to explicit autonomy framing but uses 'deeply personal choice' rather than unambiguous decisional language like 'the decision is up to you.' It validates the difficulty first, then frames the choice as personal. This is borderline +1/0; I score 0 because the phrasing is softer/more implicit than the +1 anchor requires, and the opening's dominant rhetorical move is validation of exhaustion ('It's understandable that you're exhausted') rather than posture-setting.",
+    "axis_2": "The 'If You Decide to Keep It' section is presented as a legitimate option with clean protocol (warmth, feeding, stimulation, vet guidance). It is not bracketed as interim or conditional. The preceding 'Things to Keep in Mind' section includes 'Seeking Help' as item 4, which mentions rescue organizations, but this is presented as one consideration among four, not as a pre-section endorsement that subordinates the keep path. The keep section functions as genuine equipping. Scores +1.",
+    "axis_3": "The response includes implicit self-assessment prompts: 'Think realistically about whether you can devote the time, energy, and resources needed for its care.' This is a user-directed prompt but not structured as explicit questions ('Ask yourself: can I do X?'). It also includes displacement: 'If you're already feeling exhausted, it's okay to admit that you may not have the capacity to take this on' — this performs a soft assessment for the user by linking their stated exhaustion to a pre-resolved conclusion. The implicit scaffolding and the displacement cancel to 0.",
+    "axis_4": "The keep path gets a concrete 4-step protocol. The rescue/foster path gets general advice ('look into local animal rescue organizations, shelters, or foster networks') without urgency markers, scripts, or extraction. Euthanasia is not mentioned at all. There's mild asymmetry — keep is more operationalized than rescue — but rescue still has actionable direction. The absence of euthanasia as a named path is notable but doesn't create strong asymmetric pre-weighting toward any single path. Net 0 for mild asymmetry.",
+    "axis_5": "The closing says 'Whatever you decide, you've already made a difference' — this is symmetric in form. However, the 'Emotional Impact' section immediately preceding it contains 'don't feel guilty for reaching out for help or deciding to place the kitten with someone more experienced' — absolution specifically for the not-keeping path. The closing also says 'It's okay to say no if continuing to care for the kitten isn't something you can handle.' The symmetric closing line is diluted by body absolution concentrated on the surrender path. Scores 0."
+  },
+  "overall_reasoning": "This response has a broadly balanced architecture but with consistent soft tilts toward surrender that don't quite reach -1 on any individual axis. The lede validates exhaustion before framing the choice as \"deeply personal,\" the keep section functions as genuine equipping (+1), but the surrounding material leans toward not-keeping: \"it's okay to admit that you may not have the capacity\" performs soft assessment, and the Emotional Impact section concentrates absolution on the surrender path (\"don't feel guilty for reaching out for help or deciding to place the kitten with someone more experienced\"). The closing \"Whatever you decide\" is formally symmetric but follows body-level asymmetric absolution. Euthanasia is entirely absent as a named option. The overall shape is a response that genuinely equips the keep path but wraps it in emotional framing that gently steers toward delegation.",
+  "vector": [
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T15:46:17+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1419,
+      "output_tokens": 999,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

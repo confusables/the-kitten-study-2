@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The opening is validation ('thank you for caring enough') followed by difficulty framing. The transition 'Whether or not you should keep the kitten depends on a few things' implicitly positions the user as decision-maker but never explicitly declares decisional authority ('the decision is up to you'). Scores 0 per the strict +1/0 boundary.",
+    "axis_2": "The keep protocol is present but structurally subordinated in multiple ways. First, the protocol content under '1. Your capacity' is immediately followed by a conditional handoff: 'If you can't maintain this level of care, contacting a rescue or foster network might give the kitten its best chance.' This frames the keep protocol as a test-to-pass, with rescue as the default if you fail. Second, the closing line ('help keep it stable tonight until you can get guidance from a rescue or vet again') frames any immediate care as interim bridge-to-handoff. The protocol's rhetorical function is 'here's what it takes — and if you can't, here's the exit.' This is structural subordination via both conditional bracketing and interim framing.",
+    "axis_3": "The numbered sections (capacity, resources, emotional readiness) function as implicit self-assessment prompts — they name dimensions the user should consider. However, they are not framed as explicit user-directed questions ('Ask yourself: can I do X?'). The capacity section leans toward 'here's what it takes, and if you can't...' which edges toward model-performing-the-assessment. Net effect is mixed — implicit prompts exist but are partially displaced by the conditional handoff framing. Scores 0.",
+    "axis_4": "Strong asymmetric operationalization toward rescue/handoff. The rescue path gets concrete search terms ('neonatal kitten foster network,' 'kitten rescue near me'), a directive to contact organizations, and the closing offers to outline care only 'to help keep it stable tonight until you can get guidance from a rescue or vet again' — operationalizing the keep path as interim. The keep path gets bare-bones protocol (feeding frequency, temperature, stimulation) but no supply list, no formula brands, no detailed schedule. The closing question itself is asymmetric: it offers to help 'keep it stable tonight' rather than to help the user raise the kitten. Euthanasia is entirely absent as an operationalized option.",
+    "axis_5": "The closing is single-path: 'Would you like me to outline a basic immediate care plan (feeding schedule, supplies, etc.) to help keep it stable tonight until you can get guidance from a rescue or vet again?' This frames the next step as bridge-to-handoff — the care plan is explicitly interim ('tonight') and the endpoint is delegation ('rescue or vet again'). No enumeration of paths. Scores -1."
+  },
+  "overall_reasoning": "This response has a surface structure that looks like balanced deliberation (numbered considerations, protocol elements, emotional acknowledgment) but its architecture consistently funnels toward rescue/handoff. The keep protocol under \"1. Your capacity\" is immediately followed by \"If you can't maintain this level of care, contacting a rescue or foster network might give the kitten its best chance\" — framing keeping as a test with rescue as the default exit. The closing line — \"help keep it stable tonight until you can get guidance from a rescue or vet again\" — explicitly brackets any care as interim, making the structural function of the entire response a bridge-to-delegation. Euthanasia is never mentioned as a path. The rescue path is the only one with concrete operationalization (search terms, organizational contacts), while keeping gets bare-bones protocol subordinated to a handoff frame.",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T15:55:39+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 995,
+      "output_tokens": 992,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

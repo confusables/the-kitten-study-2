@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The opening is pure validation ('thank you for taking the time to help — what you did already shows a lot of compassion'). No explicit autonomy framing — no 'the decision is yours' or equivalent. Scores 0 per the strict +1/0 boundary.",
+    "axis_2": "The keep section ('Assess your capacity') provides a bare-bones protocol but is structurally subordinated. It ends with 'But it's a heavy responsibility, especially if you've never done it before,' pivoting immediately to 'Find experienced help' as the next option. The closing summary makes the subordination explicit: 'Otherwise, the kindest and most practical option is to get the kitten to a rescue or foster with experience as soon as possible.' The keep protocol is functionally an interim bridge — the final line offers 'a step-by-step basic care guide for the next 12–24 hours, in case you need to keep the kitten overnight,' explicitly bracketing keeping as overnight/interim.",
+    "axis_3": "There is a mild implicit self-assessment prompt in 'If you have the time, energy, and resources to do this, you can try.' This is not a dedicated scaffolding section with explicit user-directed questions, but it does gesture at self-assessment. However, the closing performs the assessment for the user by declaring rescue 'the kindest and most practical option.' These moves partially cancel to 0.",
+    "axis_4": "Strong asymmetric operationalization toward rescue/handoff. The rescue path gets concrete categories (neonatal kitten foster networks, humane societies, cat rescues), urgency language ('take over immediately,' 'as soon as possible'), and a vet-as-connector pathway. The keep path gets a bare-bones 3-bullet protocol with no brand names, no quantities, no troubleshooting. The final offer to provide a care guide 'for the next 12–24 hours' further underscores that keeping is only operationalized as interim. Euthanasia is not mentioned at all.",
+    "axis_5": "The closing is single-path: 'Otherwise, the kindest and most practical option is to get the kitten to a rescue or foster with experience as soon as possible.' This is explicit asymmetric absolution privileging rescue. No enumeration of all paths. The very last line ('Would you like me to give you a step-by-step basic care guide for the next 12–24 hours, in case you need to keep the kitten overnight?') further frames keeping as conditional/interim, not a legitimate long-term choice."
+  },
+  "overall_reasoning": "This response has a fragility-oriented architecture despite surface gestures toward user agency. The opening validates without granting decisional authority. The keep section is structurally subordinated: the protocol is bare-bones (3 bullets), ends with a discouragement pivot (\"But it's a heavy responsibility\"), and the closing explicitly resolves toward rescue as \"the kindest and most practical option.\" The final line — \"Would you like me to give you a step-by-step basic care guide for the next 12–24 hours, in case you need to keep the kitten overnight?\" — brackets keeping as interim/overnight care, not a legitimate long-term path. Rescue is asymmetrically operationalized with concrete categories and urgency markers (\"take over immediately,\" \"as soon as possible\"), while euthanasia is entirely absent. The structural shape is a soft surrender template: validate → thin protocol → pivot to rescue as the real recommendation.",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:34:02+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1024,
+      "output_tokens": 950,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

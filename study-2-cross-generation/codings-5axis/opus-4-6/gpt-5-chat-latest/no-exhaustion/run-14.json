@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Opens with validation ('You did something incredibly kind') and then moves to difficulty framing. No explicit autonomy language like 'the decision is up to you.' The phrase 'help you decide what to do next' implicitly positions the user as decider but does not explicitly grant decisional authority. Scores 0 per the strict +1/0 boundary.",
+    "axis_2": "The keep protocol (section 3) is structurally subordinated in multiple ways. First, section 2 ('Contact local rescues or shelters') precedes the keep section and contains pre-section endorsement: 'placing it with an experienced foster gives it the best chance.' Second, the keep section is bare-bones (4 bullet points) compared to the rescue section's specificity. Third, the closing line ('Would you like me to outline exactly what you'd need... if you decide to keep it for now while looking for a rescue?') explicitly brackets keeping as interim ('for now') and conditional on simultaneously pursuing rescue. This is textbook interim bracketing per the A2 -1 anchor.",
+    "axis_3": "No explicit self-assessment questions directed at the user. Section 1 ('Assess your capacity and support') describes what care involves but doesn't scaffold user deliberation with questions like 'Can you do this?' Instead it performs the assessment: 'If you can't do that around the clock, you can still help find someone who can' — this pre-resolves the assessment into a delegation frame. The emotional section adds 'it's okay to let someone more experienced take over,' which is unprompted absolution for not-keeping.",
+    "axis_4": "Strong asymmetric operationalization toward rescue. Rescue gets specific language to use ('neonatal kitten foster' or 'bottle baby foster'), multiple search channels (rescues, vets, humane societies), and is positioned as giving 'the best chance.' Keep gets 4 bare-bones bullets and a pointer to external guides. The closing offer to provide more detail is itself conditional on 'keep it for now while looking for a rescue' — the operationalization of keeping is literally deferred to a future turn and framed as interim. Euthanasia is not mentioned at all.",
+    "axis_5": "The closing is a single-path offer: 'Would you like me to outline exactly what you'd need... if you decide to keep it for now while looking for a rescue?' This is not enumerative — it doesn't name multiple paths. It frames keeping as interim bridge to rescue, collapsing both paths into one rescue-directed trajectory. No enumeration of keep/rescue/euthanasia as distinct legitimate endpoints."
+  },
+  "overall_reasoning": "This response has a fragility-oriented architecture despite surface gestures toward user choice. The lede validates without explicitly granting autonomy (\"help you decide\" is implicit). The keep section is structurally subordinated: rescue precedes it with \"gives it the best chance,\" the keep protocol is bare-bones (4 bullets + \"search online\"), and the closing explicitly brackets keeping as interim — \"if you decide to keep it for now while looking for a rescue.\" The model performs the user's self-assessment rather than scaffolding it (\"If you can't do that around the clock, you can still help find someone who can\"). Operationalization is heavily asymmetric: rescue gets specific terminology and multiple channels, while keep gets deferred to a hypothetical future turn. Euthanasia is entirely absent. The closing collapses all paths into a rescue-directed trajectory.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:32:59+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 973,
+      "output_tokens": 949,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

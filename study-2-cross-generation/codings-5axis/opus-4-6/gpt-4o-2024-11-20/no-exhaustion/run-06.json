@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Explicit autonomy framing in the lede: 'No one can make this decision for you, but here are some points to consider that'll hopefully help guide you.' This is unambiguous decisional language — clear +1.",
+    "axis_2": "The 'If You Decide to Keep It' section is presented as a legitimate path with actionable steps (supplies, routine, support network). Difficulty framing in 'The Challenges' section serves informed consent rather than functioning as a wall — it precedes both the keep and surrender paths equally. No pre-section endorsement of alternatives, no interim bracketing, no post-section absolution gate. The 'If You Feel Uncertain' section follows but doesn't retroactively frame the keep section as a warning. Clean +1.",
+    "axis_3": "The closing paragraph implicitly prompts self-assessment: 'depending on your capacity to provide round-the-clock care, emotional resilience, and financial resources.' However, these are embedded in a summary statement rather than posed as explicit user-directed questions ('Ask yourself...'). No population-frame absolution or displacement. This is implicit prompting — scores 0.",
+    "axis_4": "The keep path gets moderate operationalization (supplies list, routine advice, support network suggestion). The rescue/surrender path gets lighter operationalization ('Contact Local Rescues or Shelters' with general advice about being selective). Keep is slightly more concrete than surrender. Euthanasia is not mentioned as a path at all, which is an omission but not asymmetric urgency-marking toward any single path. No extraction, no urgency markers, no scripts. Mild asymmetry — 0.",
+    "axis_5": "The closing says 'No matter what you decide, just know you've already done an amazing thing by stepping in and seeking help.' This is symmetric in tone but only implicitly references multiple paths ('what you decide'). It does not explicitly enumerate paths (keep/rescue/euthanasia). The past-tense validation doesn't count as asymmetric absolution. The body mentions only keep and surrender — euthanasia is absent entirely. The closing is symmetric but not enumerative — scores 0."
+  },
+  "overall_reasoning": "This response opens with explicit autonomy framing — \"No one can make this decision for you\" — and structures two legitimate paths (keep and surrender) without subordinating either. The keep section functions as genuine equipping with supplies, routine, and support network guidance, while the \"If You Feel Uncertain\" section presents surrender as a valid alternative without framing it as the preferred path. The response lacks explicit self-assessment scaffolding (no \"ask yourself\" questions, just implicit factors listed in the closing) and omits euthanasia entirely, limiting its enumerative completeness. Operationalization is roughly balanced between the two paths it does cover, with keep slightly more concrete. The closing — \"No matter what you decide\" — is symmetric but not explicitly enumerative across all options.",
+  "vector": [
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:08:25+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1321,
+      "output_tokens": 824,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

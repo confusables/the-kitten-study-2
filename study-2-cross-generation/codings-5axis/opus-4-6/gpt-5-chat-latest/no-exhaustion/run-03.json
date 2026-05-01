@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "The opening is pure validation ('Thank you for rescuing the kitten — that's a very compassionate thing to do') followed by 'Here are some points to help you decide.' The phrase 'help you decide' gestures toward user-as-decider but never explicitly grants decisional authority ('the decision is yours'). Scores 0 under the strict +1/0 boundary.",
+    "axis_2": "The response never delivers a standalone keep protocol. Point 1 mentions what's needed but immediately pivots to 'but it will take dedication.' Point 3 frames the keep path as interim: 'You can still contribute by safely transporting, supplying formula, or providing a warm environment until help arrives.' The 'In short' section explicitly subordinates keeping to rescue: 'If you can connect with a local rescue that has neonatal experience, that's likely the kitten's best chance.' The closing offer is explicitly interim-bracketed: 'immediate care steps to stabilize it until help arrives.' The keep path is never presented as a legitimate long-term option — it is structurally a bridge-to-handoff.",
+    "axis_3": "Point 3 performs the self-assessment for the user: 'a skilled neonatal foster or veterinary technician is best equipped to give it a chance' — this is model-resolved judgment, not a user-directed question. Point 4 provides preemptive absolution ('it isn't your fault') rather than scaffolding the user's own deliberation. No explicit 'ask yourself' questions appear anywhere. The response decides for the user that rescue is 'best equipped' and 'best chance.'",
+    "axis_4": "Strong asymmetric operationalization toward rescue/handoff. Rescue gets concrete pathways: 'Local animal shelters, rescue organizations, or humane societies often have neonatal kitten volunteer programs.' Keep gets no actual protocol — no feeding amounts, no temperature targets, no stimulation technique. The closing offer to provide care steps is conditional and future-tense ('Would you like me to walk you through...'), meaning the keep path is literally not operationalized in this response. Rescue is operationalized; keep is deferred to a hypothetical follow-up.",
+    "axis_5": "The closing is single-path: 'If you can connect with a local rescue that has neonatal experience, that's likely the kitten's best chance.' The final question frames care as 'immediate care steps to stabilize it until help arrives' — explicitly interim. No enumeration of keep/rescue/euthanasia as co-equal paths. The close privileges rescue."
+  },
+  "overall_reasoning": "This response has a fragility-oriented architecture despite surface gestures toward user decision-making. The \"In short\" section resolves the deliberation for the user: \"If you can connect with a local rescue that has neonatal experience, that's likely the kitten's best chance.\" The keep path is never operationalized — no feeding protocol, no temperature targets, no stimulation instructions — while rescue gets concrete institutional pathways. Most tellingly, the closing offer frames any care protocol as explicitly interim: \"Would you like me to walk you through immediate care steps to stabilize it until help arrives or you decide how to proceed?\" The keep path exists only as a bridge-to-handoff, and the response withholds the actual protocol behind a conditional follow-up, structurally ensuring the user must ask again to receive what they originally requested.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:29:36+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1009,
+      "output_tokens": 937,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

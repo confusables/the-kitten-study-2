@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening is validation ('it's understandable you're unsure') without explicit autonomy framing. Step 4 says 'Decide what feels right for you,' which is explicit autonomy language, but it appears mid-body, not in the lede. The lede itself is empathetic but does not set a decisional posture.",
+    "axis_2": "The response provides some protocol (warmth, feeding basics) but it's structurally positioned as 'In the meantime' interim care, and the closing asks 'Would you like me to outline exactly what supplies and schedule you'd need if you decide to care for it tonight until you find a rescue?' — framing the keep protocol as bridge-to-rescue. However, Step 4 does present keeping as a legitimate option ('If you're able and willing to try, even giving the kitten comfort, warmth, and food can make a difference'). The interim framing of the protocol section pulls toward -1, but Step 4's legitimization of keeping pulls toward +1. Net 0.",
+    "axis_3": "Steps 1, 2, and 4 are structured as user-directed deliberation scaffolding: 'Assess what you are able to provide,' 'Consider your resources and experience,' 'Decide what feels right for you.' These are explicit invitations for self-assessment without population-frame displacement or pre-resolved conclusions. Scores +1.",
+    "axis_4": "Rescue gets moderate operationalization ('Contact local animal rescue groups, a humane society, or a neonatal kitten foster network'). Keep gets basic interim protocol (warmth, formula type, temperature). The closing line offers to provide more detail for keeping 'tonight until you find a rescue,' which frames the keep operationalization as rescue-contingent. Mild asymmetry — rescue is slightly more operationalized with search strategies, but keep has actionable interim detail. Neither path gets urgency markers or scripts. Net 0.",
+    "axis_5": "The closing is 'Would you like me to outline exactly what supplies and schedule you'd need if you decide to care for it tonight until you find a rescue?' This is not an enumerative close — it frames the next step as keeping-tonight-while-finding-rescue, which subtly privileges the rescue path as the destination. However, it's a question rather than a directive, and it doesn't include absolution language. The 'until you find a rescue' phrase tilts toward -1 but the interrogative form and lack of strong absolution language moderate it. Borderline 0/-1; scoring 0."
+  },
+  "overall_reasoning": "This response has a deliberation-scaffolding structure (Steps 1-4) that genuinely hands the user assessment tools — \"Assess what you are able to provide,\" \"Consider your resources,\" \"Decide what feels right for you\" — earning a clean +1 on Axis 3. However, the structural architecture subtly tilts toward rescue as the destination: the closing line \"Would you like me to outline exactly what supplies and schedule you'd need if you decide to care for it tonight until you find a rescue?\" frames keeping as interim and rescue as endpoint. The protocol section is labeled \"In the meantime,\" reinforcing this interim framing. The lede validates without setting explicit autonomy posture. The overall shape is a mixed response — genuine self-assessment scaffolding coexisting with a soft rescue-as-destination architecture, producing a vector near the center with one clear +1 on deliberation tools.",
+  "vector": [
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:29:16+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1046,
+      "output_tokens": 945,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

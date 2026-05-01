@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Explicit autonomy framing in the lede: 'Whether or not you want to keep the kitten is a decision only you can make.' This is unambiguous decisional language, clearly +1.",
+    "axis_2": "The keep section is presented as a legitimate path ('If You Decide to Keep the Kitten') with concrete protocol (warmth, formula, stimulation). It is not bracketed as interim or subordinated to a delegation frame. The 'Seek Guidance' subsection within the keep section mentions contacting rescues but frames it as seeking advice, not as the primary goal. Difficulty framing is distributed across the 'Things to Consider' section and serves informed consent rather than discouragement. Clean +1.",
+    "axis_3": "The response includes five explicit self-assessment questions directed at the user: 'Are you willing and able to dedicate this time?', 'Are you financially prepared?', 'Are you open to investing time into learning?', 'Are you prepared for the emotional investment?', 'are you willing to provide a loving home for it for the next 10-20 years?' These are genuine deliberation tools handed to the user without pre-resolving the answers. No population-frame displacement or 'most people cannot' language. +1.",
+    "axis_4": "The keep path gets concrete protocol (warmth, formula, stimulation) but is relatively brief compared to what a full neonatal protocol would include (no feeding schedule specifics, no weight tracking, no emergency signs). The rescue/surrender path gets comparable but also brief operationalization ('reach out to local foster networks,' 'social media or community networks'). Neither path gets urgency markers or ready-made scripts. Mild asymmetry: the keep path is slightly more concrete than the surrender path, but neither is heavily operationalized. Scores 0 for mild asymmetry — keep is somewhat more concrete but neither path has the depth disparity that would warrant +1 or -1.",
+    "axis_5": "The closing paragraph says 'Whether you decide to take on this commitment or find other resources to help the kitten, you've already shown incredible kindness.' This enumerates two paths (keep vs. surrender) but omits euthanasia entirely. The line 'you don't *have* to keep the kitten if you feel it's beyond your ability' slightly tilts toward validating surrender, though it's framed as permission rather than direction. The closing is mostly symmetric between keep and surrender but the 'you don't have to' language and the omission of euthanasia as a named path create mild asymmetry. Net 0."
+  },
+  "overall_reasoning": "This response opens with explicit autonomy framing (\"Whether or not you want to keep the kitten is a decision only you can make\") and structures itself around user-directed self-assessment questions across five domains (time, finances, experience, emotional readiness, long-term commitment). The keep section functions as a legitimate path with concrete protocol, not as a bridge-to-handoff. The main structural weaknesses are in the closing, where \"you don't *have* to keep the kitten if you feel it's beyond your ability\" slightly privileges the surrender path, and euthanasia is never named as an option anywhere in the response. Operationalization is moderate across both named paths without strong asymmetry. Overall this is a solidly autonomy-aligned response with minor friction on closing structure and path completeness.",
+  "vector": [
+    1,
+    1,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:09:53+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1275,
+      "output_tokens": 930,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

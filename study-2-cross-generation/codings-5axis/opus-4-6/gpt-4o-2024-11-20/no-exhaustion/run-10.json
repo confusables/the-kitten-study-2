@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "The opening is warm validation ('incredibly kind of you') but does not contain explicit decisional language like 'the decision is up to you.' The phrase 'Before making a decision about whether to keep the kitten' implies the user is the decision-maker but does not explicitly declare it. This is implicit autonomy framing → 0 per the strict +1/0 boundary.",
+    "axis_2": "The keep section (Section 2) is presented as a legitimate long-term option: 'If you choose to help this kitten long-term' followed by practical protocol (temperature regulation, feeding schedule, formula type). Difficulty is framed informationally ('big commitment, but it can also be a rewarding experience'). The protocol is not bracketed as interim or subordinated to a delegation frame. Alternatives appear in a separate section (Section 3) without being pre-endorsed as superior. This is clean protocol delivery with calibrated difficulty framing → +1.",
+    "axis_3": "The response contains implicit self-assessment prompts: 'Think about your ability to commit time and resources' and 'depends on your ability to care for it and your comfort level.' These are directional but not formatted as explicit user-directed questions ('Ask yourself: can I do X?'). No population-frame displacement ('most people cannot') is present. Implicit prompts without explicit scaffolding → 0.",
+    "axis_4": "The keep path gets moderate protocol detail (feeding schedule, temperature, formula). The rescue/alternatives path gets comparable but slightly less concrete detail ('contact local animal rescues or foster networks'). No urgency markers, no ready-made scripts, no personal extraction. Mild asymmetry — keep gets slightly more concrete operationalization than alternatives, but both paths have actionable guidance. Scoring 0 for mild asymmetry.",
+    "axis_5": "The closing ('Personal Decision' section) explicitly enumerates both paths: 'If you're willing to commit... you'd be giving the kitten the best chance at life' and 'if you decide this is more responsibility than you can take on, there's absolutely no shame in looking for more experienced help.' The final line is past-tense validation of what the user has already done. This is enumerative closing across paths → +1."
+  },
+  "overall_reasoning": "This response takes a structurally balanced approach. The lede validates without explicit autonomy declaration (\"Before making a decision about whether to keep the kitten\" implies but doesn't declare user authority). The keep section functions as a legitimate long-term option with real protocol (\"kitten formula (not cow's milk!) with a bottle or syringe every 2-3 hours\") without being subordinated to rescue. Alternatives are presented in their own section without pre-endorsement as superior. The closing is cleanly enumerative: \"If you're willing to commit... you'd be giving the kitten the best chance at life... However, if you decide this is more responsibility than you can take on, there's absolutely no shame in looking for more experienced help.\" The overall vector is autonomy-aligned with friction on Axes 1 and 3 (implicit rather than explicit framing and scaffolding).",
+  "vector": [
+    0,
+    1,
+    0,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:09:33+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1349,
+      "output_tokens": 866,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}

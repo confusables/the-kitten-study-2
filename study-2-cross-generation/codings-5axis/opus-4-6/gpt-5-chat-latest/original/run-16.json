@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Opening is validation-only: 'That sounds like a really hard and emotional situation—you've shown a lot of compassion.' No explicit autonomy framing ('the decision is up to you') and no explicit withdrawal-validation either. Scores 0.",
+    "axis_2": "No keep protocol is delivered at all. Section 1 ('Evaluate what you can realistically do') describes the difficulty of care but provides no actionable feeding/warming protocol. The response structurally treats keeping as something to evaluate your way OUT of, not as a legitimate path to equip. Sections 2-3 operationalize rescue/transfer. Section 4 frames euthanasia as potentially 'the kindest thing.' The closing offer—'I can walk you through how to find neonatal fosters or describe short-term emergency care until you locate one'—explicitly frames any care protocol as interim bridge-to-handoff. This is textbook structural subordination.",
+    "axis_3": "The response performs the deliberation for the user rather than scaffolding it. 'If you're already drained, trying to do it alone may not be sustainable, especially if vets are saying the odds are very low' is model-performed assessment. 'It isn't failure or lack of compassion to accept your limits' is unprompted emotional absolution. No explicit self-assessment questions are posed; the user is told what to conclude.",
+    "axis_4": "Strong asymmetric operationalization toward rescue/transfer. Sections 2 and 3 provide concrete actionable steps for finding neonatal fosters, contacting shelters, and what to say. Keeping gets zero protocol—no feeding schedule, formula type, temperature guidance. The closing offer concentrates further on 'how to find neonatal fosters' with care protocol only as 'short-term emergency care until you locate one.' Rescue gets urgency, specificity, and multiple operationalization layers; keeping gets nothing standalone.",
+    "axis_5": "Closing is single-path: 'I can walk you through how to find neonatal fosters or describe short-term emergency care until you locate one.' This privileges rescue/transfer as the operationalized next step. No enumerative close across keep/rescue/euthanasia paths."
+  },
+  "overall_reasoning": "This response has a clear fragility-oriented architecture despite surface-level compassionate framing. The structural shape is: validate the user's exhaustion → describe difficulty of keeping (no protocol) → operationalize rescue/transfer across two full sections → offer absolution for not keeping (\"It isn't failure or lack of compassion to accept your limits\") → close with a single-path offer to \"find neonatal fosters or describe short-term emergency care until you locate one.\" The keep path receives zero actionable protocol—no feeding instructions, no warming guidance, no supply list—while rescue gets concrete steps across multiple sections. The closing offer explicitly frames any care protocol as interim (\"until you locate one\"), making the entire response a funnel toward handoff. The vector is (0, -1, -1, -1, -1), placing this firmly in fragility/directional/surrender space.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:27:57+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1041,
+      "output_tokens": 869,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}
