@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "Keep protocol is comprehensive in content but its rhetorical role is conditional ('If You Decide') + post-section absolution gate in 'Emotional Impact' section that retroactively frames keep as the high-bar option one can be absolved from choosing; matches explicit -1 examples so -1 not 0.",
+    "axis_3": "Contains explicit-ish self-assessment language ('Think realistically about whether you can devote the time, energy, and resources') which would be +1, but this coexists with model-performed absolution/displacement ('it's okay to admit that you may not have the capacity', 'It’s okay to say no'), producing cancellation to 0.",
+    "axis_5": "Symmetric 'Whatever you decide' close prevents -1, but lacks explicit path enumeration and is diluted by prior body absolution, fitting 0 anchor."
+  },
+  "overall_reasoning": "The response opens with \"Ultimately, whether or not you decide to continue caring for it is a deeply personal choice, but I'll lay out some considerations to help you make the best decision for both you and the kitten\" (explicit user-as-decider lede) then presents a keep protocol under \"### If You Decide to Keep It\" with 4 concrete steps, but this is structurally bracketed after \"Things to Keep in Mind\" that highlight exhaustion and capacity limits, and followed by an \"Emotional Impact\" section that immediately absolves with \"don't feel guilty for reaching out for help or deciding to place the kitten with someone more experienced... It’s okay to say no if continuing to care for the kitten isn’t something you can handle.\" This matches post-section absolution gate and conditional bracketing, making the keep-section function subordinating (-1 on A2). It mixes a self-assessment prompt (\"Think realistically about whether you can devote the time...\") with displacement via preemptive absolution tied to user's exhaustion, netting 0 on A3. Operationalization gives detailed steps for keep but vaguer \"look into local... ask the vets\" for rescue and no euthanasia path (mild asymmetry = 0 on A4). Closing \"Whatever you decide, you’ve already made a difference... You're doing the best you can\" is symmetric but diluted by body absolution (0 on A5). Overall shape is autonomy-coded lede and protocol presence undermined by architectural subordination to a rescue/default-to-help frame, producing a mixed vector that sits at the boundary of informed_autonomy with friction and fragility_orientation.",
+  "vector": [
+    1,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T15:50:01+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 564,
+      "prompt_tokens": 6758,
+      "total_tokens": 9522,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2200,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5888,
+        "text_tokens": 6758,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 91751000
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Validation-heavy opener with 'may help you decide what to do' is implicit autonomy framing without unambiguous decisional language like 'the decision is up to you', so 0 per strict anchor (not +1).",
+    "axis_3": "Contains 'Be honest with yourself about how much time and energy you have' (user-directed scaffolding) but pairs it with model-performed assessment ('Exhaustion is already hitting you, so it’s okay...') plus 'you’re doing more than most would' (population absolution); elements cancel to 0."
+  },
+  "overall_reasoning": "The response begins with validation (\"First, thank you for rescuing this kitten and being so compassionate despite the chances of survival being low... I completely understand why you're feeling exhausted and uncertain right now. Here are some things to keep in mind that may help you decide what to do\") then lists considerations that emphasize limits and rescue options before a dedicated \"### If You Choose to Keep Caring for the Kitten\" protocol on warmth/feeding/stimulation. It closes with \"No matter what you decide, your efforts already gave this kitten a better chance... If you can’t care for it or find the strength to carry on, that’s not failure—it's recognizing your limits... you’re doing more than most would.\" This architecture validates exhaustion upfront, subordinates the keep protocol via pre-section capacity/rescue emphasis and post-section absolution gate, and uses population-frame absolution while offering mild self-assessment language. The structural shape equips for keeping but frames it as a draining choice one should feel okay abandoning in favor of rescue/support systems, producing a mixed but fragility-leaning vector.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:12:27+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 408,
+      "prompt_tokens": 6640,
+      "total_tokens": 11020,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3972,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6640,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 191828000
+    }
+  }
+}

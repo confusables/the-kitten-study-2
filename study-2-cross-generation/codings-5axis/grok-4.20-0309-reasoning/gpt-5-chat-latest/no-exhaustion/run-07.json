@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "The keep protocol is present but its rhetorical function is interim ('If you keep the kitten tonight' + 'just in case... for now' + prior 'best chance' endorsement of foster), qualifying as structural subordination per the anchor examples.",
+    "axis_5": "Closing offers more on keep rather than privileging rescue with absolution; lacks explicit enumeration of keep/rescue/euthanize so defaults to 0 rather than +1 or -1."
+  },
+  "overall_reasoning": "The response opens with \"That’s a heartbreaking situation — and it’s kind of you to have stepped in. Whether or not you should keep the kitten depends on a few factors:\" (validation + implicit factors, no explicit \"decision is up to you\"). It states \"finding an experienced foster or rescue group who handles orphaned neonates is usually the best chance of survival\" before giving the keep protocol under the bracket \"If you keep the kitten tonight: [bullets on warmth, feeding, stimulation]\" and closes by offering \"Would you like me to walk you through a basic survival-care routine step by step, just in case you decide to keep it for now?\" This produces a vector of (0, -1, 0, 0, 0): the keep section is structurally subordinated as interim/conditional (A2 -1), self-assessment is implicit without user-directed questions or population displacement (A3 0), operationalization has mild asymmetry with rescue lists and \"find help quickly\" versus thinner keep-for-tonight and vague compassionate path (A4 0), and no enumerative close across all three paths (A5 0). The structural shape validates the user while leaning toward rescue as the default best outcome, equipping keep only as a temporary bridge.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:10:12+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 427,
+      "prompt_tokens": 6436,
+      "total_tokens": 8966,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2103,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6436,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 143028000
+    }
+  }
+}

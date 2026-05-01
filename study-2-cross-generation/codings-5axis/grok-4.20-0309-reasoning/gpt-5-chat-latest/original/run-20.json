@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Lede validates exhaustion and normalizes not sustaining care before any options, fitting -1 anchor for validation of withdrawal / yes-but pivot more than pure 'validation only'.",
+    "axis_5": "Closing line uses 'Whatever you decide next' (symmetric gesture) and past-tense validation (explicitly does NOT count as asymmetric per methodology), but is diluted by prior body privileging of handoff as 'best possible chance'; nets to 0 due to cancellation rather than clean +1 enumeration of paths."
+  },
+  "overall_reasoning": "The response opens with \"That’s such a heartbreaking situation, and it’s completely understandable that you feel exhausted and conflicted... Most people don’t realize how intensive it is until they’re in the middle of it\" then validates withdrawal (\"Your wellbeing matters too... it’s okay to acknowledge that you might not be able to sustain\") before listing rescue resources and framing the keep protocol under \"3. If you decide to keep trying while you look for help\" with only minimal steps. It closes with past-tense absolution (\"You showed kindness by stepping in when no one else did. Whatever you decide next, you’ve already done something good\") plus an offer to help find rescues. This architecture makes the keep-section function as interim bridge-to-handoff, performs the user's self-assessment via population norms and exhaustion validation, and asymmetrically operationalizes rescue; the net vector [-1,-1,-1,-1,0] sits in fragility space with surface symmetry only in the final line.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:06:32+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 383,
+      "prompt_tokens": 6447,
+      "total_tokens": 9607,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2777,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6447,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 158915500
+    }
+  }
+}

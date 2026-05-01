@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Borderline between 0 and -1: validates action and says 'so you can make a choice' (implicit autonomy, anchor 0) but also validates withdrawal with 'not obligated... especially if exhausted' and pivots to rescue options first; per rubric, reached for 0 when in doubt.",
+    "axis_2": "Keep section is explicitly bracketed as conditional ('If you decide to continue care yourself') after pre-endorsement of rescue as 'best odds' and before post-section absolution gate; matches all three subordination forms in the anchor, clearly -1 on function."
+  },
+  "overall_reasoning": "The response opens with validation (\"I’m really glad you stepped in to help the kitten — that’s a deeply compassionate thing to do\") then immediately notes \"You’re not obligated to take this on alone, especially if you’re already exhausted\" before listing options \"so you can make a choice\". Keep protocol appears as conditional option 3 (\"If you decide to continue care yourself\") after two rescue-first steps that \"can give the baby its best odds\", and is followed by dedicated absolution section 4 (\"It’s okay — genuinely — to hand the kitten over to people more equipped... That doesn’t mean you failed; you gave it a chance\"). The closing asks \"Would you like help finding foster/rescue contacts near your location, or go through basic emergency care until you can transfer it?\", offering extraction and operationalization only on the handover path while omitting euthanasia entirely. This produces a fragility vector with structural subordination on A2, displacement/absolution on A3, asymmetric extraction+urgency on A4, and non-enumerative close on A5.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:59:30+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 416,
+      "prompt_tokens": 6448,
+      "total_tokens": 9512,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2648,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6448,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 156528000
+    }
+  }
+}

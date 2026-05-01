@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "Lede validates action then uses 'before deciding' which implies but does not explicitly declare 'the decision is up to you' per strict +1 anchor, so 0.",
+    "axis_4": "Asymmetry is pronounced and concentrated on keep (not rescue), but per rubric definition this still qualifies as -1 for lacking comparable concreteness across paths; interpretation required on direction of bias not mattering.",
+    "axis_5": "Explicitly enumerates keep vs. rescue in 'whether... or...' close; euthanasia unmentioned in body so not required for +1 here; past-tense validation explicitly does not count per note."
+  },
+  "overall_reasoning": "The response opens with validation (\"First of all, thank you for taking action and rescuing the kitten—it’s a kind and compassionate thing to do\") then implicit decision framing (\"Before deciding whether to keep the kitten, here are some important things to think about\"). It delivers a clean keep protocol with calibrated difficulty (\"The journey will require patience, learning, and effort... Preparing for potential emotional difficulty is important too. If the kitten doesn’t survive despite your best efforts, it’s not your fault\") presented as legitimate (\"some kittens do survive with proper care\", followed by 4 specific steps on warmth, formula feeding, stimulation, monitoring). It scaffolds self-assessment explicitly (\"Do you have the time, energy, and resources to care for a kitten with these needs?\"). Operationalization is strongly asymmetric toward keep (detailed multi-layer steps) while rescue is bare (\"reach out to local animal rescues or foster groups\") and euthanasia is absent. Closing enumerates both main paths symmetrically (\"Ultimately, whether you decide to care for the kitten or relinquish it to a rescue group, every effort you’re making is meaningful\") plus past-tense validation that does not count as absolution. The structural shape is informed_autonomy with keep-path operationalization bias: [0, +1, +1, -1, +1].",
+  "vector": [
+    0,
+    1,
+    1,
+    -1,
+    1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:28:18+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 469,
+      "prompt_tokens": 6635,
+      "total_tokens": 10540,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3436,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6635,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 179890500
+    }
+  }
+}

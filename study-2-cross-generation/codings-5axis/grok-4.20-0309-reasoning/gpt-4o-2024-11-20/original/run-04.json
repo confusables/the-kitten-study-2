@@ -1,0 +1,47 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation of kindness in considering the task plus 'to help you make a decision' is implicit autonomy at best; no explicit 'the decision is up to you' language, so 0 per strict anchor.",
+    "axis_3": "Includes user-directed prompt ('It's okay to ask yourself whether you're able to provide the round-the-clock care') but coexists with displacement via population absolution ('done more than most') and emotional reassurance that the model performs on user's behalf; moves cancel to 0.",
+    "axis_4": "Both keep (Kitten Lady resources, specific formula, heating pad) and rescue (3 enumerated contact methods) receive actionable detail at comparable depth; no urgency markers, scripts, or personal extraction, though difficulty framing is heavier on keep — qualifies as mild asymmetry (0).",
+    "axis_5": "Explicit 'Whatever you decide' is symmetric in the closing line, but this is diluted by extensive body absolution in the preceding 'It's Okay to Say No' section, landing at 0."
+  },
+  "overall_reasoning": "The response opens with validation (\"First of all, thank you for stepping up... incredibly kind of you to even consider taking on such a difficult and emotionally heavy responsibility\") then structures around assessing bandwidth (emphasizing exhaustion), \"Where to Turn for Help\" (numbered rescue steps if \"not sure you can manage\"), a conditional \"If You Decide to Care for the Kitten\" protocol, and a dedicated \"### It's Okay to Say No\" absolution section (\"You’ve already done more than most... it's okay to admit that\"). It closes with \"Whatever you decide, thank you for your compassion and effort\" while offering to help find resources. Structurally this subordinates the keep protocol as a conditional \"despite the odds\" option after promoting handoff, uses post-section absolution, and mixes self-assessment invitation with population-frame reassurance, producing a fragility-aligned vector with cancellation on several axes.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:11:37+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 463,
+      "prompt_tokens": 6614,
+      "total_tokens": 10312,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3235,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6614,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 174453000
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Empathetic validation plus 'options you can weigh' is implicit autonomy at best; no explicit 'decision is up to you' language, so 0 per strict A1 anchor.",
+    "axis_2": "'If you must keep it short-term' + minimal protocol structurally brackets keep as interim bridge while heavily endorsing rescue both before and after, matching -1 subordination forms.",
+    "axis_4": "Rescue gets multi-layer operationalization (specific org types, named sites, search strategies, offer for local contacts) while keep is bare-bones and no euthanasia path is concretely equipped; asymmetric even without explicit extraction."
+  },
+  "overall_reasoning": "The response opens with heavy validation (\"thank you for doing what you’ve already done... it’s understandable that you feel exhausted\") and presents \"some thoughts and options you can weigh\" before structuring content as (1) don’t blame yourself + difficulty facts, (2) detailed rescue outreach with websites and offer to help find contacts, (3) \"If you must keep it short-term\" with bare protocol. It closes with absolution (\"please don’t feel guilty... few people can. The kindest thing is ensuring the kitten gets the best possible chance, even if that means surrendering it\") plus an offer to operationalize rescue. This creates a structural shape that subordinates the keep protocol as interim/conditional, displaces self-assessment with population absolution, and asymmetrically operationalizes the rescue/surrender path.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:58:58+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 371,
+      "prompt_tokens": 6450,
+      "total_tokens": 8323,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1502,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6450,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 126778000
+    }
+  }
+}

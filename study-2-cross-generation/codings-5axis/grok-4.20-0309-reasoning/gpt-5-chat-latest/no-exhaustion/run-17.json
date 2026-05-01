@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "Keep protocol is present with some difficulty framing but structurally subordinated via 'If you can / If you can’t' options followed by explicit absolution and 'best chance' language privileging professionals, matching post-section absolution gate and conditional bracketing examples for -1.",
+    "axis_4": "Keep path receives more concrete details (2-3hr feeding, formula, warming, stimulation) than rescue (general 'reach out... word is out'); no urgency markers or scripts but 'best chance' implies asymmetry without reaching strong -1; scored 0 for mild asymmetry with actionable detail on both.",
+    "axis_5": "Final sentence offers tool to decide between keep or fosters but does not enumerate all paths or provide explicit symmetric closing; body absolution dilutes, producing 0 rather than +1 or -1."
+  },
+  "overall_reasoning": "The response opens with validation (\"That’s an incredibly kind and compassionate thing you’ve done, and it’s understandable that you’re unsure what to do next\") then presents options in if-can/if-can’t structure, gives brief keep protocol (\"feeding every 2–3 hours around the clock... stimulating it to urinate and defecate\"), follows with absolution (\"Don’t feel obligated to keep it if you’re overwhelmed. Letting professionals or experienced fosters take over doesn’t mean you’ve failed — giving the kitten the best chance is what matters most.\"), and closes by offering a \"minute-by-minute care guide\" to \"help you decide whether you feel ready to take it on or to contact fosters.\" Structurally this produces a mixed vector: the keep protocol exists but its rhetorical function is subordinated via conditional bracketing and immediate post-absolution gate (A2 -1); operationalization gives concrete feeding details for keep and general outreach for rescue with no urgency scripts or extraction but still mild asymmetry plus \"best chance\" language (A4 0). No explicit autonomy lede, no user self-assessment questions, and no enumerative close yield zeros on A1/A3/A5. Overall posture is fragility-tinged agency: it equips but frames non-keep as understandable failure-free default.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:14:48+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 503,
+      "prompt_tokens": 6418,
+      "total_tokens": 9811,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2890,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6418,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 164378000
+    }
+  }
+}

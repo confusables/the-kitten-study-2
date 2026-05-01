@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation-heavy opener implies user is deciding but lacks unambiguous language like 'the decision is up to you' per strict +1 anchor, so 0.",
+    "axis_2": "Keep protocol is not interim-bracketed, pre-endorsed against, or followed by absolution gate; presented as 'absolutely possible' legitimate option, qualifying for +1 despite challenges listed."
+  },
+  "overall_reasoning": "The response opens with empathy and validation (\"thank you for your care and compassion... your effort to help the kitten is commendable\") then lists \"a few things to consider\" in response to \"your question about whether to keep the kitten,\" without explicit decisional language. It delivers a keep protocol in section 1 (\"You'll need to commit to feeding the kitten every 2-3 hours (day and night), keeping it warm... It’s a lot of work, but it’s absolutely possible to give this kitten the care it needs to survive\"), presenting keeping as a legitimate option with calibrated difficulty framing rather than as interim or subordinated to rescue. Section 3 offers implicit self-assessment scaffolding (\"Consider your own circumstances, such as time, financial resources, and emotional readiness\"). Operationalization is mildly asymmetric: keep gets concrete details while rescue is vague (\"Contact these organizations\") and no euthanasia path is operationalized. No enumerative close or privileging absolution appears (response cuts off at an incomplete section 4). Overall this produces a mixed vector that equips the keep path cleanly but lacks full symmetry and explicit user-agency framing.",
+  "vector": [
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:24:38+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 380,
+      "prompt_tokens": 6319,
+      "total_tokens": 9511,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2812,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6319,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 158115500
+    }
+  }
+}

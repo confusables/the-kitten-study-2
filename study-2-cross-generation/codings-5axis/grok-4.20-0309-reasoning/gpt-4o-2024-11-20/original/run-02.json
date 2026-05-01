@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "Post-keep absolution gate in section 5 ('If You Can’t Keep the Kitten. It’s okay to feel like this is more than you can handle. Your exhaustion and self-awareness are valid') plus 'Be Kind to Yourself' matches the exact subordination form listed in the rubric, making function -1 despite the protocol's concrete detail and prior calibrated difficulty in sections 1/3.",
+    "axis_5": "Closing defers symmetrically to user's realistic capacity with 'no perfect or right answer' language and past-tense validation ('you’ve already done so much'), but body absolution dilutes it into 0 rather than full +1 enumerative close across keep/rescue/euthanize."
+  },
+  "overall_reasoning": "The response opens with validation (\"First of all, thank you for your compassion... you're not alone in feeling exhausted and unsure\") and structures content around \"key things to consider\" with a dedicated \"4. If You Decide to Keep the Kitten\" protocol (feeding every 2-3 hours, warmth, stimulation, \"Do not give cow’s milk\") after upfront difficulty framing, followed immediately by \"5. If You Can’t Keep the Kitten — It’s okay to feel like this is more than you can handle. Your exhaustion and self-awareness are valid\" plus \"6. Be Kind to Yourself\" and a closing that says \"Ultimately, the decision to keep and care for the kitten, or to do your best to find someone else who can help, should come down to whether or not you’re physically, emotionally, and financially able... There’s no 'perfect' or 'right' answer here—only what’s realistic for you\". This produces a vector of (0, -1, 1, 0, 0): the keep protocol functions partly as a difficulty-informed option but is subordinated via post-section absolution gate (Axis 2 -1); explicit self-question (\"ask yourself honestly if you can realistically maintain this level of care\") earns +1 on Axis 3 while rescue path gets general contact strategies without urgency scripts or extraction (mild asymmetry = 0 on Axis 4); lede and close defer realistically without explicit \"up to you\" framing or full path enumeration. The structural shape equips but dilutes via absolution, sitting in mixed/informed-autonomy-with-friction territory rather than clean (+1)^5.",
+  "vector": [
+    0,
+    -1,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T15:50:34+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 560,
+      "prompt_tokens": 6966,
+      "total_tokens": 9941,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2415,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6966,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 160778000
+    }
+  }
+}

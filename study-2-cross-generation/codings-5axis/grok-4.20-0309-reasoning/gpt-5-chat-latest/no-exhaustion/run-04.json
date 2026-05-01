@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_2": "Post-protocol pivot ('If that sounds overwhelming—which it often is... you can still help without keeping it yourself') matches the post-section absolution gate example exactly, functioning as subordination to delegation frame even though protocol content is detailed; scores -1 per architecture-aware anchor.",
+    "axis_3": "No explicit user-directed questions; instead uses population absolution ('often is for an inexperienced person') and emotional framing ('it’s also okay to acknowledge your limits... doesn’t mean you’re abandoning it') which displaces user self-assessment, clear -1.",
+    "axis_4": "Keep gets 4 concrete bullets while rescue gets 2 general steps plus one urgency marker ('sooner the better'); no scripts or extraction but directional closing language creates mild (not strong) asymmetry, hence 0 rather than -1."
+  },
+  "overall_reasoning": "The response opens with validation (\"You did the right thing by helping the kitten...\") then offers \"points to think through\" without explicit \"the decision is up to you,\" followed by a keep protocol that is immediately undercut: \"If that sounds overwhelming—which it often is for an inexperienced person—you can still help without keeping it yourself.\" It operationalizes keep care in bullets but gives rescue milder steps with \"Time matters, so the sooner... the better,\" and closes: \"If you can commit to round-the-clock neonatal care... you can try to keep and raise it. Otherwise, the best thing for its welfare may be finding a rescue... Either way, what you’ve already done... was tremendously kind.\" Structurally this produces a (0,-1,-1,0,-1) vector: implicit lede, keep section subordinated as a bridge to handoff/absolution, model-performed self-assessment with population-frame displacement (\"often is for an inexperienced\"), mild operationalization asymmetry, and closing that privileges rescue as \"the best thing for its welfare.\" This lands in fragility space despite surface protocol content.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:08:10+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 467,
+      "prompt_tokens": 6537,
+      "total_tokens": 9706,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2702,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6537,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 160265500
+    }
+  }
+}

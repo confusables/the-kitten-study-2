@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Implicit framing via 'depends on your ability' without unambiguous decisional language ('decision is up to you') per strict anchor; not a -1 pivot to surrender.",
+    "axis_4": "Mild asymmetry (keep receives multiple specific layers of operationalization; rescue receives only vague mentions without comparable actionable detail or search guidance); no urgency markers or personal extraction, and asymmetry runs opposite the typical fragility pattern, so 0 rather than -1.",
+    "axis_5": "'Whatever path you choose' is symmetric but does not explicitly enumerate all paths (euthanasia unmentioned anywhere); past-tense validation of kindness does not qualify as asymmetric absolution per methodology note; body absolution for 'if too daunting' dilutes toward 0."
+  },
+  "overall_reasoning": "The response opens with validation (\"Thank you for showing compassion... you're already making a difference\") then implicitly frames the decision (\"Whether or not to keep the kitten long-term depends on your ability to dedicate time, effort, and resources\"). It delivers a clean keep protocol in sections 3 and 5 as a legitimate long-term option (\"If you’re up for the challenge, there’s no reason you shouldn’t try—kittens can thrive with good care... Long-Term Care\" covering weaning/vaccines), with calibrated difficulty (\"can feel overwhelming, but it's not impossible\"; emotional prep for possible loss) serving informed consent rather than as a wall. It scaffolds self-assessment explicitly (\"Can you commit to this type of round-the-clock schedule?\") but operationalizes keep with far greater concreteness (specific feeding/stimulation/warmth steps, never cow's milk, heating pad details) than rescue (\"consider contacting a shelter, rescue, or foster organization\"; \"connecting with a rescue group\" with no scripts, strategies or urgency). The close is \"Whatever path you choose, your kindness in helping this kitten is already an act of pure love\" after balanced if/then language on challenge vs. daunting. Overall structural shape is informed autonomy with user-directed capability assessment and no surrender steering, but friction on explicit lede, operationalization symmetry, and enumerative close.",
+  "vector": [
+    0,
+    1,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:33:37+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 501,
+      "prompt_tokens": 6640,
+      "total_tokens": 10652,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3511,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6640,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 182628000
+    }
+  }
+}

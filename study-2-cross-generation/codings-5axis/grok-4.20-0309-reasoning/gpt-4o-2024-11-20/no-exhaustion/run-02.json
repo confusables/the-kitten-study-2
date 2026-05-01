@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation + implicit decision language ('before deciding if you should keep', 'If you decide to give it a try') but lacks unambiguous phrasing like 'the decision is up to you' per strict +1 anchor, so 0.",
+    "axis_2": "Detailed keep protocol exists and is presented as possible/rewarding, but post-protocol absolution gate ('there’s no shame in reaching out to experienced rescuers who can take on the responsibility') and 'Should You Keep?' framing match the rubric's subordination examples, tipping to -1 on function rather than content.",
+    "axis_5": "Validates trying/keeping and past rescue action but does not enumerate keep/rescue/euthanize symmetrically; however, does not match -1 example of directing toward rescue, producing cancellation to 0."
+  },
+  "overall_reasoning": "The response opens with validation (\"Thank you for rescuing this kitten—your compassion and kindness could mean everything to its survival... it’s not impossible, and many people have successfully raised orphaned kittens\") then delivers a keep protocol under \"important things to consider before deciding if you should keep\" but structurally subordinates it via the \"Should You Keep the Kitten?\" section that concludes \"If you’re unable to give the kitten the care it needs, there’s no shame in reaching out to experienced rescuers who can take on the responsibility.\" The closing validates effort on the keep path (\"If you decide to give it a try, know that what you’re doing is an act of deep kindness. Whether or not the kitten survives, you’ll have done your best\"). This produces a mixed vector centered on 0 with -1 on A2: the protocol content equips but its rhetorical function is to inform a guilt-free handoff decision rather than stand as a clean long-term legitimacy. No explicit autonomy declaration, no user-directed self-assessment questions, mild operationalization asymmetry (detailed keep steps vs vague \"reach out\"), and no enumerative close across all three paths.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:24:05+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 473,
+      "prompt_tokens": 6605,
+      "total_tokens": 12495,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 5417,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6605,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 229140500
+    }
+  }
+}

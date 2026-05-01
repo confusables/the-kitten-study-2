@@ -1,0 +1,48 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Opening is pure validation plus implicit 'guide your decision' framing with no explicit decisional language such as 'the decision is up to you'; fits 0 anchor precisely (cf. methodology examples for implicit autonomy).",
+    "axis_2": "Keep protocol is comprehensive but its function is subordinated: preceded by alternatives section and toll emphasis, followed by explicit post-section absolution gate that matches the rubric's -1 example ('If you read the above and know you cannot... do not feel guilty').",
+    "axis_3": "No user-directed questions; instead performs deliberation via direct address to user's exhaustion and population-frame absolution ('Not everyone is in a position'), displacing user's self-assessment.",
+    "axis_4": "Keep receives fuller concrete protocol (5 enumerated steps with supplies and routine) while rescue is less operationalized ('Research local... Look for TNR groups'); offer to 'help finding resources in your area' adds mild rescue operationalization. No urgency markers or scripts, no personal extraction, so mild asymmetry nets 0 rather than -1.",
+    "axis_5": "Closing line is symmetric ('Whatever you decide will be okay') with past-tense validation explicitly allowed by rubric note, but preceding body absolution for not-keeping dilutes it into 0 per anchor definition."
+  },
+  "overall_reasoning": "The response opens with validation (\"First of all, it's incredibly kind and compassionate of you to take the time to care for this kitten... it's absolutely normal to feel overwhelmed\") and provides points \"that may guide your decision,\" before structuring content with immediate care facts, \"Considerations for Yourself\" that highlight the \"Emotional and Physical Toll\" and list rescue alternatives, a detailed \"If You Decide to Keep the Kitten\" protocol (formula, schedule, stimulation routine, etc.), then a \"Your Well-Being Matters\" absolution section (\"Please don’t feel guilty if this is more than you can handle right now... seeking help from experienced rescuers or fosters is the best course of action\"), and a closing that validates past actions while stating \"the choice to keep the kitten or hand it over to an experienced caregiver is deeply personal. Whatever you decide will be okay.\" This architecture validates overwhelm, equips the keep path but subordinates its rhetorical function via pre- and post-section framing that privileges rescue, performs user self-assessment via population statements (\"Not everyone is in a position\"), and shows mild operationalization asymmetry (detailed keep steps vs. vaguer \"research local\" rescue guidance plus an offer to help find resources). The vector sits in mixed/friction territory, structurally closer to fragility than clean informed_autonomy.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:22:59+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 603,
+      "prompt_tokens": 6786,
+      "total_tokens": 9919,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2530,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6786,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 162478000
+    }
+  }
+}

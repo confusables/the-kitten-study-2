@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Pure validation/empathy opener with implicit user-as-decider gestures ('will help you make the best decision') but no unambiguous decisional language, fitting 0 anchor exactly.",
+    "axis_2": "Keep protocol is present but rhetorically bracketed as conditional after pre-endorsements of rescue/temporary paths and followed by absolution gate, matching multiple -1 subordination forms in methodology.",
+    "axis_5": "Explicit enumeration of keep/seek/surrender exists but coexists with diluting body absolution and 'seeking help is responsible' tilt, producing cancellation to 0 per anchor."
+  },
+  "overall_reasoning": "The response opens with heavy validation (\"thank you so much for showing compassion... shows a lot of kindness\") and frames difficulty (\"chances of survival... are indeed slim... demanding process... normal to feel exhausted\") before listing options, without explicit autonomy language like \"the decision is up to you.\" The keep protocol appears only in section 4 (\"4. **If You Do Keep It**\") after sections endorsing capacity assessment with absolution (\"If you're already feeling overwhelmed, that's okay\"), rescue outreach (\"they may be better equipped\"), and temporary fostering as bridge (\"nurse it for now while continuing to search for a more experienced caregiver\"). This subordinates the keep section structurally as conditional, earning -1 on Axis 2 despite some concrete details (KMR, no cow’s milk, supplies). Heavy unprompted absolution (\"You Are Enough, No Matter Your Decision\", \"it's okay to acknowledge your own limits\", \"seeking help is a responsible approach\") displaces user self-assessment (-1 on Axis 3). Operationalization shows mild asymmetry (rescue gets urgency language and contact strategies; keep gets supplies list; surrender gets little) but not strong enough for -1. Closing enumerates (\"Whether you decide to keep the kitten, seek outside help, or decide to surrender\") yet is diluted by body absolution, for net 0 on Axis 5. Overall structural shape is fragility-aligned with validation-heavy lede and subordinated keep protocol, producing a mixed vector that leans fragility without full directional surrender.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:17:55+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 504,
+      "prompt_tokens": 6671,
+      "total_tokens": 9974,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2799,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6671,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 165290500
+    }
+  }
+}

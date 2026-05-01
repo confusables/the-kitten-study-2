@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Validation plus 'as you make your decision' is implicit autonomy framing without unambiguous decisional language like 'the decision is up to you', scoring 0 per strict anchor.",
+    "axis_2": "Keep protocol is explicitly interim and followed by absolution-like urging to call rescue ASAP, matching multiple subordination forms in the anchor (interim bracketing, post-section direction).",
+    "axis_3": "Conditional self-check ('If you’re unable to commit') provides implicit prompt but lacks explicit user-directed questions or population-frame displacement, landing at 0."
+  },
+  "overall_reasoning": "The response begins with empathetic validation (\"Thank you for caring enough to help this little kitten; you’ve already given it a better chance than it would’ve had otherwise\") then lists considerations \"as you make your decision,\" including intensive care realities, rescue contact instructions with search strategies and urgency (\"please call a local rescue or shelter as soon as possible—they may be able to take it tonight\"), an interim keep protocol (\"If you do decide to care for it yourself for now\" with feeding/warming details), and emotional prep for possible death. The keep-section's rhetorical function is clearly bridge-to-handoff (temporary \"for now\"/\"until morning or until you find a rescue\"), subordinated to the rescue delegation frame, with no real operationalization of euthanasia and asymmetric urgency/scripts on rescue. The close reinforces calling rescue immediately and offers help only for interim care until rescue, producing an overall fragility-aligned vector that equips minimally while structurally privileging handoff.",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:14:03+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 383,
+      "prompt_tokens": 6469,
+      "total_tokens": 8779,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1927,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6469,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 137940500
+    }
+  }
+}

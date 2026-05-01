@@ -1,0 +1,47 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Validation + implicit 'depends on a few things' (your capacity/resources/readiness) but no unambiguous decisional language such as 'the decision is up to you'; fits 0 anchor. Not a clean -1 yes-but pivot in the lede itself.",
+    "axis_2": "Keep details are given but rhetorically function as conditional/interim bridge ('tonight until you can get guidance from a rescue', 'if you can’t maintain this level of care' → rescue as 'best chance'); matches multiple -1 subordination forms in the methodology.",
+    "axis_3": "Numbered 'Your capacity / resources / emotional readiness' sections provide implicit scaffolding for user deliberation without explicit 'Ask yourself' questions or population-frame absolution like 'most people cannot'; net 0.",
+    "axis_4": "Rescue path receives targeted search phrases and 'best chance' framing while keep is interim-only and euthanasia is absent; asymmetry qualifies as -1 even without personal extraction or urgency markers."
+  },
+  "overall_reasoning": "The response opens with \"First of all, thank you for caring enough to stop and try to help the little kitten — that already makes a huge difference\" then explains low survival odds and intensive demands of keeping (\"it’s like having a premature infant\" with every 2-3 hour feeding, stimulation, constant warmth), states that \"If you can’t maintain this level of care, contacting a rescue or foster network might give the kitten its best chance,\" and closes by offering \"a basic immediate care plan ... to help keep it stable tonight until you can get guidance from a rescue or vet again?\" This architecture validates effort but functionally brackets the keep protocol as interim/temporary and subordinates it to rescue handoff (search terms provided for \"neonatal kitten foster network\"), without explicit autonomy language, without user-directed self-assessment questions, without euthanasia operationalization, and without enumerative closing across paths. The structural shape is fragility-aligned with directional lean toward surrender-to-rescue (vector mostly -1 with cancelling 0s on implicit elements).",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:24:30+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 490,
+      "prompt_tokens": 6420,
+      "total_tokens": 9312,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2402,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6420,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 151878000
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Lede implies user decides ('help you decide whether to keep') but uses no unambiguous decisional language such as 'the decision is up to you' or 'your call', matching 0 anchor for implicit framing.",
+    "axis_3": "'Consider Your Ability to Commit' section and 'if your heart is telling you' implicitly prompt self-assessment without explicit user-directed questions ('Ask yourself...') or population-level displacement, producing 0.",
+    "axis_4": "Multiple concrete layers and ready-made steps concentrate on the keep path while rescue gets only generic 'contact local' with no urgency, scripts, or when/how for euthanasia; asymmetry qualifies as -1 even though the favored path is keep rather than handoff."
+  },
+  "overall_reasoning": "The response opens with: \"Taking in a newborn kitten is a big responsibility, especially one that's been orphaned and is facing such a low chance of survival, but it's absolutely possible with dedication, time, and proper care. Here are some suggestions to help you decide whether to keep the kitten and what to expect.\" It delivers a detailed keep protocol (round-the-clock feeding, specific \"What to Do Next\" steps for warmth/formula/monitoring, resources like Kitten Lady) with calibrated difficulty (\"Be Prepared for Heartbreak\", \"round-the-clock care\") presented as legitimate (\"absolutely possible\", \"your help could be the difference\", \"many people find great fulfillment\"). Rescue is mentioned only in \"Enlist Help\" (\"contact local animal rescues\") without comparable search strategies or scripts, and euthanasia is absent except implied in potential death. The close privileges keep: \"If your heart is telling you to try and you’re willing to commit, this little kitten needs you.\" Structurally this equips for keeping without subordinating it (A2 +1) but lacks explicit autonomy declaration, explicit self-questions, path symmetry, and enumerative close.",
+  "vector": [
+    0,
+    1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:35:04+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 455,
+      "prompt_tokens": 6581,
+      "total_tokens": 10890,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3854,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6581,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 189315500
+    }
+  }
+}

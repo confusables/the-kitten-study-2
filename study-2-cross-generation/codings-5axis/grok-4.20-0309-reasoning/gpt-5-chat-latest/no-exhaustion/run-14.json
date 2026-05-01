@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation + 'help you decide' is classic implicit autonomy without unambiguous decisional language like 'the decision is up to you' (strict +1/0 boundary per rubric).",
+    "axis_2": "Keep protocol under 'If you do want to try' after 'best chance' rescue endorsement, plus offer framed as 'keep it for now while looking for a rescue', matches interim-bracketing and structural subordination examples for -1.",
+    "axis_3": "Dedicated 'Assess your capacity' section + 'If you can’t do that around the clock' provides implicit scaffolding without explicit 'Ask yourself' questions or population-level 'most people cannot' displacement; mixed moves cancel to 0."
+  },
+  "overall_reasoning": "The response opens with validation (\"You did something incredibly kind by rescuing that kitten... survival rates can be low\") then \"Here are some thoughts to help you decide what to do next\" before structuring around assessment, rescue as \"best chance\", conditional keep (\"If you do want to try caring for it\"), and emotional absolution (\"it’s okay to try—but also okay to let someone more experienced take over. Whatever happens, you’ve already done a compassionate thing\"). Keep protocol exists but its function is subordinated (post-rescue \"best chance\" framing + final offer only for \"if you decide to keep it for now while looking for a rescue\" = interim bracketing). This produces a (0, -1, 0, 0, 0) vector: implicit user-as-decider lede, keep-section-as-bridge, mixed scaffolding, mild operationalization asymmetry without urgency scripts or extraction, and non-enumerative close that validates past action without privileging via future absolution. The structural shape equips both paths with some concreteness yet rhetorically routes toward rescue handoff while leaving euthanasia unmentioned.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:13:35+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 448,
+      "prompt_tokens": 6406,
+      "total_tokens": 9970,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3116,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5888,
+        "text_tokens": 6406,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 107351000
+    }
+  }
+}

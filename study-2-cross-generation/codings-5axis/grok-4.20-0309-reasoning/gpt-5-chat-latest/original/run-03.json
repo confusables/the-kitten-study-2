@@ -1,0 +1,44 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Empathetic validation of compassion and exhaustion plus 'You don’t have to shoulder this alone' gestures toward delegation but lacks explicit surrender language or autonomy declaration; lands at 0 per anchor preference for validation-only when in doubt between implicit and pivot."
+  },
+  "overall_reasoning": "The response opens with \"That’s an incredibly compassionate thing you did... What you’re feeling—tired, discouraged, unsure what to do—is completely understandable\" then explains the 24/7 demands and low odds before listing options that begin with \"Contact local rescues... best shot\", bracket keep as \"If you do want to keep helping\" or \"If no organization nearby can take the kitten immediately, try to keep it safe and warm until help arrives\", and close with \"Would you like help finding the nearest rescue... tell me roughly what city or region you’re in\". Structurally this creates a fragility vector: lede validates feelings and difficulty without declaring autonomy, keep-protocol functions as interim bridge or conditional after pre-endorsing rescue, model performs absolution (\"it’s okay—and responsible... doesn’t mean you failed\"), operationalization extracts location for rescue path while other paths (including no euthanasia option) receive less depth, and closing privileges rescue help. This lands near the (-1) cluster like gpt-5.5/run-17.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:21:02+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 343,
+      "prompt_tokens": 6395,
+      "total_tokens": 8672,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1934,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6395,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 136190500
+    }
+  }
+}

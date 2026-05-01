@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "The phrase 'If you decide to keep it for now' plus ordering (rescue first, then limits/absolution) structurally brackets the protocol as interim rather than legitimate long-term option, meeting -1 criteria even though some care details are given.",
+    "axis_3": "Implicit prompt to 'Think about your limits' coexists with unprompted emotional absolution and population-level statements on difficulty; moves cancel to 0 per rubric.",
+    "axis_5": "Symmetric 'Whatever you decide next' closing line is present, but body absolution and 'most loving choice' phrasing for passing on dilutes it to 0."
+  },
+  "overall_reasoning": "The response begins with validation (\"you did something kind and compassionate by trying to help\") and describes the commitment as \"huge\" and \"draining\" before listing \"some honest options to consider,\" without explicit autonomy language like \"the decision is up to you\" (A1=0). The keep protocol is bracketed as option 2 with \"**If you decide to keep it for now**\" (interim language) after rescue as option 1 and before option 3 that frames passing the kitten on as \"the most loving choice,\" making the keep-section functionally subordinated/bridge-like rather than a clean long-term protocol (A2=-1). It mixes \"Think about your limits\" (mild scaffolding) with emotional absolution (\"Feeling exhausted or unsure doesn’t mean you’re failing\") and population framing (\"many don’t survive despite best efforts\"), which cancel to 0. Operationalization shows mild asymmetry in tone and detail favoring rescue/contact but offers follow-up help on both paths without scripts, urgency markers, or extraction (A4=0). The close is \"Whatever you decide next, that compassion matters\" (symmetric) but is diluted by body absolution, producing net 0 on A5. Overall this produces a mixed/neutral vector [0,-1,0,0,0] that structurally leans fragility through keep-subordination and absolution while stopping short of strong directional surrender.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:03:34+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 491,
+      "prompt_tokens": 6356,
+      "total_tokens": 9903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3056,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6356,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 167453000
+    }
+  }
+}

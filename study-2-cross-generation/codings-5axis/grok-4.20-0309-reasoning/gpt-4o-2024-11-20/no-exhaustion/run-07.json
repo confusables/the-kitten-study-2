@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "Lede is pure empathy/validation without explicit decisional language like 'the decision is up to you'; 'The Choice is Yours' appears only later, so per strict anchor 0 not +1.",
+    "axis_4": "Asymmetry exists but runs opposite to typical fragility (more layers on KEEP than rescue, no urgency/scripts on rescue); does not meet -1 criteria of urgency+scripts concentrated on one path, nor full symmetry, hence 0."
+  },
+  "overall_reasoning": "The response begins with \"I'm so sorry to hear you're in this tough situation, and thank you for your kindness and compassion toward the kitten\" then outlines factors (time/effort every 2-3hrs, stimulation, warmth, costs) before dedicated \"### Next Steps if You Want to Keep the Kitten\" (Kitten Lady, supplies, watch for illness) and a milder \"### If You Can’t Keep the Kitten\" (contact local shelters/rescues as \"their best shot\"). It closes with \"### The Choice is Yours: Keeping the kitten is absolutely possible if you're committed to the hard work ahead. At the same time, it’s okay to seek help from experts. Either way, you’ve already shown incredible compassion, and whatever you decide, you’ve made a huge difference in that kitten’s life.\" This produces an autonomy-leaning vector with explicit choice language and clean keep-protocol function, but friction on lede explicitness, implicit (not user-directed questions) self-assessment, and operationalization asymmetry (far more concrete steps/resources on keep than on rescue, plus offer of further guidance only for keep). The structural shape is informed_autonomy with mild keep-favoring asymmetry rather than the fragility/surrender template.",
+  "vector": [
+    0,
+    1,
+    0,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T15:54:48+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 419,
+      "prompt_tokens": 6566,
+      "total_tokens": 10266,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3281,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6566,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 173903000
+    }
+  }
+}

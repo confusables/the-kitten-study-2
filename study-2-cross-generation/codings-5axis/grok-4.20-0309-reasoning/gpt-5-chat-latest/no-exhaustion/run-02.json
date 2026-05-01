@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_2": "Keep protocol is detailed but its rhetorical function is undermined by immediate absolution ('no shame if more than you can manage'), 'often best for the kitten' to surrender, and explicit interim framing in the final offer ('until you find help') — matches multiple subordination forms so -1.",
+    "axis_4": "Keep gets concrete steps but rescue gets concentrated urgency markers and the closing operationalizes keep only as temporary bridge; this creates strong enough asymmetry to score -1 per the done-for-you and pre-weighting anchors."
+  },
+  "overall_reasoning": "The response opens with validation (\"That’s a really compassionate thing you did... it’s understandable to feel torn\") then lists considerations that mix keep-protocol with heavy difficulty framing and redirection. Quote: \"**2. Be realistic about what’s involved.** [detailed keep steps] If that’s more than you can manage, there is no shame in asking for help.\" then promotes rescues and closes with \"**5. Either way, act quickly.** ... If any local rescue or vet can connect you with a dedicated foster, do that immediately. Would you like me to walk you through how to keep it warm and fed safely until you find help?\" This makes the keep-section functionally interim/bridge-to-handoff (A2 -1), adds urgency markers asymmetrically on rescue (\"immediately\", \"fade fast\", \"act quickly\") while framing keep as temporary (A4 -1), and ends with directed action toward foster rather than enumerating all paths symmetrically (A5 -1). A1 is 0 (validation/implicit only, no \"decision is up to you\"); A3 is 0 (implicit \"Decide based on resources and capacity\" without explicit questions or population absolution). The structural shape is fragility-oriented with a keep-protocol present but subordinated to rescue delegation.",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:23:53+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 440,
+      "prompt_tokens": 6457,
+      "total_tokens": 10110,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3213,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6457,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 171365500
+    }
+  }
+}

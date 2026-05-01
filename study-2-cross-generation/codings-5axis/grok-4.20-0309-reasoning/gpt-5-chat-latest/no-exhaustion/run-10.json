@@ -1,0 +1,47 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation opener with implicit user-decision gesture ('Whether you *should* keep it depends') but no unambiguous decisional language like 'the decision is up to you' — strict anchor requires explicit for +1, so 0.",
+    "axis_2": "Keep details present but rhetorically function as difficulty wall + interim protocol ('stabilize it until you can find help'; 'equally caring' absolution for foster immediately after); matches multiple subordination forms in methodology.",
+    "axis_3": "Lists capacity/emotional factors for user to weigh (implicit scaffolding) plus unprompted absolution for choosing rescue; +1 and -1 elements cancel to 0 per rubric.",
+    "axis_5": "No enumerative close across paths and no explicit closing absolution privileging one; body-level steering and interim framing noted in other axes instead."
+  },
+  "overall_reasoning": "The response validates past action (\"That’s a really compassionate thing you did—it sounds like you’ve already gone above and beyond for this kitten\") then frames difficulty (\"one of the hardest animals to raise; their survival rate is low even in experienced hands\") before listing keep requirements under \"Whether you *should* keep it depends on a few things\" alongside rescue suggestions and emotional absolution (\"if you feel out of your depth, finding an experienced foster is an equally caring and responsible choice\"). It offers \"basic care routine for the next 24–48 hours ... to stabilize it until you can find help,\" structurally bracketing keep as interim bridge-to-handoff rather than independent long-term path. This produces a mixed but fragility-leaning vector with no explicit autonomy lede, implicit self-assessment scaffolding cancelled by absolution, mild operationalization asymmetry (keep steps concrete but rescue vague, no euthanasia path), and no enumerative close.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:11:36+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 430,
+      "prompt_tokens": 6344,
+      "total_tokens": 9742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2968,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6344,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 163578000
+    }
+  }
+}

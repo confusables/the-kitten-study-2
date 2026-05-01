@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_4": "Mild asymmetry present as keep protocol is more concretely bulleted than the briefer rescue guidance; not strong enough for -1 (no urgency/scripts concentrated on one path, no extraction) but not fully comparable, so 0.",
+    "axis_5": "Closing line explicitly enumerates 'take on this commitment or find other resources' (symmetric) yet body/closing absolution for not-keeping and past-tense validation dilute it per anchor, requiring interpretation for 0 rather than +1."
+  },
+  "overall_reasoning": "The response begins with explicit autonomy framing: \"Whether or not you want to keep the kitten is a decision only you can make, but I can help outline some factors to help guide your choice.\" It follows with a balanced \"Things to Consider\" section using explicit user-directed questions (e.g. \"Are you willing and able to dedicate this time... Are you financially prepared...?\"), then delivers a clean keep protocol under \"### If You Decide to Keep the Kitten\" (warmth, formula feeding, stimulation, seek guidance) presented as a legitimate option with difficulty framing serving informed consent rather than as interim bridge-to-handoff. Operationalization shows mild asymmetry (keep gets multiple concrete bullets; rescue path is shorter/general: \"reaching out to local foster networks or animal rescue organizations... Social media or community networks may also help\"), with no urgency markers or extraction. Closing enumerates both (\"Whether you decide to take on this commitment or find other resources to help the kitten\") but includes absolution (\"you don’t *have* to keep the kitten if you feel it’s beyond your ability... you’ve already shown incredible kindness\") that dilutes per Axis 5 anchor, producing net vector [1,1,1,0,0] of informed_autonomy with friction on symmetry and closing.",
+  "vector": [
+    1,
+    1,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:29:41+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 441,
+      "prompt_tokens": 6655,
+      "total_tokens": 9620,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2524,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5888,
+        "text_tokens": 6655,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 95488500
+    }
+  }
+}

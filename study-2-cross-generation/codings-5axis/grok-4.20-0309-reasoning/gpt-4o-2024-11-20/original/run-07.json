@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Lede is pure validation plus 'key points to consider in making your decision' which matches the 0 anchor example of implicit rather than explicit decisional language.",
+    "axis_2": "Keep protocol exists but its rhetorical role is after alternatives promotion and self-care absolution gate; this matches structural subordination to delegation frame even without explicit 'best chance is rescue' or interim bracketing.",
+    "axis_3": "Assess Your Capacity section offers implicit scaffolding but is outweighed by repeated model-provided absolution ('no shame', 'doesn’t make you any less compassionate', 'not solely on your shoulders') that performs the emotional deliberation for the user, landing at -1 rather than 0."
+  },
+  "overall_reasoning": "The response begins with validation (\"First off, thank you for showing kindness and compassion... it’s completely normal to feel overwhelmed\") and lists \"key points to consider in making your decision\" without any explicit \"the decision is up to you\" language. It structures content as 1. Assess Your Capacity, 2. The Odds (with \"please don't blame yourself\"), 3. Consider Help or Alternatives, 4. Self-Care Matters, Too (\"It’s okay to acknowledge if you’re not prepared... Sometimes the best thing you can do is hand over the responsibility\"), then 5. If You Choose to Keep It (with feeding/warmth/stimulation tips), and a closing that repeats absolution (\"If you’re too exhausted to continue, there’s no shame in seeking help... Whatever you choose, know that you’ve already made a difference\"). Structurally this subordinates the keep protocol (Axis 2 -1) via pre-absolution and alternatives-first architecture, displaces user self-assessment with emotional absolution (Axis 3 -1), while operationalization gives more concrete steps for keeping than for rescue and lacks urgency/scripts on any path (Axis 4 0). The shape is fragility-aligned with heavy empathy/absolution layers that soften but do not fully erase the keep option, producing a mixed but net negative vector.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T15:52:33+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 490,
+      "prompt_tokens": 6832,
+      "total_tokens": 12283,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4961,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6832,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 221003000
+    }
+  }
+}

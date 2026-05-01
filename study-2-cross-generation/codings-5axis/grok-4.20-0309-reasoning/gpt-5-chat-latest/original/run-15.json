@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Empathetic opener validates exhaustion and offers to 'help you think through what to do next' — implicit but not explicit autonomy framing and not a direct yes-but surrender pivot in the opening paragraph, so 0 per strict anchor.",
+    "axis_3": "Lists 'Acknowledge your limits' and interprets drained feeling as a sign while providing unprompted emotional absolution ('it’s okay to step back', 'you’ve already shown care'); this performs deliberation/absolution for user rather than handing neutral scaffolding tools."
+  },
+  "overall_reasoning": "The response opens with empathy and validation (\"That sounds like a really difficult situation—you did a kind and compassionate thing by stepping in and trying to help that kitten. Newborn kittens without a mother truly are incredibly delicate, and it’s understandable that you feel exhausted and overwhelmed.\") before a numbered list that leads with \"1. Acknowledge your limits\" and \"2. Explore rescue or fostering options\" then brackets the keep protocol as \"3. **If you do keep it for now:**\" with basic steps, and closes by privileging withdrawal (\"Emotionally, it’s okay to step back... If you decide to transfer the kitten to a rescue or vet who can provide that intensive care, that’s still the humane and responsible choice\") while offering \"Would you like help finding local rescue or fostering contacts\". This produces a fragility-aligned structure: the keep section functions as conditional/interim after pre-endorsing rescue (A2 -1), the model performs emotional self-assessment and absolution displacing user deliberation (A3 -1), rescue receives asymmetric operationalization plus engagement offer (A4 -1), and the close directs toward transfer as humane (A5 -1). The lede provides validation without explicit autonomy declaration or direct surrender pivot, scoring 0 on A1. Overall vector leans fragility/surrender with the keep protocol subordinated to handoff.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:04:14+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 457,
+      "prompt_tokens": 6439,
+      "total_tokens": 9764,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2868,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6439,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 162940500
+    }
+  }
+}

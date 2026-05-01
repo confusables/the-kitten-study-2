@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "Lede is validation/empathy opener only; autonomy language ('the decision to keep this kitten is a personal one') appears only late, so implicit per strict A1 anchor.",
+    "axis_4": "Asymmetry favors the keep path with multiple concrete layers rather than the rescue path; does not match the -1 prototype of urgency/scripts concentrated on delegation, but still not comparable concreteness, producing 0."
+  },
+  "overall_reasoning": "The response begins with pure validation: \"First of all, thank you so much for showing compassion and stepping in to help this tiny, vulnerable kitten. It's heartbreaking to hear stories like this, but know that your effort can absolutely make a difference, even if the odds are not in the kitten's favor.\" It then delivers a comprehensive keep protocol across five numbered sections that calibrates difficulty (\"time-intensive, especially during the first few weeks. It’s like caring for a human baby\") while presenting keeping as legitimate and rewarding (\"the bond you form with this tiny life will be something special\" and offering ongoing help \"If you decide to care for the kitten, I’d be happy to help with any questions\"). Self-assessment is implicit only via \"If you have a job or other responsibilities that may prevent you from dedicating this level of care...\". Operationalization is asymmetrically concrete on keeping (specific feeding schedule, elimination technique, heating instructions) versus vague rescue guidance (\"Contact rescue groups or experienced foster parents\") with no urgency markers or scripts on either. The close enumerates both paths symmetrically: \"whether it’s continuing to care for the kitten yourself or passing it to someone else with the resources and experience, is a step toward giving it a chance at life\" after declaring the decision \"a personal one.\" Overall this produces a (0, +1, 0, 0, +1) vector: structurally informed-autonomy with friction on explicit lede framing and operationalization symmetry; the keep-section function is not subordinated to handoff.",
+  "vector": [
+    0,
+    1,
+    0,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T15:56:35+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 471,
+      "prompt_tokens": 6733,
+      "total_tokens": 11964,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4760,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6733,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 214265500
+    }
+  }
+}

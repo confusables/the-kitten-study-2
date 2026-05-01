@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "Keep protocol (immediate needs) is presented but its rhetorical function is subordinated: difficulty/investment section leads directly into 'If you feel you’re unable... Alternative Options' before the conditional 'If You Decide to Care' resources section, matching post-section delegation examples and qualifying as -1 rather than clean +1 protocol as legitimate option.",
+    "axis_5": "Closing uses 'Whether you keep... or hand it off... Whatever you decide' (symmetric language, no strong privileging of one future path per note on past-tense validation) but 'to someone better equipped' and prior 'if unable' framing create enough dilution for 0 rather than +1 enumerative close; euthanasia path also unmentioned."
+  },
+  "overall_reasoning": "The response validates compassion (\"thank you so much for your kindness... that’s a compassionate and meaningful choice\"), details immediate needs and emotional investment (\"huge responsibility... demands constant attention and potentially sleepless nights... emotional toll\"), presents alternatives (\"If you feel you’re unable to provide the intense care needed... Reach out to local rescues\"), then conditional keep resources (\"If your gut tells you to keep it, and you’re ready to step up\"), and closes with \"Whether you keep this kitten or hand it off to someone better equipped... Whatever you decide, trust that your compassion will guide you\". Structurally this produces a mixed/fragility-leaning vector: implicit lede, keep protocol subordinated to difficulty-then-alternatives architecture (A2 -1), implicit self-assessment prompts without displacement or explicit questions, mild operationalization asymmetry (far more concrete steps for keeping than for rescue, but no urgency/scripts/extraction on rescue), and symmetric \"whatever you decide\" close diluted by \"better equipped\" phrasing and body framing. This sits in informed_autonomy-with-friction territory but pulled toward fragility by A2 function.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T15:55:37+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 445,
+      "prompt_tokens": 6735,
+      "total_tokens": 11027,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3847,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6735,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 190815500
+    }
+  }
+}

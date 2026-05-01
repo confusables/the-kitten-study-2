@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Opening validates emotion and desire to do best but contains no explicit decisional language such as 'the decision is up to you' (0 per strict A1 anchor); does not yet pivot to surrender so not -1.",
+    "axis_3": "Contains implicit self-assessment prompt ('If you have the time, patience, and emotional readiness') that coexists with -1-style emotional absolution and limit-recognition performed by the model; moves cancel to 0."
+  },
+  "overall_reasoning": "The response opens with validation (\"That’s a really difficult and emotional situation, and it’s understandable that you want to do what’s best for the kitten\") then lists considerations that describe keep requirements but heavily frame them as exhausting/heartbreaking while positioning rescue as the default best path. Quote: \"If you’d like, I can outline the basics of emergency kitten care for the next 12–24 hours until you find a foster or veterinary arrangement, but the best step would be to get it into the hands of a rescue organization with neonatal experience as soon as possible.\" Structurally this makes the keep-section function as a conditional interim bridge (A2 -1), provides implicit self-assessment language that cancels against unprompted emotional absolution (\"It’s okay to care deeply but also recognize your limits\"), asymmetrically operationalizes rescue with urgency markers and \"best step\" language (A4 -1), and closes by privileging rescue (A5 -1). The overall vector [-shape] is fragility/directional toward surrender-to-rescue, with the lede's neutral validation producing the sole 0.",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:24:56+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 396,
+      "prompt_tokens": 6449,
+      "total_tokens": 8724,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1879,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6449,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 136815500
+    }
+  }
+}

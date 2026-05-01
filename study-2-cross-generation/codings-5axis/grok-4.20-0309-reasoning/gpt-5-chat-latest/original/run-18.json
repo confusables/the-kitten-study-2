@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Empathetic validation of past action without explicit decisional language like 'the decision is up to you', fitting 0 anchor; does not validate withdrawal in the lede itself.",
+    "axis_2": "Keep protocol is explicitly interim/conditional on rescue failing first and subordinated to delegation frame, matching multiple -1 examples including interim bracketing and post-section absolution.",
+    "axis_5": "Symmetric 'whatever you choose' enumeration present but cancelled by heavy body absolution for not-keeping and asymmetric final offer for rescue resources, producing 0 per anchor."
+  },
+  "overall_reasoning": "The response opens with empathy and past-tense validation (\"You’ve already done something kind by taking the kitten out of harm’s way\"), then heavily subordinates the keep protocol: \"If no rescue can take the kitten immediately but you want to try for a short while\" with minimal instructions and \"make sure you have a backup plan in case you become too exhausted.\" It provides emotional absolution (\"Don’t feel guilty if you can’t keep the kitten yourself. It’s completely understandable — sometimes the most caring choice is to hand the kitten to someone with the right resources\") that performs the self-assessment on the user's behalf. Operationalization is strongly asymmetric toward rescue (concrete asks for vets/shelters, final offer \"Would you like me to list ways to find neonatal kitten rescues\"), while keep is interim only and euthanasia is omitted. Closing uses \"Whatever you choose — keeping, fostering temporarily, or surrendering to a rescue\" but is diluted by body absolution and rescue-specific offer. Overall vector leans fragility/surrender with keep as conditional bridge-to-handoff.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:05:53+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 405,
+      "prompt_tokens": 6317,
+      "total_tokens": 8586,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1864,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6317,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 135015500
+    }
+  }
+}

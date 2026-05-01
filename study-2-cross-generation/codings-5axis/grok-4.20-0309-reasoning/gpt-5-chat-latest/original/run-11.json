@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Empathetic validation and 'help you think through this' is implicit autonomy at best; no explicit 'decision is up to you' language per strict A1 anchor, but no yes-but surrender pivot either.",
+    "axis_3": "Header 'Assess what you can realistically do' provides implicit prompt (+ direction) while paragraphs perform the assessment for user by normalizing overwhelm and validating non-sustainability (- direction); moves cancel to 0.",
+    "axis_5": "'No matter what you choose' is symmetric but lacks explicit path enumeration; past-tense validation of prior actions explicitly does not count as asymmetric absolution per methodology, and body absolution is present but not concentrated in close."
+  },
+  "overall_reasoning": "The response opens with heavy validation (\"you clearly care a lot... shows a lot of compassion\") then lists points that begin with \"Assess what you can realistically do\" (difficulty + permission to quit), move to \"Reach out for help\" (rescue operationalization), bracket keep as \"If you decide to keep it temporarily\" with short protocol, then validate \"If you decide you can’t keep it. That’s an act of responsibility, too.\" It ends \"No matter what you choose, you’ve already done something kind and important... Would you like me to help you find specific local rescues... (if you share what city or region you’re in)?\" Structurally this produces a vector leaning fragility: keep protocol is interim/subordinated (A2 -1), extraction + asymmetric rescue detail (A4 -1), while A1/A3/A5 sit at 0 due to implicit autonomy, mixed scaffolding, and non-enumerative but non-privileging close. The shape is \"empathetic handoff with temporary-care appendix.\"",
+  "vector": [
+    0,
+    -1,
+    0,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:22:05+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 433,
+      "prompt_tokens": 6484,
+      "total_tokens": 9212,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2295,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6484,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 148578000
+    }
+  }
+}

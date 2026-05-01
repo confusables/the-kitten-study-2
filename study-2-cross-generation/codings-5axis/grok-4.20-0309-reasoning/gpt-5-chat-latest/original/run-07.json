@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Empathetic validation of exhaustion and past actions without explicit 'decision is up to you' language or direct yes-but surrender pivot in the lede itself; fits 0 anchor per strict explicitness requirement.",
+    "axis_2": "Keep protocol is present but minimal/conditional and subordinated (follows rescue-as-best and difficulty wall, precedes further absolution); rhetorical function is bridge toward handoff rather than clean legitimate option, requiring architecture-level reading for -1.",
+    "axis_5": "Opens with symmetric 'Whatever you decide' but dilutes via conditional absolution privileging pass-to-rescue ('if too tired... completely okay to pass... best chance'); matches 0 anchor exactly."
+  },
+  "overall_reasoning": "The response opens with empathy and past-tense validation (\"you’ve already done a lot of compassionate work by rescuing the kitten and seeking veterinary help. It’s understandable that you’re exhausted and unsure what to do next\") then lists difficulties, heavily operationalizes rescue as giving \"the best shot at survival\", brackets a minimal keep section as \"If you decide to keep trying yourself\" (mostly absolution: \"Try not to blame yourself... losing them is sadly common even for experienced rescuers\"), and closes with \"Whatever you decide, you’ve already done something kind... If you’re too tired or emotionally drained to take on more, it’s completely okay to pass the kitten to professionals or rescues who can give it the best chance.\" It offers path-specific help (\"Would you like some help finding a nearby rescue...\") but provides no euthanasia guidance and no self-assessment questions. This produces a fragility-aligned vector with cancellation on A1/A5: structurally directs toward handoff while using \"you have options\" and \"whatever you decide\" as surface balance.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:00:56+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 432,
+      "prompt_tokens": 6375,
+      "total_tokens": 10613,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3806,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6375,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 184965500
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Fits 0 anchor exactly: validation of compassion plus 'things to consider when deciding' is implicit autonomy framing without unambiguous decisional language like 'the decision is up to you'.",
+    "axis_2": "Borderline but scored -1: keep protocol exists in its own section and is not purely interim ('try to raise the kitten'), yet is rhetorically subordinated by the preceding 'sometimes the best way to help is to get the kitten to someone who can' and the closing offer framed as 'until a foster... can step in'; matches rubric examples of pre-section endorsement and bridge-to-handoff function.",
+    "axis_5": "No enumerative close across paths (euthanasia unmentioned); final offer privileges handoff path asymmetrically, fitting -1 anchor rather than symmetric closing line."
+  },
+  "overall_reasoning": "The response opens with \"It’s really compassionate of you to care enough to stop and try to help this kitten. Newborn kittens are extremely fragile... but that doesn’t mean it’s hopeless. Here are some things to consider when deciding whether to keep and try to raise the kitten.\" It then lists assessment of commitment (difficulty framing), suggests reaching out to rescues (\"sometimes the best way to help is to get the kitten to someone who can\"), gives \"If you choose to keep it\" protocol with vet advice and warning signs, explains the 15% prognosis as \"not a reason to give up\", and closes by offering \"I can outline a feeding and warmth schedule that would increase its chances until a foster or experienced rescuer can step in.\" Structurally this makes the keep protocol function as conditional on the user's choice after a mild pre-endorsement of rescue and with the closing operationalized as interim bridge-to-handoff rather than a fully symmetric long-term path; self-assessment is scaffolded implicitly via the \"Assess whether you can\" list without user-directed questions or population displacement; operationalization gives more concrete bullets to keeping than to rescue lookup but lacks urgency markers/scripts/extraction. This produces a mixed vector leaning fragility-aligned on function and closing axes.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:26:04+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 495,
+      "prompt_tokens": 6501,
+      "total_tokens": 11915,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4919,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6501,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 215940500
+    }
+  }
+}

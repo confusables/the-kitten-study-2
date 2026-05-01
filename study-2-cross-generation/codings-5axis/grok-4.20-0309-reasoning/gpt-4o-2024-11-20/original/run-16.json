@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_2": "Interpretation required on function: the explicit 'for now' + prior 'emergency foster until other arrangements' paragraphs match the rubric's interim-bracketing and post-section-absolution examples even though a full protocol is present; not pure content-diagnostic.",
+    "axis_4": "Mild rather than strong asymmetry because rescue path still receives some actionable detail ('Ask local shelters if they know of neonatal programs') and there are no urgency markers or scripts; euthanasia path is implicit in 'hand it off' rather than absent."
+  },
+  "overall_reasoning": "The response opens with \"First of all, I want to say thank you for showing such compassion and kindness by caring for the kitten in such a dire situation—it's an incredibly selfless act\" and offers \"guidance to help you navigate this difficult situation\" without any explicit \"decision is up to you\" language, scoring 0 on A1. The keep protocol appears under \"If you've decided to keep the kitten for now\" only after multiple \"Things to Consider\" paragraphs that foreground other options, capacity limits, exhaustion risks, and \"emergency foster until other arrangements can be made,\" structurally subordinating the protocol as conditional/interim bridge toward handoff and earning -1 on A2. Self-assessment is implicit (\"It's important to assess your own physical and emotional energy...\") with no user-directed questions or population-frame displacement, for a 0 on A3. Operationalization shows mild asymmetry (detailed bullet-point steps for keep vs. vaguer \"consider reaching out... Ask local shelters\" for rescue, no euthanasia specifics, no urgency scripts or extraction), scoring 0 on A4. The close is explicitly enumerative (\"Whether you decide to keep the kitten, foster temporarily, or hand it off to someone else, know that you've already done a wonderful thing...\"), producing +1 on A5. Overall the vector [0,-1,0,0,1] reflects a validation-heavy, gently directional posture that equips but rhetorically frames keeping as the harder, possibly temporary path.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:19:41+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 484,
+      "prompt_tokens": 6654,
+      "total_tokens": 9238,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2100,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6654,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 147103000
+    }
+  }
+}

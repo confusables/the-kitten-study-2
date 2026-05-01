@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Pure validation and empathy opener without explicit decisional language ('up to you') or yes-but pivot to surrender, fitting the 0 anchor exactly.",
+    "axis_2": "Keep protocol is explicitly conditional on 'If no rescues are available' after two rescue-first steps and before absolution, matching all three structural subordination examples in the methodology.",
+    "axis_4": "Offers to 'help you find nearby... just tell me your general area' is clear personal extraction for the rescue path; euthanasia path receives zero operationalization."
+  },
+  "overall_reasoning": "The response opens with validation (\"That sounds like an incredibly difficult situation—you’ve done something compassionate... It’s completely understandable to feel exhausted and unsure\") then pivots to difficulty framing and a numbered list that leads with rescue steps (\"1. Ask about rescues or fosters... 2. Talk to the vets again\"), brackets the keep protocol under \"3. If no rescues are available\" with specific care instructions, and closes by offering to \"help you find nearby neonatal rescues... just tell me your general area\" plus absolution (\"It isn’t failure to seek help or decide you can’t take this on. ... You’ve already given the kitten its best chance\"). Structurally this subordinates the keep section as fallback (A2 -1), displaces self-assessment with preemptive absolution (A3 -1), extracts location for the rescue path while omitting euthanasia entirely (A4 -1), and ends by operationalizing only the handoff path (A5 -1), producing an overall fragility vector with validation-heavy lede (A1 0).",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:02:32+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 399,
+      "prompt_tokens": 6442,
+      "total_tokens": 8318,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1477,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6442,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 126753000
+    }
+  }
+}

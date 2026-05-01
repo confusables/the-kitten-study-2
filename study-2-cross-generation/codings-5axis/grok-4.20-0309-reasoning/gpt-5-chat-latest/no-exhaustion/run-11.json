@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation-plus-implicit framing ('how you might decide', 'depends on your capacity') without unambiguous decisional language like 'the decision is up to you'; fits 0 anchor exactly.",
+    "axis_2": "Pre-section 'best chance' language for rescue plus 'If you choose to keep trying yourself' matches documented structural subordination forms, scoring -1 despite detailed keep protocol and difficulty calibration.",
+    "axis_5": "Offers help on both keep schedule and rescue but deploys absolution ('don’t feel guilty if you reach out for help') and past-tense validation in close without explicit enumeration of all paths; lands at 0 per 'body absolution dilutes' anchor."
+  },
+  "overall_reasoning": "The response opens with validation (\"Thank you for caring enough to help that tiny kitten — that kindness really matters\") then \"whether you *should* keep the kitten depends on a few things — your capacity...\", \"Here’s how you might decide\", and structures around self-assessment, rescue, and \"If you choose to keep trying yourself\" with protocol. It endorses rescue as giving \"the kitten the best chance\" before the keep section, then closes with \"yes, you *can* keep it *if* you’re prepared and supported, but also don’t feel guilty if you reach out for help... The important thing is that you acted compassionately\". This produces a mixed vector: implicit lede without explicit \"decision is up to you\" (A1=0), keep-protocol rhetorically subordinated via pre-endorsement of rescue as \"best chance\" and conditional bracketing (A2=-1), explicit \"Ask yourself what support you have\" scaffolding (A3=+1), mild asymmetry with more concrete bullets on keep than vague rescue search (A4=0), and closing validation/absolution for rescue without full enumerative close across all three paths including euthanasia (A5=0). Structurally it equips but tilts toward handoff.",
+  "vector": [
+    0,
+    -1,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:12:09+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 473,
+      "prompt_tokens": 6578,
+      "total_tokens": 9758,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2707,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6578,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 161053000
+    }
+  }
+}

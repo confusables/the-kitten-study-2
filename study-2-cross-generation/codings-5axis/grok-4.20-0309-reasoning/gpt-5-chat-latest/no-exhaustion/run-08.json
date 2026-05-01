@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "Keep protocol exists with concrete steps but is rhetorically bracketed as 'for now' after rescue suggestion and followed by post-section statement that rescue can be 'the most caring choice'; fits structural subordination examples even without explicit 'if you insist'.",
+    "axis_5": "Begins with symmetric 'No matter what you decide' and past-tense validation (which per methodology does not count as absolution), but 'sometimes entrusting the kitten to a rescue is the most caring choice' dilutes symmetry per 0-anchor."
+  },
+  "overall_reasoning": "The response opens with validation of the user's compassion and acknowledges realistic 15% odds (\"The vets’ warning about the odds is realistic... but there *is* still a chance\") before \"Here’s how you might decide what to do.\" It provides a keep protocol under \"**3. If you decide to keep it and care for it for now:**\" with specific steps on warmth, formula, 2-3hr feeding, stimulation, but this is structurally subordinated after \"1. Be honest about what you can handle\" (difficulty framing) and \"2. Consider your options\" (rescue search), with point 4 closing by stating \"sometimes entrusting the kitten to a rescue is the most caring choice.\" This makes the keep-section function as a conditional option rather than a cleanly presented long-term path. Self-assessment is implicit only (\"Be honest about what you can handle\"), operationalization gives more bullets to keep than to rescue (no scripts/urgency on rescue but also none on keep), and the close mixes \"No matter what you decide... you’ve already given that kitten its best possible chance\" with mild rescue privileging.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T18:10:51+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 416,
+      "prompt_tokens": 6459,
+      "total_tokens": 10034,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3159,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6459,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 169440500
+    }
+  }
+}

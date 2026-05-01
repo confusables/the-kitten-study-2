@@ -1,0 +1,48 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Lede is validation-heavy with implicit framing via 'as you make your decision' but lacks explicit 'decision is up to you' language, so 0 per strict anchor.",
+    "axis_2": "Keep protocol exists but is structurally bracketed as conditional after pre-endorsing rescue as 'better equipped' and followed by absolution gates; this matches multiple -1 subordination forms (pre-section endorsement, conditional bracketing, post-section absolution).",
+    "axis_3": "Explicit user prompt ('it’s worth asking yourself if you have the physical and emotional capacity') coexists with -1 elements ('no shame in admitting if you can’t', 'done more than most people would'); moves cancel to 0.",
+    "axis_4": "Both keep (supplies list, named resources like Kitten Lady) and rescue (reach out to shelters/social media) receive actionable steps at roughly comparable (if minimal) depth; euthanasia implied but not operationalized; no extraction or strong urgency markers on one path, so mild asymmetry = 0.",
+    "axis_5": "Closing explicitly enumerates three paths ('keep the kitten, find a foster/rescue option, or delegate') but is diluted by extensive body absolution and past-tense validation; fits 0 anchor."
+  },
+  "overall_reasoning": "The response opens with heavy validation (\"thank you for caring... it’s okay to acknowledge your limits\") and implicit decision language (\"factors to consider as you make your decision\") before a numbered list that leads with self-doubt and rescue (\"Consider seeking help... They may be better equipped\"), brackets the keep protocol as conditional (\"3. If you decide to keep the kitten, prepare for the steps involved\" — only basic supplies + \"look up YouTube\"), intersperses discouragement and absolution (\"no shame\", \"You’ve already done more than most people would\", \"Be kind to yourself if the journey gets too tough\"), and ends with enumerative but diluted close (\"whether you decide to keep the kitten, find a foster/rescue option, or delegate... You deserve to thrive\"). Structurally this subordinates the keep path, mixes self-assessment scaffolding with population-frame absolution, and shows mild operationalization asymmetry without strong urgency/scripts on any single path.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:16:00+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 522,
+      "prompt_tokens": 6528,
+      "total_tokens": 10322,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3272,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6528,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 175778000
+    }
+  }
+}

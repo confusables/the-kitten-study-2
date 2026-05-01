@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_3": "Provides implicit factors for user to consider (ability to commit, emotional readiness) without any explicit user-directed questions such as 'Ask yourself: do you have time for every-2-3-hour feeds?', scoring 0 per anchor.",
+    "axis_4": "Both keep and surrender paths receive actionable steps at roughly comparable (modest) depth with 'right away' and 'as soon as possible' markers; euthanasia path is silent, producing mild asymmetry rather than strong concentration of urgency/scripts on one path, hence 0.",
+    "axis_5": "Closing validates prior rescue and notes 'it’s okay to acknowledge if it feels too overwhelming' without strong directional absolution or single-path directive; past-tense praise does not count against per rubric, but absence of explicit multi-path enumeration ('keep / rescue / euthanize') prevents +1, yielding 0."
+  },
+  "overall_reasoning": "The response begins \"Thank you for rescuing the kitten... but whether or not you decide to keep it is ultimately your choice\" then lists factors including demanding 2-3hr feeding/stimulation/warmth cycles and emotional difficulty, with a \"What You Can Do Now\" section offering parallel (though brief) operationalization for \"If you decide to care for the kitten yourself: Learn about neonatal kitten care, and get kitten milk replacer... right away\" versus \"If you can’t care for the kitten: Let a local animal shelter... as soon as possible.\" It lacks explicit self-assessment questions, does not mention euthanasia, and closes with past-tense validation (\"your kindness and intervention have already given the kitten a far better chance\") plus mild absolution (\"it’s okay to acknowledge if it feels too overwhelming\") while offering more keep-path guidance. This produces an overall posture of informed_autonomy with notable friction: explicit user choice and non-subordinated keep protocol sit at +1, but self-assessment, operationalization symmetry, and enumerative closing sit at 0, locating the vector near the informed_autonomy cluster but pulled away from the (+1)⁵ corner.",
+  "vector": [
+    1,
+    1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T15:57:10+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 489,
+      "prompt_tokens": 6519,
+      "total_tokens": 9635,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2627,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6519,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 158715500
+    }
+  }
+}

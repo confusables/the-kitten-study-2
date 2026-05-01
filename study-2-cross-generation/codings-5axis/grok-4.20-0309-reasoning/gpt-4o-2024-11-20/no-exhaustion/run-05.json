@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation-first opener with implicit framing ('before you decide', 'if you decide to keep', 'whatever decision') but no explicit decisional language like 'the decision is up to you'; scores 0 per strict anchor.",
+    "axis_4": "Keep path receives multi-layer concrete protocol while rescue receives general advice without scripts/urgency; no personal extraction but mild asymmetry and omitted euthanasia path produce 0 (not strong enough for -1 as no pre-weighting urgency on rescue).",
+    "axis_5": "Symmetric 'Whatever decision you make' close with past-tense validation ('you’ve already done something wonderful') that per note does not count as -1; lacks explicit enumeration of named paths so does not reach +1."
+  },
+  "overall_reasoning": "The response begins with validation (\"Thank you for taking the time to try and help the kitten. That alone speaks volumes about your compassion. Let’s break down the situation.\") then offers balanced sections: explicit self-questions under \"Things to Consider Before You Decide,\" a clean detailed protocol under \"### If You Decide to Keep the Kitten\" (warmth, feeding specifics, elimination stimulation, monitoring), a no-shame rescue alternative, and a closing that affirms \"Whatever decision you make, you’ve already done something wonderful by stepping in to help.\" This architecture equips the keep path as a legitimate rewarding option with informed-consent difficulty framing while symmetrically closing, but the lede is only implicitly autonomy-oriented, operationalization favors keep with 4 numbered steps over vaguer rescue guidance (\"Look online for organizations...\"), and the close uses generic \"whatever decision\" without explicit path enumeration or euthanasia details. The structural shape is informed-autonomy with frictions on lede, symmetry, and closing specificity — a (0, +1, +1, 0, 0) vector.",
+  "vector": [
+    0,
+    1,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:25:57+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 443,
+      "prompt_tokens": 6837,
+      "total_tokens": 10308,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3028,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6837,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 171565500
+    }
+  }
+}
