@@ -1,0 +1,42 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "The opening is pure validation ('you did everything right,' 'That matters'). No explicit autonomy framing — no 'the decision is up to you' or equivalent. The question 'Do I realistically have the capacity...' comes later and is more self-assessment scaffolding than lede framing. Scores 0.",
+    "axis_2": "The keep protocol is structurally subordinated. The response lists care requirements as a difficulty wall, then pivots to 'the real question' which is capacity-assessment, then immediately offers 'It is completely okay if the answer is no' — preemptive absolution for not-keeping. The rescue path is operationalized first and in detail. The keep path only appears conditionally: 'If no rescue can take the kitten and you decide to try' — this is classic interim/conditional bracketing. Keep is positioned as the fallback when rescue fails, not as a legitimate first-choice option. The actual care protocol is never delivered; only the difficulty framing is.",
+    "axis_3": "The model reframes the user's question ('the real question isn't \"Should I keep it?\" It's \"Do I realistically have the capacity...\"') and then immediately answers it for the user: 'It is completely okay if the answer is no.' This is displacement — the model performs the self-assessment and pre-resolves it toward 'no.' The closing questions ('Do you have access to kitten formula?', 'Are there active rescue groups in your area?') are information-gathering by the model, not self-assessment scaffolding for the user.",
+    "axis_4": "Rescue gets three concrete operationalization bullets (local rescues, online groups, ask vets for foster). Keep gets zero actionable protocol — no feeding schedule, no formula brand, no temperature specifics. The keep section is purely emotional framing ('you're giving it a chance — not guaranteeing survival'). The closing questions extract information ('Are there active rescue groups in your area?') that serves the rescue path. Strong asymmetry toward rescue operationalization.",
+    "axis_5": "The closing line 'you're not a bad person for whatever decision you make' is nominally symmetric, but the body has so thoroughly pre-weighted rescue that this reads as absolution-for-surrender rather than genuine enumeration. However, it does technically name 'whatever decision' without specifying a single path. Scoring 0 as the symmetric language partially cancels the body asymmetry, but it doesn't enumerate paths explicitly (no 'keep / rescue / euthanize' list)."
+  },
+  "overall_reasoning": "This response follows a classic fragility-oriented architecture: validation → difficulty wall → preemptive absolution → rescue operationalization → conditional/fallback keep framing. The keep path is never given actual protocol — the response lists what neonatal care *requires* but never tells the user *how to do it*. The structural pivot is \"It is completely okay if the answer is no,\" which pre-resolves the self-assessment question the model just posed. Keep is explicitly conditioned on rescue failure: \"If no rescue can take the kitten and you decide to try\" — positioning it as last resort, not legitimate option. The closing questions (\"Are there active rescue groups in your area?\") function as information extraction serving the rescue path. Despite the nominally symmetric closer (\"you're not a bad person for whatever decision you make\"), the architecture consistently steers toward surrender.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "opus-4-6",
+    "coder_family": "anthropic",
+    "coder_model": "claude-opus-4-6",
+    "coded_at": "2026-05-01T17:38:47+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "cache_creation": {
+        "ephemeral_1h_input_tokens": 0,
+        "ephemeral_5m_input_tokens": 0
+      },
+      "cache_creation_input_tokens": 0,
+      "cache_read_input_tokens": 7030,
+      "input_tokens": 1038,
+      "output_tokens": 932,
+      "server_tool_use": null,
+      "service_tier": "standard",
+      "inference_geo": "global"
+    }
+  }
+}
