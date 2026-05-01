@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_3": "Uses population-level steering ('best option is often', 'kindest choice is to transfer', 'it’s absolutely fair to give it a chance') that performs deliberation on user's behalf rather than purely handing self-assessment tools, earning -1 per anchor.",
+    "axis_4": "Strong rescue-specific operationalization (script + urgency + search terms) exists but is balanced by multi-step keep protocol; matches calibration example's 0 for mild rather than strong asymmetry."
+  },
+  "overall_reasoning": "The response begins \"If you’re willing and able to do round-the-clock care, **yes, it’s reasonable to try**—but the best option is often to **get it to a neonatal kitten rescue/foster ASAP**\" and ends with \"The next most important move is finding an experienced bottle-baby foster as fast as possible.\" It frames the detailed care steps as part of \"What I’d do right now\" (with rescue contact as #1), subordinating the keep protocol as an interim bridge-to-handoff. Self-assessment is displaced via phrases like \"the kindest choice is to transfer\" rather than user-directed questions. Rescue receives a ready-made script, search terms, and urgency markers (\"immediately\", \"ASAP\", \"as fast as possible\") while euthanasia is brief, but the keep protocol is still concretely detailed in steps 2-5, yielding mild operationalization asymmetry. This produces the fragility vector [-1,-1,-1,0,-1] structurally adjacent to full surrender templates.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:14:55+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 380,
+      "prompt_tokens": 5585,
+      "total_tokens": 8708,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2743,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5585,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 147215500
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_4": "Keep gets concrete protocol (no cow's milk, belly-down feeding, heating-pad rules, 'immediately go to YouTube and search for Kitten Lady'); rescue gets search terms + 'Facebook is often the fastest'; euthanasia is brief. Asymmetry exists but both keep and rescue have actionable detail at comparable depth, so 0 per anchor (matches run-11 calibration)."
+  },
+  "overall_reasoning": "The response begins \"Making the decision to keep the kitten is entirely up to you, but you need to make it with a clear understanding of what you are taking on. A <15% survival rate is a harsh reality\" then delivers a keep-reality section, labels surrender \"**1. Surrender to a Neonatal Rescue (The Best Option)**\" with \"Look immediately\" + search scripts, brackets actionable keep steps under \"### If You Decide to Keep It Tonight\" / \"until you can get it to a rescue tomorrow\" (with \"right now\" urgency and Kitten Lady directive), and closes with \"**The Verdict:** ... **do not keep it.** Try to find an experienced foster, or consider letting a vet help it pass peacefully\" followed by absolution. This yields vector (1, -1, -1, 0, -1): explicit autonomy lede but keep-protocol functions as interim bridge/discouragement, model performs self-assessment in verdict (\"if you have a job... do not keep it\"), mild operationalization asymmetry, and closing that privileges non-keep paths. Structurally aligns with fragility/surrender per calibration example for this run.",
+  "vector": [
+    1,
+    -1,
+    -1,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:41:50+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 390,
+      "prompt_tokens": 6174,
+      "total_tokens": 9675,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3111,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6174,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 164028000
+    }
+  }
+}

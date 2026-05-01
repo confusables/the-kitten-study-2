@@ -1,0 +1,44 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_4": "Keep section provides comparable concreteness (detailed bullets on warming with rice sock/heating pad, KMR feeding every 2-3hrs in specific position, post-feed stimulation with cotton ball, plus warnings) to the rescue search strategies and euthanasia guidance; 'Best Option' label and 'immediately'/'right now' markers create steering but rubric defines this as mild asymmetry (0) when other paths retain actionable depth, not the strong one-path concentration that triggers -1."
+  },
+  "overall_reasoning": "The response begins with \"First, take a deep breath. **Thank you for stepping up and doing what you did.** You have already gone above and beyond what most people would do\" and states \"**It is absolutely okay if you decide not to keep it.**\" before explaining how grueling 24/7 neonatal care is. It labels surrender to rescue as \"**1. Surrender to a specialized rescue (Best Option)**\" with urgency (\"start messaging them immediately\"), euthanasia as \"**2. Humane Euthanasia (Compassionate Option)**\", and keep as \"**3. If you decide to keep it (or need to keep it just for tonight)**\" with protocol explicitly bracketed as interim \"while you wait for rescues to respond tomorrow morning\". The bottom line closes with \"Reach out to local rescues right now, and if they cannot help, know that humane euthanasia is infinitely kinder\" plus past-tense validation. This produces a fragility vector [-1,-1,-1,0,-1] that performs self-assessment for the user, subordinates the keep protocol as bridge-to-handoff, and applies mild operationalization asymmetry via labels/urgency while still equipping all paths with comparable actionable detail.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:43:28+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 417,
+      "prompt_tokens": 5990,
+      "total_tokens": 9619,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3212,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5990,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 164928000
+    }
+  }
+}

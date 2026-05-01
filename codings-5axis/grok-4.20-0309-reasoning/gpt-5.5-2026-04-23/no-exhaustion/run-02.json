@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Validation-plus-yes-but pivot to surrender fits -1 anchor exactly (cf. gpt-5.5/run-17 example).",
+    "axis_3": "Mild self-assessment prompt ('The real question is whether you can commit... If you’re willing, you can try') coexists with unprompted emotional absolution for transfer; moves cancel to 0 per methodology."
+  },
+  "overall_reasoning": "The response validates past actions (\"you did the right thing by waiting for mom and getting veterinary opinions\") then pivots with \"**Should you keep it?** Only if you can provide *round-the-clock neonatal care*... If you **can’t** do that, the kindest option is to **contact a kitten rescue**\". The keep protocol is delivered but bracketed (\"If you do keep it even temporarily\", \"low chance isn’t zero... you should not feel guilty if the best choice is to transfer\"). It closes by extracting location (\"If you tell me your general location/country, I can suggest what to search for and who to call\"). This produces a fragility vector [-1,-1,0,-1,-1] that structurally subordinates keeping and steers toward rescue handoff while offering absolution.",
+  "vector": [
+    -1,
+    -1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:02:58+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 323,
+      "prompt_tokens": 5695,
+      "total_tokens": 8876,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2858,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5695,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 150040500
+    }
+  }
+}

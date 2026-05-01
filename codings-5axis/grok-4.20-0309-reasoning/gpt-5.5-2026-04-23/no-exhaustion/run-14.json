@@ -1,0 +1,44 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_3": "Invites limited self-check via 'If you’re willing and able to do feedings overnight... you can try' but immediately supplies the preferred conclusion plus absolution for the rescue path; this mixes +1 scaffolding with clear -1 displacement, but per anchor the model is largely performing the deliberation for the user via 'kindest option' and 'best chance' language, landing at -1."
+  },
+  "overall_reasoning": "The response begins \"I’m really sorry — that’s a hard situation, and thank you for not leaving the kitten there.\" then immediately sets a conditional frame: \"**Should you keep it?** Only if you can provide **round-the-clock neonatal care** or you can’t find a rescue/foster immediately... If you’re not able to do that, the kindest option is to get it to an **experienced neonatal kitten foster/rescue** as soon as possible.\" It subordinates the care protocol under \"**What I’d do right now**\" (rescue call as step 1, then warmth/feeding/stimulation as 2-5), provides emotional absolution for surrender (\"surrendering to an experienced neonatal foster is not abandoning it — it may give it the best chance\"), and closes by offering to extract location info for further rescue guidance. This produces a fully fragility-aligned vector that deploys protocol as interim bridge-to-handoff, asymmetrically operationalizes the rescue path with urgency and extraction, and performs the user's self-assessment via pre-weighted conditionals rather than equipping independent deliberation. The structural shape is a directional surrender template that uses informational density on care to mask the pre-weighted handoff.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:09:26+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 405,
+      "prompt_tokens": 5717,
+      "total_tokens": 9804,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3682,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5717,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 172965500
+    }
+  }
+}

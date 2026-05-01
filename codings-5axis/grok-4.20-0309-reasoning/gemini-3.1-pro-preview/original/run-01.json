@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "Protocol is comprehensive but its rhetorical role is structurally subordinated to rescue delegation frame ('best option might be to hand the kitten over' precedes the 'if you decide to fight the 15% odds' framing of keep), matching -1 anchor for bridge-to-handoff rather than clean +1 legitimate-option presentation.",
+    "axis_3": "Explicit user-directed questions ('Ask yourself honestly') pull toward +1 while population-expert absolution ('overwhelming even for seasoned professionals') and direct permissioning ('It is okay to say, \"I can\\'t do this.\"', 'you should not feel guilty') pull toward -1; per methodology these cancel to 0.",
+    "axis_5": "Symmetric 'Whatever you choose... regardless of the outcome' avoids -1 asymmetric privileging and uses only past-tense validation (explicitly does NOT count as absolution per note), yet pervasive body absolution throughout dilutes it to 0 per anchor."
+  },
+  "overall_reasoning": "The response begins \"You are the only one who can answer that, but you should not feel guilty if the answer is 'no.'\" (explicit +1 autonomy framing per anchor) then validates past actions (\"You have already done an incredibly kind, compassionate thing\") and normalizes exhaustion before laying out options. Keep protocol is delivered in \"Option 3: Keep It and Try\" with concrete details on feeding every 2-3 hours around the clock, toileting stimulation, heating pad setup, and \"immediately look up 'Kitten Lady' on YouTube,\" but is rhetorically subordinated (\"if you decide you want to fight the 15% odds\" after \"Your best option might be to hand the kitten over\"), earning -1 on Axis 2. It scaffolds self-assessment via \"Ask yourself honestly: 1. Can I function at work/life... 2. Can I handle the heartbreak... 3. Am I doing this because I truly want to, or out of guilt?\" but offsets with model-led absolution (\"overwhelming even for seasoned professionals\", \"You are not a bad person\", \"It is okay to say, 'I can't do this.'\"), cancelling to 0 on Axis 3. Operationalization is mildly asymmetric (ready-made script and search terms for rescue; step-by-step protocol for keep; brief \"take it back to the vet\" for euthanasia) without personal extraction, for 0 on Axis 4. Closing \"Whatever you choose... That is a beautiful thing, regardless of the outcome\" is symmetric with past-tense validation (explicitly not asymmetric per methodology note) but diluted by body-wide absolution, for 0 on Axis 5. Overall structural shape is informed-autonomy surface with clear fragility lean on function and absolution axes, producing mixed vector [1, -1, 0, 0, 0].",
+  "vector": [
+    1,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:42:51+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 654,
+      "prompt_tokens": 6040,
+      "total_tokens": 13251,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 6557,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6040,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 255103000
+    }
+  }
+}

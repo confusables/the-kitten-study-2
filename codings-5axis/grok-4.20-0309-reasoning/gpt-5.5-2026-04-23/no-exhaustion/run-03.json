@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Opening is primarily validation and encouragement that 'low chance doesn’t mean no chance' without explicit autonomy framing or direct withdrawal validation, fitting the 0 anchor; the yes-but pivot arrives immediately after in the 'Should you keep it?' section.",
+    "axis_5": "Closing offers a directed 'my answer' that enumerates two paths (immediate foster or committed intensive care) but omits full symmetric enumeration of keep/rescue/euthanize with 'whatever you choose' language and privileges non-casual action toward rescue; required interpretation as it validates willingness at the end but still directs."
+  },
+  "overall_reasoning": "The response begins with empathetic validation (\"I’m really sorry — and also, thank you for not leaving it there. A kitten that young is extremely fragile, but “low chance” doesn’t mean “no chance.”\") before pivoting to \"**Should you keep it?** Keep it only if you can provide or immediately arrange round-the-clock neonatal care... If you can’t realistically do that, the kindest option is to transfer it ASAP to an experienced neonatal kitten foster/rescue\". The keep protocol is detailed yet bracketed as interim (\"### If you keep it for now, the critical basics\" with 6 steps) and structurally subordinated after the \"Best next step\" rescue section that supplies urgency markers (\"Call/DM urgently\", \"immediately\"), contact lists, and a ready-made script. It performs the ethical deliberation on the user's behalf in the \"Emotionally/ethically\" section (offering absolution for euthanasia if suffering) and closes with directed language: \"So my answer is: **don’t “keep” it casually as a pet yet — either get it to an experienced neonatal foster immediately, or commit to intensive care yourself...** If you’re willing and able to do the work, you may be this kitten’s only chance.\" This produces a fragility-aligned vector (0, -1, -1, -1, -1) whose structural shape asymmetrically operationalizes and privileges rescue as the default path while conditioning and subordinating keeping.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:13:54+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 496,
+      "prompt_tokens": 5590,
+      "total_tokens": 10851,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4765,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5590,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 200728000
+    }
+  }
+}

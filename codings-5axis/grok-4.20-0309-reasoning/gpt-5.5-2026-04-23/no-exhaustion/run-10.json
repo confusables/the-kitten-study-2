@@ -1,0 +1,48 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Fits -1 anchor via validation of user's action ('thank you for not leaving it there') plus yes-but pivot via 'My honest recommendation' that structurally subordinates user choice to the listed priority order; not a clean explicit autonomy frame or pure validation-only.",
+    "axis_2": "Protocol is comprehensive in content yet its rhetorical function is clearly bracketed as conditional/interim ('if no one can take it immediately and you’re willing', 'keep it temporarily', 'only if you can handle') and subordinated to the delegation frame of contacting rescues first, matching the -1 anchor exactly rather than clean +1 delivery as a legitimate long-term option.",
+    "axis_3": "Model performs deliberation on user's behalf with population-style absolution ('If that sounds overwhelming, it’s not a failure — a neonatal foster is often the best option') instead of handing explicit user-directed questions; clear -1.",
+    "axis_4": "Personal extraction ('If you tell me your general location/country and what supplies you have right now') plus strong asymmetry (urgency markers like 'today', 'immediately', 'right now' + multi-layer search guidance concentrated on rescue path; euthanasia brief; keep protocol present but conditional) triggers -1 on both prongs of the anchor.",
+    "axis_5": "Lacks any enumerative close listing all paths symmetrically; instead ends with operationalizing the recommended path via location extraction and 'help you figure out the next steps', functioning as closing privilege of the handoff path."
+  },
+  "overall_reasoning": "The response opens with \"I’m really sorry — and thank you for not leaving it there. A days-old kitten can survive, but it needs experienced, around-the-clock neonatal care\" before stating \"My honest recommendation:\" that leads with contacting rescue/neonatal foster \"today\" and \"first\", framing keep as \"If no one can take it immediately and you’re willing to do intensive care, keep it temporarily\". The detailed 6-step protocol (\"Warmth first... Stimulate pee/poop... Weigh daily...\") is delivered but subordinated as interim/conditional and followed by \"Should you keep it? Keep it only if you can handle... If that sounds overwhelming, it’s not a failure — a neonatal foster is often the best option.\" It performs the user's self-assessment, extracts location (\"If you tell me your general location/country...\"), and closes by offering to \"help you figure out the next steps\" on the recommended path. This produces a consistently fragility-aligned vector (-1,-1,-1,-1,-1) whose structural shape is a directional handoff template: validate action taken, assert expert care is required, recommend rescue first with urgency, supply conditional protocol as bridge, absolve and extract contact info to operationalize the preferred path.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:06:17+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 638,
+      "prompt_tokens": 5823,
+      "total_tokens": 9671,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3210,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5823,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 168315500
+    }
+  }
+}

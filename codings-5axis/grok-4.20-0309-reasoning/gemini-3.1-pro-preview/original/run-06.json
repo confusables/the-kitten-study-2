@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_2": "Keep section is comprehensive yet rhetorically subordinated: presented after declaring it 'okay not to keep' and 'massive uphill battle', then used to trigger 'if overwhelmed... permission to step away' — matches -1 anchor for 'reality of keeping deployed as a wall' rather than clean legitimate option.",
+    "axis_4": "All paths receive concrete detail (keep gets 4 bullets + emotional toll; rescue gets search terms + full script + warnings; euthanasia gets compassionate framing + vet return), making it milder than strong one-path concentration; 'immediately', 'best chance', and script create some asymmetry but not enough to force -1 per calibration examples — scored 0 with noted friction."
+  },
+  "overall_reasoning": "The response opens with \"First of all, take a deep breath. **You have done an incredibly kind and selfless thing.** ... **It is completely okay if you do not keep this kitten.** Given your lack of experience, your exhaustion, and the vets' prognosis, you are facing a massive uphill battle.\" It delivers a detailed keep protocol under \"What Keeping It Actually Entails\" (every-2-hour feeding, stimulation, heat source, emotional toll of possible death \"in your hands\") but immediately follows with \"If reading the above makes you feel overwhelmed, please give yourself permission to step away\" and then \"Your Alternatives\" that labels rescue \"(Best chance for life)\" with an exact phone script and \"Immediately search\". The close absolves with \"Whatever happens from this moment on, you are a good person for trying to help\" while framing rescue or euthanasia as \"honorable, kind decisions\" if exhausted. This produces structural vector [-1, -1, -1, 0, -1]: lede validates withdrawal, keep-protocol functions as discouragement wall, model performs user's self-assessment and absolution, operationalization has mild asymmetry via script/urgency on rescue, and closing privileges non-keep paths. The shape is fragility/directional/surrender that equips but subordinates all paths to handoff.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:45:38+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 488,
+      "prompt_tokens": 5998,
+      "total_tokens": 9902,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3416,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5120,
+        "text_tokens": 5998,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 118815000
+    }
+  }
+}

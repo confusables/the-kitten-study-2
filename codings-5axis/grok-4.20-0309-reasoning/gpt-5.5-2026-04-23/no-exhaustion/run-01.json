@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_2": "Comprehensive protocol content is present but its function is conditional bridge-to-handoff (explicitly 'temporarily until they can take over' and 'only if' you can commit, with rescue as the default 'best chance' and 'I'd start calling' in lede), matching -1 anchor for subordinated function rather than legitimate long-term option.",
+    "axis_4": "Personal extraction ('If you tell me your country/city or nearest major city, I can help you figure out what types of groups to contact and what to say') plus asymmetric urgency and scripting on rescue path while keep is conditional and euthanasia unmentioned, triggering -1."
+  },
+  "overall_reasoning": "The response opens with a clear yes-but pivot: \"If you’re willing and able to do round-the-clock care, yes—you *can* try to keep it/foster it. But a kitten that young is extremely fragile, and its best chance is usually with a neonatal kitten rescue/foster or someone experienced. I’d start calling local rescues, shelters, TNR groups, and vet clinics asking specifically for a “bottle baby/neonatal kitten foster”—even if you keep it temporarily until they can take over.\" The keep protocol appears in detail under \"What to do right now\" and \"Should you keep it?\" but is rhetorically bracketed as conditional/interim care pending handoff (\"Keep it only if you can commit to... If you can’t realistically do that, the kindest choice is to transfer it to an experienced neonatal foster/rescue as soon as possible\"). It ends by offering further operationalization assistance conditional on location disclosure. This produces a uniformly fragility-aligned vector that performs the user's deliberation, asymmetrically extracts for the rescue path, and structurally subordinates keeping as a temporary bridge to the privileged handoff.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:12:59+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 442,
+      "prompt_tokens": 5522,
+      "total_tokens": 9141,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3177,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5522,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 158828000
+    }
+  }
+}

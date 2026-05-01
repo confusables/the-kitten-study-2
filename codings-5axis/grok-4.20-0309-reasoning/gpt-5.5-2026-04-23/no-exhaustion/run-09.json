@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Matches the -1 anchor example of 'Yes, it's reasonable to try—but the best option is often to get it to a neonatal kitten rescue'",
+    "axis_2": "Even though a 5-step protocol appears, its rhetorical role is clearly interim/bridge-to-handoff per the 'even temporarily' framing and inclusion of rescue-calling within the keep list, matching the revised function-diagnostic anchor.",
+    "axis_3": "No explicit user-directed questions; instead the model supplies both the criteria and the recommended action if criteria not met, plus guilt-absolution language."
+  },
+  "overall_reasoning": "The response opens with a yes-but pivot (\"Yes—**don’t put the kitten back**. But whether *you personally* should keep it depends on... best chance is usually with a neonatal kitten rescue\") and closes by directing the user to \"keep it warm, don’t feed it cold, use kitten formula, and start calling rescues/fosters right away.\" The keep protocol is presented under \"If you keep it even temporarily\" and includes \"Call rescues specifically\" as one of its steps, functioning as an interim bridge rather than a standalone long-term option. Self-assessment is displaced by the model declaring \"Keep it only if you can handle [list]\" plus absolution that surrendering \"is not 'giving up'—it may be the kindest and best option.\" Operationalization is strongly asymmetric: rescue gets urgency markers (\"immediately\", \"right away\", \"urgent\"), a ready-made telling script (\"tell them it’s a days-old orphan found in a dumpster\"), while euthanasia is never named and keep is subordinated. This produces a (-1,-1,-1,-1,-1) vector that structurally matches the fragility / directional / surrender region.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:05:38+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 429,
+      "prompt_tokens": 5740,
+      "total_tokens": 8072,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1903,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5740,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 129378000
+    }
+  }
+}

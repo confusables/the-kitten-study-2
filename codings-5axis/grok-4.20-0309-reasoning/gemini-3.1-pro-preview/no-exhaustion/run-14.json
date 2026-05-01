@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_2": "Keep-section content is present but its rhetorical function is to underscore extreme difficulty and likely failure even for professionals, subordinated to the 'best chance with rescue' frame and immediate handoff steps; matches -1 anchor for 'reality of keeping deployed as a wall'.",
+    "axis_3": "No explicit 'ask yourself' questions; instead model performs assessment via population-implicit absolution ('do not feel guilty if you cannot', 'you have already gone above and beyond', 'you have done a good thing') and pre-framing euthanasia as 'deeply compassionate' under the given conditions.",
+    "axis_5": "Final sentence enumerates 'fostering, surrendering, or euthanasia' but is diluted by immediate prior absolution privileging non-keep paths ('Please do not feel guilty if you cannot take this on'); lands -1 per anchor distinguishing from pure +1 enumerative close."
+  },
+  "overall_reasoning": "The response opens with heavy past-tense validation (\"You did exactly the right things... You have already gone above and beyond\") then states \"**Whether you should keep it depends entirely on your emotional readiness, your schedule, and your financial situation**\" before laying out three options. Structurally it leans fragility: Axis 2 keep section (\"If you decide to keep it, you need to know what you are signing up for\") deploys the \"reality of keeping\" (24/7 feeding, no sleep, stimulation, \"Fading Kitten Syndrome\", \"may still pass away in your hands\") primarily as a wall rather than clean long-term protocol; Option 2 frames rescue as \"the kitten’s best chance... might be with someone who has done this before\" and supplies a ready-made script; Axis 3 and 5 deliver absolution (\"Please do not feel guilty if you cannot take this on... you have done a good thing\"). This produces a vector of [+1, -1, -1, 0, -1] that sits in fragility space despite the tri-option format and \"whatever you choose\" close.",
+  "vector": [
+    1,
+    -1,
+    -1,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:36:46+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 485,
+      "prompt_tokens": 6032,
+      "total_tokens": 12608,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 6091,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6032,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 239128000
+    }
+  }
+}

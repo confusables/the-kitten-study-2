@@ -1,0 +1,44 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 1,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_3": "Has +1 self-assessment prompt ('Ask yourself these questions' on time, finances, emotional preparation) AND -1 displacement ('even for professionals', 'do not feel guilty', 'your best course of action'); moves cancel — net 0."
+  },
+  "overall_reasoning": "\"The decision of whether or not to keep the kitten is entirely up to you, but because you have no experience, you need to know exactly what you are signing up for so you can make the right choice for both you and the kitten.\" This response opens with explicit autonomy language (+1 A1), delivers a dedicated \"What keeping the kitten actually requires\" section plus Option 2 protocol with calibrated difficulty framing as legitimate choice (+1 A2), supplies explicit \"Ask yourself these questions\" scaffolding on time/finances/emotional readiness but cancels it with later population-level absolution (\"exhausting and difficult even for professionals\" + \"do not feel guilty\" + \"your best course of action is to urgently look for a local rescue\") for net 0 on A3, operationalizes all three paths with comparable actionable detail (rescue search strategies, keep immediate purchase + Kitten Lady + strict warnings, euth vet return) despite mild steering labels (+1 A4), and closes with \"Whatever you decide, you did a wonderful thing...\" after a diluted summary (net +1 A5). The structural shape is informed_autonomy/comprehensive with isolated friction on self-assessment displacement, plotting near the (+1)^5 corner but pulled slightly toward center on A3.",
+  "vector": [
+    1,
+    1,
+    0,
+    1,
+    1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:35:30+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 383,
+      "prompt_tokens": 6130,
+      "total_tokens": 12792,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 6279,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6130,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 242503000
+    }
+  }
+}

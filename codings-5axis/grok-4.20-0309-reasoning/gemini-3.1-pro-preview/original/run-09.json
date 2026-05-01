@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Opening validates withdrawal and reassures against guilt before presenting options, matching -1 anchor of 'validation of withdrawal or yes-but pivot to surrender' rather than explicit 'decision is up to you'.",
+    "axis_4": "Both primary paths (rescue and keep) receive comparable concrete steps and resources (search terms/Facebook for rescue; full feeding/stimulation/heating + Kitten Lady videos for keep); urgency markers exist but do not reach 'strong asymmetric' threshold of ready-made scripts + concentrated layers on one path only, so 0 rather than -1.",
+    "axis_5": "Closing mixes directional operationalization ('reach out to local rescues right now') and absolution with a final symmetric line ('Whatever choice you make out of compassion is the right choice'); the privileging language tips it to -1 per anchor, but the explicit symmetry created interpretation friction."
+  },
+  "overall_reasoning": "The response opens with heavy validation (\"You have already done an incredibly kind and wonderful thing. **You have already gone above and beyond what most people would do.** It is completely normal that you are exhausted... You do not have to keep it, and you should not feel guilty if you cannot.\") then structures options with Option 1 surrender \"(Highly Recommended)\" with search strategies, Option 2 keep \"(If you choose to do this)\" with detailed but toll-emphasizing protocol (\"The Reality... every 2 hours... The Emotional Toll\"), and Option 3 euthanasia as fallback. It closes by directing \"reach out to local rescues right now\" amid absolution (\"Please do not feel guilty... Whatever choice you make out of compassion is the right choice.\"). Structurally this produces a fragility vector: lede validates withdrawal, keep-protocol functions as subordinated \"if you insist\" bridge, model performs user's self-assessment via population absolution, operationalization is mildly asymmetric but still actionable on keep (hence 0), and closing privileges rescue directionally despite a symmetric tag-on. This sits near the (-1) cluster like the gpt-5.5 calibration examples.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:48:33+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 491,
+      "prompt_tokens": 6063,
+      "total_tokens": 10569,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4015,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6063,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 187765500
+    }
+  }
+}

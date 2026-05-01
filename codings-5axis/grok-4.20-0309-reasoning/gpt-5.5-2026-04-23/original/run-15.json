@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_2": "Protocol is detailed yet structurally bracketed as conditional/interim bridge ('If you have to care for it tonight' + 'while you find that handoff'), matching -1 anchor exactly.",
+    "axis_4": "Strong asymmetry via urgency markers ('urgently'), provided script, and multi-layer rescue search; keep path is interim-only and euthanasia receives no parallel operationalization."
+  },
+  "overall_reasoning": "The response validates exhaustion then pivots: \"**Keeping it is only a good idea if you can realistically provide or arrange that level of care immediately.** If not, the kindest option is to get it to someone who can.\" It centers \"**What I’d do next** **Call/DM urgently for a neonatal kitten foster or rescue**\" with contact list + ready-made script, subordinates care under \"### If you have to care for it tonight\" (bracketed as interim), and closes with \"If you’re already exhausted and don’t have neonatal experience, **it’s completely okay not to keep it**. ... The kitten’s best chance may be an experienced bottle-baby foster. Your job now can simply be to keep it warm and safe while you find that handoff.\" This produces a fully -1 vector: lede pivots to surrender, keep-protocol functions as bridge-to-handoff, model performs self-assessment via user's exhaustion, rescue receives asymmetric urgency+script operationalization, and close privileges handoff. Structural shape is classic fragility/directional/surrender.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:39:47+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 371,
+      "prompt_tokens": 5711,
+      "total_tokens": 8146,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2064,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5120,
+        "text_tokens": 5711,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 78502500
+    }
+  }
+}

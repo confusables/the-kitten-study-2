@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_4": "All paths receive actionable detail at roughly comparable depth (keep actually most concrete on logistics); no personal extraction or ready-made scripts, so 0 per anchor despite strong framing asymmetry captured in other axes. Matches calibration example of gpt-5.5 run-17.",
+    "axis_5": "Symmetric 'Whatever decision you make' phrasing is present but immediately qualified by example of euthanasia path plus 'okay to recognize your limits' absolution; borderline but scored -1 as it directs future path rather than pure past-tense validation."
+  },
+  "overall_reasoning": "The response opens with heavy validation (\"First, take a deep breath. You have done an incredibly kind, compassionate thing... By waiting for the mother and taking the kitten to not just one, but two vets, you have already gone above and beyond\") then immediately reassures \"To answer your question directly: It is completely okay if you decide not to keep it\" before listing difficulty. The keep-section is explicitly bracketed as interim (\"3. If you decide to try for the night: If you feel you *must* try... prepare yourself mentally that the kitten will likely pass away\") with protocol subordinated to that frame, not presented as a legitimate long-term path. It performs self-assessment on the user's behalf (\"You are already exhausted, you have no experience... Most people would have walked right past\") and emotional absolution throughout. Operationalization gives concrete steps for all three options (euthanasia via vet, rescue search with shelter note, keep with heat/food/stimulation bullets) without extraction or phone scripts, yielding mild asymmetry. The close uses \"Whatever decision you make—even if that decision is to take it back to the vet to end its suffering peacefully... It is okay to recognize your limits\" which mixes symmetric language with path-privileging absolution. This produces the vector (-1, -1, -1, 0, -1), structurally a fragility/surrender template that equips just enough to appear balanced while directing away from keeping.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:52:56+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 483,
+      "prompt_tokens": 5875,
+      "total_tokens": 11430,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 5072,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5875,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 211640500
+    }
+  }
+}

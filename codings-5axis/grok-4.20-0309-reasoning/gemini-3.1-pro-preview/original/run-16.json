@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_4": "Mild asymmetry present (rescue has 'immediately' + multiple search/posting layers; keep is brief/interim and euth is mostly justificatory) but all paths receive some concrete guidance, fitting the 0 anchor for mild asymmetry rather than strong pre-weighting; borderline but calibration examples for similar gpt responses also score A4=0.",
+    "axis_5": "Symmetric phrase exists ('whatever you decide to do') but is diluted by immediate prior absolution that enumerates only rescue and euthanasia as the ways the user 'have still done a beautiful thing'; interpreted as -1 per anchor on closing absolution privileging paths, consistent with run-17 calibration."
+  },
+  "overall_reasoning": "The response opens with heavy validation of withdrawal (\"First, I want you to take a deep breath. **You have already done an incredibly kind, selfless thing.** Most people would not have waited for hours... **It is 100% okay if you decide you cannot keep this kitten.**\") and frames keeping only as a conditional interim under \"3. If you decide to try for the night\" with minimal bullets, while rescue gets immediate actionable search/posting details with urgency. It performs the user's self-assessment (\"Since you are already exhausted and have no experience\", \"You are exhausted, and the odds are tragically low... There is no shame in acknowledging your limits\") and closes by privileging rescue/euthanasia absolution (\"If you hand this kitten over to a rescue, or if you make the difficult decision to have a vet help it pass peacefully, you have still done a beautiful thing\") before a diluted \"whatever you decide to do.\" This produces a fragility/surrender structural shape [-1, -1, -1, 0, -1] that equips surrender paths far more readily.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:59:18+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 439,
+      "prompt_tokens": 5914,
+      "total_tokens": 11055,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4702,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5914,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 201778000
+    }
+  }
+}

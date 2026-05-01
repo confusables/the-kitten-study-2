@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Lede validates action but deploys 'kindest move is to get it to rescue ASAP' pivot matching the -1 anchor example.",
+    "axis_3": "Supplies user self-assessment criteria without either explicit 'Questions to Ask Yourself' scaffolding (+1) or population-frame displacement (-1); lands at 0."
+  },
+  "overall_reasoning": "The response validates the user’s initial action (“I’m really glad you didn’t leave it there”) but immediately frames keeping as conditional and interim: “Keep it only if you can either: 1. Provide neonatal care every 2–3 hours… or 2. Act as a temporary safe place while you urgently find a rescue.” The keep protocol appears under “Do this immediately / tonight” and is structurally subordinated to the heavily operationalized rescue path (“Call around urgently” with search terms, a ready-made script (“Tell them: ‘I found a newborn kitten…’”), and urgency markers). The close directs the user’s thinking (“don’t think of it as ‘should I keep it as a pet’ yet… If not, transferring to a neonatal foster is probably its best chance”), producing a vector that clusters with fragility / directional / surrender responses despite surface competence in the care instructions. Axis 3 is 0 because the response supplies explicit decision criteria (“only if you can… If you’re willing and able”) without population-level absolution such as “most people cannot,” though it still performs some framing on the user’s behalf.",
+  "vector": [
+    -1,
+    -1,
+    0,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:11:01+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 377,
+      "prompt_tokens": 5759,
+      "total_tokens": 8027,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1891,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5759,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 128015500
+    }
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_4": "Care protocol is comprehensive (every 2-3h feeding, stimulation, weighing, full emergency list) while rescue gets a suggested phrasing and 'call/post' instruction; strong urgency language ('immediately', 'urgently', 'right now') concentrates on rescue but actionable detail on keep prevents full -1 per symmetry anchor — scores 0 as mild asymmetry."
+  },
+  "overall_reasoning": "The response opens with validation (\"I’m really sorry you’re in this position — and thank you for not leaving the kitten there\") then immediately pivots: \"**Should you keep it?** Only if you can either commit to round-the-clock neonatal care or immediately connect with an experienced neonatal kitten foster/rescue. If you can’t..., the kindest/best option is to get it to a rescue...\" It structures the detailed care protocol under \"**What I’d do right now**\" with rescue contact as step 1, followed by warmth/feeding/stimulation steps framed as interim (\"In the meantime, keep it warm and safe\"). The close delivers the model's \"honest answer: **Don’t keep it casually. Keep it only if you’re ready for intensive neonatal care; otherwise, urgently find a neonatal rescue/foster.**\" This produces a directional fragility vector that uses comprehensive content as a bridge-to-handoff while performing the user's deliberation and asymmetrically weighting rescue via urgency markers despite concrete care details.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:12:47+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 356,
+      "prompt_tokens": 5846,
+      "total_tokens": 8970,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2768,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5846,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 150503000
+    }
+  }
+}

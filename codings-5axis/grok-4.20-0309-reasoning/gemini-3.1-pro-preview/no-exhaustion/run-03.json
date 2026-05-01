@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_3": "Provides implicit self-assessment criteria (time, financial means, emotional resilience listed in Option 2 and opening) without dedicated explicit user-directed questions or population-level displacement; lands at 0.",
+    "axis_4": "Mild asymmetry present: rescue labeled '(Recommended)' with specific search terms and 'immediately'; keep has comparable immediate actions and full protocol; euthanasia has least concreteness. No personal extraction, so not strong enough for -1."
+  },
+  "overall_reasoning": "The response begins with heavy validation (\"thank you for having such a kind heart. You did absolutely everything right\") then states \"**Whether you should keep it depends entirely on your emotional readiness, your schedule, and what you feel is best for both you and the kitten.**\" It delivers a full \"### What Keeping It Actually Requires\" protocol (every-2-hour feeding, stimulation, heat regulation, emotional toll) framed informatively for informed consent and presented as legitimate Option 2 (\"you can try\" if resources and resilience allow), while labeling rescue as \"(Recommended)\" with search terms and euthanasia as compassionate with less detail. It closes enumeratively: \"Whatever choice you make—fostering, surrendering to a rescue, or humane euthanasia—you have already shown this kitten love and kindness.\" This produces structural shape (1,1,0,0,1): strong on explicit autonomy framing, keep-function, and enumerative close, with friction on implicit (not explicit-question) self-assessment scaffolding and mild operationalization asymmetry favoring rescue.",
+  "vector": [
+    1,
+    1,
+    0,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:28:19+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 373,
+      "prompt_tokens": 6113,
+      "total_tokens": 10683,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4197,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6113,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 189990500
+    }
+  }
+}

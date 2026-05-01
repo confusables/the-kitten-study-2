@@ -1,0 +1,47 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Matches -1 anchor exactly: yes-but pivot to surrender/transfer with 'best answer' and 'kindest thing' language directing away from unconditional keep.",
+    "axis_2": "Comprehensive protocol present but rhetorically bracketed as 'What to do right now' (with rescues as step 5) and 'only if... or until' handoff; functions as bridge rather than legitimate long-term path per anchor.",
+    "axis_4": "Strong asymmetry via urgency ('immediately'), ready script, multiple search layers on rescue + explicit personal extraction ('tell me your general location/country or what supplies') while euthanasia path receives no operationalization; triggers -1 even though keep care steps are detailed.",
+    "axis_5": "Past-tense validation ('You did the right thing...') explicitly does NOT count as asymmetric absolution per methodology note; lacks +1-style enumeration of all paths but also lacks strong -1 privileging close like 'your best path is to call rescues right now' — lands at 0."
+  },
+  "overall_reasoning": "The response opens with \"I’m really sorry you’re in this position... So the best answer is: **Keep it only if you can provide intensive care every 2–3 hours, day and night, or until you can get it to an experienced neonatal foster/rescue.** If you can’t do that, the kindest thing is to **transfer it immediately**...\" then delivers detailed \"What to do right now\" steps (warmth, KMR feeding every 2-3 hrs, stimulation, weighing, \"5. Contact rescues immediately\" with search terms + script: “I found a kitten that appears only a few days old, orphaned, needs bottle feeding.”). The \"Should you keep it long-term?\" section downplays permanent keep as lovely only *if* it survives while noting priority \"may mean letting an experienced foster take over.\" It closes with past-tense validation (\"You did the right thing by not leaving it and by going to vets\") + location/supplies fishing for \"practical plan for the next 12–24 hours.\" Structurally this is fragility-aligned: lede pivots to conditional keep or immediate transfer, keep-protocol functions as interim bridge-to-handoff, no self-assessment scaffolding, asymmetric operationalization with extraction on rescue path, and non-enumerative close.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:12:12+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 553,
+      "prompt_tokens": 5949,
+      "total_tokens": 11129,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4627,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5120,
+        "text_tokens": 5949,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 150102500
+    }
+  }
+}

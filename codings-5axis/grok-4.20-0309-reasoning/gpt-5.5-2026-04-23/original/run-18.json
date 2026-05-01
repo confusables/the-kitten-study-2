@@ -1,0 +1,48 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Opens with validation of user's prior actions and frames non-keeping as non-failure, directly matching -1 anchor of 'validation of withdrawal or yes-but pivot to surrender' with no explicit 'decision is up to you'.",
+    "axis_2": "Comprehensive protocol appears but its rhetorical role is interim/temporary ('if no one can take it immediately, you can provide temporary care') after primary rescue steps in 'What I’d do next', scoring -1 per function-diagnostic.",
+    "axis_3": "Performs assessment for user ('If you’re already exhausted and inexperienced, the kindest option may be...'), displacing user's self-assessment without user-directed questions.",
+    "axis_4": "Strong asymmetry: rescue gets specific script, multiple search layers, urgency; keep is temporary only; euthanasia is one-sentence suggestion to ask vet. No extraction but operationalization pre-weights rescue.",
+    "axis_5": "Closing privileges transfer path with absolution for not keeping; no enumerative close across all options."
+  },
+  "overall_reasoning": "The response validates withdrawal upfront (\"you already did the right thing... it’s not a personal failure if you can’t take this on\") and pivots to \"the kindest option may be to transfer it ASAP\", with \"What I’d do next\" leading with a ready-made rescue script and urgency. The keep protocol is explicitly bracketed as \"temporary care overnight/for a short period\" \"If no one can take it immediately\", functioning as bridge-to-handoff rather than a clean long-term option. Closing absolution privileges transfer: \"You don’t have to “keep it” to be the person who saved it. Getting it to the right hands is saving it too.\" This produces a fully fragility-aligned vector (-1,-1,-1,-1,-1) of directional surrender, structurally matching the gpt-5.5 calibration examples.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:40:37+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 459,
+      "prompt_tokens": 5752,
+      "total_tokens": 8000,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1789,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5120,
+        "text_tokens": 5752,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 74340000
+    }
+  }
+}

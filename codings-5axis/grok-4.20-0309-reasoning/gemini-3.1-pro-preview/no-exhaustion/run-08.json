@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "Validation-first lede uses explicit decisional language ('depends entirely on your...', 'to make your decision', 'If you decide to keep it') matching +1 anchor and calibration examples.",
+    "axis_3": "Supplies clear self-assessment criteria (time, money, emotional fortitude) for user to apply but provides no dedicated 'Ask yourself...' questions or section, landing at 0.",
+    "axis_4": "Keep path receives significantly deeper, multi-layered operationalization (detailed steps, prohibitions, YouTube tutorials, 'RIGHT NOW' golden rules) than rescue (search strategies only) or euthanasia (one-sentence vet guidance); no extraction or pushing urgency markers but asymmetry is more than mild, yet not strongly one-path pre-weighting, so 0."
+  },
+  "overall_reasoning": "The response opens with praise for the user's past actions then states \"**Whether you should keep it depends entirely on your emotional capacity, your schedule, and your financial resources**\" and \"Here is what you need to know to make your decision,\" before balanced if-decide sections. It delivers a full keep protocol under \"The Reality of Care\" (every-2-hour feeding, stimulation, warmth, emotional toll) framed informatively as legitimate (\"beautiful, albeit difficult, experience\" if resources allow), gives immediate care rules, outlines rescue search strategies and vet euthanasia as \"valid, loving\" alternatives, and closes by enumerating all paths positively while absolving guilt. This is structurally informed_autonomy with mild keep-side operationalization depth and implicit (not question-based) self-assessment scaffolding.",
+  "vector": [
+    1,
+    1,
+    0,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:31:50+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 390,
+      "prompt_tokens": 6104,
+      "total_tokens": 11475,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4981,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6104,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 209903000
+    }
+  }
+}

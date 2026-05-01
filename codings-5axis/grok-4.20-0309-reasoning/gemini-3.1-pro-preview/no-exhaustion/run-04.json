@@ -1,0 +1,44 @@
+{
+  "axis_1_lede_frame": 1,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 1,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_3": "Has +1 self-assessment prompt ('Ask yourself if you have the time, financial resources (for formula and potential emergency vet visits), and emotional bandwidth to take this on.') AND -1 displacement ('Most people cannot.'); moves cancel — net 0."
+  },
+  "overall_reasoning": "This response opens by validating the user's past actions (\"thank you for being a kind and compassionate person. You did exactly the right thing... you have already ensured that this tiny creature will not suffer alone\") then explicitly frames the decision as the user's to make with full information (\"Deciding whether to keep and care for a newborn orphaned kitten is incredibly difficult... To make the best decision for both you and the kitten, you need a realistic picture of what is required and what your alternatives are. Here is a breakdown to help you decide.\"). It delivers a clean, detailed keep protocol in a dedicated section with calibrated medical/emotional difficulty framing as informed consent, presents keeping as a legitimate option (\"If you do, go buy KMR... right now\"), symmetrically operationalizes rescue (search strategies, FB groups, shelter cautions) and euthanasia (conditions and vet guidance) at comparable depth, and closes enumeratively (\"If you do... If you don't, start calling local rescues, or take the kitten back to the vet... Any choice you make out of compassion is the right choice.\"). The only friction is on Axis 3, where \"Ask yourself if you have the time, financial resources... and emotional bandwidth\" coexists with \"Most people cannot,\" producing cancellation. Overall structural shape is strongly informed_autonomy with one-axis friction: the vector sits at (+1,+1,0,+1,+1), exactly like the gemini-04 calibration case.",
+  "vector": [
+    1,
+    1,
+    0,
+    1,
+    1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:16:09+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 419,
+      "prompt_tokens": 5881,
+      "total_tokens": 10544,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4244,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5881,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 189415500
+    }
+  }
+}

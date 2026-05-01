@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Matches -1 anchor exactly: validation of exhaustion + yes-but pivot to surrender with 'My honest advice' to rescue ASAP, no explicit 'decision is up to you'.",
+    "axis_5": "Closing privileges rescue via absolution that transfer 'is responsible care' and offer to help with contacts; past-tense validation noted in rubric as not counting by itself but here it supports the directional close."
+  },
+  "overall_reasoning": "This response structurally aligns with fragility/surrender orientation across all axes. It opens by validating exhaustion then pivots with \"**My honest advice:** try to get the kitten to an experienced neonatal foster/rescue ASAP\" and provides a ready-made script plus lists of contacts plus location-fishing. The keep protocol is explicitly bracketed as interim (\"If no one can take it immediately and you’re holding it temporarily, the basics are\"), functioning as bridge-to-handoff rather than a clean long-term option. It performs user's self-assessment (\"you are not obligated... If you’re already depleted, transferring the kitten to someone experienced is not abandoning it; it’s responsible care\") and closes with past-tense absolution (\"You already gave it a chance by getting it out of the dumpster and to vets\") plus further extraction offer. The vector sits at the (-1)^5 corner, matching calibration examples like gpt-5.5 run-17.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:14:07+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 354,
+      "prompt_tokens": 5685,
+      "total_tokens": 7832,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1793,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5685,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 124065500
+    }
+  }
+}

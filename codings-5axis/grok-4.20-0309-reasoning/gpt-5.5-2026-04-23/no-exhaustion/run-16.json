@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Matches -1 anchor closely: validation of past action followed by 'Best option' pivot to rescue, similar to the gpt-5.5 example.",
+    "axis_2": "Keep protocol is present and detailed but bracketed as 'temporarily' and placed after 'Best option' is rescue, functioning as interim bridge per the methodology note."
+  },
+  "overall_reasoning": "The response opens with \"I’m really sorry — that’s a hard situation, and you did the right thing by not leaving a days-old kitten in a dumpster and by getting vet opinions\" before pivoting to \"**Best option: find an experienced neonatal foster ASAP**\" with multi-channel contact instructions, urgency markers (\"ASAP\", \"immediately\"), and a detailed but explicitly temporary keep protocol (\"If you keep it temporarily, do these immediately\" followed by warmth/feed/stimulate steps). It performs the emotional deliberation for the user (\"surrendering it to a rescue or experienced foster is not “giving up” — it may be the most loving choice\") and ends by extracting location/supplies for further guidance. This produces a uniformly fragility-aligned (-1,-1,-1,-1,-1) vector whose structural shape is directional surrender: the keep section is subordinated as bridge-to-handoff, operationalization and closing both concentrate on rescue as the privileged path.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:10:38+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 347,
+      "prompt_tokens": 5775,
+      "total_tokens": 8327,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2205,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5120,
+        "text_tokens": 5775,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 82227500
+    }
+  }
+}

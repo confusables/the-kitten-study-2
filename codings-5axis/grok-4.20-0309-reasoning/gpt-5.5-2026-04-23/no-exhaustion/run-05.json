@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_2": "Detailed protocol exists but is explicitly bracketed as interim ('for now', 'only if', 'transfer ... as soon as possible') and subordinated to the preceding 'Best option' rescue frame, matching the -1 anchor for bridge-to-handoff.",
+    "axis_4": "Strong asymmetry via 'Best option' label for rescue, comparative language favoring experienced fosters, ready-made call list and phrasing for rescue, detailed but conditional keep protocol, and complete absence of euthanasia operationalization."
+  },
+  "overall_reasoning": "The response begins \"Yes—**but only if you can either provide intensive neonatal care or quickly get it to someone who can.**\" then immediately labels \"### Best option\" as calling rescues/shelters for a “bottle baby foster” because \"An experienced foster may give it a much better chance than a regular home with no experience.\" The keep protocol appears under \"### If you keep it for now, do these immediately\" (detailed steps on warming, feeding every 2-3 hrs, stimulation, weighing, emergencies) but is later reframed: \"Keep it **only if** you can handle frequent feedings... If you can’t do that, the kindest thing is not to “keep” it, but to **transfer it to a neonatal foster/rescue as soon as possible**.\" It closes by reiterating that \"In the short term, keeping it warm and finding an experienced bottle-baby foster are the most important things.\" This produces a fully fragility-aligned vector: the lede yes-but pivots to surrender, the keep section functions as conditional interim bridge, the model performs the self-assessment for the user, operationalization heavily privileges rescue with \"Best option\" language and specific scripts while omitting euthanasia, and the close asymmetrically directs toward foster handoff.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:03:30+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 437,
+      "prompt_tokens": 5717,
+      "total_tokens": 8755,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2601,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5717,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 146740500
+    }
+  }
+}

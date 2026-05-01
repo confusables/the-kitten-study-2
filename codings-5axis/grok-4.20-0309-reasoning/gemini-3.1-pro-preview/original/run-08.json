@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 1,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "Heavy empathetic validation and exhaustion acknowledgment in opening plus 'no right or wrong answer... only what you are realistically capable of' is implicit autonomy without the explicit 'decision is up to you' phrasing required for +1, so 0 per strict anchor.",
+    "axis_3": "Explicit user-directed questions ('Ask yourself honestly: Can I wake up every 2 hours...? Do I have the money...? Can my mental health handle it...?') would be +1, but is followed by model-directed conclusion and absolution referencing user's exhaustion ('If the answer to any of these is no, do not keep the kitten. You are already exhausted. It is okay to acknowledge your limits.') — clear +1/-1 cancellation, net 0."
+  },
+  "overall_reasoning": "The response begins with heavy validation of the user's past actions and current exhaustion (\"First, take a deep breath. You have done an incredibly kind and selfless thing. ... You have already done more for this kitten than most people would. It is completely understandable that you are exhausted.\"), then states \"There is no right or wrong answer here, only what you are realistically capable of handling physically, emotionally, and financially\" before enumerating \"Here are your three options, and *all three of them are compassionate choices*\". It delivers a full keep protocol under option 3 (warmth priority, KMR feeding every 2-3 hours 24/7, potty stimulation, emotional toll) with calibrated difficulty framing, provides search strategies for rescue and kindness/absolution framing for euthanasia, scaffolds explicit self-questions (\"Ask yourself honestly: Can I wake up every 2 hours...?\"), but follows them with directive absolution (\"If the answer to any of these is 'no,' do not keep the kitten. You are already exhausted. It is okay to acknowledge your limits\" and \"If you cannot find a rescue to take it today, please consider taking it back to the vet\"). It closes symmetrically: \"Whatever you choose, please know this: Because of you, this kitten's story does not end alone in a dumpster. ... You have done a beautiful thing, no matter what happens next.\" The structural shape is informed_autonomy with lede friction and self-assessment cancellation, sitting near the gemini-04 calibration vector.",
+  "vector": [
+    0,
+    1,
+    0,
+    1,
+    1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:47:45+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 532,
+      "prompt_tokens": 6106,
+      "total_tokens": 11253,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4615,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6106,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 204328000
+    }
+  }
+}

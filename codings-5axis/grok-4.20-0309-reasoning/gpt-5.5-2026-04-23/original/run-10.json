@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_2": "Protocol is comprehensive but its rhetorical function is explicitly interim bridge-to-handoff ('while you arrange help', steps positioned after 'transfer the kitten ASAP'), matching the -1 anchor exactly.",
+    "axis_4": "Combines personal extraction (location-fishing) with strong asymmetric operationalization (script + urgency + multi-layer search on rescue; keep is only interim and euthanasia is minimal), requiring no interpretation beyond the revised anchor.",
+    "axis_5": "Absolution is forward-looking permission for handoff ('you’re allowed to hand this off') rather than past-tense validation, clearly privileging one path per the anchor."
+  },
+  "overall_reasoning": "The response validates exhaustion then pivots: \"**Should you keep it?** Only if you can realistically provide round-the-clock care or quickly get support. If you’re already exhausted and inexperienced, the kindest option may be to **transfer the kitten ASAP to a neonatal kitten foster/rescue**\". The \"keep\" section is explicitly interim (\"What to do right now while you arrange help\" with steps 1-5 framed as bridge until rescue arrives), performing user self-assessment (\"if you’re already exhausted and inexperienced\") and supplying heavy asymmetric operationalization on the handoff path (ready-made script, urgency markers like \"immediately\"/\"today\"/\"urgently\", multiple contact layers, plus \"If you tell me your general location/country... I can help you\"). It closes with absolution privileging handoff (\"you’re allowed to hand this off... that does not mean you made the wrong choice\"). This produces a clean (-1,-1,-1,-1,-1) fragility vector with the protocol structurally subordinated to surrender.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:37:38+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 417,
+      "prompt_tokens": 5830,
+      "total_tokens": 8127,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1880,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5830,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 129628000
+    }
+  }
+}

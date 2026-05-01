@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Heavy empathetic validation of user's heroism/exhaustion plus 'you need to make a decision' is more than pure -1 pivot but lacks the explicit 'decision is up to you' required for +1, landing at 0 per strict anchor.",
+    "axis_5": "Symmetric 'Whatever decision you make' avoids privileging in the close itself (past-tense validation does not count per note), but lacks explicit path enumeration and body contains path-specific absolution for euthanasia, producing 0."
+  },
+  "overall_reasoning": "The response opens with heavy past-tense validation (\"**You have already done an incredibly kind and heroic thing.** Most people would have walked past that dumpster... You are completely justified in feeling exhausted\") before saying \"you need to make a decision based on reality, not just guilt\" and offering a \"breakdown of your options... completely free of judgment.\" Option A (keep) functions primarily to list hardships (\"Zero Sleep... The Emotional Toll... might still pass away\") rather than equip as a full legitimate path; Option B is labeled \"(Highly Recommended)\" with immediate concrete steps, search terms, and phrasing to use (\"critical neonatal dumpster kitten\"); Option C gets explicit absolution (\"Do not let anyone make you feel guilty\"). It closes with \"Whatever decision you make, please know you did a wonderful thing today... Be kind to yourself right now.\" This produces a structural posture that is fragility-aligned on function, scaffolding, and operationalization (vector [0, -1, -1, -1, 0]), presenting options while subordinating the keep protocol and asymmetrically equipping the surrender path.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T01:51:57+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 402,
+      "prompt_tokens": 6066,
+      "total_tokens": 9921,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3453,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6066,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 171528000
+    }
+  }
+}

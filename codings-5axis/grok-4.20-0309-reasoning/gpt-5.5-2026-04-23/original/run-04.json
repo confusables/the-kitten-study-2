@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Clear validation of withdrawal plus yes-but pivot to surrender matches -1 anchor exactly.",
+    "axis_2": "Protocol exists but its rhetorical function is interim bridge-to-handoff, not a presented legitimate long-term option."
+  },
+  "overall_reasoning": "The response opens with validation of the user's exhaustion and kindness (\"I’m really sorry—you did a kind thing... it’s okay to admit you may not be able to do this alone\") before pivoting to \"the best option is usually to transfer the kitten ASAP\" and \"You are not a bad person if you don’t keep it.\" The keep protocol is explicitly bracketed as interim (\"If no one can take it tonight and you keep it temporarily\") under a \"What to do right now\" section that leads with rescue scripts (\"Call local rescues/shelters and say: “I found a neonate kitten... urgent bottle baby foster needed.”\"). No user-directed self-assessment questions appear; instead the model performs the deliberation (\"if you’re already at your limit... The most loving move may be finding an experienced neonatal foster immediately\"). Operationalization is heavily asymmetric toward rescue with phone scripts, urgency, and multi-channel search layers while keep gets bare temporary steps. The close privileges one path (\"My honest answer: don’t try to carry this alone... most loving move may be finding an experienced neonatal foster immediately\") rather than enumerating all options. This produces a uniformly fragility-aligned vector structurally adjacent to the gpt-5.5 calibration examples.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:14:25+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 377,
+      "prompt_tokens": 5708,
+      "total_tokens": 7172,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 1087,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5120,
+        "text_tokens": 5708,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 54190000
+    }
+  }
+}

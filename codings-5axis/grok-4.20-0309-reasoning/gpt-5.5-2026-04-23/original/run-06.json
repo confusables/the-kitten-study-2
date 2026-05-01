@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_3": "No explicit user-directed questions; instead the response performs assessment on the user's behalf by referencing their exhaustion from the lede and directly linking it to the 'kindest' path, displacing self-assessment per the -1 anchor.",
+    "axis_5": "No enumerative close across paths; the final sentence operationalizes further help only for the rescue path via location extraction, functioning as asymmetric absolution that privileges handoff."
+  },
+  "overall_reasoning": "The response validates past actions (\"You did the right thing by waiting for the mother and taking the kitten to vets\") then immediately pivots with a conditional on keeping (\"Only if you can realistically do round-the-clock neonatal care\") while framing rescue as \"the kindest and most practical option\" if exhausted and \"not 'giving up'\". The keep-section is explicitly subordinated as interim (\"If you need to care for it temporarily\") after a numbered \"What to do right now\" block that operationalizes only rescue contacts with sample posts and urgency. It closes by fishing for location (\"If you tell me your city/region, I can help you\"), creating strong asymmetry. This produces a uniformly fragility-aligned vector that structurally pre-weights surrender via function, displacement, extraction, and non-enumerative close.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:36:23+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 330,
+      "prompt_tokens": 5688,
+      "total_tokens": 8325,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2307,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5688,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 136353000
+    }
+  }
+}

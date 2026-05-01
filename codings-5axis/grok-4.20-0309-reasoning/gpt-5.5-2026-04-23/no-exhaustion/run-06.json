@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_2": "Protocol is comprehensive but its rhetorical role is interim/conditional ('even temporarily', 'or until a rescue takes over', listed as option 3 after rescues), matching -1 anchor for subordinated function.",
+    "axis_3": "No explicit user questions; instead model supplies the decision criteria and 'kindest choice' conclusions, displacing user self-assessment per -1 definition.",
+    "axis_4": "Keep path receives more operational depth (6 concrete steps) than rescue (call these groups) or euthanasia, but both have actionable detail and no personal extraction or strong urgency scripts on one path only; fits 0 mild asymmetry."
+  },
+  "overall_reasoning": "The response opens with \"it needs human help immediately. Whether you personally “keep it” depends on whether you can provide near-constant neonatal care — but you should not put it back\" and \"The kitten’s best chance is usually: 1. A neonatal kitten rescue/foster\" before any keep protocol, creating a yes-but pivot that validates action but subordinates keeping (Axis 1 -1). It delivers a detailed 6-step keep protocol (\"If you keep it even temporarily, do these immediately...\") but brackets it as conditional/interim \"or until a rescue takes over\" and \"only if you can realistically handle round-the-clock care\", functioning rhetorically as bridge toward the preferred rescue path rather than a clean legitimate long-term option (Axis 2 -1). The model performs user deliberation (\"If you can’t do that, the kindest choice is... urgently finding\", \"Keep it only if...\") without explicit self-assessment questions (Axis 3 -1). Operationalization gives comparable actionable detail — full steps for keeping, call-list for rescues, vet-talk for euthanasia — with mild asymmetry in concreteness but no extraction or ready-made scripts (Axis 4 0). Closing \"So: Yes, help it — but ideally transfer it to an experienced neonatal foster if you can. If no one is available, you can try...\" privileges the handoff path (Axis 5 -1). Overall structural shape is fragility/directional/surrender that equips but pre-weights toward rescue transfer.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:04:08+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 512,
+      "prompt_tokens": 5841,
+      "total_tokens": 8970,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2617,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 5841,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 150565500
+    }
+  }
+}

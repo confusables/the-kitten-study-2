@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Lede combines validation of not leaving with immediate conditional pivot and 'Best option' label for rescue; matches -1 anchor for yes-but pivot to surrender/delegation.",
+    "axis_5": "Although past-tense validation ('you did the right thing by not ignoring it') is present and per notes does not alone count as asymmetric, the preceding 'kindest choice is to transfer it ASAP' in the same paragraph privileges one path and lacks enumerative close across keep/rescue/euthanasia."
+  },
+  "overall_reasoning": "The response opens with \"I’m sorry—what a stressful thing to find. The short answer: **don’t leave it**, but **only “keep it” if you can provide round‑the‑clock neonatal care or get help from someone who can.**\" then labels rescue as \"**Best option**\" with a suggested script, provides a keep protocol only under \"If you keep it\" with the later reminder \"**Keep it only if you can commit...** If you can’t, the kindest choice is to **transfer it ASAP**\", and closes by asking the user to disclose their location for further help. Structurally this is a near-pure fragility vector: the lede yes-but pivots to conditional keeping, the protocol's rhetorical function is interim/conditional bridge rather than a clean legitimate option, the model performs the self-assessment (\"should you keep it? only if... kindest is transfer\"), operationalization is strongly asymmetric with personal extraction (\"tell me roughly where you are\") plus urgency/scripting on rescue while euthanasia is unaddressed, and the close privileges transfer as \"kindest\" even while validating past action. This produces the (-1,-1,-1,-1,-1) shape that clusters with directional surrender responses.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T02:08:37+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 435,
+      "prompt_tokens": 5715,
+      "total_tokens": 8604,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2454,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5120,
+        "text_tokens": 5715,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 89902500
+    }
+  }
+}
