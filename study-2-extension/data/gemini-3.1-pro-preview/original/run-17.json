@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 17,
+    "timestamp": "2026-04-28T10:22:03+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, take a deep breath. You need to hear this right now: **You have already done an incredibly kind and amazing thing.** You didn't ignore the kitten, you waited for the mother, and you took the time and effort to go to *two* different vets. You have gone above and beyond what most people would do. \n\nTo answer your question directly: **Given your exhaustion, the vets' prognosis, and your lack of experience, it is completely okay—and probably for the best—if you do not keep it.** \n\nHere is a realistic look at your situation so you can make a decision without feeling guilty:\n\n### The Reality of Neonatal Kittens\nCaring for a newborn orphan kitten (a \"bottle baby\") is one of the most exhausting, difficult tasks in animal rescue. \n*   **The Schedule:** They require bottle-feeding special kitten formula every 2 hours, 24 hours a day. \n*   **The Care:** They cannot go to the bathroom on their own; they must be physically stimulated to pee and poop before and after every feeding. \n*   **The Heartbreak:** The vets gave you a 15% survival rate because of something called \"Fading Kitten Syndrome.\" Even with experienced experts, incubators, and medical care, orphaned newborns frequently pass away. \n\nYou are already exhausted, and taking this on will physically and emotionally drain you, with a high likelihood of heartbreak at the end. **Do not let guilt force you into a job you are not equipped for.**\n\n### What Are Your Options Now?\n\n**1. Find a Specialized Rescue or Foster**\nLook up local animal rescues (not necessarily the city pound, but private rescues) and search for terms like \"cat rescue,\" \"neonate kitten rescue,\" or \"bottle baby foster.\" You can often find them on Facebook or by calling local shelters. These people have incubators, tube-feeding equipment, and the experience needed to give the kitten that 15% chance. \n\n**2. Humane Euthanasia**\nIf there are no rescues available to take the kitten, or if the kitten is already fading (crying weakly, cold to the touch, refusing to eat), the kindest, most humane option might be to take it back to the vet to be put to sleep. **This is not a failure.** Euthanasia literally means \"good death.\" You would be saving this fragile creature from slowly dying of starvation or exposure in a dumpster, allowing it to pass away warmly, painlessly, and quickly. \n\n### If You Have the Kitten With You Right Now\nWhile you figure out your next step today or tonight, there is only one absolute rule you must follow: **Keep the kitten warm.**\n*   A newborn kitten cannot regulate its own body temperature. If it gets cold, its organs will shut down.\n*   Place it in a box with a heating pad set to **LOW**, wrapped in a towel. Make sure the heating pad only covers *half* the box so the kitten can crawl away if it gets too hot. (If you don't have a heating pad, fill a sock with dry rice and microwave it for 60 seconds, or use a hot water bottle wrapped in a towel).\n*   **Do not feed it cow's milk.** If it is warm and crying for food, it needs KMR (Kitten Milk Replacer), which you can buy at a pet store or Walmart. But do not try to feed a cold kitten; it can be fatal.\n\nWhatever you decide to do today, please know that you did a wonderful thing by picking it up out of the trash. You ensured that this tiny animal will be shown warmth and compassion, no matter what happens. Be kind to yourself.",
+    "word_count": 596,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 784,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 1064,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1942,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

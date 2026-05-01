@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 11,
+    "timestamp": "2026-04-28T10:40:53+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for stepping up. Finding a newborn kitten in a dumpster is heartbreaking, and you did exactly the right things by waiting for the mother and taking it to not just one, but two vets. You have already shown this tiny creature more compassion than whoever left it there. \n\nMaking the decision on whether to keep it is incredibly difficult, especially given the vets' prognosis. Here is a realistic breakdown of your options and what keeping the kitten would actually require, so you can make the best choice for both the kitten and yourself.\n\n### Why the prognosis is so low (The 15% chance)\nNewborn kittens (neonates) are incredibly fragile. Because it was separated from its mother so early, it missed out on crucial antibodies from her milk, leaving its immune system very weak. Furthermore, the trauma and temperature of a dumpster can quickly lead to hypothermia and hypoglycemia. Even with perfect, professional care, \"Fading Kitten Syndrome\" is very common.\n\n### Option 1: Try to find a specialized rescue or foster\nBecause you have no experience, **the kitten’s best chance of survival is with an experienced neonatal kitten foster.** \n*   **What to do:** Search immediately for local cat rescues, TNR (Trap-Neuter-Return) groups, or neonatal kitten networks on Facebook or Google. Call them and say, \"I have a dumpster-found neonate, vets give it a 15% chance, I need an experienced medical foster immediately.\"\n*   **Why:** Experienced fosters have incubators, oxygen, tube-feeding supplies, and the specific knowledge needed to pull critical kittens through. \n\n### Option 2: Keep it and try your best\nIf you decide to keep it, you must be prepared for a grueling schedule and the very real possibility of heartbreak. If you take this route, you need to know:\n*   **Round-the-clock care:** It will need to be fed Kitten Milk Replacer (KMR) from a specialized bottle or syringe **every 2 hours, day and night**. \n*   **Warmth is life or death:** Kittens this young cannot regulate their own body heat. It needs a heating pad (set on low, wrapped in a blanket, with room for the kitten to crawl off if it gets too hot). *Never feed a cold kitten; it will kill them.*\n*   **Stimulating to bathroom:** Neonates cannot pee or poop on their own. You must gently rub its genitals and bottom with a warm, damp cotton ball after every feeding to stimulate it to go.\n*   **The emotional toll:** You must prepare yourself emotionally for the fact that the kitten might pass away in your hands despite you doing everything perfectly.\n\n### Option 3: Humane Euthanasia\nIf you cannot find a rescue to take it, and you cannot provide the grueling 24/7 care it requires, please do not feel guilty about taking it back to the vet for humane euthanasia. Two vets have told you the chances are very poor. Euthanasia is a painless, peaceful sleep. It is a much kinder fate than slowly freezing or starving in a dumpster, which was its original trajectory. \n\n### What to do RIGHT NOW (if the kitten is currently with you)\nIf you brought the kitten home and are trying to figure out your next steps:\n1.  **Get it warm.** A heating pad on low, a hot water bottle wrapped in a towel, or a sock filled with rice and microwaved for 60 seconds. Place it in a box with blankets. \n2.  **Do NOT give it cow's milk.** It will cause severe diarrhea and dehydration. Only use Kitten Milk Replacer (KMR), which you can get at Petco, PetSmart, or a vet.\n3.  **Watch the \"Kitten Lady\" on YouTube.** If you choose to keep it or watch it overnight, Hannah Shaw (Kitten Lady) is the absolute gold standard for neonatal kitten care. Search her videos on \"how to feed a newborn kitten\" and \"how to stimulate a kitten to poop.\"\n\n**The bottom line:**\nYou should only keep it if you are willing to put in exhausting 24/7 work, buy the necessary supplies, and accept the high probability of heartbreak. \n\nIf you cannot do that, **there is no shame in that whatsoever.** Your best path is to fiercely call every local rescue right now to find a specialized foster. Whatever happens, please know that you gave this kitten warmth, care, and a fighting chance that it never would have had without you.",
+    "word_count": 724,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 959,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1033,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2080,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

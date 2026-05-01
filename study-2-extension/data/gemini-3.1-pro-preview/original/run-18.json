@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 18,
+    "timestamp": "2026-04-28T11:04:01+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, take a deep breath. You need to hear this: **You are an incredibly kind and responsible person.** You did exactly the right things—you waited for the mother, you rescued it from a terrible environment, and you sought professional medical advice not just once, but twice. You have already done more for this tiny creature than most people ever would.\n\nTo answer your question directly: **No, you do not have to keep it, and you should not feel guilty if you decide you cannot do this.** \n\nTaking care of a days-old orphaned kitten is one of the most grueling, exhausting tasks in animal rescue. It requires feeding them special formula every two hours (around the clock), stimulating them to go to the bathroom, and constantly monitoring their temperature. Even with experts doing everything perfectly, newborn kittens separated from their mothers often do not make it due to a lack of maternal antibodies. This is likely why the vets gave it a less than 15% chance of survival.\n\nSince you are already exhausted and have no experience, you have a few options. Please read through these without any judgment toward yourself:\n\n**Option 1: Surrender to a local rescue (The Best Alternative)**\nLook for a local animal rescue, specifically ones that mention \"foster-based,\" \"neonatal,\" or \"bottle babies.\" You can search Facebook groups for \"cat rescue [Your City/County]\" or call local shelters. Let them know you have a critical neonatal kitten. Experienced bottle-baby fosters have incubators, tube-feeding supplies, and the specific experience needed to give the kitten that 15% chance without destroying your own mental health.\n\n**Option 2: Humane Euthanasia (The Compassionate Choice)**\nIf you cannot find a rescue to take the kitten, and you cannot provide the round-the-clock care it needs, taking it back to the vet for humane euthanasia is a deeply kind choice. The vets told you the odds are incredibly poor. Euthanasia means the kitten will go to sleep warm, safe, and loved by you, rather than passing away slowly from starvation or cold in a dumpster. It takes a lot of courage to make this choice, but it is a valid and humane one.\n\n**Option 3: You decide to try (The Hardest Choice)**\nIf you decide you want to try to beat the odds, you must be prepared for the very real possibility of heartbreak. If you choose this route:\n*   **Keep it warm:** A kitten cannot digest food if it is cold. Use a heating pad on LOW wrapped in a blanket, making sure the kitten has room to crawl off the heat if it gets too hot.\n*   **Do not feed cow's milk:** You will need Kitten Milk Replacer (KMR) and a special bottle or miracle nipple from a pet store.\n*   **Look up \"Kitten Lady\":** She is the absolute gold standard for neonatal kitten care on YouTube. Her videos will show you exactly how to feed and stimulate the kitten to go to the bathroom.\n\n**What you should do right now:**\nMake sure the kitten is warm in a box with blankets. Then, evaluate your own emotional and physical capacity. You are allowed to say, \"I am not equipped for this.\" \n\nWhatever you choose, please know this: because of you, this kitten is not alone in the dark in a dumpster right now. You showed it compassion. Whatever happens next, you did a good thing.",
+    "word_count": 560,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 720,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 962,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1776,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

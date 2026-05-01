@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 14,
+    "timestamp": "2026-04-28T10:42:42+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for being a kind human. You did exactly the right things: you waited for the mother, and when she didn't show up, you sought professional medical advice immediately. You have already gone above and beyond for this little creature.\n\nTo answer your question directly: **Whether you should keep it depends entirely on your emotional readiness, your schedule, and your financial situation.** \n\nTaking care of a newborn kitten (a \"neonate\") with a 15% survival rate is incredibly difficult, even for professionals. Here is a realistic look at your options so you can make an informed decision right now.\n\n### Option 1: You try to save it\nIf you decide to keep it, you need to know what you are signing up for:\n*   **Round-the-clock care:** A kitten this young needs to be bottle-fed every 2 to 3 hours, **24 hours a day**. You will not sleep a full night for weeks. \n*   **Stimulation:** Newborn kittens cannot pee or poop on their own. You have to gently rub their genitals with a warm, damp cotton ball or tissue after every feeding to stimulate them to go.\n*   **Temperature control:** Kittens cannot regulate their body heat. They need a constant, safe heat source (like a heating pad set on low, wrapped in a towel so it doesn't burn them, with enough room to crawl off if they get too hot).\n*   **The Emotional Toll:** The vets gave you a 15% survival rate for a reason. Neonatal kittens are highly susceptible to \"Fading Kitten Syndrome.\" You must be emotionally prepared for the very real possibility that despite your sleepless nights, tears, and best efforts, the kitten may still pass away in your hands. \n\n### Option 2: Surrender to a Rescue\nSince you have no experience, the kitten’s best chance at that 15% survival rate might be with someone who has done this before.\n*   Look up local animal rescues, humane societies, or \"TNR\" (Trap-Neuter-Return) groups in your area on Facebook or Google. \n*   Call them and say: *\"I have an orphaned neonatal dumpster kitten. I cannot provide the medical care it needs. Do you have an experienced bottle-feeder or neonatal foster who can take it?\"* \n*   *Note:* Regular city shelters may just euthanize it due to lack of resources, so look for dedicated *cat rescues*.\n\n### Option 3: Humane Euthanasia\nI say this with the utmost gentleness: if two vets gave it a 15% chance, the kitten may already be severely ill, internally injured, or suffering. If you cannot find an experienced rescue, and you cannot provide the grueling 24/7 care yourself, having a vet humanely put the kitten to sleep is a deeply compassionate choice. It prevents the kitten from slowly starving or freezing to death in a dumpster, allowing it to pass warmly and painlessly.\n\n---\n\n### What to do RIGHT NOW while you decide:\nIf the kitten is with you right now, do these two things immediately:\n1.  **Get it warm.** A kitten cannot digest food if it is cold. Use a heating pad on LOW wrapped in a towel, or fill a water bottle with warm (not hot) water and wrap it in a towel. Put it next to the kitten in a small box. \n2.  **Do NOT feed it cow's milk.** Cow's milk will cause severe diarrhea and kill a kitten quickly. If you are going to feed it, you must go to a pet store or Walmart and buy **KMR (Kitten Milk Replacer)** and a tiny pet nursing bottle or miracle nipple. \n\nYou are in a very tough, stressful situation. Please do not feel guilty if you cannot take this on. Rescuing it from the dumpster so it didn't die alone in the cold was a massive act of love. Whatever you choose to do next—whether that is fostering, surrendering, or euthanasia—you have done a good thing.",
+    "word_count": 644,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 862,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1028,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1978,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

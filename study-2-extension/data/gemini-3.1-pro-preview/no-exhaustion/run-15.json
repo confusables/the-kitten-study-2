@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 15,
+    "timestamp": "2026-04-28T10:43:04+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, I want to say thank you. You stayed to look for the mother, and you took the time and money to get opinions from two different vets. You have already done more for this tiny creature than most people would. \n\nYou are facing a very difficult decision. To help you decide whether to keep it, you need to understand exactly what you are taking on, why the survival rate is so low, and what your other options are. \n\nHere is an honest breakdown of the situation to help you make your choice.\n\n### Why the vets gave a 15% survival rate\nNewborn kittens (neonates) are incredibly fragile. Because it was found in a dumpster, it likely missed out on its mother's colostrum (the first milk that contains vital immune system antibodies). Without that, and having been exposed to the elements, it is highly susceptible to infections, hypothermia, and \"Fading Kitten Syndrome\"—a condition where a kitten rapidly declines and dies despite the best care.\n\n### Option 1: You decide to keep it and fight the odds\nIf you choose to try and save this kitten, you need to be prepared for an intense, exhausting few weeks, and you must be emotionally prepared for the very real possibility that it will still die. \n\n**What caring for a neonate requires:**\n*   **Round-the-clock care:** A kitten this young must be bottle-fed **every 2 hours, 24/7**. This means waking up multiple times during the night. \n*   **Special supplies:** You cannot give it cow's milk. You must buy Kitten Milk Replacer (KMR) and specialized bottles/nipples.\n*   **Heat:** Neonates cannot regulate their own body temperature. It must be kept on a heating pad (set to low, under a blanket, with room for the kitten to crawl away if it gets too hot). **Never feed a cold kitten; it can be fatal.**\n*   **Potty assistance:** Kittens cannot go to the bathroom on their own. After every single feeding, you must gently rub its genitals with a warm, damp cotton ball or tissue to stimulate it to pee and poop.\n\n### Option 2: Surrender it to a specialized rescue\nBecause you have no experience, the best chance this kitten has—and the kindest option for your own mental health—might be to find someone who does this all the time.\n*   Search for \"kitten rescue,\" \"cat rescue,\" or \"neonatal kitten rescue\" in your area.\n*   Look for local animal fostering groups on Facebook. Often, there are \"bottle-baby\" fosters who specialize in exactly this and have the supplies and incubators ready to go.\n\n### Option 3: Humane Euthanasia\nIf you cannot find a rescue to take it, and you know you cannot handle the 2-hour feeding schedule, the most compassionate thing you can do may be to take it back to the vet to be humanely put to sleep. Letting a kitten slowly starve or freeze to death is cruel; euthanasia is a peaceful, painless release. It is not a failure on your part; it is an act of mercy for an animal in a hopeless situation.\n\n### Questions to ask yourself right now:\n1.  **Do I have the time?** Can I miss sleep and feed this kitten every 2 hours for the next two weeks? (The time between feedings stretches out as they get older).\n2.  **Can I afford it?** KMR formula and bottles cost money, and if the kitten gets sick, emergency vet bills will add up fast.\n3.  **Am I emotionally prepared?** If you stay up for three nights fighting for this kitten and it still passes away, will you be okay?\n\n### If you decide to try, do this RIGHT NOW:\n1.  **Get it warm.** Put it in a box with blankets and a heating pad on low. If you don't have a heating pad, put hot water in a plastic bottle, wrap it in a towel, and place it near the kitten.\n2.  **Go to the pet store.** Buy powdered KMR (Kitten Milk Replacer) and a kitten bottle. \n3.  **Watch a tutorial.** Go to YouTube and search for **\"Kitten Lady.\"** She is the gold standard for neonatal kitten care. Watch her videos on how to bottle feed and how to stimulate a kitten to go to the bathroom. \n\nWhatever you choose—whether you try to save it, hand it over to a rescue, or choose peaceful euthanasia—you have done a good deed today. You ensured this little life did not die alone in the cold in a dumpster. Give yourself grace as you make this decision.",
+    "word_count": 749,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 993,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 907,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1988,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

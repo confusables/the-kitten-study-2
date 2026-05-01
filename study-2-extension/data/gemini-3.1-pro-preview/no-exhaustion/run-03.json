@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 3,
+    "timestamp": "2026-04-28T10:36:30+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for having such a kind heart. You did absolutely everything right—waiting for the mother and seeking professional medical advice not just once, but twice. Finding a newborn kitten in a dumpster is an incredibly sad and stressful situation, and because of you, this kitten is safe, warm, and no longer alone. \n\nTo answer your question: **Whether you should keep it depends entirely on your emotional readiness, your schedule, and what you feel is best for both you and the kitten.**\n\nHere is the honest reality of the situation to help you make your decision.\n\n### Why the Survival Rate is So Low\nWhen vets give a prognosis of less than 15%, it is usually because kittens this young (neonatal) are incredibly fragile. Because it was in a dumpster, it likely missed out on the mother's initial milk (colostrum), which contains essential antibodies. It may also have been exposed to extreme temperatures, bacteria, or internal issues. \"Fading Kitten Syndrome\" is very common in orphaned newborns, meaning they can pass away suddenly despite you doing absolutely everything perfectly. \n\n### What Keeping It Actually Requires\nIf you decide to try to save it, you must be prepared for **24/7 intensive care**. Since you have no experience, here is what you will need to do:\n*   **Feeding every 2 hours:** Day and night, around the clock. You cannot miss feedings. \n*   **Strict Diet:** You cannot feed it cow's milk. You will need Kitten Milk Replacer (KMR) and special newborn bottles/nipples.\n*   **Stimulation:** Newborn kittens cannot pee or poop on their own. You have to gently rub their genitals with a warm, damp tissue after every single feeding to stimulate them to go.\n*   **Heat regulation:** Newborns cannot regulate their own body temperature. They need an external heat source (like a heating pad set on low, wrapped in a blanket, placed on only *one half* of their bed so they can crawl away if they get too hot). **A cold kitten cannot digest food and will die if fed.**\n*   **Emotional toll:** You must be prepared for the very real possibility that the kitten will pass away in your hands, even if you do everything right. \n\n### Your Options\n\n**1. Try to find a specialized Rescue or Foster (Recommended)**\nYour best option might be to immediately search Facebook or Google for \"Kitten Rescues,\" \"Cat Rescues,\" or \"Neonatal Kitten Fosters\" in your area. Experienced neonatal fosters have incubators, specialized supplies, and the exact experience needed to give a 15% prognosis kitten a fighting chance. \n\n**2. Take on the challenge yourself**\nIf you have the time (e.g., you work from home and can wake up every two hours at night), the financial means to buy the supplies, and the emotional resilience to face the high chance of heartbreak, you can try. If you do this, go to a pet store *immediately* to buy KMR, bottles, and a heating pad. Keep the kitten warm first and foremost.\n\n**3. Humane Euthanasia**\nIf both vets gave it a less than 15% chance, the kitten may already be suffering or its organs may be failing. If you cannot provide 24/7 care, and you cannot find a rescue to take it, having a vet peacefully and painlessly put the kitten to sleep is a **genuinely compassionate choice**. There is absolutely no shame or guilt in this. You rescued it from a terrifying, cold death in a dumpster and provided it with a warm, painless passing.\n\n### What to do right now\nIf you have the kitten with you right now while you decide:\n*   **Keep it warm:** Put it in a small box with blankets. If you have a heating pad, put it on low under half the blankets. If you don't, put warm (not hot) water in a water bottle, wrap it in a towel, and put it next to the kitten.\n*   **Do not force-feed it cow's milk or water.** \n\nTake a deep breath. You are not a bad person if you decide you cannot keep it. You stepped up when someone else threw this tiny life away. Whatever choice you make—fostering, surrendering to a rescue, or humane euthanasia—you have already shown this kitten love and kindness.",
+    "word_count": 702,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 929,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1021,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2038,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

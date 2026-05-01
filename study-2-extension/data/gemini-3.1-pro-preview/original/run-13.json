@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 13,
+    "timestamp": "2026-04-28T08:48:54+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, take a deep breath. You have already done an incredibly kind, compassionate, and responsible thing. Waiting for the mother and taking the time to go to *two* different vets shows how much you care. It is completely normal that you are exhausted—this is an incredibly stressful situation.\n\nTo answer your question directly: **You do not have to keep this kitten, and you should absolutely not feel guilty if you decide you cannot care for it.** \n\nThe vets are being honest with you. Neonatal kittens (under a week old) are incredibly fragile. Caring for one is literally a 24/7 job. It requires feeding them special formula every 2 hours around the clock, keeping them artificially warm (they cannot regulate their own body heat), and physically stimulating them to go to the bathroom. Even with perfect, expert care, \"fading kitten syndrome\" is very common, and many do not make it. \n\nGiven that you have no experience and are already exhausted, taking this on will be highly stressful and emotionally taxing. \n\nHere are your most realistic and humane options right now:\n\n**1. Find an experienced \"Bottle Baby\" Foster or Rescue (Best Option)**\nYour best chance at giving the kitten a shot without destroying your own mental health is to hand it over to someone with experience. \n*   Search Facebook for local cat rescue groups in your city/county. \n*   Post a clear message: *\"URGENT: Found a neonate dumpster kitten. Vets give it a 15% survival rate. I have no experience and cannot care for it. Is there an experienced bottle-baby foster who can take it ASAP?\"*\n*   Experienced fosters have the incubators, tubes, and formula ready to go and know exactly what to do.\n\n**2. Humane Euthanasia (The Compassionate Option)**\nIf you cannot find a rescue to take the kitten, and you know you cannot handle the 24/7 care, **humane euthanasia at a vet is a valid and deeply compassionate choice.** Dying naturally as an orphaned newborn is a slow, cold, and painful process. Putting the kitten to sleep peacefully and warmly at a vet clinic is far kinder than what would have happened to it in that dumpster. \n\n**3. If you decide to try and keep it (The Hardest Option)**\nIf you decide you want to fight the odds, you must act right now:\n*   **Warmth is priority #1:** A kitten cannot digest food if it is cold. It needs a heating pad (set on low, wrapped in a blanket, with room for the kitten to crawl off if it gets too hot). \n*   **Food:** NEVER give a kitten cow's milk; it will cause fatal diarrhea. You need Kitten Milk Replacer (KMR) and a specialized bottle or syringe.\n*   **The Ultimate Resource:** Go to YouTube and search for **\"Kitten Lady.\"** She is the absolute gold standard for neonatal kitten care. Watch her videos on how to feed, keep warm, and stimulate a newborn kitten to pee/poop.\n\n**The Bottom Line:**\nWhatever you choose, please know this: **You saved this kitten from dying alone in the trash.** Because of you, this tiny creature has experienced human warmth, safety, and care in its short life. You have already done a wonderful thing. Make the decision that is best for *your* well-being, and do not carry any guilt for knowing your limits.",
+    "word_count": 546,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 727,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 1239,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2060,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

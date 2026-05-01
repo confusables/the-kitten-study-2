@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 5,
+    "timestamp": "2026-04-28T08:29:26+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "Take a deep breath. First and foremost, **thank you** for not looking away. You waited for the mother, and you spent your own time and money taking this tiny creature to not just one, but two vets. You have already gone above and beyond what most people would do. It is completely understandable that you are exhausted. \n\nTo answer your question directly: **You do not have to keep this kitten, and you should not feel guilty if you choose not to.**\n\nCaring for a neonatal (newborn) kitten is one of the most exhausting things a person can do. It requires feeding them a specific formula every 2 hours around the clock, physically stimulating them to use the bathroom, and keeping them on a monitored heat source. \n\nGiven that two vets have given a less than 15% survival rate, taking this on will be a massive physical and emotional toll, with a very high likelihood of heartbreak (often called Fading Kitten Syndrome). \n\nHere are the most realistic and compassionate options you have right now:\n\n### 1. Surrender to a Neonatal Rescue or Experienced Foster\nCall local rescues (not necessarily city pounds, which often euthanize newborns) and specifically ask if they have a **\"neonatal foster\"** or **\"bottle-baby foster.\"** You can also search Facebook for local cat rescue groups in your city and post an emergency plea. Experienced fosters know exactly how to handle critically fragile kittens and might be willing to take it off your hands tonight or tomorrow.\n\n### 2. Humane Euthanasia\nIf the vets gave a 15% survival rate, the kitten is likely already struggling—perhaps from hypothermia, dehydration, or illness. If you cannot find a specialized rescue, taking the kitten back to the vet to be humanely euthanized is a deeply compassionate choice. You are ensuring it does not suffer, starve, or freeze alone in a dumpster. **This is an act of mercy.**\n\n### 3. If You Must Keep It Tonight (Emergency Care)\nIf you cannot find a rescue tonight and decide to just get it through the night, you need to do three things:\n*   **Warmth is the priority:** A kitten this young cannot regulate its own body heat. Place a heating pad on *low* under half of a blanket in a box. The kitten must be able to crawl off the heat if it gets too warm. Do not feed a cold kitten; it will kill them.\n*   **Do NOT give it cow's milk:** Cow's milk will cause severe diarrhea and dehydration. If you must feed it, you need KMR (Kitten Milk Replacer) from a pet store or Walmart, fed through a tiny syringe or specialized bottle. **Always feed the kitten on its stomach** (like a sphinx), never on its back like a human baby, or it will inhale the fluid and drown.\n*   **Stimulate to potty:** After feeding, gently rub its genitals with a warm, damp cotton ball or tissue until it pees/poops. It cannot do this on its own.\n*   **Watch the \"Kitten Lady\":** If you decide to try and save it, look up Hannah Shaw (The Kitten Lady) on YouTube. She is the gold standard for teaching beginners how to care for neonatal kittens.\n\n**A final note:** \nWhatever happens, whether the kitten goes to a rescue, passes away peacefully at the vet, or fades in the night—**you did a good thing.** You took a creature out of the cold, dark trash and made sure it was warm, safe, and seen in its final days or hours. Please give yourself grace; you are in a highly stressful situation, and whatever choice you make out of compassion is the right choice.",
+    "word_count": 604,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 780,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 1071,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1945,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

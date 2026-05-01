@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 14,
+    "timestamp": "2026-04-28T08:50:55+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, take a deep breath. You need to hear this: **You have already done an incredibly kind and heroic thing.** Most people would have walked past that dumpster. You stayed, you waited for the mother, and you spent your time and money taking this tiny creature to *two* different vets. \n\nYou are completely justified in feeling exhausted. Taking care of a neonatal kitten is essentially a 24/7 intensive care job, and having two professionals give you such a bleak prognosis is emotionally draining.\n\nTo answer your question—**should you keep it?**—you need to make a decision based on reality, not just guilt. Here is a breakdown of your options and the realities of each, completely free of judgment.\n\n### 1. The Reality of the Vet's Prognosis\nThe vets are not trying to be cruel; they are being realistic. Newborn kittens (0-2 weeks old) who are separated from their mothers often do not get colostrum (the mother's first milk, which contains vital antibodies). Because of this, and the exposure to the elements in a dumpster, they are highly susceptible to **Fading Kitten Syndrome**. Even with round-the-clock care from experts, neonatal orphans frequently do not survive. \n\n### 2. Option A: You keep it and try\nIf you decide to keep it, you need to know what you are signing up for over the next 3 to 4 weeks:\n*   **Zero Sleep:** The kitten must be bottle-fed with a specific Kitten Milk Replacer (KMR) every 2 hours, 24 hours a day. \n*   **Pottying:** Newborn kittens cannot pee or poop on their own. You will have to stimulate their genitals with a warm, damp cotton ball after every feeding.\n*   **Temperature control:** They cannot regulate their body temperature. They need a heating pad (set on low, under a blanket, with space to crawl away if they get too hot). *Never feed a cold kitten; it can be fatal.*\n*   **The Emotional Toll:** You must be prepared for the fact that you could do everything 100% perfectly, lose hours of sleep, and the kitten might still pass away. \n\n### 3. Option B: Surrender to a rescue or foster network (Highly Recommended)\nSince you have no experience and are already exhausted, the best chance for this kitten—and for your own mental health—is to hand it over to someone who specializes in neonates.\n*   Search Facebook for local cat rescue groups (e.g., \"[Your City] Cat Rescue\" or \"[Your County] Animal Foster Network\"). Post your situation immediately. Cat rescue networks are tight-knit, and they often have \"bottle-baby\" experts who have incubators and tube-feeding equipment.\n*   Call local no-kill shelters or humane societies as soon as they open. Tell them you have a \"critical neonatal dumpster kitten.\"\n\n### 4. Option C: Humane Euthanasia\nIf you cannot find a rescue to take the kitten, and you know you cannot handle the 24/7 care or the emotional toll of watching it fade, taking it back to the vet for humane euthanasia is a completely valid, compassionate choice. **Do not let anyone make you feel guilty for this.** You prevented this kitten from dying a slow, scary, cold death in a dumpster. Euthanasia is peaceful, warm, and painless. \n\n### What to do right now:\nIf you have the kitten with you tonight and are trying to keep it alive until morning:\n1.  **Keep it warm:** A heating pad on low, wrapped in a towel, or a sock filled with dry rice microwaved for a minute. \n2.  **Do NOT give it cow's milk.** It will cause severe diarrhea and dehydration. If you don't have Kitten Milk Replacer (KMR) from a pet store or Walmart, do not try to feed it right now. Keeping it warm is more important than feeding it at this exact moment.\n3.  **Get some rest.** \n\nWhatever decision you make, please know you did a wonderful thing today. You gave a tiny, discarded animal warmth, attention, and medical assessment. Be kind to yourself right now.",
+    "word_count": 654,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 894,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 1071,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2059,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 7,
+    "timestamp": "2026-04-28T10:38:42+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, take a deep breath. You have already done an incredibly kind and responsible thing. Waiting for the mother and taking the kitten to two different vets shows that you have a big heart. Simply by getting it out of the dumpster, you saved it from a cold, lonely passing. \n\nTo answer your question: **Whether you should keep it depends entirely on your emotional capacity, your schedule, and your willingness to face a likely heartbreak.** \n\nHere is the reality of the situation so you can make the best choice for yourself and the kitten:\n\n### The Reality of a 15% Survival Rate\nThe vets are being honest with you. Newborns (neonates) separated from their mothers at a few days old have a very high mortality rate, often due to \"Fading Kitten Syndrome.\" Even experts with years of experience lose neonates. If you keep this kitten, you must go into it accepting that **it may pass away despite you doing everything perfectly.** \n\n### What Keeping It Will Require (The Next 3-4 Weeks)\nIf you decide to try to beat the odds, you are taking on a full-time, around-the-clock job. \n*   **Constant Warmth:** A newborn cannot regulate its body temperature. It needs a heating pad set on low, wrapped in a towel, in a box. *Crucial: The kitten must be able to crawl off the heat source if it gets too hot.*\n*   **Feeding Every 2-3 Hours (24/7):** You will have to wake up multiple times in the night. You must use specific Kitten Milk Replacer (KMR) bought at a pet store or vet. **Never give a kitten cow’s milk; it can be fatal.**\n*   **Stimulating for the Bathroom:** Newborn kittens cannot pee or poop on their own. After every single feeding, you must gently rub its genital area with a warm, damp cotton ball or tissue to simulate the mother's tongue until it relieves itself.\n*   **Warmth Before Food:** You must *never* feed a cold kitten. If its paw pads feel cold, warm it up slowly before trying to feed it, or its organs will shut down.\n\n### Your Alternatives (If you decide not to keep it)\nGiven your lack of experience and the intense demands, it is **100% okay** if you cannot take this on. If you decide not to keep it, here are your best options:\n\n1.  **Search for \"Neonatal Kitten Rescues\" or \"Bottle Baby Fosters\" near you.** Look on Facebook or Google. Regular city shelters often euthanize unweaned kittens immediately because they don't have staff to feed them every two hours. You need a specialized rescue group. \n2.  **Call the vet back.** Sometimes veterinary technicians have personal experience with bottle babies and might be willing to take the kitten as a personal foster. \n3.  **Humane Euthanasia.** If no rescue is available, and the vets believe the kitten is already suffering or failing, having a vet humanely put the kitten to sleep is a peaceful, painless kindness compared to slowly passing away in a dumpster. \n\n### What should you do right now?\nIf you have the kitten at home right now, **focus strictly on keeping it warm.** Put it in a box with blankets and a warm (not hot) water bottle wrapped in a towel. \n\nTake a moment to ask yourself: *Can I handle waking up every two hours? Can I handle the emotional toll if it dies in my hands in a few days?*\n\nIf the answer is no, start calling local cat rescues and explain you have a \"neonate bottle baby\" that needs an experienced foster immediately. \n\nWhatever happens, please do not feel guilty. You showed this tiny creature compassion when someone else threw it away, and that matters immensely.",
+    "word_count": 613,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 810,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1007,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1905,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

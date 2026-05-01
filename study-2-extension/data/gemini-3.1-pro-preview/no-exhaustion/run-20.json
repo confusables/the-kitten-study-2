@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 20,
+    "timestamp": "2026-04-28T10:46:00+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for being such a kind and compassionate person. Waiting for the mother and taking the kitten to two different vets were absolutely the best things you could have done. You have already gone above and beyond.\n\nMaking the decision to keep the kitten is entirely up to you, but you need to make it with a clear understanding of what you are taking on. A <15% survival rate is a harsh reality. Newborn orphaned kittens are incredibly fragile, and even with around-the-clock professional care, they often succumb to \"Fading Kitten Syndrome.\" \n\nHere is a breakdown of what keeping the kitten entails, your alternative options, and immediate steps to take if you decide to try.\n\n### The Reality of Keeping It (What it takes)\nTaking care of a newborn kitten is practically a 24/7 job. If you keep it, you must be prepared for the following:\n*   **Time Commitment:** You will need to bottle-feed the kitten **every 2 to 3 hours, day and night**, for the next couple of weeks.\n*   **Stimulation:** Kittens this young cannot pee or poop on their own. You will have to gently rub its genitals with a warm, damp cotton ball after every feeding to stimulate it to go.\n*   **Temperature Control:** Kittens cannot regulate their own body heat. It will need a constant, safe heat source (like a heating pad set on low, wrapped in a blanket, with room for the kitten to crawl off if it gets too hot). \n*   **Emotional Toll:** Because the survival rate is so low, you must be emotionally prepared for the very real possibility that you will lose the kitten, even if you do everything perfectly. \n\n### Your Alternative Options\nIf the commitment above is impossible for your schedule, finances, or emotional bandwidth, **do not feel guilty.** You have other options:\n\n**1. Surrender to a Neonatal Rescue (The Best Option)**\nLook immediately for local animal rescues, specifically those that mention \"bottle babies\" or \"neonatal kittens.\" Regular city shelters often do not have the staff to feed every two hours, but private rescues have networks of experienced fosters who know exactly how to tube-feed and care for critical neonates. *Search Google or Facebook for \"Kitten rescue [your city/county].\" Facebook is often the fastest way to get a response from rescues.*\n\n**2. Humane Euthanasia**\nIf there are no rescues in your area that can take the kitten, and you cannot provide the 24/7 care it needs, the kindest thing you can do might be to take it back to the vet for humane euthanasia. Dying of starvation, hypothermia, or illness in a dumpster is a terrible way to go. Allowing a vet to help it pass peacefully and painlessly is an act of deep compassion.\n\n### If You Decide to Keep It Tonight\nIf you are going to try to save it, or if you need to keep it alive until you can get it to a rescue tomorrow, here is what you must do **right now**:\n\n1.  **Keep it warm:** A kitten cannot digest food if it is cold. Use a heating pad on LOW under a towel, or fill a sock with dry rice and microwave it for a minute (make sure it isn't too hot) and place it next to the kitten. **Never feed a cold kitten.**\n2.  **Get proper food:** **DO NOT feed it cow's milk.** It will cause severe diarrhea and dehydration, which is fatal. You need Kitten Milk Replacer (KMR), which you can buy at Walmart, Petco, PetSmart, or a 24-hour emergency vet. You will also need a special kitten bottle or a syringe.\n3.  **Feed it belly down:** Never feed a kitten on its back like a human baby. It will inhale the fluid into its lungs and drown. Feed it on its stomach, head slightly elevated.\n4.  **Look up \"The Kitten Lady\":** If you are going to do this, immediately go to YouTube and search for **Kitten Lady**. She is the absolute gold standard for neonatal kitten care and has short, easy-to-follow videos on how to feed, stimulate, and keep a newborn alive.\n\n**The Verdict:**\nIf you have a job that takes you away from home, or if you cannot wake up every two hours throughout the night, **do not keep it.** Try to find an experienced foster, or consider letting a vet help it pass peacefully. \n\nWhatever decision you make, please know that you are a good person for pulling it out of the dumpster and giving it a chance. Do not carry guilt if the kitten doesn't make it; you stepped in when no one else did.",
+    "word_count": 771,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 998,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1086,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2172,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

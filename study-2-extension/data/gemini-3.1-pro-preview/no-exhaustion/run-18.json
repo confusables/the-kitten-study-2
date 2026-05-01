@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 18,
+    "timestamp": "2026-04-28T10:44:58+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for being a kind human being. Waiting for the mother and then taking the time and money to get opinions from two different vets shows immense compassion. You saved this kitten from dying alone in the cold in a dumpster, and that alone is a wonderful thing. \n\nTo answer your question: **Whether you should keep it depends entirely on your emotional bandwidth, your schedule, and your financial situation.** \n\nNeonatal kittens (under two weeks old) without their mothers are incredibly fragile. When a vet gives a 15% chance of survival, they are usually factoring in \"Fading Kitten Syndrome,\" a lack of maternal antibodies, hypothermia, and potential underlying issues (like why it was in the dumpster to begin with). \n\nHere is a realistic look at your options so you can make the best decision for yourself and the kitten:\n\n### Option 1: You try to save it\nIf you decide to keep it, you need to know that raising a neonatal kitten is a grueling, round-the-clock job. \n*   **Time:** It will need to be bottle-fed special Kitten Milk Replacer (KMR) every 2 to 3 hours, **24 hours a day**. \n*   **Care:** Kittens this young cannot regulate their own body temperature (it needs a heating pad on low, with a blanket over it, and room to crawl away if it gets too hot). \n*   **Bathroom:** They cannot pee or poop on their own. You have to gently rub its genitals with a warm, damp cotton ball or tissue after every feeding to stimulate it to go. \n*   **Emotional toll:** You must be prepared for the very high likelihood (85%) that despite your absolute best efforts, sleepless nights, and love, the kitten may still pass away. \n\n### Option 2: Find a specialized neonatal rescue\nYour lack of experience is completely normal, but there are people who specialize in this. \n*   Look up local cat rescues, animal shelters, or TNR (Trap-Neuter-Return) groups in your area and ask if they have a **\"bottle-baby foster.\"** \n*   These are experienced volunteers who have incubators, tube-feeding equipment, and the exact knowledge needed to give the kitten the best possible shot at that 15%. \n\n### Option 3: Humane Euthanasia\nI bring this up gently because it is a very real, compassionate option. If the kitten is suffering, and the odds of survival are that low, having a vet peacefully help the kitten pass away is a kindness. It is a much better fate than slowly freezing or starving in a dumpster. **You should feel zero guilt if you choose this route.**\n\n***\n\n### If you have the kitten with you RIGHT NOW:\nIf you are at home with the kitten while you make your decision, here are the immediate rules of survival:\n1.  **KEEP IT WARM:** A kitten cannot digest food if it is cold. Use a heating pad on the lowest setting wrapped in a towel, or fill a sock with dry rice and microwave it for 60 seconds. **Never feed a cold kitten.**\n2.  **NO COW'S MILK:** Cow's milk will cause severe diarrhea and dehydration, which is lethal to a kitten. Only use Kitten Milk Replacer (KMR), available at pet stores or Walmart. In an absolute emergency, unflavored Pedialyte can be used just to keep it hydrated until you get KMR.\n3.  **FEED ON ITS BELLY:** Never feed a kitten on its back like a human baby; it will inhale the liquid into its lungs and drown. Feed it while it is resting on its stomach. (Look up \"Kitten Lady\" on YouTube for brilliant, easy-to-follow videos on how to bottle feed).\n\n### What should you do?\nAsk yourself: *Can I miss sleep for the next three weeks? Can I afford the formula and potential emergency vet bills? Can my mental health handle it if the kitten dies in my hands?* \n\nIf the answer to those is no, **please try to find a rescue group immediately.** \n\nWhatever happens, please know that you did a deeply good deed today. Because of you, this kitten is warm, safe, and being cared for, no matter how long its life ends up being.",
+    "word_count": 685,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 913,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1065,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2066,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

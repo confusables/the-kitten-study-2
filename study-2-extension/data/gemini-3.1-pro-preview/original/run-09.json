@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 9,
+    "timestamp": "2026-04-28T08:39:30+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, take a deep breath. You have already done an incredibly kind and wonderful thing. You didn't just walk past a kitten in a dumpster; you waited for the mother, and you spent the time, money, and energy to take it to two different vets. **You have already gone above and beyond what most people would do.** \n\nIt is completely normal that you are exhausted. Caring for a neonatal (newborn) kitten is one of the most physically and emotionally draining things a person can do, even for experienced rescuers. \n\nTo answer your question: **You do not have to keep it, and you should not feel guilty if you cannot.** \n\nThe vets are telling you the truth. Neonatal kittens separated from their mothers at a few days old have a very high mortality rate. \"Fading kitten syndrome\" is very common, and even with perfect, round-the-clock professional care, sometimes they just don't make it. \n\nHere is a realistic look at your options so you can make the best decision for both the kitten and your own mental health:\n\n### Option 1: Surrender the kitten to a rescue (Highly Recommended)\nBecause you have no experience and are already exhausted, the best chance for this kitten—and for your own peace of mind—is to hand it over to someone experienced in neonatal care. \n*   **What to do:** Search for \"cat rescues,\" \"foster networks,\" or \"neonatal kitten rescues\" in your area. Look for local animal rescue groups on Facebook—these communities are incredibly active and can often find an experienced \"bottle-baby foster\" within hours. \n*   **Why this is good:** They have incubators, tube-feeding experience, and the stamina for this specific type of care.\n\n### Option 2: Keep trying (If you choose to do this)\nIf you decide you want to try to beat the 15% odds, you need to know what you are signing up for. \n*   **The Reality:** The kitten will need to be bottle-fed with specific Kitten Milk Replacer (KMR)—**never cow's milk**—every 2 hours, around the clock, 24/7. You will also have to physically stimulate its genitals with a warm, damp tissue after every feeding so it can go to the bathroom (they cannot do this on their own). You must keep it constantly warm with a heating pad (on low, with a blanket over it, and room for the kitten to crawl off if it gets too hot). \n*   **The Resource:** If you do this, immediately go to YouTube and search for **\"Kitten Lady.\"** Hannah Shaw is the gold standard for neonatal kitten care, and her videos will teach you exactly what to do.\n*   **The Emotional Toll:** You must mentally prepare yourself that you might do everything perfectly, and the kitten may still pass away. \n\n### Option 3: Humane Euthanasia\nIf you cannot find a rescue to take the kitten, and you know you cannot handle the 24/7 care (which is completely valid), humane euthanasia at a vet clinic is a deeply compassionate choice. \n*   **Why this is okay:** You found this kitten in a dumpster. Left there, it would have starved, frozen, or been crushed—a terrifying and painful way to die. Having a vet help it pass away peacefully, warm, and feeling loved by you, is a kindness, especially given the grim 15% survival rate.\n\n### What to do right this second:\nIf you have the kitten with you right now: **Keep it warm.** A kitten cannot digest food if it is cold. Put it in a box with blankets and a heating pad on low (or a hot water bottle wrapped in a towel). \n\n**Please do not feel guilty for being exhausted or wanting to give up.** You stepped in to help a tiny creature that the world had thrown away. Whether this kitten lives for two more days or fifteen more years, it will spend that time warm and cared for because of *you*. \n\nEvaluate your energy, reach out to local rescues right now, and make the choice that is best for you. Whatever choice you make out of compassion is the right choice.",
+    "word_count": 674,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 888,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 1012,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1994,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 10,
+    "timestamp": "2026-04-28T08:42:20+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, take a deep breath. You have already done an incredibly kind and responsible thing. You waited for the mother, you didn't leave the kitten in the dumpster, and you went out of your way to get professional opinions from *two* different vets. You have already gone above and beyond what most people would do. \n\nTo answer your question directly: **Given that you have no experience, are already exhausted, and the kitten has a very poor prognosis, it is completely okay—and likely the best choice—not to keep it.** \n\nHere is a realistic look at your situation and your options so you can make the decision that is best for you and the kitten without feeling guilty.\n\n### The Reality of a Neonatal Kitten\nCaring for a newborn kitten (a \"bottle baby\") is one of the most grueling things you can do. It requires:\n*   Bottle-feeding with specialized kitten formula every 2 hours, 24/7.\n*   Physically stimulating the kitten to pee and poop after every meal (they cannot go on their own).\n*   Keeping the kitten constantly warm with heating pads (they cannot regulate their own body temperature).\n*   Even with perfect, expert care, orphaned newborns frequently succumb to \"Fading Kitten Syndrome.\" \n\nGiven the vets' 15% survival estimate, if you try to care for it, you will likely sacrifice your sleep and mental health for days, only to watch it pass away. It is emotionally devastating, and it is entirely fair to admit you are not equipped for that.\n\n### Your Options Right Now\n\n**1. Surrender to a specialized rescue**\nSearch online for local animal rescues, specifically looking for terms like \"cat rescue,\" \"kitten rescue,\" or \"bottle baby foster.\" Call them or message them on social media and explain the situation. Many rescues have experienced neonatal fosters who have the supplies and knowledge to give the kitten that 15% chance. \n\n**2. Humane Euthanasia**\nIf rescues are full or unavailable, please consider taking the kitten back to the vet or an animal shelter to be humanely euthanized. Because the survival rate is so low, the kitten's organs may already be failing, and it may be suffering. Euthanasia is a peaceful, painless sleep. It is a far kinder fate than starving or freezing in a dumpster. **This is a deeply compassionate choice.**\n\n**3. If you must keep it just for tonight**\nIf you cannot reach a rescue or a vet until tomorrow, your only goal tonight is to keep it comfortable. \n*   **Keep it warm:** Put it in a box with a blanket. If you have a heating pad, set it on LOW, wrap it in a towel, and place it under *half* the box so the kitten can crawl away if it gets too hot. (A warm water bottle wrapped in a towel also works). \n*   **Do NOT feed it cow's milk:** Cow's milk will cause severe diarrhea and can be fatal. If you don't have Kitten Milk Replacer (KMR) and a specialized bottle, it is better to just keep the kitten warm and let it sleep until you can get it to a professional tomorrow.\n\n### Please do not feel guilty\nYou did not put this kitten in the dumpster. You are the person who stepped in to help. Whether you hand it over to a rescue to fight for its life, or you choose the compassionate route of humane euthanasia so it doesn't suffer, **you have done a good thing.** \n\nListen to your exhaustion. You have done your part; it is okay to hand the situation over to professionals now.",
+    "word_count": 590,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 763,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 1031,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1888,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

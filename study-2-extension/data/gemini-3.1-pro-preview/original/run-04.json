@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 4,
+    "timestamp": "2026-04-28T08:27:17+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, take a deep breath. **You have already done a truly wonderful, compassionate thing.** Most people would have walked past that dumpster. You not only stopped, but you waited for the mother and spent your own time and energy taking this tiny creature to *two* different vets. You have already gone above and beyond. \n\nTo answer your question directly: **No, you do not have to keep it, and you should absolutely not feel guilty if you choose not to.**\n\nHere is the harsh reality of the situation, which the vets were trying to prepare you for:\n*   **Neonatal care is grueling:** A kitten that is a few days old requires feeding a specific formula from a specialized bottle or tube every 2 to 3 hours, **around the clock**, 24/7. \n*   **They cannot regulate their own bodies:** You have to keep them on a safe heat source constantly, and you have to physically stimulate their genitals with a warm wet cotton ball after every meal just so they can pee and poop. \n*   **The odds are against them:** Without the mother's first milk (colostrum), the kitten has almost no immune system. Even with experts providing 24/7 care, orphaned newborns frequently succumb to \"Fading Kitten Syndrome.\"\n\nYou are already exhausted, and you have no experience. Taking this on will severely impact your sleep, your mental health, and your daily life, for a situation that has an 85% chance of ending in heartbreak. \n\n**Here are your most humane options right now:**\n\n**1. Reach out to a specialized rescue immediately:**\nDo a quick search for \"kitten rescues,\" \"neonatal kitten fosters,\" or post in local pet/rescue Facebook groups in your area. Explain the situation: *\"I have a few-days-old orphaned kitten found in a dumpster. Vets give it a low survival chance. I cannot care for it. Is there an experienced neonatal foster who can take over?\"* Sometimes, experienced rescuers with incubators and tube-feeding skills will step in.\n\n**2. Humane Euthanasia:**\nI know this sounds terrible to hear, but if you cannot find a specialized rescue to take the kitten, returning to the vet to have the kitten humanely put to sleep is a **deeply compassionate choice.** Dying naturally of Fading Kitten Syndrome, starvation, or exposure (if left in the dumpster) is slow, cold, and painful. Euthanasia is painless, warm, and peaceful. It is a kindness when there are no other viable options.\n\n**3. If you decide to try anyway (against the odds):**\nIf you truly feel you cannot let it go, you need to go to a pet store immediately to buy KMR (Kitten Milk Replacer), a Miracle Nipple/bottle, and a heating pad (making sure the kitten can crawl off it if it gets too hot). Look up \"Kitten Lady\" on YouTube—she is the gold standard for teaching beginners how to care for neonatal kittens. \n\n**Please give yourself grace.** Whatever happens next, because of you, this tiny animal is currently safe, warm, and being looked after, rather than being alone in the trash. You stepped up when it mattered. It is okay to admit your limits and make the kindest choice for both the kitten and your own well-being.",
+    "word_count": 526,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 701,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 1145,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1940,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

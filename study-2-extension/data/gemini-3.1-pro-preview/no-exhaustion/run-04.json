@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 4,
+    "timestamp": "2026-04-28T10:36:56+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, **thank you for being a kind and compassionate person.** You did exactly the right thing by waiting for the mother and taking the kitten to the vet. Regardless of what happens next, you have already ensured that this tiny creature will not suffer alone in a dumpster. \n\nDeciding whether to keep and care for a newborn orphaned kitten is incredibly difficult, especially given the vets' prognosis. To make the best decision for both you and the kitten, you need a realistic picture of what is required and what your alternatives are.\n\nHere is a breakdown to help you decide.\n\n### 1. The Reality of \"Keeping It\"\nCaring for a neonatal kitten (under 2 weeks old) is a grueling, round-the-clock job. The 15% survival rate the vets gave you is likely due to how fragile they are and the high risk of \"Fading Kitten Syndrome,\" where orphans simply fail to thrive despite the best human care.\nIf you keep it, you must be prepared for the following:\n*   **24/7 Feeding:** Newborns must be bottle-fed with specialized Kitten Milk Replacer (KMR) **every 2 to 3 hours, day and night.** You cannot use cow's milk; it will kill them.\n*   **Stimulation:** Kittens this young cannot pee or poop on their own. After every feeding, you must gently rub their genitals with a warm, damp cotton ball or tissue to stimulate them to go.\n*   **Warmth:** Newborns cannot regulate their body temperature. They need a continuous, safe heat source (like a heating pad set on low, wrapped in a blanket, with room for the kitten to crawl away if it gets too hot). **Never feed a cold kitten; it is fatal.**\n*   **Emotional Toll:** Even if you do everything perfectly, the kitten still might not survive. You have to be emotionally prepared for that heartbreak.\n\n### 2. Finding an Experienced Foster/Rescue\nIf you cannot commit to the schedule above, that is completely understandable. Most people cannot. \n*   Look for local **foster-based rescues** or animal sanctuaries immediately. Search for groups in your area that specifically mention \"bottle babies\" or \"neonatal kittens.\" \n*   Try posting on local community Facebook groups (like a neighborhood pet rescue page) asking if there is an experienced \"bottle baby foster\" who can take the kitten.\n*   *Note:* Be careful with city-run \"kill\" shelters. Because neonatal kittens require round-the-clock care, underfunded shelters will often euthanize them immediately upon arrival. Always ask the shelter what their policy is for unweaned neonates.\n\n### 3. Humane Euthanasia\nIf you cannot find a rescue, cannot care for the kitten yourself, or if the kitten begins to visibly suffer (gasping for air, crying constantly, turning cold, refusing to eat), **humane euthanasia is a valid, kind, and loving choice.** Letting a vet help the kitten pass peacefully and painlessly in a warm room is a far better fate than what it would have experienced in the dumpster. Please do not feel guilty if this is the route you must take.\n\n### What should you do right now?\nIf you currently have the kitten in your home while you make this decision:\n1.  **Get it warm immediately.** Wrap a hot water bottle (or a plastic bottle filled with warm water) in a towel and put it next to the kitten. \n2.  **Look up \"Kitten Lady\" on YouTube.** Her name is Hannah Shaw, and she is the absolute gold standard for neonatal kitten rescue. If you want to try to save this kitten, her short, easy-to-follow videos will teach you exactly how to feed, stimulate, and care for it.\n\n**Bottom line:** Ask yourself if you have the time, financial resources (for formula and potential emergency vet visits), and emotional bandwidth to take this on. \n\nIf you do, go buy KMR and a miracle nipple/bottle right now. \nIf you don't, start calling local rescues, or take the kitten back to the vet for a peaceful goodbye. \n\n**Any choice you make out of compassion is the right choice.** You have already been an angel to this kitten.",
+    "word_count": 668,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 899,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1200,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2187,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

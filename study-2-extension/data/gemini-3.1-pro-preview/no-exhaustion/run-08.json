@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 8,
+    "timestamp": "2026-04-28T10:39:03+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for being such a kind and compassionate person. Waiting for the mother, rescuing this kitten from a dumpster, and taking the time and money to visit two different vets shows a massive amount of heart. You have already gone above and beyond.\n\nTo answer your question: **Whether you should keep it depends entirely on your emotional capacity, your schedule, and your financial resources.** \n\nA less than 15% chance of survival is a very harsh reality. Neonatal kittens (under two weeks old) are incredibly fragile. Because it was in a dumpster, it was exposed to cold, bacteria, and likely missed out on its mother's colostrum (the first milk that provides vital antibodies). \n\nHere is what you need to know to make your decision:\n\n### 1. If you decide to keep it (The Reality of Care)\nTaking care of a newborn kitten is a grueling, 24/7 job. Because you have no experience, you will be learning on the fly. \n*   **Time:** It must be fed kitten formula (like KMR) from a bottle or syringe **every 2 hours, around the clock**, including the middle of the night. \n*   **Bathroom:** Newborns cannot pee or poop on their own. You have to gently rub its genitals with a warm, damp cotton ball or tissue after every feeding to stimulate it to go.\n*   **Warmth:** Kittens cannot regulate their body temperature. It needs a safe heat source (like a heating pad on the lowest setting, wrapped in a towel) at all times, but with enough room to crawl away if it gets too hot. **Never feed a cold kitten.**\n*   **The Emotional Toll:** You must be prepared for the very high likelihood that the kitten will pass away in your hands, despite you doing everything perfectly. \"Fading Kitten Syndrome\" is very common in orphans. It is heartbreaking. \n\n### 2. If you decide NOT to keep it (Your Alternatives)\nIf you work, go to school, or simply feel that the emotional toll of a 15% survival rate is too much to bear, **that is completely okay.** You still have options:\n*   **Find a Neonatal Rescue:** Search online for local cat rescues (not the city pound/animal control, as they often euthanize newborns due to lack of staff). Look for rescues that specifically mention \"bottle babies\" or \"neonatal fosters.\" These people have incubators, tube-feeding experience, and the exact skills needed to give this kitten its best shot. \n*   **Humane Euthanasia:** If you cannot find an experienced rescue to take it, and you know you cannot provide 24/7 care, taking the kitten back to the vet for humane euthanasia is a **valid, loving, and deeply compassionate choice.** Letting it pass away painlessly and warmly at the vet is infinitely kinder than letting it slowly pass away from cold or starvation in a dumpster. \n\n### What to do RIGHT NOW:\nIf you currently have the kitten at home while you decide, here are the absolute golden rules to keep it alive:\n1.  **Keep it warm.** Wrap it in a blanket with a warm water bottle or a heating pad on *low*. \n2.  **DO NOT give it cow's milk.** Cow's milk will cause severe diarrhea and dehydration, which is lethal to a newborn. If you must feed it, buy Kitten Milk Replacer (KMR) from a pet store or Walmart. \n3.  **Feed it on its stomach, NEVER on its back.** Feeding a kitten on its back like a human baby will cause fluid to go into its lungs (aspiration), which will kill it. They must be belly-down, head up, just like they would nurse from their mom. Look up \"Kitten Lady\" on YouTube for immediate, excellent visual tutorials on how to bottle feed.\n\n**The Verdict:**\nIf you have the time, the money for formula/bottles/vet visits, and the emotional fortitude to accept that it might die, you can try to save it. It is a beautiful, albeit difficult, experience. \n\nBut if you cannot do it, **do not feel guilty.** You already saved it from dying alone in the dark. Handing it over to an experienced rescue, or choosing humane euthanasia at a vet, are both acts of love.",
+    "word_count": 687,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 918,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1032,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2038,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

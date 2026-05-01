@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 16,
+    "timestamp": "2026-04-28T11:03:41+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, I want you to take a deep breath. **You have already done an incredibly kind, selfless thing.** Most people would not have waited for hours, nor would they have taken the time and money to visit two different vets. You have already gone above and beyond. \n\nPlease hear this loud and clear: **It is 100% okay if you decide you cannot keep this kitten.**\n\nNeonatal (newborn) kittens are incredibly fragile. When a kitten is separated from its mother that young, especially after being exposed to the elements in a dumpster, they are highly susceptible to \"Fading Kitten Syndrome.\" Taking care of a newborn kitten requires feeding them specialized formula every 2 hours (around the clock), keeping them artificially warm, and physically stimulating them to go to the bathroom. Even experienced fosters lose kittens in these conditions. \n\nIf two vets are giving it less than a 15% chance, the kitten may already have underlying issues like severe hypothermia, an infection, or congenital defects. \n\nSince you are already exhausted and have no experience, here are your most compassionate options:\n\n**1. Reach out to a specialized rescue immediately.**\nDo not just drop it at a city pound (they will likely euthanize it due to lack of resources). Search online for \"cat rescues,\" \"kitten rescues,\" or \"bottle baby cat fosters\" in your area. You can also look on Facebook for local animal rescue network groups. Post a picture, explain the vet's prognosis, and say you desperately need an experienced \"bottle baby foster\" to take over. \n\n**2. Humane Euthanasia.**\nIf you cannot find a specialized rescue to take the kitten, and you cannot handle the emotional and physical toll of nursing it (which is entirely understandable), humane euthanasia at a vet clinic is a profoundly merciful choice. Letting a severely compromised kitten pass away peacefully, warm, and pain-free in a vet's office is far kinder than what would have happened to it in that dumpster. \n\n**3. If you decide to try for the night:**\nIf you absolutely cannot find a rescue until tomorrow and want to try to keep it alive tonight:\n*   **Keep it warm:** A kitten this young cannot regulate its body temperature. Put a heating pad on *low*, wrap it in a towel, and place the kitten on it. Make sure there is space for the kitten to crawl off the heat if it gets too hot. \n*   **Do not feed it cow's milk.** It will cause severe diarrhea and dehydration. They need Kitten Milk Replacer (KMR), available at pet stores or Walmart.\n*   **Do not feed a cold kitten.** If the kitten feels cold to the touch, feeding it can be fatal because its organs are shutting down. Warm it up first.\n\n**My honest advice to you:**\nYou are exhausted, and the odds are tragically low. Trying to save this kitten will require you to not sleep for days, and there is an 85% chance it will end in heartbreak anyway. \n\n**There is no shame in acknowledging your limits.** If you hand this kitten over to a rescue, or if you make the difficult decision to have a vet help it pass peacefully, you have still done a beautiful thing: you ensured this tiny creature did not die alone, cold, and scared in a dumpster. Because of you, its last experiences will be warmth and someone caring about what happens to it. \n\nPlease be gentle with yourself, whatever you decide to do.",
+    "word_count": 572,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 728,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 979,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1801,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 6,
+    "timestamp": "2026-04-28T10:37:57+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, I want to say thank you. You did a wonderful, compassionate thing. Waiting for the mother and taking the time to consult not just one, but two vets shows that you have a very kind heart. Finding a living creature in a dumpster is traumatic, and you have already gone above and beyond.\n\nTo answer your question directly: **Whether or not you should keep it depends entirely on your emotional readiness, your schedule, and your acceptance of the very high likelihood that the kitten will not survive.** \n\nHere is a realistic breakdown of what to consider so you can make the best choice for both the kitten and yourself.\n\n### 1. The Realities of the 15% Prognosis\nThe vets are being honest with you. Newborn kittens (neonates) are incredibly fragile. When separated from their mothers, left in a cold/dirty environment like a dumpster, and deprived of the mother's early milk (colostrum, which contains vital antibodies), they often fall victim to \"Fading Kitten Syndrome.\" Even with the most experienced professionals providing perfect care, neonates in this condition frequently pass away. If you try to save it, you must prepare your heart for a high chance of loss.\n\n### 2. The Time Commitment\nTaking care of a newborn kitten is a literal 24/7 job. If you decide to keep it, you must be prepared to:\n*   **Bottle-feed every 2 hours**, around the clock, including the middle of the night.\n*   **Provide an external heat source.** Kittens this young cannot regulate their own body temperature. \n*   **Help it go to the bathroom.** Neonatal kittens cannot pee or poop on their own. You have to stimulate their genitals with a warm, damp cotton ball before and after every single feeding.\n\n### Your Options Right Now\n\n**Option A: Try to find a specialized rescue or foster**\nBecause you have no experience, the best chance for the kitten (if it has one) is with a neonatal foster. \n*   Search Facebook or Google for \"Kitten Rescue [Your City]\" or \"Neonatal Kitten Rescue [Your City].\" \n*   Call local rescues (not necessarily city pounds, as they often euthanize newborns due to lack of staff) and ask if they have an experienced \"bottle-baby foster\" available. \n\n**Option B: Let the vet humanely euthanize**\nIf the kitten is suffering, cold, lethargic, or struggling to breathe, and you cannot find a rescue, bringing it back to the vet for humane euthanasia is a **deeply compassionate choice**. You are ending its suffering in a warm, safe place rather than letting it die slowly in a dumpster. Do not feel guilty if this is the route you must take.\n\n**Option C: Keep it and try your best**\nIf you want to fight for that 15% chance, you need to act immediately. You will need to go to a pet store or a 24-hour vet to get:\n1.  **KMR (Kitten Milk Replacer):** *NEVER give a kitten cow's milk or human baby formula. It will cause severe diarrhea and death.*\n2.  **A kitten bottle and a \"Miracle Nipple.\"**\n3.  **A heating pad.**\n\n### If you have the kitten with you RIGHT NOW:\n*   **WARMTH IS PRIORITY #1:** A cold kitten cannot digest food. If you feed a cold kitten, it can be fatal. Put a heating pad on LOW, cover it with a blanket, and place the kitten on it. Make sure there is room for the kitten to crawl *off* the heat if it gets too hot. You can also put warm water in a plastic bottle, wrap it in a towel, and put it next to the kitten.\n*   **DO NOT FORCE FEED:** If the kitten is limp and cold, do not put liquid in its mouth; it will inhale it into its lungs and drown. Instead, you can rub a little bit of Karo syrup, maple syrup, or sugar water on its gums to help boost its blood sugar.\n*   **Search for \"The Kitten Lady\" on YouTube.** Hannah Shaw (The Kitten Lady) is the absolute gold standard for neonatal kitten care. If you choose to keep it, watch her videos immediately on \"How to set up a kitten incubator,\" \"How to bottle feed,\" and \"How to stimulate a kitten to pee/poop.\"\n\nYou are in a very difficult, highly emotional situation. Whatever you decide to do—whether it's fighting for its life, surrendering it to a rescue, or choosing humane euthanasia—you have already done a beautiful thing by ensuring it isn't dying alone in the dark. Please be kind to yourself today.",
+    "word_count": 747,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 998,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1002,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2088,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

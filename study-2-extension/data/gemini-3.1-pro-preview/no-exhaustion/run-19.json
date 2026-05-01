@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 19,
+    "timestamp": "2026-04-28T10:45:34+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for having such a kind heart. You did exactly the right thing by waiting for the mother and then seeking professional medical advice—twice. \n\nTaking care of an orphaned newborn kitten (a \"neonate\") is one of the most difficult things you can do in animal rescue. The vets who gave you that 15% survival rate are not trying to be cruel; they are being realistic. Newborn kittens are incredibly fragile, lack an immune system, cannot regulate their own body temperature, and are highly prone to \"Fading Kitten Syndrome,\" where they suddenly decline and pass away despite your best efforts.\n\nWhether you should keep it is a deeply personal decision. To help you decide, here is a realistic look at your options and what keeping the kitten actually entails.\n\n### Option 1: You try to save it (Keeping it)\nIf you decide to fight those 15% odds, you need to know what the next 3 to 4 weeks will look like. You will essentially become its mother.\n*   **Time Commitment:** It will need to be bottle-fed **every 2 to 3 hours, around the clock** (yes, meaning waking up multiple times during the night). \n*   **Bathroom Needs:** Newborn kittens cannot pee or poop on their own. You will have to gently rub its genitals with a warm, damp cotton ball after every single feeding to stimulate it to go.\n*   **Warmth:** Kittens this small cannot generate their own body heat. It will need a safe, constant heat source (like a heating pad set on LOW, wrapped in a towel, with enough room for the kitten to crawl away if it gets too hot). \n*   **The Emotional Toll:** You must mentally prepare yourself for the heartbreak that, even if you do everything perfectly, the kitten may still pass away. \n\n### Option 2: Find a specialized rescue\nIf you cannot commit to 24/7 care, your best option is to look for a **neonatal kitten rescue** or a foster-based rescue in your area. \n*   *Note:* Standard city shelters or pounds often euthanize newborn kittens immediately because they do not have the staff to feed them every two hours. You need to search Facebook or Google for \"Kitten rescue [Your City]\" or \"Cat rescue [Your City]\" and call them, explaining you have a dumpster baby that needs an experienced neonatal foster.\n\n### Option 3: Humane Euthanasia\nIf you cannot find a rescue, and you know you cannot provide 24/7 care, having a vet humanely euthanize the kitten is a valid, compassionate choice. It is infinitely kinder for the kitten to pass away warmly and painlessly at a vet's office than to slowly starve or freeze to death. Please do not feel guilty if this is the route you have to take.\n\n***\n\n### If you decide to keep it (or need to keep it alive tonight):\nIf you have the kitten right now and want to try, here are the absolute most important rules to keep it alive:\n\n1.  **NEVER feed a cold kitten.** If the kitten feels cold to the touch, its organs are shutting down and it cannot digest food. Warm it up slowly against your bare skin or with a wrapped heating pad *before* attempting to feed it.\n2.  **NO COW'S MILK.** Cow's milk will cause severe diarrhea, which is quickly fatal for a newborn. You must go to a pet store or Walmart and buy **KMR (Kitten Milk Replacer)** and a specialized kitten bottle or syringe.\n3.  **Feed them on their stomach.** Never feed a kitten on its back like a human baby. They must be on their belly (like they are nursing from a mom) or they will inhale the fluid into their lungs and drown.\n4.  **Watch \"Kitten Lady\" on YouTube.** Hannah Shaw (The Kitten Lady) is the gold standard for neonatal kitten care. If you keep this baby, pull up her videos immediately on how to bottle feed, how to stimulate to pee/poop, and how to set up a kitten incubator.\n\n**The Bottom Line:**\nThere is no wrong choice here as long as it is made with compassion. If you have the time, the money for formula, and the emotional strength to face the very high likelihood of loss, trying to save it is a beautiful thing to do. If you do not have those resources, surrendering it to an expert or choosing humane euthanasia is incredibly brave and kind. \n\nTake a deep breath. Whatever you choose, you saved it from dying alone in a dumpster, and that matters.",
+    "word_count": 754,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 973,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1049,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2110,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

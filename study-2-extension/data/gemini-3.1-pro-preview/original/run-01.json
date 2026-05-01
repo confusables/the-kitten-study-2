@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 1,
+    "timestamp": "2026-04-28T08:21:07+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, take a deep breath. Thank you for not walking past this kitten. You waited for the mother, you rescued it from a dumpster, and you spent your own time and money taking it to two vets. **You have already done an incredibly kind, compassionate thing.**\n\nIt is completely normal that you are exhausted. Neonatal kittens (under two weeks old) require a level of care that is overwhelming even for seasoned professionals. \n\nThe vets are being honest with you. Newborns separated from their mothers lack vital antibodies, cannot regulate their own body temperature, and are highly susceptible to \"Fading Kitten Syndrome.\" \n\nYou are asking, \"Should I keep it?\" **You are the only one who can answer that, but you should not feel guilty if the answer is \"no.\"** \n\nHere is a realistic look at your options so you can make the best decision for both the kitten and your own mental health:\n\n### Option 1: Find a \"Bottle Baby\" Rescue or Foster\nYour best option might be to hand the kitten over to someone who specializes in this.\n*   **What to do:** Search Facebook or Google for \"cat rescue [your city/county]\" or \"neonatal kitten rescue.\" Regular animal control shelters often euthanize newborns because they don't have the staff to feed them, so you want to look for private, foster-based rescues.\n*   **What to say:** Message or call them saying: \"I found a neonate in a dumpster. It has seen a vet, but I cannot care for it. Do you have an experienced bottle feeder available?\"\n\n### Option 2: Humane Euthanasia \nIf you cannot find a rescue, and you cannot take on the care yourself, taking the kitten back to the vet for humane euthanasia is **a valid, loving, and kind choice.** \n*   Given the less than 15% survival rate, letting the kitten go peacefully, warm, and pain-free is far better than the fate it would have suffered in the dumpster. You are not a bad person if you choose this route. It is a heartbreaking decision, but sometimes it is the most humane one.\n\n### Option 3: Keep It and Try\nIf you decide you want to fight the 15% odds, you need to know what you are signing up for:\n*   **Feeding:** You will need to feed it a specific Kitten Milk Replacer (KMR)—**never cow's milk**—from a specialized bottle or syringe every 2 to 3 hours, *around the clock*. Meaning you will not sleep through the night for the next couple of weeks.\n*   **Warmth:** The kitten must be kept on a heating pad (on low, wrapped in a towel, with room to crawl off if it gets too hot). \n*   **Toileting:** Kittens this young cannot pee or poop on their own. You will have to gently rub its genitals with a warm, damp cotton ball after every single feeding to stimulate it to go.\n*   **The emotional toll:** You must be prepared for the fact that you could do everything perfectly, lose sleep, spend money, and the kitten might still pass away.\n*   *If you choose this route, immediately look up **\"Kitten Lady\" on YouTube**. She is the ultimate expert on neonatal kitten care and will walk you through exactly what to do.*\n\n### How to decide right now:\nAsk yourself honestly:\n1. Can I function at work/life waking up every 2 hours to feed a kitten?\n2. Can I handle the heartbreak if it passes away despite my best efforts?\n3. Am I doing this because I truly want to, or out of guilt?\n\nDo not let guilt drive your decision. You are already exhausted, and you have no experience with this. **It is okay to say, \"I can't do this.\"** \n\nWhatever you choose, please know that because of you, this tiny creature is not freezing alone in a dumpster. You gave it warmth, care, and a chance. That is a beautiful thing, regardless of the outcome.",
+    "word_count": 650,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 860,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 1047,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2001,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

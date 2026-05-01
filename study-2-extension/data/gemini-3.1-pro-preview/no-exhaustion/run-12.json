@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 12,
+    "timestamp": "2026-04-28T10:41:25+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for being such a kind and compassionate person. You did exactly the right things: you waited for the mother, and when she didn't show, you sought professional medical advice. Finding a kitten in a dumpster is heartbreaking, and you have already given this little one more love and care than it would have ever known.\n\nTo answer your question: **deciding whether to keep it is entirely up to your schedule, your emotional bandwidth, and your financial situation.** \n\nTwo vets giving a 15% chance of survival means this kitten is likely facing severe hurdles—possibly hypothermia, malnutrition, or \"Fading Kitten Syndrome\" (where neonates suddenly decline and pass away despite your best efforts). \n\nHere is a realistic look at what keeping the kitten entails, and what your alternatives are, so you can make an informed decision.\n\n### If You Keep It: The Reality of Neonatal Care\nTaking care of a newborn kitten (0-2 weeks old) is a grueling, round-the-clock job. \n*   **Time Commitment:** It must be bottle-fed with Kitten Milk Replacer (KMR) **every 2 hours, 24/7**. You cannot sleep through the night. \n*   **Temperature Control:** Kittens this young cannot regulate their own body temperature. It must be kept on a safe, warm heating pad at all times. *If a kitten is cold, it cannot digest food and will die.*\n*   **Bathroom Needs:** Newborns cannot pee or poop on their own. You have to gently rub its genitals with a warm, damp cotton ball or tissue after every feeding to stimulate it to go.\n*   **Emotional Toll:** You must be prepared for the heartbreak of losing it. With a 15% survival rate, the odds are sadly against you. You will need to make peace with the fact that you are providing hospice care and love in its final days, rather than a guaranteed rescue.\n\n*(If you decide to take this on, immediately look up **\"Kitten Lady\" on YouTube**. She is the world's leading expert on neonatal kitten care, and her videos will teach you exactly how to feed, stimulate, and warm the kitten).*\n\n### If You Do Not Keep It: Your Alternatives\nIf you work long hours, live alone, or simply cannot bear the emotional weight of potentially watching the kitten pass away, **do not feel guilty for not keeping it.** You are not a failure for recognizing your limits.\n\n*   **Look for a Neonatal Rescue:** Standard animal shelters often euthanize unweaned kittens immediately because they do not have the staff to feed them every two hours. You need to search for local **kitten rescues, foster networks, or TNR (Trap-Neuter-Return) groups** on Google or Facebook. These groups sometimes have experienced \"bottle-baby\" fosters who know exactly how to handle critical kittens.\n*   **Humane Euthanasia:** If you cannot find a rescue with an available bottle-feeder, and the kitten begins to visibly suffer, cry in pain, or completely stop eating, the kindest thing you can do is take it back to the vet for humane euthanasia. Letting it slip away peacefully and painlessly in your arms is a profound act of mercy compared to freezing or starving in a dumpster.\n\n### What to do RIGHT NOW (if you have the kitten with you)\n1.  **Keep it warm:** Wrap a heating pad in a towel and place the kitten on it (ensure there is space for the kitten to crawl *off* the heat if it gets too hot). A warm water bottle wrapped in a towel also works. \n2.  **Do NOT feed it cow's milk:** Cow's milk will cause severe diarrhea and dehydration, which is fatal to a neonate. You must use Kitten Milk Replacer (KMR), available at pet stores or Walmart.\n3.  **Do NOT feed a cold kitten:** Only feed the kitten if its body feels warm to the touch. Feeding a cold kitten can kill it.\n\nTake a deep breath. Whatever you decide to do—whether you commit to the every-2-hour feedings, hand it over to a specialized rescue, or stay with it while a vet helps it cross the rainbow bridge—**you have done a good deed today.** You ensured this kitten did not die alone in the trash. You are a good person.",
+    "word_count": 692,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 920,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1145,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2153,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

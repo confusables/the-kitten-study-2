@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 13,
+    "timestamp": "2026-04-28T10:41:57+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for being a kind person. Taking the time to wait for the mother, rescuing the kitten from a dumpster, and paying for two vet visits shows a lot of compassion. You have already done more for this tiny creature than most people would.\n\nThe decision of whether or not to keep the kitten is entirely up to you, but because you have no experience, you need to know exactly what you are signing up for so you can make the right choice for both you and the kitten.\n\nHere is a realistic breakdown to help you decide.\n\n### Why the vets said 15%\nNewborn kittens (neonates) are incredibly fragile. Without their mother’s colostrum (the first milk that contains essential antibodies), their immune systems are basically nonexistent. They are prone to \"Fading Kitten Syndrome,\" where they can be seemingly fine one minute and rapidly decline the next, often for no preventable reason. \n\n### What keeping the kitten actually requires:\nTo give this kitten that 15% chance, you will need to act as its mother. This means:\n*   **Round-the-clock feedings:** A kitten this young needs to be bottle-fed with specific Kitten Milk Replacer (KMR) **every 2 to 3 hours, 24/7**. This means waking up multiple times in the middle of the night.\n*   **Helping it go to the bathroom:** Newborn kittens cannot pee or poop on their own. You will have to gently stimulate its genitals with a warm, damp cotton ball before and after every single feeding.\n*   **Temperature control:** Kittens cannot regulate their body heat. They need a constant, safe heat source (like a heating pad set on low, wrapped in a blanket, with enough room for the kitten to crawl away if it gets too hot). \n*   **Emotional toll:** You have to be prepared for the very real possibility that despite you doing everything perfectly, the kitten might still pass away. It is heartbreaking, and you need to protect your own mental health.\n\n### Ask yourself these questions:\n1.  **Do I have the time?** (Can you take it to work with you, or work from home to feed it every 2 hours?)\n2.  **Do I have the finances?** (KMR formula, bottles, and potential emergency vet visits add up quickly.)\n3.  **Am I emotionally prepared for heartbreak?** \n\n### Your Options Right Now:\n\n**Option 1: Find a local rescue or neonatal foster (Highly Recommended)**\nSince you have no experience, the best chance for this kitten is with someone who specializes in \"bottle babies.\" \n*   Search Facebook for local cat rescues, TNR (Trap-Neuter-Return) groups, or foster networks in your area.\n*   Call emergency vets and ask if they have a list of neonatal rescues.\n*   Experienced fosters know exactly how to tube-feed and handle fading kittens.\n\n**Option 2: You decide to keep it and try.**\nIf you decide to take on the challenge, you need to go to a pet store or 24-hour vet immediately and buy **Kitten Milk Replacer (KMR)** and a kitten bottle/miracle nipple. \n*   *NEVER give the kitten cow's milk; it will cause fatal diarrhea.*\n*   *NEVER feed a cold kitten. If the kitten feels cold to the touch, warm it up slowly against your skin or with a warm water bottle before feeding it. A cold kitten cannot digest food and will die if fed.*\n*   Look up \"Kitten Lady\" on YouTube. She is the gold standard for tutorials on how to feed, stimulate, and care for neonatal kittens.\n\n**Option 3: Humane Euthanasia.**\nIf you cannot find a rescue to take it, and you know you cannot provide the 24/7 care it requires, taking it back to the vet to be humanely euthanized is a completely valid and kind choice. It prevents the kitten from slowly freezing or starving to death, allowing it to pass away peacefully and warmly. \n\n**Summary:**\nIf you feel overwhelmed, **do not feel guilty.** Neonatal kitten care is exhausting and difficult even for professionals. If you cannot do it, your best course of action is to urgently look for a local rescue group or foster who can, or to consult with a vet about peaceful euthanasia so the kitten doesn't suffer. \n\nWhatever you decide, you did a wonderful thing by making sure this kitten did not die alone in the cold.",
+    "word_count": 712,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 956,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1073,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2117,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 1,
+    "timestamp": "2026-04-28T10:35:22+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for being a kind human being. Waiting for the mother and taking the time to consult two different vets shows a lot of compassion. You have already done more for this kitten than most people would.\n\nThe decision to keep the kitten is entirely up to you, but because you have no experience, you need to know exactly what you are signing up for so you can make an informed choice. \n\nHere is a realistic look at what keeping this kitten entails, why the survival rate is so low, and what your options are.\n\n### 1. Why the Vets Said 15%\nNeonatal kittens (under 2 weeks old) are incredibly fragile. Because it was abandoned in a dumpster, it likely missed out on its mother's colostrum (the first milk that provides vital antibodies). Without this, the kitten has almost no immune system. Furthermore, kittens this young are highly susceptible to **Fading Kitten Syndrome**, where they rapidly decline and die despite your absolute best efforts. \n\n**The emotional reality:** If you decide to keep it, you must make peace with the fact that it may pass away in your hands, even if you do everything perfectly.\n\n### 2. What Keeping It Requires (The Logistics)\nTaking care of a newborn orphan is essentially a full-time job. It requires:\n*   **Round-the-clock feeding:** A kitten this young needs to be fed every 2 to 3 hours, **24 hours a day**. You will not sleep through the night for the next couple of weeks.\n*   **Specialized food:** You cannot feed it cow's milk (it will cause lethal diarrhea). You must use Kitten Milk Replacer (KMR) and a specialized bottle or syringe.\n*   **Potty assistance:** Newborn kittens cannot pee or poop on their own. You have to gently rub their genitals with a warm, damp cotton ball or tissue after every feeding to stimulate them to go. \n*   **Temperature control:** They cannot regulate their own body temperature. They need a continuous, safe heat source (like a heating pad set on low, wrapped in a blanket, with space for the kitten to crawl away if it gets too hot). A cold kitten cannot digest food.\n\n### 3. Questions to Ask Yourself\nTo decide if you should keep it, ask yourself honestly:\n*   *Do I have the time?* Can I take this kitten to work with me, or am I home all day to feed it every 2-3 hours?\n*   *Am I emotionally prepared?* Can I handle the heartbreak if it doesn't survive?\n*   *Can I afford it?* Kitten formula, bottles, and potential emergency vet visits add up quickly.\n\n### 4. Your Alternative Options\nIf you read the above and realize you cannot take this on, **there is absolutely no shame in that.** You still have options:\n*   **Find a \"Bottle Baby\" Rescue:** Search Facebook or Google for local cat rescues, specifically looking for terms like \"neonatal kitten rescue\" or \"bottle baby foster.\" Standard animal control shelters will almost certainly euthanize a newborn, but private rescues often have experienced volunteers who specialize in this.\n*   **Humane Euthanasia:** If the kitten is already cold, lethargic, or suffering, and you cannot find a rescue, having a vet humanely euthanize it is a deeply compassionate act. It prevents the kitten from slowly starving or freezing to death in a dumpster.\n\n### What to do RIGHT NOW (If you are keeping it for the night)\nIf you are holding onto the kitten right now, do these three things:\n1.  **Get it warm:** Wrap a hot water bottle (or a plastic bottle filled with warm water) in a towel and put it next to the kitten. Never feed a cold kitten.\n2.  **Get KMR:** Go to a pet store or 24-hour Walmart and buy Kitten Milk Replacer (KMR) and a kitten bottle. \n3.  **Watch \"The Kitten Lady\":** Go to YouTube and search for **Hannah Shaw (The Kitten Lady)**. She is the absolute gold standard for neonatal kitten care. Watch her videos on \"How to feed a newborn kitten\" and \"How to stimulate a kitten to poop.\" *(Note: Always feed a kitten resting on its belly, never on its back like a human baby, or it will inhale the fluid and drown).*\n\nYou have a tough decision to make, but whatever you choose—whether you foster it, surrender it to a specialized rescue, or offer it a peaceful passing at the vet—you have already shown this tiny creature more warmth and care than it would have ever known otherwise.",
+    "word_count": 745,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 984,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1102,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2174,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 2,
+    "timestamp": "2026-04-28T10:35:46+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for having such a kind heart. You did exactly the right things—you waited for the mother, you didn’t just leave it in the dumpster, and you sought professional medical advice immediately. No matter what happens next, you have already shown this little creature more love than it had before you found it.\n\nDeciding whether to keep a newborn (neonatal) kitten with a 15% chance of survival is an incredibly heavy and personal choice. Because you have no experience, you need to know exactly what this entails so you can make the best decision for both the kitten and your own mental health.\n\nHere is a realistic breakdown of your options and what keeping the kitten actually looks like.\n\n### Why the Survival Rate is so Low\nKittens this young rely entirely on their mother. In the first 24 hours of life, they receive \"colostrum\" from the mother's milk, which contains vital antibodies. Without it, they essentially have no immune system. Furthermore, orphan kittens are highly susceptible to \"Fading Kitten Syndrome,\" where they can rapidly decline and pass away despite your absolute best efforts. The vets gave you a harsh number, but they were being honest about the biological reality.\n\n### Option 1: Keeping the Kitten (What it Requires)\nIf you decide to fight those 15% odds, you will essentially become the mother cat. This requires **24/7 intensive care**:\n*   **Round-the-clock feeding:** A kitten this young needs to be bottle-fed with Kitten Milk Replacer (KMR)—*never cow's milk*—every 2 hours, day and night. \n*   **Temperature control:** Neonatal kittens cannot regulate their own body temperature. They need a constant, safe heat source (like a heating pad set on low, wrapped in a blanket, with room for the kitten to crawl away if it gets too hot). **Never feed a cold kitten**, as their organs shut down and they cannot digest food.\n*   **Bathroom assistance:** Kittens cannot pee or poop on their own. You will have to gently rub its genitals with a warm, damp cotton ball or tissue after every single feeding to stimulate it to go to the bathroom.\n*   **Emotional toll:** You must be emotionally prepared for the very real possibility that you will lose a lot of sleep, spend a decent amount of money on supplies, do everything perfectly, and the kitten may still pass away. \n\n*If you choose this route, look up **Kitten Lady on YouTube** immediately. She is the gold standard for tutorials on saving neonatal kittens.*\n\n### Option 2: Finding a Specialized Rescue (Highly Recommended)\nBecause you have no experience, the best thing you might be able to do for this kitten is to hand it over to someone who does. \n*   Look for local cat rescues, animal shelters, or SPCA chapters.\n*   Post in local community Facebook groups asking for an **\"experienced bottle-baby foster.\"** There is a whole network of people who specialize in keeping these fragile babies alive. \n*   Passing the kitten to an expert is not giving up; it is giving the kitten the absolute best chance at hitting that 15% survival rate.\n\n### Option 3: Humane Euthanasia\nIf the vets indicated that the kitten is already suffering, fading, or in pain, humane euthanasia is a valid and deeply compassionate choice. Allowing a tiny animal to pass away warmly, painlessly, and peacefully in a vet clinic is far kinder than letting it slowly pass away from starvation or hypothermia in a dumpster. \n\n### How to Decide\nAsk yourself these questions honestly:\n1.  **Do I have the time?** (Can I wake up every 2 hours through the night? Can I take it to work/school with me to feed it?)\n2.  **Can I handle the heartbreak?** (Will I be okay if I try my hardest and it still dies?)\n3.  **Are there local resources?** (Can I find a rescue to take it right now?)\n\n**What to do RIGHT NOW while you decide:**\nPlease ensure the kitten is **warm**. Place it in a box with a blanket. If you have a heating pad, put it under *half* the box on the lowest setting. If you don't, fill a sock with dry uncooked rice, tie the end, and microwave it for 60 seconds to create a makeshift gentle heater, and place it under a blanket near the kitten.\n\nYou are a wonderful person for stepping in to help. Whatever you decide—whether it's fighting the odds, finding a rescue, or letting it go peacefully—you are doing it out of love, and that is what matters most.",
+    "word_count": 752,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 993,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1116,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2197,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

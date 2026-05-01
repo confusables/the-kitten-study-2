@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 10,
+    "timestamp": "2026-04-28T10:40:32+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for being such a kind and compassionate person. Waiting for the mother and taking the time and money to visit two different vets proves that you have a huge heart. Finding a dumped kitten is a heartbreaking and stressful situation. \n\nTo answer your question directly: **Whether you should keep it depends entirely on your current schedule, your finances, and your emotional bandwidth.** \n\nThe vets are not being pessimistic; they are being realistic. A newborn kitten separated from its mother, especially one exposed to the elements and bacteria of a dumpster, faces a massive uphill battle. \n\nIf you are trying to make this decision right now, here is exactly what keeping it will entail, along with your other options.\n\n### What Keeping It Means (The Reality of Neonatal Care)\nIf you decide to take on that 15% chance, you become the mother cat 24/7. \n*   **Round-the-clock care:** A days-old kitten needs to be bottle-fed with specialized Kitten Milk Replacer (KMR)—**never cow's milk**—every 2 hours, 24 hours a day. You will not sleep through the night for the next few weeks.\n*   **Temperature control:** Newborn kittens cannot regulate their own body heat. If they get cold, they will die. They need a constant, safe heat source (like a heating pad set on low, wrapped in blankets, with room to crawl away if they get too hot). *Note: Never feed a cold kitten; it can be fatal.*\n*   **Bathroom duty:** Kittens this young cannot pee or poop on their own. You will have to gently rub their genitals with a warm, damp cotton ball or tissue after every feeding to stimulate them to go.\n*   **The Emotional Toll:** You must be prepared for the fact that even if you do everything perfectly, the kitten may still pass away. \"Fading Kitten Syndrome\" is very common, and congenital defects might be the reason the mother abandoned it in the first place.\n\n### Your Other Options\nIf you read the above and know you cannot provide 24/7 care, **do not feel guilty.** You are not a bad person for recognizing your limits. You have two other compassionate options:\n\n**1. Surrender to a Rescue or Experienced Foster**\nSearch immediately for local animal rescues, humane societies, or \"TNR\" (Trap-Neuter-Return) groups on Facebook or Google. Call them and specify you have an \"orphaned neonatal kitten in need of a bottle-feeder.\" Many rescues have experienced fosters who specialize in neonates and have incubators and tube-feeding equipment that can slightly increase the kitten's chances of survival.\n\n**2. Humane Euthanasia**\nIf no rescues can take the kitten, and you cannot care for it, taking it back to the vet for humane euthanasia is a valid, kind, and selfless choice. Letting a kitten peacefully go to sleep in a warm room is a far better fate than freezing or starving in a dumpster. It is a heavy choice, but a deeply compassionate one.\n\n### What to do RIGHT NOW\nWhile you make your decision, the most important thing you can do is **keep the kitten warm.** \n*   Place it in a small box with blankets. \n*   If you don't have a heating pad, fill a water bottle or a tied-off sock with warm (not hot) water, wrap it in a towel, and place it next to the kitten. \n*   Keep it away from drafts and other pets.\n\nYou have already done a wonderful thing by making sure this fragile little creature is no longer alone in the cold. Whatever decision you make from here—whether it's fighting for that 15%, handing it over to an expert, or letting it go peacefully—is the right decision.",
+    "word_count": 605,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 805,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 965,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1858,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

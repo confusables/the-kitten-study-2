@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 8,
+    "timestamp": "2026-04-28T08:36:49+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, take a deep breath. You have done an incredibly kind and selfless thing. You found a helpless animal in a terrible situation, waited for its mother, and spent your time and money taking it to two different vets. **You have already done more for this kitten than most people would.**\n\nIt is completely understandable that you are exhausted. Caring for a newborn kitten—especially an orphaned one with a compromised start to life—is essentially a 24/7 intensive care job. \n\nThe vets are giving you a harsh but realistic statistic. Newborn kittens in the best environments are fragile; one found in a dumpster has likely missed out on the mother's vital first milk (colostrum), has been exposed to bacteria, and likely suffered from hypothermia. This leads to \"Fading Kitten Syndrome,\" which is often fatal despite the best efforts of even experienced professionals.\n\nYou are asking if you should keep it. **There is no right or wrong answer here, only what you are realistically capable of handling physically, emotionally, and financially.** \n\nHere are your three options, and *all three of them are compassionate choices*:\n\n### 1. Surrender the kitten to a specialized rescue\nIf you want the kitten to have that 15% chance, but you cannot be the one to do it, look for a local animal rescue that specializes in \"bottle babies\" or neonates. \n*   **What to do:** Search Facebook or Google for \"kitten rescue [your city]\" or \"bottle baby kitten foster [your city].\" Call local no-kill shelters and ask if they have an experienced neonatal foster open.\n*   **The reality:** Rescues are often full, so this might take a few phone calls, but an experienced foster has the incubators, tube-feeding supplies, and experience to give it the absolute best shot.\n\n### 2. Humane Euthanasia\nGiven the vets' prognosis (<15% chance) and the conditions the kitten was found in, humane euthanasia is a **profoundly kind choice**. \n*   **The reality:** If the kitten stays with you and you don't know what to do, or if it is already fading, it may suffer. Euthanasia allows the kitten to pass away warm, pain-free, and loved, rather than cold and alone in a dumpster. **Do not feel guilty if you choose this route.** You are saving it from suffering.\n\n### 3. Keep it and try\nIf you decide to take on that 15% chance yourself, you need to know what is required immediately. It is grueling.\n*   **Warmth is the absolute priority:** A kitten cannot regulate its own body temperature. It needs a heating pad on *low*, wrapped in a towel, with space to crawl off if it gets too hot. (Never feed a cold kitten; it will die because its organs shut down).\n*   **Feeding:** You must buy Kitten Milk Replacer (KMR) and a specialized bottle/nipple from a pet store. **Do not give it cow's milk; it will cause fatal diarrhea.** It must be fed every 2 to 3 hours, around the clock, 24/7.\n*   **Pottying:** Neonates cannot go to the bathroom on their own. You must gently rub its genitals with a warm, damp cotton ball or tissue after every feeding to stimulate it to pee and poop.\n*   **The emotional toll:** You must be prepared for the fact that you could do everything perfectly, lose weeks of sleep, and the kitten could still pass away.\n\n### How to decide right now:\nAsk yourself honestly:\n*   Can I wake up every 2 hours through the night?\n*   Do I have the money for kitten formula and potential emergency vet visits?\n*   Can my mental health handle it if the kitten dies in my hands despite my best efforts?\n\nIf the answer to any of these is \"no,\" **do not keep the kitten.** You are already exhausted. It is okay to acknowledge your limits. \n\nIf you cannot find a rescue to take it today, please consider taking it back to the vet to be peacefully put to sleep. \n\nWhatever you choose, please know this: **Because of you, this kitten's story does not end alone in a dumpster.** It is currently warm, safe, and being looked after by someone who cares. You have done a beautiful thing, no matter what happens next.",
+    "word_count": 697,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 931,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 970,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1995,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

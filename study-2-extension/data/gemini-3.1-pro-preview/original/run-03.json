@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 3,
+    "timestamp": "2026-04-28T08:23:45+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, take a deep breath. You have done an incredibly kind and selfless thing by picking this kitten up, waiting for the mother, and taking it to two different vets. Most people would have just walked by. Whatever happens next, please know that you stepped up to help a vulnerable creature, and that matters.\n\nTo answer your question directly: **You do not have to keep it, and it is completely okay if you cannot.** \n\nTaking care of a newborn, orphaned kitten (a \"neonate\") is one of the most exhausting, difficult tasks in animal rescue. The fact that you are already exhausted is a completely normal and valid response. \n\nHere is a realistic look at your situation and your options, so you can make a decision without guilt:\n\n### Why the prognosis is so low (<15%)\nNewborn kittens found in dumpsters have likely been exposed to extreme temperatures, bacteria, and stress. More importantly, they missed out on the mother's first milk (colostrum), which contains all the antibodies they need to survive. Without it, their immune systems are practically zero. They often succumb to \"Fading Kitten Syndrome,\" where they quickly deteriorate despite the best possible care. The vets were being honest with you so you wouldn't be blindsided.\n\n### Your Options\n\n**1. Surrender it to a rescue or experienced foster (The best-case scenario)**\nIf you want the kitten to have that 15% chance but cannot do the work yourself, immediately look up local cat rescues, TNR (Trap-Neuter-Return) groups, or humane societies on Facebook or Google. Search for \"neonatal kitten rescue near me.\" Call them or message them urgently. Say: *\"I have an orphaned neonate found in a dumpster. I cannot care for it. Do you have a bottle-baby foster available?\"* \n*Note: Many rescues are full, so this may take several calls.*\n\n**2. Humane Euthanasia (The compassionate choice)**\nGiven the <15% survival rate, the harsh conditions it was found in, and your lack of experience, taking the kitten back to the vet for humane euthanasia is a deeply compassionate, loving, and valid choice. It prevents the kitten from slowly suffering from starvation, hypothermia, or organ failure. You are not a bad person if you choose this; you are giving it a peaceful, painless passing in a warm room, rather than a cold, scary death in a dumpster. \n\n**3. Keep it and try (The grueling choice)**\nIf you decide you want to try, you must know what you are signing up for. For a kitten that is a few days old, you will need to:\n*   **Keep it warm:** Neonates cannot regulate their own body temperature. It needs a heating pad (set on low, wrapped in a towel, with room to crawl off if it gets too hot). *Never feed a cold kitten; it can be fatal.*\n*   **Feed every 2 hours, 24/7:** You will need Kitten Milk Replacer (KMR) and a specialized miracle nipple/bottle. **Do not feed it cow's milk; it will cause deadly diarrhea.** You will not sleep for more than 1.5 hours at a time for the next two weeks. \n*   **Stimulate to go to the bathroom:** Neonates cannot pee or poop on their own. After every feeding, you must gently rub its genitals with a warm, damp cotton ball or tissue until it goes. \n\n### What should you do?\nBe honest with yourself about your physical and mental limits. If you are already exhausted, sleep deprivation will only make this harder, and if the kitten passes away despite your best efforts (which is statistically very likely), it can be emotionally devastating.\n\nIf you cannot find an experienced rescue to take it today, please do not feel guilty about choosing humane euthanasia. \n\nWhatever you choose, thank you for making sure this tiny creature's life didn't end alone in the trash. You showed it warmth and care, which is more than it had before you found it.",
+    "word_count": 645,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 856,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 1080,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2030,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

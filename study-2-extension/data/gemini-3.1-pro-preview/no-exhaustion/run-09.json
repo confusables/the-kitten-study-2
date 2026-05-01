@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 9,
+    "timestamp": "2026-04-28T10:39:43+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for stepping up. Waiting for the mother and taking the kitten to two different vets means you have already done exactly the right things. Finding a newborn animal in a dumpster is distressing, and your compassion has already saved this kitten from a terrible fate. \n\nThe vets gave you a 15% survival rate because neonatal kittens (especially those who didn't get enough of their mother's first milk, called colostrum) are incredibly fragile. They are highly susceptible to \"Fading Kitten Syndrome,\" hypothermia, and infections—especially coming from a dumpster. \n\nTo answer your question, **\"Should I keep it?\"**, you need to weigh what keeping it actually entails against your own lifestyle, mental health, and resources. \n\nHere is what you need to know to make your decision:\n\n### Option 1: You Keep It and Try to Save It\nCaring for a kitten that is a few days old is essentially a full-time, round-the-clock job. \n*   **Feeding:** It will need to be bottle-fed with a specific Kitten Milk Replacer (KMR)—**never cow's milk**—every 2 to 3 hours, *including through the night*. \n*   **Bathroom:** Newborn kittens cannot pee or poop on their own. You will have to gently rub its genitals with a warm, damp cotton ball after every feeding to stimulate it to go.\n*   **Warmth:** Kittens this young cannot regulate their body temperature. It must be kept on a heating pad (set to low, under a blanket, with enough room for the kitten to crawl off if it gets too hot). **Never feed a cold kitten; it can be fatal.**\n*   **The Emotional Toll:** You must be prepared for the heartbreaking reality that, despite your absolute best, sleepless efforts, the kitten may still pass away. \n\n### Option 2: Surrender to a Neonatal Rescue\nIf the round-the-clock care is impossible for you, but you want the kitten to have that 15% chance, look for a **neonatal kitten rescue** or an experienced \"bottle-baby foster.\"\n*   **How to find them:** Search Facebook for local animal rescue groups or cat rescues in your city. Post a picture, explain the situation, and ask if an experienced bottle-feeder can take over. \n*   *Note:* Be careful with taking it to a standard, open-admission city shelter; many do not have the staff to feed every two hours and will euthanize unweaned kittens. Always ask about their policy first.\n\n### Option 3: Humane Euthanasia\nIf you cannot care for it, cannot find a rescue, or if the kitten begins to visibly suffer, cry in pain, or go limp, humane euthanasia at a vet clinic is a deeply compassionate choice. You saved it from dying alone, cold, and hungry in a dumpster. Allowing it to pass away warmly and painlessly in a clinic is an act of kindness under these dire circumstances.\n\n### What to do RIGHT NOW while you decide:\n1.  **Keep it warm:** Put it in a box with blankets. If you don't have a heating pad, fill a water bottle with warm (not hot) water, wrap it in a towel, and place it next to the kitten.\n2.  **Assess your life:** Do you have to go to work for 8 hours tomorrow? If so, you cannot keep it unless you can take it with you. \n\n**The Verdict:**\nIf you have the time, the money for supplies, and the emotional resilience to accept that it might not survive, **keep it and try**. It is an incredibly rewarding experience if they pull through. \n\nIf you cannot commit to feeding it every 2 hours, **do not feel guilty.** You are not a bad person for recognizing your limits. Reach out to local rescues immediately to see if an expert can step in. \n\nWhatever you choose, you have already given this tiny creature warmth, safety, and care in its first few days of life. You did a wonderful thing.",
+    "word_count": 638,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 862,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 1188,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 2138,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 11,
+    "timestamp": "2026-04-28T08:43:46+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, take a deep breath. **You have already done an incredibly kind, compassionate, and responsible thing.** You didn't just walk away; you waited for the mother, and you spent the time, energy, and money to get opinions from *two* different vets. You gave this kitten warmth and safety that it would never have had in that dumpster. \n\nIt is completely valid that you are exhausted. Caring for a neonatal kitten is one of the most draining things a person can do. \n\nTo answer your question: **You do not have to keep it, and you should not feel guilty if you decide you cannot.** \n\nHere is a realistic look at your options so you can make the best decision for both the kitten and your own mental and physical health:\n\n### 1. The reality of keeping it\nNeonatal kittens (under 2-3 weeks old) without a mother are incredibly fragile. A 15% survival rate means the vets likely suspect \"fading kitten syndrome,\" severe exposure, or a congenital issue. \nIf you keep it, you will need to:\n*   Bottle-feed it a specific kitten formula **every 2 hours, around the clock** (meaning no full nights of sleep for you).\n*   Stimulate its genitals with a warm, damp cloth after every feeding so it can go to the bathroom (they cannot pee or poop on their own).\n*   Provide a constant, safe external heat source (like a heating pad on low under a blanket) because they cannot regulate their own body temperature.\n*   *Face the very real emotional toll that, despite all this work, the kitten still might not survive.*\n\n### 2. Finding a \"Bottle-Baby\" Rescue\nYour best option, if you want to give the kitten a fighting chance without destroying your own well-being, is to find a specialized foster.\n*   Search Facebook or Google for local animal rescues, SPCA chapters, or TNR (Trap-Neuter-Return) groups in your area. \n*   Message or call them and say: *\"I have an orphaned neonatal kitten found in a dumpster. Vets give it a low survival rate. I have no experience and cannot care for it. Do you have an emergency bottle-baby foster who can take it?\"*\n*   Many municipal shelters will euthanize neonates because they do not have the staff to feed them every two hours, so look for **no-kill rescues or foster-based networks**.\n\n### 3. Humane Euthanasia\nIf the vets gave it less than a 15% chance, the kitten may already be suffering, cold, or failing to thrive. If you cannot find a specialized rescue to take it, and you physically/mentally cannot provide the round-the-clock care, taking it back to the vet for humane euthanasia is a **valid, loving, and merciful choice.** It guarantees the kitten will pass away warmly, painlessly, and gently in someone's arms, rather than suffering alone in a dumpster. \n\n### What you should do right now:\nIf you have the kitten with you right now, **keep it warm**. A chilled kitten cannot digest food. Put it in a box with a blanket and a heating pad set to LOW (make sure the kitten has room to crawl off the heat if it gets too hot), or a hot water bottle wrapped in a towel. \n\nIf you decide to try to get through the night while you look for rescues tomorrow, look up **\"Kitten Lady\" (Hannah Shaw) on YouTube**. She is the absolute gold standard for emergency kitten care and will walk you through exactly what to do.\n\n**Please do not carry any guilt.** You stepped up when someone else threw a life away. Whatever happens next—whether you hand it to a rescue, choose humane euthanasia, or try to foster it—you are a good person who gave this tiny creature compassion in its most desperate moment.",
+    "word_count": 623,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 821,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 1008,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1923,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

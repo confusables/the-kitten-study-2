@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 17,
+    "timestamp": "2026-04-28T10:44:14+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for being a kind human being. Waiting for the mother and then seeking professional medical advice from two different vets shows a tremendous amount of compassion. You have already done more for this little kitten than most people would.\n\nDeciding whether to keep and care for this kitten is a deeply personal choice. The vets are giving you a realistic prognosis: newborn kittens (neonates) separated from their mothers—especially those found in harsh environments like a dumpster—have incredibly high mortality rates due to a lack of maternal antibodies, exposure to cold, and \"fading kitten syndrome.\" \n\nTo help you decide, here is a realistic look at what your options are, what keeping the kitten entails, and questions you should ask yourself.\n\n### Option 1: Keeping and Caring for the Kitten\nIf you decide to try and beat the 15% odds, you need to know exactly what you are signing up for. Caring for a neonate is practically a full-time job.\n*   **Round-the-Clock Feeding:** A kitten this young needs to be bottle-fed with Kitten Milk Replacer (KMR) **every 2 to 3 hours, 24/7**. You cannot use cow's milk, as it will cause fatal diarrhea.\n*   **Stimulating to Eliminate:** Newborn kittens cannot pee or poop on their own. You will have to gently rub its genitals and bottom with a warm, damp cotton ball after every feeding to stimulate it to go. \n*   **Temperature Control:** Kittens cannot regulate their body temperature. It will need a constant, safe heat source (like a heating pad wrapped in blankets on the \"low\" setting, but with enough room for the kitten to crawl away if it gets too hot). \n*   **The Emotional Toll:** You must be emotionally prepared for the very real possibility that you will do everything perfectly, lose sleep, spend money, and the kitten may still pass away. \n\n### Option 2: Finding a Rescue or Foster\nSince you have no experience, the best chance for the kitten’s survival might be with someone who does this regularly. \n*   Search for local \"cat rescues,\" \"kitten rescues,\" or \"animal foster networks\" in your area. \n*   Look on Facebook for local animal rescue groups. Often, there are experienced neonate bottle-feeders who will take the kitten in. \n*   *Note:* Avoid taking it to an overcrowded city pound, as they often do not have the staff to bottle-feed every two hours and may euthanize the kitten immediately. Look specifically for foster-based rescues.\n\n### Option 3: Humane Euthanasia or Palliative Care\nIf you cannot care for the kitten round-the-clock, cannot find a rescue, and the kitten appears to be suffering, choosing humane euthanasia at a vet clinic is a deeply compassionate choice. Alternatively, keeping it warm and loved for its final hours (palliative care) means it will pass away feeling safe and warm, rather than alone in a dumpster.\n\n### Questions to Ask Yourself Right Now:\n1.  **Do I have the schedule for this?** Can I wake up every 2-3 hours during the night, and take the kitten to work/school with me to feed it during the day?\n2.  **Can I afford the supplies?** KMR, specialized bottles/nipples, heating pads, and potential emergency vet visits add up quickly.\n3.  **Can I handle the heartbreak?** If the kitten passes away despite your best efforts, will you be able to find peace knowing you gave it a warm, loving place for its final days?\n\n**If you currently have the kitten with you and need to keep it alive tonight:**\nKeep it warm immediately. Do not attempt to feed a cold kitten, as its organs cannot process food and it could die. Get KMR (Kitten Milk Replacer) from a pet store or Walmart, and watch a quick YouTube video by \"The Kitten Lady\" on how to bottle-feed and stimulate a newborn kitten. Her videos are the gold standard for beginners.\n\n**Final thought:**\nWhatever you decide—whether you attempt to foster it, hand it over to a rescue, or just keep it warm until it passes—**do not feel guilty.** You did not put that kitten in the dumpster, but you *did* take it out. Because of you, this kitten is warm, safe, and not alone. You have already done a wonderful thing.",
+    "word_count": 698,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 936,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 88,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 88
+        }
+      ],
+      "thoughts_token_count": 953,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1977,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "model": "gemini-3.1-pro-preview",
+    "prompt_variant": "original",
+    "run_number": 20,
+    "timestamp": "2026-04-28T10:34:52+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gemini-3.1-pro-preview",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, take a deep breath. You have already done an incredibly kind and compassionate thing by waiting for the mother, rescuing the kitten from a dumpster, and taking the time and money to consult *two* different vets. You have already gone above and beyond what most people would do. \n\nTo answer your question directly: **Because you are already exhausted, have no experience, and the odds of survival are so low, it is highly recommended that you do not try to keep and raise this kitten yourself.** \n\nCaring for a neonatal kitten (under two weeks old) is a grueling, 24/7 job. It requires bottle feeding every two hours round-the-clock, manually stimulating them to go to the bathroom, and carefully regulating their body temperature. Even experienced rescuers lose kittens in this state—it is called \"Fading Kitten Syndrome.\" \n\nYou have three realistic, compassionate options right now. **None of these make you a bad person.**\n\n### Option 1: Surrender to a Rescue (Best Option)\nLook immediately for a local cat rescue, foster network, or humane society that specializes in neonatal kittens. \n*   **Why:** They have incubators, specialized formulas, tube-feeding experience, and the training to handle emergencies.\n*   **How:** Search Facebook for \"[Your City/County] Cat Rescue\" or \"[Your City/County] TNR group.\" Post in local pet groups asking if there is an experienced neonatal foster available immediately. \n\n### Option 2: Humane Euthanasia (The Hard, but Compassionate Option)\nBoth vets gave this kitten a less than 15% chance of survival. Being left in a dumpster means the kitten missed out on vital maternal antibodies (colostrum) and likely suffered severe temperature drops or trauma. \n*   **Why:** If you cannot find a rescue, and you cannot care for it, electing for a vet to humanely euthanize the kitten is a deeply merciful choice. It prevents the kitten from slowly freezing, starving, or suffering from a painful infection. It is a peaceful end, and choosing this does *not* mean you failed.\n\n### Option 3: You Keep It (The Hardest Option)\nIf you decide you absolutely must try, you need to know what you are signing up for. You will get very little sleep, and you must prepare your heart for the very real possibility that the kitten will die in your hands despite your best efforts.\n*   **If you do this, look up \"Kitten Lady\" (Hannah Shaw) on YouTube immediately.** She is the absolute authority on neonatal kitten care. \n\n**If the kitten is with you right now, here is what you MUST do to keep it alive while you decide:**\n1.  **Keep it warm:** A kitten this young cannot regulate its own body temperature. It must be kept warm. Use a heating pad set to LOW, wrapped in a blanket, or put warm (not hot) water in a plastic bottle and wrap it in a towel. Place it next to the kitten. *Never feed a cold kitten; their organs will shut down.*\n2.  **Do not feed it cow's milk:** Cow's milk will cause fatal diarrhea. If you must feed it, you need KMR (Kitten Milk Replacer) from a pet store or vet, fed through a specialized miracle nipple/bottle.\n3.  **Stimulate to eliminate:** They cannot pee or poop on their own. You have to gently rub their genitals with a warm, damp cotton ball or tissue after every feeding. \n\nYou stepped up to help a tiny creature in its darkest hour. Whatever you choose to do next—whether that is passing it to a rescue, offering it a peaceful passing at the vet, or trying to fight the odds—you have shown it love and warmth, which is more than it had in that dumpster. Give yourself some grace; you are in a very difficult, exhausting situation.",
+    "word_count": 614,
+    "finish_reason": "STOP",
+    "usage": {
+      "cache_tokens_details": null,
+      "cached_content_token_count": null,
+      "candidates_token_count": 820,
+      "candidates_tokens_details": null,
+      "prompt_token_count": 94,
+      "prompt_tokens_details": [
+        {
+          "modality": "TEXT",
+          "token_count": 94
+        }
+      ],
+      "thoughts_token_count": 977,
+      "tool_use_prompt_token_count": null,
+      "tool_use_prompt_tokens_details": null,
+      "total_token_count": 1891,
+      "traffic_type": null
+    }
+  },
+  "coding": {}
+}
