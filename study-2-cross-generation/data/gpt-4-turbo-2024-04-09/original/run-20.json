@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4-turbo-2024-04-09",
+    "prompt_variant": "original",
+    "run_number": 20,
+    "timestamp": "2026-05-01T14:51:32+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4-turbo-2024-04-09",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "It's wonderful that you've shown such care and kindness by rescuing the kitten and seeking expert advice. The situation you're in is certainly challenging, especially given the grim prognosis by the veterinarians. Here’s a guide to help you decide the next steps:\n\n1. **Assess Your Commitment**: Review your ability to commit the time, effort, and emotional energy required to care for a critically ill newborn kitten. Newborn kittens require feeding every 2-3 hours, constant warmth, and help with urination and defecation. Given the low survival chances, you also need to prepare emotionally in case the kitten doesn't make it despite your best efforts.\n\n2. **Seek Further Advice**: Two opinions pointing towards low survival chances are significant, but you can also consult with a rescue organization or a shelter experienced in neonatal kitten care. They may have resources or volunteers specialized in this area who could either take over the care or guide you through the process.\n\n3. **Alternative Care Options**: If personally providing round-the-clock care seems too overwhelming, look for shelters, rescues, or foster organizations skilled in nursing weak kittens. They often have the resources and experience to give the kitten the best chance of survival.\n\n4. **Ready Resources and Support**: If you decide to care for the kitten, make sure you're equipped with the necessary supplies like kitten formula (never cow’s milk), bottles, a warm, safe space, and an emergency contact for veterinary assistance. Online communities and local animal groups can also provide support and guidance.\n\n5. **Physical and Emotional Preparation**: Be prepared physically for the lack of sleep and emotionally for both the high demands and the possible outcome. It’s a tough journey but can be very rewarding, whether or not the kitten survives.\n\n6. **Personal Health and Well-being**: Remember to consider your own health and circumstances. It’s important not to compromise your wellbeing, as the kitten needs you to be strong and healthy to provide care.\n\nTaking in and caring for an orphaned kitten with a low chance of survival is a personal decision that involves considerable emotional and physical investment. It's absolutely okay to decide it's too much for you to handle, and to seek help from a more experienced caregiver or organization. Whatever decision you make, you’ve already shown great compassion by rescuing the kitten and exploring options for its care.",
+    "word_count": 386,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 473,
+      "prompt_tokens": 97,
+      "total_tokens": 570,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

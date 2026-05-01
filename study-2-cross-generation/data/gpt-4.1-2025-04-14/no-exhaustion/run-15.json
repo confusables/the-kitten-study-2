@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 15,
+    "timestamp": "2026-05-01T15:11:29+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you *so much* for your compassion and effort in trying to help this tiny kitten! Newborn orphaned kittens face huge odds, and yes, survival rates are unfortunately low without a mother. However, some *do* survive with intensive care. Here’s what to consider as you make your decision:\n\n**1. Commitment & Demands**  \nHand-rearing a newborn kitten is a serious, round-the-clock commitment—think feeding (every 2–3 hours, day and night), helping stimulate urination/defecation, keeping it warm, and constant monitoring. If you work or have other commitments, this can be very difficult alone.\n\n**2. Emotional Impact**  \nLosing a kitten despite your best efforts can be very hard emotionally. Are you prepared for this possibility?\n\n**3. Resources**  \nEven well-meaning people often lose kittens this young, but you can dramatically increase this kitten’s odds by working with a local **kitten rescue, foster network, or very experienced individual**. Do you have these connections? They often have incubators, formula, and expertise.\n\n**4. Vet Perspective**  \nVets may give you odds based on experience and usual outcomes, but they can’t predict every case.\n\n**Should you keep it?**  \nYou *could*, if you are ready for what may be a heartbreaking process and if you have the time, energy, and resources. However, if your only concern is to maximize its chances, you may want to seek out specialist rescue groups or a very experienced foster to transfer the kitten to.\n\n**If you decide to try:**  \n- Get kitten formula (never cow’s milk).  \n- Bottle or syringe feed every 2–3 hours, including overnight.  \n- Keep kitten in a *very* warm, draft-free place (they can’t regulate body temperature).  \n- Stimulate urination/defecation with a warm, damp cotton ball after every feeding.  \n- Watch for failure to gain weight, lethargy, coldness, diarrhea—seek help immediately if any of these occur.\n\n**In summary:**  \nIt’s a brave, loving act to try. If you’re not sure, reaching out ASAP to kitten rescues or a *kitten-focused* foster may be the best way to save this little life. Whatever you decide, you have already done more than most. If you need more support or step-by-step guidance, just ask!",
+    "word_count": 348,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 496,
+      "prompt_tokens": 90,
+      "total_tokens": 586,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

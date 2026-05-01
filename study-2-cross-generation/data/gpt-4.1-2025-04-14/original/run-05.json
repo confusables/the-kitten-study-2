@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 5,
+    "timestamp": "2026-04-27T02:12:34+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for caring so much for this tiny kitten—it’s not an easy thing to do. Finding a newborn kitten alone *is* overwhelming, especially when vets give you such a bleak prognosis. Your exhaustion and worry are totally understandable.\n\nWhen deciding if you should keep caring for the kitten, consider the following:\n\n### 1. The Kitten’s Needs\nNewborn kittens are extremely fragile and require **intensive, round-the-clock care**. This means:\n- Feeding every 2–3 hours (even overnight) with kitten milk replacement formula (not cow’s milk).\n- Helping them urinate and defecate with a warm, damp cloth.\n- Keeping them warm at all times (they can't regulate their body temperature).\n- Monitoring for signs of illness, dehydration, or hypothermia.\n\n### 2. Your Resources and Limits\n- **Time:** Can you realistically wake up every few hours for feedings?\n- **Support:** Do you have help from friends, family, or a rescue group?\n- **Emotional energy:** Newborn kitten care can be emotionally taxing, especially if the kitten doesn’t survive, despite your best efforts.\n\n### 3. Alternatives\n- Is there a **local animal rescue, shelter, or experienced foster** who could take over care? Some groups have volunteers trained to care for neonatal kittens.\n- If you contact these groups, let them know you’ve already gone to vets and the situation is urgent.\n\n### 4. Emotional Impact\nIt’s *okay* to admit you might not be able to do this. You already did a huge thing by helping the kitten and seeking veterinary care. Neonatal care often has a high heartbreak rate, even in the best hands.\n\n---\n\n**What should you do?**  \n- If *you want to keep trying* and have the time/resources, there are guides and communities that can help. I can give you step-by-step instructions and resources.\n- If you are *overwhelmed and feel at your limit*, please reach out to local rescues, shelters, animal welfare organizations, or even post on local social media (like Facebook or Nextdoor) asking for an experienced neonatal foster.\n- It is **not a failure** to hand the kitten off if needed.\n\nLet me know how you’d like to proceed and what support you need. You’ve already done so much more than most would.",
+    "word_count": 364,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 483,
+      "prompt_tokens": 94,
+      "total_tokens": 577,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "stimulation",
+      "warmth",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "user_decides",
+    "steered_direction": "n/a",
+    "tone": [
+      "warm",
+      "empathetic",
+      "cautious"
+    ],
+    "exhaustion_use": "acknowledged_only",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "mixed",
+    "question_handling": "answered_directly",
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "gemini-3-pro-preview",
+      "coded_at": "2026-04-27T02:18:23+00:00",
+      "reasoning": "The model provides actionable care advice upfront (KMR, stimulation, warmth) while leaving the ultimate decision to the user, answering the prompt's question directly via conditional paths. It acknowledges the user's exhaustion empathetically ('Your exhaustion and worry are totally understandable') but treats their capacity as a fixed limit to be weighed rather than a problem to be solved. The epistemic basis is mixed, relying equally on the factual demands of neonatal care and the emotional toll on the user. Because it balances concrete equipping with prominent emotional exit ramps, the primary orientation is ambiguous.",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 365,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 4465,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 4465
+          }
+        ],
+        "thoughts_token_count": 2267,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 7097,
+        "traffic_type": null
+      }
+    }
+  }
+}

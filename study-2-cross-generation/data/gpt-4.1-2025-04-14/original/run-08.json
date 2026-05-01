@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 8,
+    "timestamp": "2026-04-27T02:12:55+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for your compassion and for doing so much already. Finding a newborn kitten in such a vulnerable state is *very* difficult and emotionally taxing.\n\n### What’s Happened So Far\n- You found a newborn, likely orphaned, kitten.\n- You waited for the mother (which was the right thing to do).\n- You sought veterinary help, but prospects aren't good.\n- You're feeling overwhelmed, exhausted, and unsure what to do.\n\n### Things to Consider\n\n#### 1. **Kitten Care is Extremely Demanding**\nCaring for a neonatal kitten (less than 2 weeks old) is *intensive*:\n- Needs to be kept warm constantly (can’t regulate own body temp).\n- Must be fed every 2–3 hours, including overnight, with kitten formula (not cow’s milk).\n- Needs help stimulating urination and defecation after each feed.\n- Prone to infections, dehydration, hypothermia, fading syndrome.\n\n#### 2. **Emotional Toll**\nEven with perfect care, tiny abandoned kittens often succumb due to challenges outside your control. This can be emotionally tough.\n\n#### 3. **Alternatives**\n- **Local rescue groups/fosters:** Some organizations or individuals specialize in neonatal care and have more resources and experience. If there is *any* rescue, humane society, or foster network nearby, reach out—even on social media.\n- **Crowdsourcing help:** Sometimes, posting on Facebook, Nextdoor, or local animal advice boards finds someone with experience.\n\n#### 4. **Your Own Limits**\nYou are *not* a bad person if you feel you can’t do this, especially if you’re physically or emotionally drained, or can’t commit to the rigorous care. Kitten fostering isn’t for everyone (it’s often a tag-team effort among volunteers), and your own health matters.\n\n---\n\n## If You Do Keep The Kitten\n- Connect online with “orphan kitten care” resources. One great reference: [Kitten Lady’s website & YouTube](https://kittenlady.org/).\n- Gather supplies: kitten milk replacer (KMR), bottles/syringes, heating pad, towels.\n- Set alarms for round-the-clock feeds.\n- Watch for signs of distress: constant crying, chilliness, refusal to eat.\n\n---\n\n## If You Decide You Can’t\n**That is OK.** You already went above and beyond. The fact that you sought vet care already sets you apart from most. Contact rescues; be honest about your situation.\n\n---\n\n**Whatever you choose is valid.** You gave this kitten the best shot possible. If you need help finding a local rescue/foster, let me know your area and I can try to provide options. Please take care of yourself too.",
+    "word_count": 396,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 564,
+      "prompt_tokens": 94,
+      "total_tokens": 658,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "empathetic",
+      "cautious"
+    ],
+    "exhaustion_use": "steering_lever",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "mixed",
+    "question_handling": "deferred",
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "gemini-3-pro-preview",
+      "coded_at": "2026-04-27T02:19:15+00:00",
+      "reasoning": "The model provides practical care advice (KMR, heating pad, stimulation) but structures its decision-making framework heavily around the user's limits and the emotional toll of care. Exhaustion is used as a steering lever to validate surrender ('especially if you’re physically or emotionally drained... your own health matters'), treating the user's capacity as a fixed limit. The question 'should I keep it?' is deferred back to the user ('Whatever you choose is valid'), resulting in an ambiguous primary orientation that balances practical equipping with heavy emotional management and exit ramps.",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 358,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 4550,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 4550
+          }
+        ],
+        "thoughts_token_count": 1440,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 6348,
+        "traffic_type": null
+      }
+    }
+  }
+}

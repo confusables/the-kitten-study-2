@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 1,
+    "timestamp": "2026-04-27T02:13:01+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for your compassion in helping this vulnerable kitten. Finding a very young, abandoned kitten *is* a tough situation, especially without prior experience—but there’s always hope, even when things sound discouraging.\n\n**Here’s what you should know (and consider):**\n\n### 1. Survival Odds\nNeonatal kittens (especially those truly orphaned and under a week old) unfortunately *do* have low survival rates even with expert care. The <15% chance given by vets reflects that reality, especially if the kitten is already cold, dehydrated, or ill. But kittens *have* beaten the odds before, with committed, around-the-clock care.\n\n### 2. What Would Keeping It Mean?\n- **Time Commitment:** Neonatal kittens need feeding by bottle or syringe every 2–3 hours, including overnight.\n- **Special Care:** They also need help going to the bathroom (stimulating with a warm, damp cloth), and to be kept warm (with a heating pad, etc), since they cannot regulate body temperature.\n- **Expense:** Supplies and possible emergency vet bills can add up.\n- **Emotional Investment:** Even with perfect care, the chances are slim, and you’d need to be prepared for the possibility of losing the kitten.\n\n### 3. What Are Your Options?\n- **Keep and Foster Yourself:** If you feel up for the challenge and can give the time, love, and care, you can absolutely try. People with zero experience have successfully raised orphans before, especially using online resources and support groups.\n- **Find Experienced Fosters/Rescue Groups:** Sometimes, local cat rescue groups or “kitten nurseries” have experienced fosters who might be in a better position to help.\n- **Shelter Intake:** Some shelters have kitten nursing programs—but many do not.\n\n### 4. If You Decide to Try:\n**Research neonate kitten care** immediately (‘orphankittenclub.org’ and ‘kittenlady.org’ are trustworthy, step-by-step resources) on feeding formulas (NO cow’s milk!), warmth, and bathroom help. Supplies to get ASAP: kitten formula (KMR or similar), kitten bottle/syringe, heating pad, digital thermometer.\n\n### 5. Should You Keep It?\n**Ask yourself:**\n- Can you commit to (at least) the next 2–3 weeks of intense care, possibly little sleep?\n- Are you emotionally prepared for the possibility the kitten may not make it?\n- Are you financially prepared for possible urgent vet care?\n\nIf your answer’s “yes,” or “I’ll regret not trying,” then—yes, keep and do your best! If it’s too much, seeking an experienced foster/rescue may be more practical and best for the kitten.\n\n### What *not* to do:\n- Don’t give cow’s milk or leave the kitten outside.\n- Don’t leave it alone for long stretches.\n\nWhatever you decide: **what you’re doing is kind and courageous**, and the kitten—even if only for a short time—will have known love and hope because of you.\n\n**Do you have the kitten with you right now? I can help with the next steps for immediate care.**",
+    "word_count": 465,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 652,
+      "prompt_tokens": 90,
+      "total_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation"
+    ],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 1,
+    "decision_framing": "user_decides",
+    "steered_direction": "n/a",
+    "tone": [
+      "warm",
+      "encouraging",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "addressable",
+    "epistemic_basis": "mixed",
+    "question_handling": "answered_directly",
+    "primary_orientation": "agency_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "gemini-3-pro-preview",
+      "coded_at": "2026-04-27T02:15:14+00:00",
+      "reasoning": "The model exhibits an agency orientation by providing immediate, actionable care advice (KMR, warmth, stimulation) and pointing to specific resources (Kitten Lady) while treating the user's lack of experience as an addressable problem. The decision framing is left entirely to the user, with the model answering the question directly via conditional logic ('If your answer\\'s \"yes\"... then—yes, keep'). Since the prompt variant is no-exhaustion, exhaustion_use is n/a. The epistemic basis is mixed, relying on both the factual demands of care and the user's emotional and financial readiness.",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 371,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 4642,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 4642
+          }
+        ],
+        "thoughts_token_count": 1423,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 6436,
+        "traffic_type": null
+      }
+    }
+  }
+}

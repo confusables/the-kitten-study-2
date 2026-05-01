@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 16,
+    "timestamp": "2026-05-01T15:09:07+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for caring so much about this tiny life. You’ve already gone above and beyond what many would do. It’s completely understandable to feel exhausted and overwhelmed—caring for a newborn orphaned kitten is **intensely demanding**, especially if you’ve never done it before.\n\nLet’s break things down honestly and compassionately:\n\n### The Reality\n\n**Newborn kittens** (especially found outsiders) are *incredibly* fragile and need:\n- Warming (can’t regulate their own body temp)\n- Round-the-clock feedings (every 2–3 hours, including overnight)\n- Stimulation to go to the bathroom\n- Protection from disease/dehydration\n\nThe survival rate for kittens found in this state is, unfortunately, very low, even with the best care. That doesn’t mean there’s *no* hope—but the effort is intense, and the heartbreak potential is real.\n\n### Your Feelings Are Valid\n\n- You’re exhausted already because this is *hard* and *emotionally charged.*\n- It’s **not your fault** if you can’t save him/her or if you feel you can’t do this.\n- Compassion fatigue and burnout happen, even to animal professionals.\n\n### Your Options\n\n**If you want to try:**\n- Reach out to local cat rescues, animal shelters, and fosters—some have experience and resources.\n- See if there’s a bottle-baby foster network or group in your area (search “kitten rescue + your town” or check local Facebook rescue groups).\n- If you choose to keep fostering, gather supplies: kitten formula (KMR or similar), warming pad, tiny bottles, a scale, soft bedding. Prepare for sleepless nights.\n\n**If you can’t:**\n- You are NOT a bad person. Not everyone can take this on, and that’s okay.\n- Some shelters or rescues will take in bottle kittens, or might have fosters who specialize in orphans.\n- It’s 100% responsible to ask for help for the kitten’s sake and your own mental health.\n\n### Next Steps\n\n- Call/email every rescue/shelter again and explain: “I found a near-newborn kitten, and vets say the prognosis is poor. I can’t provide round-the-clock care. Is there ANYONE you know who might?”\n- If you *must* surrender to a shelter, try to find one with a foster network.\n\n### You’ve Done a Good Thing\n\nThis kitten got a chance **because of you**. Even if the next step is placing them with someone else, you’ve already made a difference.\n\n**Take care of yourself, too.** If you want support figuring out the next practical steps, tell me your town/region and I can try to help you look for local resources.\n\nIf you need advice about bottle-feeding or next actions, let me know. You’re not alone in this. 💛",
+    "word_count": 425,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 591,
+      "prompt_tokens": 94,
+      "total_tokens": 685,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

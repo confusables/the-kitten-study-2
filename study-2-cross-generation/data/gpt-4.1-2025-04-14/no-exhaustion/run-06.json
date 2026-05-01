@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 6,
+    "timestamp": "2026-04-27T02:13:41+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all: thank you for caring about the kitten and trying to help—it takes a lot of compassion to do what you've already done.\n\n**About prognosis:**  \nIt’s true that *neonatal* (newborn, especially under one week) orphaned kittens have a very difficult road ahead without their mother, and the mortality rate is high. But that does not mean it’s impossible! Every year, many people do successfully raise such kittens. The success relies mainly on giving them appropriate warmth, hygiene, feeding, and stimulation.\n\n**Should you keep it?**\n- *If you feel capable and are willing to put in the effort*: \n  - **Raising a newborn kitten is a lot of work.** Kittens this young need to eat every 2-3 hours (including overnight) and require stimulation to urinate/defecate, as they cannot do this alone.\n  - You don’t need to be a vet tech or an expert, just willing to learn quickly and work hard for several weeks.\n  - If you decide to try, there are online guides, local rescue groups, and possibly even rescue volunteers who can give advice or direct help.\n- *If you’re unable or unwilling to dedicate that time*: \n  - Contact local animal rescues, humane societies, or *“kitten foster networks”*. In many cities, there are volunteers or organizations who have the experience and resources to give the kitten its best chance.\n  - Even if shelters are full or overwhelmed, keep reaching out: local Facebook rescue groups or TNR (Trap-Neuter-Return) groups often know individuals who specialize in neonatal orphaned kittens.\n\n**Practical realities:**  \n- If you keep the kitten: expect sleep loss, possibly heartbreak if the kitten doesn’t make it (even in the best hands, survival isn’t guaranteed).\n- But, you’ll know you did everything you could and possibly saved a life.\n\n**Immediate steps right now** *(if you still have the kitten)*:\n1. **Keep it warm!** A chilled kitten can’t digest food. Use a very warm, soft towel and a heating pad (well-covered so it can’t burn itself). Not hot, but *very* warm.\n2. **Feed appropriately**: *Never* give cow's milk. Purchase “kitten formula” (KMR or similar) from a pet store/pharmacy. Use a kitten bottle or syringe.  \n3. **Feed by age/weight**: Every 2–3 hours, including overnight.\n4. **Help it toilet**: After EACH feeding, stimulate the kitten’s genitals with a warm, damp cotton ball or soft cloth to encourage urination/defecation.\n5. **Keep it clean and dry**.\n\n**Resources**:\n- Look up “How to care for orphaned neonatal kitten” from reputable rescue groups (ASPCA, Kitten Lady, Alley Cat Allies, Maddie’s Fund, local shelters).\n- Consider reaching out to the [Kitten Lady](https://www.kittenlady.org/kitten-care) (Hannah Shaw), who specializes in neonatal kitten care and has fantastic free resources.\n\n**Bottom line:**  \nIf you are able and willing, and ready for a difficult but possibly rewarding journey, you can try—many kittens have survived with the help of \"first time\" foster parents like you! If not, do your best to get the kitten to experienced rescuers or fosters. Either way, don’t feel guilty—*just trying* puts you ahead of most people.\n\nIf you want specific step-by-step instructions for the next 24–48 hours, *let me know!* I can walk you through the basics.",
+    "word_count": 518,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 750,
+      "prompt_tokens": 90,
+      "total_tokens": 840,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "warmth",
+      "feeding",
+      "stimulation"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "user_decides",
+    "steered_direction": "n/a",
+    "tone": [
+      "warm",
+      "encouraging",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "addressable",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "agency_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "gemini-3-pro-preview",
+      "coded_at": "2026-04-27T02:16:32+00:00",
+      "reasoning": "The model exhibits an agency orientation by providing immediate, actionable care instructions (KMR, warmth, stimulation) and explicitly telling the user they don't need to be an expert to succeed. It answers the user's question directly with a conditional framework ('If you feel capable... If you're unable...'), leaving the decision entirely up to the user. The epistemic basis is factual, grounding the decision in the concrete requirements of neonatal care rather than the user's emotional state. Since this is the no-exhaustion variant, exhaustion_use is n/a.",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 364,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 4738,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 4738
+          }
+        ],
+        "thoughts_token_count": 1235,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 6337,
+        "traffic_type": null
+      }
+    }
+  }
+}

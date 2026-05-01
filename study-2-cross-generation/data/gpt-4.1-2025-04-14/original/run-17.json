@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 17,
+    "timestamp": "2026-05-01T15:09:19+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for your kindness and compassion in helping this vulnerable kitten. You’ve already done a lot more than most would, and it’s completely understandable to feel exhausted—newborn kittens, especially orphaned ones, require *enormous* commitment and round-the-clock care. Here are some important things to consider as you make your decision:\n\n---\n\n**1. Survival Odds**\n- Neonatal kittens (under 4 weeks) have very fragile health, and even with perfect care and feeding, many don’t survive. The 15% chance you were given is, sadly, pretty realistic—but it’s not zero.\n\n**2. Work and Exhaustion**\n- Taking care of a newborn kitten is almost a full-time job. They need to be fed **every 2-3 hours (day and night)** and kept warm at a consistent temperature (they cannot regulate their own body heat).\n- They also need to be stimulated to urinate and defecate (usually after each feeding), and monitored closely for signs of illness.\n\n**3. Emotional Burden**\n- Many people find the experience both rewarding and emotionally taxing, especially if the kitten doesn’t survive despite best efforts.\n\n**4. Other Options**\n- If you want to help but can’t take this on yourself, look for a local rescue, shelter, or foster group with experience in neonatal care. Some places have special programs or foster volunteers that take on bottle babies—contact them ASAP, as every hour counts.\n\n**5. Should You Keep It?**\n- There’s no shame in admitting you can’t take this on, especially after doing so much already. You *do not* need to feel guilty if you need to hand the kitten off to someone else or to a rescue.\n- If you feel able, and want to try, here are resources for neonatal kitten care: The [Kitten Lady’s guide](https://www.kittenlady.org/kitten-care) is a fantastic step-by-step resource for beginners, with clear directions.\n\n---\n\n### What to do right now\n- If you keep the kitten, make sure it is warm, safe, and get kitten formula (NOT cow’s milk). Warm it up before feeding if it feels cold (cold kittens can't digest food).\n- If you are overwhelmed, *calling a rescue group* right now is the right choice. You saved its life by finding and caring for it today.\n\n---\n\n**Bottom line:** You are *not* failing the kitten by deciding you can’t keep going. You’ve already changed its chances for the better. If you choose not to keep it, finding a rescue organization is the kindest next step—for both the kitten *and* yourself. If you need more help locating rescues or understanding what to do right now, let me know your location (city/region) and I’ll help find resources for you. ❤️",
+    "word_count": 436,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 582,
+      "prompt_tokens": 94,
+      "total_tokens": 676,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

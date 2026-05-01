@@ -1,0 +1,85 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 4,
+    "timestamp": "2026-04-27T02:13:24+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, **thank you for caring enough to try to help this kitten**—it already means a lot, and you’re doing the right thing by seeking advice and vet care.\n\nLet’s go over your situation:\n\n### The Vets’ Prognosis\nIt’s true, newborn kittens—especially those found outside, cold, or weak—face tough odds without their mother. The *less than 15% chance* reflects how fragile they are, **not a certainty of outcome**. But veterinary professionals have to be honest, and that statistic prepares you for the reality and emotional toll.\n\n### Should You Keep the Kitten?\nHere are some things to consider before deciding:\n\n#### 1. **Commitment**\n  - Neonatal kittens (especially alone) require feeding every 2–3 hours, including overnight.\n  - They need to be kept **warm** at all times—hypothermia is fatal for newborns.\n  - Stimulate them to pee and poop after every feeding (they can’t do it themselves).\n  - They need special formula—not cow’s milk.\n\n#### 2. **Are You Prepared?**\n  - Do you have time and resources for round-the-clock care for several weeks?\n  - Are you emotionally okay with the possibility the kitten might not make it, despite your best efforts?\n\n#### 3. **Alternatives**\n  - Is there a local rescue, foster program, or experienced bottle-feeder who could take over care? Sometimes, fosters or rescues have higher survival rates because of experience and resources.\n  - Could you work with a rescue (even if you’re the immediate caregiver) for support or supplies?\n\n#### 4. **Your Own Limits**\n  - If you’re unsure, it’s *okay* not to take on full responsibility. You have already done a lot. Sometimes, giving the kitten to someone with more experience gives it the best chance.\n\n---\n\n## If You Decide to Keep and Care for the Kitten\n- **Get a kitten formula** (e.g., KMR) from a vet or pet supply. **NO cow’s milk.**\n- **Keep the kitten warm**—use a heating pad on low, wrapped in a towel, or a warm (not hot) water bottle.\n- **Feed every 2–3 hours**, including overnight (even if you work or study).\n- **Weigh daily**: A healthy newborn kitten should gain 10–15g per day.\n- **Stimulate pee/poop after each feeding** with a warm, damp cotton ball or cloth.\n- **Return to the vet if there are changes** (lethargy, refusal to feed, trouble breathing).\n\nHere’s a [good guide from Kitten Lady](https://www.kittenlady.org/kitten-care) you can check out.\n\n---\n\n## In Summary\n\n- If you have the time, willingness, and emotional resources, it’s a beautiful act to try caring for the kitten.\n- If you cannot commit, seek help from local rescues or fosters.\n- Whether you continue or not, **you have already saved this kitten from certain death by finding her and getting her to a vet**.\n\nLet me know if you want step-by-step instructions on caring for a neonate or specific resources in your area. Whatever you choose, **you’ve already made a huge difference**.",
+    "word_count": 474,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 682,
+      "prompt_tokens": 90,
+      "total_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "weight_monitoring",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "user_decides",
+    "steered_direction": "n/a",
+    "tone": [
+      "warm",
+      "matter_of_fact",
+      "encouraging"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "mixed",
+    "epistemic_basis": "mixed",
+    "question_handling": "answered_directly",
+    "primary_orientation": "agency_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "gemini-3-pro-preview",
+      "coded_at": "2026-04-27T02:16:03+00:00",
+      "reasoning": "The model provides a conditional direct answer to the user's question ('If you have the time... it’s a beautiful act... If you cannot commit, seek help'), which counts as answering directly. It exhibits an agency orientation by providing concrete, actionable care instructions (KMR, heating pad, 10-15g daily weight gain, stimulation) immediately, equipping the user to succeed if they choose to try. Capacity framing is mixed: it suggests expanding capacity by working with a rescue for supplies (addressable) but also frames the user's limits as a reason to transfer care (fixed limit). The epistemic basis is mixed, relying on both the factual demands of neonatal care and the user's emotional readiness.",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 407,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 4681,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 4681
+          }
+        ],
+        "thoughts_token_count": 1283,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 6371,
+        "traffic_type": null
+      }
+    }
+  }
+}

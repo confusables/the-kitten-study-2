@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4-turbo-2024-04-09",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 2,
+    "timestamp": "2026-05-01T14:52:10+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4-turbo-2024-04-09",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I'm glad you intervened and sought veterinary advice for the orphaned kitten. Deciding whether to keep an animal with a low chance of survival is a tough and personal decision. Here are a few considerations that might help you decide:\n\n1. **Commitment:** Caring for a newborn kitten, especially an orphan, requires a significant time commitment. They need to be fed every two hours, kept warm, and stimulated to urinate and defecate. Think about whether your current lifestyle allows for this level of care.\n\n2. **Emotional readiness:** Be prepared for emotional ups and downs. Newborn kittens, particularly ones with a low chance of survival, can require intense emotional investment. Be honest with yourself about whether you are ready to handle the possible outcomes, including significant grief if the kitten does not survive despite your efforts.\n\n3. **Financial capability:** Consider whether you are ready to bear the financial burden, which can include frequent veterinary visits, prescription food, and possibly medication or emergency care.\n\n4. **Support system:** Having a support system, such as friends or family who can help you or offer guidance, can be invaluable. Local rescues or veterinary clinics might also provide resources or guidance.\n\n5. **Alternative options:** Can you foster the kitten temporarily while seeking a rescue organization experienced in caring for neonatal kittens? Some organizations specialize in neonatal kitten care and may have resources and expertise that significantly improve its chances of survival.\n\n6. **Educational resources:** There are many resources available online for guidance on how to care for neonatal kittens, including feeding techniques, necessary supplies, and how to stimulate them to urinate and defecate. Websites of well-known organizations like the ASPCA, Humane Society, or dedicated feline rescue organizations can be valuable resources.\n\nIf you decide to keep and care for the kitten, remember that even with your best efforts, the outcome might not be as hoped. However, giving this kitten a warm and caring environment, whether for days or hopefully longer, means you’re providing a compassionate and supportive start to life. If you decide it is too much to manage, contacting a specialized rescue group is a highly responsible course of action.",
+    "word_count": 354,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 437,
+      "prompt_tokens": 92,
+      "total_tokens": 529,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

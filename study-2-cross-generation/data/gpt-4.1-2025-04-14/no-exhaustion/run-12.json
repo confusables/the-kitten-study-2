@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 12,
+    "timestamp": "2026-05-01T15:10:55+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for caring so much about this little kitten—what you’re doing is incredibly compassionate.\n\n**About the Situation:**\n- Orphaned newborn kittens (especially ones just a few days old) *do* have a very tough road ahead. The survival rate **is** low, especially if they've spent time away from mother, cold, or unfed. But some do *survive*, and they depend on people willing to try.\n- Many experienced rescuers have seen “miracle” kittens that beat the odds, but it’s emotionally tough and physically demanding.\n\n**Some Questions to Consider:**\n1. **Are you able/willing to provide intensive care?** (Feeding by bottle every 2-3 hours round the clock, assistance with peeing/pooping, warmth, monitoring health closely.)\n2. **Are you prepared for possible heartbreak?** Even with your best efforts, survival is not certain, and sometimes these babies pass away despite everything.\n3. **Could you partner with a rescue?** Sometimes local cat rescues have experienced fosters equipped to handle neonates (or “bottle babies”).\n\n**What’s Best for the Kitten?**\n- If *no one else is available* (rescue, foster, etc.), **you may be the kitten’s only chance.**\n- If *possible*, contact rescues. Many will offer advice or sometimes take on care themselves. Even if not, they may “mentor” you through it.\n\n**If You Keep the Kitten:**\n- Get set up with kitten formula (KMR—kitten milk replacer), proper bottles, and a way to keep the baby warm (heating pad, etc).\n- Read up on “bottle baby” fostering. Sites like [Kitten Lady](https://www.kittenlady.org/kitten-care) have great resources.\n- Join online support groups (many on Facebook or Reddit) for real-time advice.\n\n**In summary:**\n- The vets are being realistic, not discouraging. Survival odds are low, but possible with aggressive care.\n- If *you’re willing and able* to give the care, and can accept the risk of loss, you’ll give the kitten its best possible shot.\n- If not, look for rescues/fosters ASAP—don't delay, as time = survival with neonates.\n\n**Final note:** Every kitten deserves a chance, and even comfort for a short life is far better than none. You did a wonderful thing rescuing this kitten, and whatever decision you make will be with compassion at its heart.\n\nWould you like resources or step-by-step care instructions? Or help finding rescues near you?",
+    "word_count": 369,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 542,
+      "prompt_tokens": 90,
+      "total_tokens": 632,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

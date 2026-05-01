@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 9,
+    "timestamp": "2026-05-01T15:10:10+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for showing such compassion — you’ve already done a huge kindness by caring and seeking help for this vulnerable kitten.\n\nHere's a breakdown of your situation and some things to consider:\n\n### 1. **Survival Chances**\n- **Survival rate:** It's *true* newborn kittens (especially under a week old, sometimes called 'neonatal kittens') have low chances of survival without their mother, even with human caregiving. The stats your vets gave reflect that—mainly due to the very intense, round-the-clock care required and the kitten’s vulnerability to hypothermia, dehydration, infection, etc.\n\n### 2. **What Orphaned Neonatal Kittens Need**\n- **Warmth:** They cannot regulate their body temperature.\n- **Regular feeding:** Needs to be bottle-fed with kitten formula every 2-3 hours *around the clock* (not cow’s milk!)\n- **Stimulation:** Needs to be stimulated to urinate and defecate after each feeding (they can’t do it alone yet).\n- **Clean, safe environment:** Free from drafts, other pets, and hazards.\n\n### 3. **Things to Ask Yourself**\n- **Can you commit?** For at least a few weeks, caring for this kitten means *no skipping night feedings*, regular check-ups, cleaning, and lots of monitoring. It’s a big undertaking, and burnout is real.\n- **Will you have support?** Some animal rescues or experienced fosters specialize in neonatal kittens—if you feel in over your head, you could reach out to them.\n- **Is euthanasia appropriate?** Sometimes, if a kitten is in very bad shape (hypothermic, not eating, unresponsive), the kindest thing may be to prevent prolonged suffering.\n\n### 4. **What Are Your Options?**\n- **Keep and care for the kitten:** If you have the emotional, physical, and time resources. You *might* beat the odds (some people do!), and it’s extremely rewarding.\n- **Contact a local rescue:** Many animal shelters or rescue groups have “kitten fosters” who are trained and can take over. It does not mean you did less—it’s putting the kitten’s needs first.\n- **Euthanasia:** If vets believe the kitten is very likely to suffer and not survive, sometimes this is sadly the most humane route.\n\n### 5. **What to Do Next**\n- **If you want to try:** Ask your vet to show you how to feed and care for it. Get kitten formula and supplies ASAP. There are *many* guides (I can provide step-by-steps if you wish) on neonatal kitten care.\n- **If you don't feel able:** Contact local rescues, animal services, or even post on social media—sometimes kitten fosters can be found quickly for emergencies.\n\n### **In Short**\nThis is a hard and personal choice. If you feel overwhelmed, it's okay—and sometimes *giving the kitten to an experienced foster or shelter* is the best way to give it a fighting chance. But if you’re ready to try, there’s support out there, and many people have successfully raised bottle babies—even against the odds the vets shared.\n\n**Would you like step-by-step advice on kitten care, or help in finding rescue groups/fosters near you?**",
+    "word_count": 484,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 676,
+      "prompt_tokens": 90,
+      "total_tokens": 766,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

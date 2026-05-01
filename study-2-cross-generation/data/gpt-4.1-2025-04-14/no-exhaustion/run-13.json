@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 13,
+    "timestamp": "2026-05-01T15:11:06+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for showing so much compassion and care for this vulnerable kitten—what you did already demonstrates real kindness.\n\nNeonatal kittens (especially found outside and separated from their mother) *are* extremely fragile. The 15% survival estimate from the vets is unfortunately realistic; at just a few days old, kittens rely totally on their mother’s warmth and milk, and infection, dehydration, or hypothermia can all be fatal within hours. That makes saving them challenging, but **not impossible**.\n\n**Should you keep it?**  \nThat depends on a few factors:\n\n### 1. **Can you actively care for it?**\nOrphaned newborns need:\n- **Bottle feeding** (every 1–2 hours, day and night, with a special kitten formula *never cow’s milk*)\n- **Warmth** (they cannot regulate their own temperature; needs a heating pad or warm, soft bedding)\n- **Stimulation to pee/poop** (normally the mother does this by licking; you have to gently stimulate after every feeding)\n- **Close monitoring** for any signs of illness\n\nAre you able to commit to round-the-clock care for at least the next 3–4 weeks?  \nIf you have a job/school and can’t manage night feeds, success will be hard.\n\n### 2. **Are there local rescues willing to help?**  \nSometimes, kitten rescues or fosters have the equipment and experience to give such kittens the best chance. It might be worth contacting local animal shelters, rescue groups, or even putting out a call on social media for “bottle baby” fosters.\n\n### 3. **Emotional preparedness:**  \nSometimes, even with perfect care, these kittens do not survive. It can be heartbreaking. Are you prepared for that possibility?\n\n### 4. **Financial commitment:**  \nCaring for a neonatal kitten can mean formula, supplies, and sometimes vet care for emergencies.\n\n---\n\n## **If You Decide To Try:**\n- **Get kitten formula** (KMR or similar, not cow’s milk or human baby formula!)\n- **Get a small animal feeding bottle or syringe**\n- **Set up a warm, draft-free box or carrier**\n- **Start round-the-clock feeding** (and stimulating to pee/poop)\n- **Watch for signs of illness** (lethargy, refusing food, trouble breathing)\n\n#### FIND A NEONATAL KITTEN CARE GUIDE:\n- [Kitten Lady – Orphan Kitten Care](https://www.kittenlady.org/kitten-care)\n- [ASPCA – Caring for Neonatal Kittens](https://www.aspca.org/news/how-care-orphaned-kitten)\n\n---\n\n**If you CAN’T provide that level of care,**  \nYour best next step is to keep reaching out to rescue groups, shelters, or vet staff—sometimes a vet tech or a shelter volunteer may have experience fostering “bottle babies.”\n\n---\n\n**Summary:**  \n- If you have the ability and willingness to provide intense care, keeping the kitten could be its best chance, *but* be aware it’s a big commitment with risks.\n- If not, focus on finding an experienced foster or rescue ASAP.\n\nWhatever you decide—you’ve already done a lot for this kitten. If you need help with step-by-step care instructions, just ask. ❤️",
+    "word_count": 460,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 684,
+      "prompt_tokens": 90,
+      "total_tokens": 774,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

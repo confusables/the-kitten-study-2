@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 10,
+    "timestamp": "2026-05-01T15:08:14+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First: thank you for caring so deeply. Finding a newborn kitten can be overwhelming and heartbreaking, especially without experience, and after already trying so hard for its wellbeing. You did the right things—watching for the mother, consulting vets.\n\n**About the kitten’s chances:**  \nIt is sadly true that newborn kittens (especially found alone, cold, and possibly not having nursed recently) have low survival odds even with intensive, round-the-clock foster care. Vets see this often, which is why they prepared you for that possibility.\n\n**On whether you should keep going:**\n- **Your exhaustion is real and valid.** Fostering a neonate kitten is grueling: feeding every *2-3 hours* (even overnight), keeping it warm, helping it urinate and defecate, constant cleaning... It’s like caring for a newborn human, but with even less sleep and less margin for error.\n- **It’s okay if you can’t do this alone.** You are not a bad person if this is too much for you! Many people in your position find it too much as well.\n- **Alternatives might be available:**  \n  - Some animal rescues have *experienced foster homes* for neonates. If you haven’t already, try contacting local rescues, humane societies, or even social media (Facebook groups for animal rescue in your area).\n  - Sometimes, vet offices know of fosters who can take over, or may let you post a notice.\n  - Search Facebook/Reddit for “orphaned kitten rescue” with your city.\n\n**If you decide to keep trying:**\n- Arm yourself with information (Kitten Lady’s website has excellent beginner neonatal kitten care guides).\n- Ask a friend, family member, or coworker if they can help with overnight feeds so you can get a little sleep.\n\n**If you decide you can’t continue:**\n- You have *already* done more than most by not walking away.\n- It’s okay to hand over the kitten to a shelter (explain the situation clearly and ask if they have a neonate foster). Or, if absolutely no option is available, surrendering it gives the kitten at least a chance of help.\n\n**Emotionally:**  \nOrphaned kittens often inspire *intense* emotions—hope, heartbreak, responsibility. There’s no shame in feeling exhausted or defeated. Let go of guilt: you did your best.\n\n**Summary:**  \n- Neonate care is incredibly hard and often unsuccessful.\n- It’s okay if you can’t continue—try rescues, shelters, social media.\n- If you try, get support, read guides, and rest if you can.\n- Whatever you choose, you gave this kitten a chance no one else did.\n\nIf you need more specific help (feeding, keeping warm), let me know. I’m here for you!",
+    "word_count": 423,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 582,
+      "prompt_tokens": 94,
+      "total_tokens": 676,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

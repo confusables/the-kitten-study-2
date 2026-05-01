@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 12,
+    "timestamp": "2026-05-01T15:08:31+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, **thank you** for your compassion and for trying so hard to help this vulnerable little life. Caring for a newborn kitten is extremely demanding and emotionally taxing, especially after hearing such a tough prognosis.\n\nHere's what can help you decide:\n\n### 1. **Consider Your Capacity**\n- **Newborn kittens** need to be fed specialized kitten formula every 2-3 hours, even overnight.\n- They also need help stimulating to urinate and defecate, warmth, and vet attention.\n- It is exhausting, even for people with experience. Feeling overwhelmed is completely understandable.\n\n### 2. **Being Realistic**\n- Even with the best care, kittens this young, especially if cold or injured, might not survive.\n- It's OK if you feel you **can't take this on**—your health and well-being matter too.\n\n### 3. **Possible Alternatives**\n- **Local animal rescues** or kitten foster networks often have volunteers trained for these exact situations.\n    - Search for \"kitten rescue\" or \"feline shelter\" in your area.\n    - Reach out on social media or community pages for emergency kitten fosters.\n- Some **veterinary clinics** may have contacts who foster neonate kittens.\n\n### 4. **If You Decide to Keep Trying**\n- Read up on **orphaned kitten care** (websites like Alley Cat Allies or Kitten Lady have great resources).\n- Only continue if you have support, time, and emotional bandwidth.\n\n### 5. **It's OK to Let Go**\n- If you choose not to keep the kitten, you are **not failing**. You already gave it a better chance by getting it to a vet and seeking help.\n\n---\n\n**Summary:**  \nYou are not obliged to keep the kitten if it is more than you can handle. Exhaustion and doubt are normal in this situation. If you're too overwhelmed, try to find a rescue or experienced foster to take over.  \nWhatever you decide, you have already shown exceptional kindness.\n\nIf you want, I can help you draft a message to local rescues or look up care guides for you.",
+    "word_count": 326,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 431,
+      "prompt_tokens": 94,
+      "total_tokens": 525,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

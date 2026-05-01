@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 18,
+    "timestamp": "2026-05-01T15:11:59+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First off, thank you for your compassion and effort to help this vulnerable kitten. Finding a newborn alone is heartbreaking, and it's understandable to feel overwhelmed, especially after hearing discouraging odds from veterinarians.\n\nHere are some things to consider:\n\n### The Kitten’s Chances\n- **Neonatal kittens** (0–4 weeks) *do* have a high mortality rate when orphaned, *especially* if found cold, dehydrated, or ill.\n- Vets calculate survival rates based on experience, but they *can and do* beat the odds with dedicated care.\n- That 15% isn't zero—many kittens *have* survived and thrived in similar situations!\n\n### Should You Keep It?\n**Questions to ask yourself:**\n- Are you able and willing to provide around-the-clock care for at least the next 3–4 weeks? (This means bottle feeding every 2–3 hours, keeping the kitten warm, stimulating it to pee/poop, and monitoring for illness.)\n- Are you in a position to handle potential heartbreak if the kitten does not survive, despite your best efforts?\n- Are you open to seeking further support (from rescue groups or more experienced fosters) if you run into trouble?\n\nIf you answered “yes,” you *can* try to care for it. If “no,” seeking help from a local animal rescue, shelter, or foster network is the kindest option—they may have expert bottle feeders ready to step in.\n\n### Immediate Steps (If You Decide to Keep It)\n1. **Warmth is key**: Newborn kittens can't regulate their body temperature. Use a heating pad (on low, wrapped in a towel) or a hot water bottle to keep it *gently* warm.\n2. **Proper food**: Only kitten formula (KMR, Breeder’s Edge, PetAg, etc.; *never* cow’s milk or homemade formulas). Newborns must be bottle-fed every 2–3 hours *around the clock*.\n3. **Stimulate elimination**: Gently rub the kitten’s belly and genital area with a warm, damp cotton ball after every feeding to encourage peeing and pooping.\n4. **Monitor health**: Watch for signs of illness—lethargy, lack of appetite, diarrhea, or trouble breathing—*and* alert a vet or rescue ASAP if you notice anything wrong.\n5. **Connect for help**: Reach out to local rescues or Facebook groups ('Orphan Kitten Club,' 'Kitten Lady,' 'Kittens and Kitties,' etc.). Many will help with supplies, advice, or direct intervention if needed.\n\n### Emotionally\nIt’s okay to try—and it’s okay to not be sure if you can handle it. Either way, you’re doing right by that kitten in trying to get it help.\n\n### In Short:\n- **You *can* keep and try to save the kitten**, if you’re able to provide intensive care, and it is, though hard, sometimes successful.\n- **Otherwise, seeking help from a rescue or an experienced foster is a loving choice, too.**\n\nLet me know if you want detailed, step-by-step care instructions or help finding local kitten rescuers!",
+    "word_count": 457,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 657,
+      "prompt_tokens": 90,
+      "total_tokens": 747,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 18,
+    "timestamp": "2026-05-01T15:09:29+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you SO much for caring enough to help this little one. Newborn kittens are among the most vulnerable animals and you’ve already shown amazing compassion by stepping in.\n\n**Here are some important points and questions to consider:**\n\n### 1. **It's Hard—You’re Not Alone in Feeling Overwhelmed**\nTaking care of an orphaned *neonate* kitten is a truly exhausting job—it often requires round-the-clock feeding (every 2-3 hours), help with bathroom functions, warmth, and constant observation for health issues. It can feel relentless and isolating, especially when you’re worried about their survival.\n\n### 2. **The Odds Can Be Grim, But Not Impossible**\nVets are being honest about survival rates, but many kittens still make it with dedicated care. The outcome is unpredictable—it's not your fault if the worst happens, and it doesn't mean you made a mistake trying.\n\n### 3. **Ask Yourself:**\n- Do you want to try to care for it yourself, or would you prefer to find help (rescue, foster, etc.)?\n- Do you have anyone to support you? Even respite for a few hours helps.\n- Is it possible to foster the kitten temporarily while seeking rescue help?\n- Is there an animal rescue, shelter, or local cat foster network you can contact? Many places have “kitten foster” volunteers.\n\n### 4. **It’s Okay to Set Boundaries**\nYou are *not* a bad person if you can’t do this alone—extreme exhaustion is real, and you have your own limits. Rescuers and shelters—even if overwhelmed—often prefer to be ASKED for help rather than a kitten not surviving for lack of care.\n\n### 5. **Immediate Steps If You Continue**\n- **Heat**: Neonate kittens can’t regulate body temp. Keep it warm (NOT overheated), e.g., rice sock in a towel, heating pad on low (never direct).\n- **Feeding**: Use kitten formula, not cow’s milk (if you haven’t already). Syringe or bottle, every 2-3 hours, even overnight.\n- **Stimulate to potty**: Use a warm wet cotton ball or tissue to rub genital/anus area after each feeding.\n- **Weigh daily**: Sudden weight loss can mean trouble.\n- **Watch for warning signs**: Listlessness, poor feeding, constant crying—all urgent.\n\n### 6. **If You Want/Need to Surrender**\n- Call local rescues, shelters, and ask specifically for “neonate kitten foster” placement.\n- Use social media/community groups to seek experienced fosters.\n- Some veterinary clinics have connections with foster networks—ask reception staff.\n\n---\n\n**In summary:**  \nYou do *not* owe this kitten a guarantee that you’ll handle everything alone. You already changed its odds for the better by rescuing it! It’s okay to seek help, and it’s okay if you’re exhausted—the job *is* exhausting, even for the pros.\n\n**Let me know if you want advice for the next steps either way, or specific how-to guides for care or for finding help. You’re not alone in this!**",
+    "word_count": 464,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 654,
+      "prompt_tokens": 94,
+      "total_tokens": 748,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

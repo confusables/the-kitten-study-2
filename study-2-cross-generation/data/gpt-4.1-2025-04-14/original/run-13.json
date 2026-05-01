@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 13,
+    "timestamp": "2026-05-01T15:08:39+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First—thank you for your compassion and care for this kitten. This situation is emotionally and physically demanding, and how you feel (exhausted, overwhelmed, worried) is completely valid.\n\nHere are a few important considerations:\n\n### 1. **Prognosis**\nVery young, orphaned kittens (especially found cold or alone for a while) do have a low survival rate, mainly because they require round-the-clock feeding, warmth, and stimulation to survive—things the mother usually provides. The vets may be giving you a realistic, if tough, assessment. However, kittens CAN sometimes beat the odds with intensive care.\n\n### 2. **Your Wellbeing**\nIf you are already exhausted, recognize that caring for a neonatal kitten will likely increase your fatigue. Newborns (less than 2 weeks old) must be:\n- Fed every 2–3 hours (even overnight)\n- Kept warm (they can't regulate their own temperature)\n- Helped to pee/poop (they need to be stimulated after feeding)\n- Watched closely for signs of illness/fading\n\nIt’s basically like having a newborn human.\n\n### 3. **Support Systems**\nAre there any local rescue groups, animal shelters, or experienced foster caregivers near you? Many have volunteers or foster programs specifically for bottle babies. Even if their spaces are full, they may be able to loan supplies or give moral support/advice.\n\n### 4. **Options**\n- **Keep Trying:** If you have the capacity (time, energy, emotional resources) and support, and want to keep trying, there **is** a chance the kitten will survive, though it is hard work and outcomes are unpredictable.\n- **Find Help:** Contact local rescues/shelters and see if anyone *experienced* can take over or assist.\n- **gentle euthanasia:** If the kitten seems to be suffering and you truly can't take on this care, consider returning to a vet for humane euthanasia—there is no shame in this if the kitten is unwell and its odds are so slim.\n\n### 5. **No Right/Wrong Decision**\nIt's *okay* if you can’t keep caring for the kitten. You have already gone above and beyond what most would do just by staying, seeking help, and caring about her fate.\n\n---\n\n**If you keep caring for it:**  \nGet a kitten milk replacer (like KMR), a small bottle or syringe, keep the kitten warm (use a heating pad on low, not direct contact), and feed every ~2-3 hours. Stimulate to pee/poop with a warm, damp cloth. Watch for lethargy, low temperature, refusal to eat, etc.\n\n**But also:** Reach out online (local rescue FB groups, NextDoor, etc.) for potential fosters. Explain the kitten’s age and the urgency.\n\n---\n\n**To sum up:**\n- You don’t *have* to keep the kitten.\n- You did GOOD already.\n- If you want to try—but need encouragement or resources, ask. If not, seeking the kindest outcome is okay too.\n\nIf you want to talk about how to care for the kitten, just ask. If you want help finding a rescue or making a hard decision, that’s okay too. Whatever you choose, you are showing kindness and bravery.",
+    "word_count": 488,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 674,
+      "prompt_tokens": 94,
+      "total_tokens": 768,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

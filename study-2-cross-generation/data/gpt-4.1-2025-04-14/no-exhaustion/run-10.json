@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 10,
+    "timestamp": "2026-05-01T15:10:27+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you so much for caring enough to help this vulnerable creature. It's a big responsibility to step up the way you did.\n\nWhether you **should** keep the kitten depends on a few things:\n\n## Considerations\n\n**1. Commitment:**  \nNewborn kittens require round-the-clock care, especially in their first few weeks. This means bottle feeding every 2–3 hours (including at night), helping them go to the bathroom, keeping them warm, etc.\n\n**2. Resources:**  \nDo you have the time, energy, and possibly money for supplies (kitten formula, bottle, heating pad, vet visits)? If not, is there a rescue group or foster network near you that specializes in neonates? They might have volunteers with experience.\n\n**3. Emotional Preparedness:**  \nUnfortunately, your vets are correct—newborn kittens, especially those who have been abandoned, have a low chance of survival, even with great care. It can be emotionally taxing.\n\n**4. Foster or Adopt?**  \nYou can foster the kitten (care for it until it's old enough to be adopted). If you find a rescue, they might be able to provide some support or take the kitten. Or you can attempt to raise the kitten yourself, and consider keeping them forever if you bond!\n\n## What You Can Do\n\n### If you want to keep/foster:\n- **Learn quickly:** There are lots of resources online (like Kitten Lady, ASPCA, Alley Cat Allies, or YouTube) for orphaned kitten care.\n- **Supplies:** Buy kitten formula (Not cow's milk!), a kitten bottle, and something to keep the kitten warm (a heating pad, rice sock, or warm water bottle—set to low and covered so the kitten can't burn itself).\n- **Routine:** Feed every 2–3 hours. Stimulate the kitten to go to the bathroom with a warm, damp cloth after every feeding.\n- **Monitor:** Watch for signs of distress (crying constantly, cold body, not eating).\n- **Vet visits:** Keep consulting with your vet if you notice any worrying developments.\n\n### If you feel unable:\n- **Contact local animal rescues/shelters:** Some have foster programs or \"kitten nurseries.\"\n- **Network:** Social media often helps find someone with experience.\n- **Don't feel guilty:** Neonatal kittens are HARD to save. You've already done so much.\n\n## In Summary\n\n- **If you're willing and able** to try, and understand the risks, you might want to keep/foster the kitten until it's strong enough to be adopted (or you decide to adopt).\n- **If you can't**, do your best to find a local foster or rescue.  \n- **Whatever you decide,** you've given the kitten more of a chance than it would have had otherwise. That matters.\n\n**Would you like step-by-step guidance on newborn kitten care? Or help finding a rescue/foster network?**",
+    "word_count": 439,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 598,
+      "prompt_tokens": 90,
+      "total_tokens": 688,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

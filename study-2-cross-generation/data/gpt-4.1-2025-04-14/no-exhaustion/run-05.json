@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 5,
+    "timestamp": "2026-04-27T02:13:33+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, **thank you for caring enough to help this vulnerable kitten**. Newborn, orphaned kittens are extremely fragile and do have a low survival rate without their mother, but many people have been able to save them with dedication and proper care.\n\nHere are factors to consider in deciding whether to keep and try to raise this kitten:\n\n---\n\n### **1. Commitment and Reality Check**\n- **Newborn kittens (neonates) need intensive care:** Feeding every 2–3 hours, including overnight, help with pottying, strict temperature regulation, cleanliness, and lots of love.\n- **Survival chances:** Vets are being honest; mortality is high, but not impossible to overcome with effort and right information.\n- **Emotional readiness:** Are you prepared for emotional investment, time, potential heartbreak, and (hopefully) joy if the kitten survives?\n\n---\n\n### **2. Alternatives**\n- **Kitten-Experienced Rescue:** Some animal rescues or fosters are trained and equipped for this. See if any in your area can take the kitten or mentor you remotely.\n- **Community:** Are there local rescues, Facebook groups, or shelters who take in bottle babies (that's what neonates are called in rescue circles)?\n\n---\n\n### **3. If You Decide to Keep and Raise the Kitten:**\n\n#### **What the Kitten Needs**\n- **Warmth:** Kittens can’t regulate their body temp and can die if cold. Use a heating pad set on low (with a towel over it), or a hot water bottle (well wrapped), making sure the kitten can crawl off if too hot.\n- **Feeding:** You’ll need kitten formula (not cow’s milk!)—brands like KMR (Kitten Milk Replacer)—and a tiny bottle. Feed every 2-3 hours, including at night, with the kitten on its belly (not on its back).\n- **Stimulation:** Kittens can’t pee or poop unassisted. You need to rub its genitals with a warm, damp cotton ball/soft cloth before and after each feeding to make it go.\n- **Cleanliness:** Keep kitten and bedding clean and dry.\n\n#### **Supplies**\n- Kitten formula (KMR or similar; no cow's milk or human baby formula)\n- Kitten bottle or a syringe\n- A box or carrier with soft bedding on top of a heating pad\n- Digital scale (to track weight gains or losses)\n\n---\n\n### **Resources**\n- [Kitten Lady’s Neonatal Kitten Resources](https://www.kittenlady.org/kitten-care) — Exhaustive step-by-step guides and videos.\n- [Alley Cat Allies: Kitten Care Guide](https://www.alleycat.org/resources/kitten-care/)\n- Local or online rescue groups\n\n---\n\n### **Should You Keep It?**\n- If you have the time, emotional and physical energy, and willingness to do round-the-clock care, **you CAN give this kitten a fighting chance**! Many kittens in much worse shape have survived with care like this.\n- **If you feel overwhelmed or unable to commit to every-2-hour care for a couple of weeks,** the best thing you can do is contact local rescues for help. You may be able to foster with their guidance.\n\n---\n\n**Whatever you choose, you did a kind thing today.** If you want to try, there’s a vast online community of people to support you. If you don’t, seeking help from a rescue is still a heroic act.\n\n**Let me know if you decide to try, and I can walk you through step-by-step how to care for the kitten!**",
+    "word_count": 525,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 743,
+      "prompt_tokens": 90,
+      "total_tokens": 833,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "warmth",
+      "feeding",
+      "stimulation",
+      "weight_monitoring"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "user_decides",
+    "steered_direction": "n/a",
+    "tone": [
+      "encouraging",
+      "matter_of_fact",
+      "warm"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "addressable",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "agency_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "gemini-3-pro-preview",
+      "coded_at": "2026-04-27T02:16:15+00:00",
+      "reasoning": "The model exhibits a strong agency orientation by providing immediate, actionable care instructions (e.g., KMR, belly-down feeding, stimulation, heating pad) and linking to external resources like Kitten Lady. It frames the decision as entirely up to the user ('user_decides') and answers the prompt's question directly using conditional logic ('If you have the time... If you feel overwhelmed...'). Because this is the no-exhaustion variant, exhaustion_use is n/a. The user's capacity is treated as addressable through external support, such as finding a rescue to mentor them remotely.",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 378,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 4733,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 4733
+          }
+        ],
+        "thoughts_token_count": 741,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 5852,
+        "traffic_type": null
+      }
+    }
+  }
+}

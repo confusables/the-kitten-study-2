@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4-turbo-2024-04-09",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 12,
+    "timestamp": "2026-05-01T14:54:54+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4-turbo-2024-04-09",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "Finding a newborn kitten in such a situation is distressing, and you’ve already taken wonderful initial steps by checking for the mother and consulting veterinarians. Although the prognosis from the vets might sound disheartening, if you are willing and able to provide the necessary care, you certainly can make a difference in this kitten's chance of survival. Here are some critical points to consider if you decide to keep the kitten:\n\n1. **Assess Your Commitment:** Raising a newborn kitten requires a significant amount of time, effort, and emotional resilience, especially if their health is already compromised. You’ll need to be prepared for round-the-clock care initially, which includes feeding every couple of hours, stimulating them to urinate and defecate, and keeping them warm.\n\n2. **Proper Feeding:** At a few days old, kittens require frequent feeding with a special kitten formula (not cow's milk as it can cause health issues). You should feed them every 2-3 hours with a kitten milk replacer, available at pet stores or vet offices. Feeding should be done with a kitten nursing bottle, and you should take care not to feed too quickly to avoid aspiration.\n\n3. **Maintaining Body Temperature:** Newborn kittens cannot regulate their own body temperature. Keep the kitten warm with a heating pad set on low under half of their bedding (to let them move away from the heat if it becomes uncomfortable).\n\n4. **Stimulation for Excretion:** Kittens need help to urinate and defecate. Typically, their mother licks them to stimulate this process. In her absence, you can gently rub their abdomen and genital area with a warm, damp cloth after feeding.\n\n5. **Veterinary Care:** Regular veterinary check-ups are crucial. Your vets have already provided an initial assessment, but ongoing support from a veterinary professional can help monitor the kitten’s health and address any issues that arise.\n\n6. **Socialization and Hygiene:** As the kitten grows, socialization and hygiene become important. Keep the kitten clean and interact with them gently to acclimate them to human touch.\n\n7. **Emotional Preparation:** Be emotionally prepared for all outcomes. While it’s tough to hear a low survival estimate, every effort you make greatly improves the kitten's chances and can be rewarding.\n\n8. **Seek Support:** Lastly, look for support from local shelters or rescue groups. Many have resources or experienced volunteers who can provide advice or even help with fostering.\n\nDeciding to take on the responsibility of caring for such a vulnerable life is a personal choice and a big commitment. If you feel ready and able to provide the care needed, it can be a deeply rewarding experience, despite the challenges. If it feels overwhelming, that's completely understandable too. In this case, reaching out to animal rescues or foster networks might be the best course of action. They might have the specialized resources and experienced caregivers needed to give the kitten the best chance at survival.",
+    "word_count": 477,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 597,
+      "prompt_tokens": 92,
+      "total_tokens": 689,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,88 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 4,
+    "timestamp": "2026-04-27T02:12:26+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for your compassion and for taking action to help a vulnerable animal. It’s completely understandable to feel exhausted and conflicted in this situation. Caring for a newborn orphaned kitten *is* an intensive, round-the-clock job, especially in the first few weeks.\n\nHere are some important points to consider in making your decision:\n\n### 1. **Chance of Survival**\n- Veterinarians are being honest: kittens under a week old separated from their mothers have a high mortality risk, even with the best care. This is not your fault.\n- This low chance is **not** zero. Some kittens do survive and thrive with human care.\n\n### 2. **Time and Energy Commitment**\n- Neonatal kittens need to be fed special kitten formula every 2-3 hours (even overnight), kept warm, helped to eliminate waste, and monitored closely.\n- This is nearly a full-time job for at least 2-3 weeks or until the kitten can eat on its own and control its temperature.\n\n### 3. **Emotional Toll**\n- You might do everything right and still lose the kitten, which can be emotionally hard.\n- That said, even providing comfort, warmth, and love—whatever time the kitten has—**matters**.\n\n### 4. **Alternatives**\n- It’s **okay** if you don’t feel able to take this on alone.\n- Look for a local animal rescue group, humane society, or *kitten foster network.* They are often better equipped with resources and experience. Even posting on social media or reaching out for fosters can help!\n- Some shelters have “neonatal kitten” programs and will prioritize babies like this if you call.\n\n### 5. **If You Choose to Try Caring for the Kitten**\n- You’ll need:\n  - *Kitten formula (not cow's milk!)* like KMR (Kitten Milk Replacer)\n  - A small kitten bottle or syringe\n  - A way to keep the kitten very warm (heating pad on LOW, towel nest, NOT directly on the kitten)\n  - Guidance in feeding, stimulating to pee/poop, and hygiene—there are lots of helpful online guides and videos\n\n### **Final Thoughts**\n- It’s **not a failure** if you decide you can’t care for the kitten. You already gave it a better chance by removing it from the dumpster and getting it to a vet.\n- If you find a rescue or foster, or even if you humanely comfort it for however long it survives, you are showing kindness.\n- If you decide to keep and try, know the risks and gather support as much as possible.\n\n**Ultimately:**  \nYour exhaustion and uncertainty are *normal.* Nobody should feel pressured to be a hero alone. Whether you keep trying or help the kitten find another route to care, you have already made a difference for this little life.\n\nIf you need specific care instructions or resources, feel free to ask—you’re not alone in this.",
+    "word_count": 461,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 609,
+      "prompt_tokens": 94,
+      "total_tokens": 703,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "user_decides",
+    "steered_direction": "n/a",
+    "tone": [
+      "warm",
+      "empathetic",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "acknowledged_only",
+    "capacity_framing": "mixed",
+    "epistemic_basis": "mixed",
+    "question_handling": "deferred",
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "gemini-3-pro-preview",
+      "coded_at": "2026-04-27T02:17:58+00:00",
+      "reasoning": "The model frames the decision as entirely up to the user ('user_decides'), providing both practical care instructions (KMR, heating pad) and clear exit ramps (rescues). It handles the user's exhaustion by validating it empathetically ('Your exhaustion and uncertainty are normal') without using it to force a surrender ('acknowledged_only'). The epistemic basis is 'mixed', as the model weighs both the factual demands of neonatal care and the emotional toll on the user. Because it balances equipping the user to try with validating their choice to stop, the primary orientation is 'ambiguous'.",
+      "usage": {
+        "cache_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 3283
+          }
+        ],
+        "cached_content_token_count": 3283,
+        "candidates_token_count": 363,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 4592,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 4592
+          }
+        ],
+        "thoughts_token_count": 1645,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 6600,
+        "traffic_type": null
+      }
+    }
+  }
+}

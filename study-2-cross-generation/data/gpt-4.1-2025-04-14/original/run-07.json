@@ -1,0 +1,83 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 7,
+    "timestamp": "2026-04-27T02:12:48+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for caring enough to help this vulnerable kitten. It’s understandable to feel exhausted—newborn kittens require constant care and it’s very emotionally and physically demanding, especially if the outlook is poor.\n\nIf you **feel overwhelmed**, it’s not a failure to seek help. You don't have to do this alone, especially if you're not set up for round-the-clock care.\n\nHere are your options:\n\n### 1. **Local Kitten Rescue or Foster Network**\n- Try contacting local animal rescues, shelters, or kitten foster groups. Many have experience and resources for neonates.\n- Social media or apps like Nextdoor can help you connect with kitten fosters.\n\n### 2. **Keep Caring Yourself**\nIf you’re determined to try:\n- Be aware: neonate kittens need feeding every 2–3 hours (including overnight), must be kept warm, and require stimulation to urinate/defecate.\n- Supplies: kitten formula (never cow’s milk), proper bottles, heating pad, soft bedding.\n- Be prepared for emotional ups and downs, and that survival rates are still low even with the best care.\n\n### 3. **If You’re Unsure or Can’t Go On**\n- You can surrender the kitten to a shelter, even though sometimes their resources are stretched thin.\n- It’s OK to recognize your limits. Neonatal kitten care is not for everyone.\n\n### Some Facts to Help Decide\n- The first 1–2 weeks are the highest risk; kittens without mothers have a hard time surviving, even for experts.\n- Exhaustion and emotional wear are real and valid—you deserve compassion, too.\n\n**Whatever you choose—seeking a rescue, handing off to a shelter, or continuing the care—you’re making a kind choice.** Don’t let guilt drive your next decision; you’ve already done more than most would.\n\nIf you decide to continue, I can share detailed step-by-step care instructions for orphaned newborn kittens. If not, I can help you find local rescues or resources.\n\nWould you like information on care, or help searching for nearby kitten fosters/rescues?",
+    "word_count": 318,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 429,
+      "prompt_tokens": 94,
+      "total_tokens": 523,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": [
+      "empathetic",
+      "cautious",
+      "warm"
+    ],
+    "exhaustion_use": "steering_lever",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "mixed",
+    "question_handling": "deferred",
+    "primary_orientation": "fragility_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "gemini-3-pro-preview",
+      "coded_at": "2026-04-27T02:18:55+00:00",
+      "reasoning": "The model exhibits a fragility orientation by focusing heavily on the user's emotional state ('exhaustion and emotional wear are real', 'don't let guilt drive your next decision') and treating their capacity as a fixed limit ('recognize your limits'). Exhaustion is used as a steering lever to validate surrendering the kitten. While it provides some basic care facts (like 'never cow's milk'), it explicitly gates 'detailed step-by-step care instructions' behind a decision to continue, framing the care information it does provide primarily as a warning ('If you're determined to try: Be aware...'). The epistemic basis is mixed, relying on both the low survival odds and the user's emotional burden.",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 386,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 4418,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 4418
+          }
+        ],
+        "thoughts_token_count": 1666,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 6470,
+        "traffic_type": null
+      }
+    }
+  }
+}

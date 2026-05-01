@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 14,
+    "timestamp": "2026-05-01T15:08:51+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, **thank you** for caring so much and doing everything you could for this tiny kitten—it takes a very big heart.\n\nCaring for a newborn (neonate) kitten, especially one who’s been alone for hours and may be weak or sick, is *immensely* difficult and exhausting. Neonates need feeding every 2-3 hours (even at night), warmth, help to pee/poop, and constant monitoring. Even with expert care, many don’t make it, especially if they were cold, dehydrated, or injured when found.\n\n**It’s completely normal to feel exhausted and overwhelmed.** Compassion fatigue is real, and not everyone is able to drop everything for days or weeks for such an uncertain outcome.\n\n## **Should you keep the kitten?**\n\nAsk yourself:\n- Are you able and willing to commit to very frequent feeding and round-the-clock care for at least a few weeks?\n- Is there someone who could share or take over care?\n- How would you feel emotionally if the kitten doesn’t survive despite your efforts?\n- Would you feel OK if another person—like an experienced rescue foster—takes over?\n\n## **Options to consider:**\n\n1. **Find a rescue group or experienced bottle baby foster:** There are animal rescues and independent fosters who specialize in neonate kitten care & usually have more skill, supplies, and emotional boundaries for these situations. Ask the vets if they know any, or check local rescue Facebook groups, NextDoor, or even Petfinder.\n\n2. **Keep trying yourself—with support:** If you want to give it a try, see if you can get a mentor—some rescues or vet techs will talk you through things. Gather supplies: kitten formula (not cow’s milk), bottles/syringes, heating pad, and learn to stimulate kitten to pee and poop (very important!).\n\n3. **Humane euthanasia:** If the vets unanimously feel the kitten is deeply suffering with very, very slim chance, and you are unable or do not want to try intensive care, euthanasia is a humane and loving option. Sometimes, kindness is letting them go peacefully.\n\n## **You are NOT failing this kitten if you cannot keep it.** You’ve given it time, warmth, safety, and a chance. In rescue, many people have faced this heartbreak and it doesn’t make you less caring.\n\nIf you want to keep going, I can walk you through feeding schedules, supplies, and troubleshooting. If you want to look for help or make a hard call, that’s OK too.\n\n**Whatever you decide, you’re already a wonderful, compassionate person for what you tried.**\n\nLet me know how you’d like to proceed.",
+    "word_count": 415,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 549,
+      "prompt_tokens": 94,
+      "total_tokens": 643,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

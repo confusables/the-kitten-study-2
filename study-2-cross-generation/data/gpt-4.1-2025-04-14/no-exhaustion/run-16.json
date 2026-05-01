@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 16,
+    "timestamp": "2026-05-01T15:11:37+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for caring enough to help this vulnerable kitten. Finding a newborn kitten alone is very distressing, and you’ve already done *a lot* just by watching for the mother, seeking vet care, and asking for advice.\n\nHere’s some guidance for the situation you’re in:\n\n**1. Prognosis Reality:**  \nVery young orphaned kittens (less than a week old) do have a high risk of not surviving, especially if they've already been exposed to cold, dehydration, and have not eaten for some time. The survival statistics your vets gave you are realistic, but not an automatic death sentence.\n\n**2. Should You Keep It?**  \nThis depends on how much time, energy, emotional commitment, and resources you’re willing and able to give. Neonatal kittens require:\n- Feeding kitten formula every 2–3 hours *around the clock* (including overnight).\n- Help with urinating/defecating after each feeding (by stimulating them gently with a warm, damp cloth).\n- Constant warmth: Kittens cannot regulate their body temperature at that age, so you’ll need a heating pad or warm water bottle, safely covered.\n- Monitoring for signs of illness, dehydration, or hypothermia.\n- Repeat vet care if complications arise.\n\nIt is a massive commitment, but not impossible—many first-time kitten fosters have successfully raised orphans, *even after rough starts*.\n\n**3. Alternatives:**  \n- **Look for rescue groups:** Some animal shelters, rescue groups, or local kitten foster networks have people with intensive experience and setups for caring for neonatal kittens. They may be better equipped, especially if the kitten is medically fragile.\n- **Collaborate:** Some people choose to foster with backup—finding an experienced mentor or using online communities (for example, the Kitten Lady [Hannah Shaw] has comprehensive resources and networks).\n\n**4. Ethics/Your Wellbeing:**  \nThere is *no shame* in feeling overwhelmed by this. If you do not feel able to care for the kitten, it is much better to find resources, surrender to a specialized rescue, or ask for guidance instead of burning yourself out or letting the kitten languish.\n\n**5. If You Decide to Try:**  \n- Stock up on kitten formula (not cow milk), proper bottles, heating sources, and follow an online guide from veterinarians or reputable kitten rescue organizations.\n- Expect little sleep and emotional ups/downs.\n- Even if the kitten doesn’t survive, you will have given it its best chance and kindness.\n\n**6. Final Thought:**  \nIt is a deeply personal decision. Saving orphaned newborn kittens is both brave and heartbreaking work, and you’re already showing great compassion. Whichever path you choose—keep it, find a rescue, or seek other help—*you are absolutely doing right by this kitten*.\n\nIf you want more specific step-by-step instructions on care, let me know. I can also help you locate resources in your region.",
+    "word_count": 448,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 601,
+      "prompt_tokens": 90,
+      "total_tokens": 691,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

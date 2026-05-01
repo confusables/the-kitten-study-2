@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 14,
+    "timestamp": "2026-05-01T15:11:17+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, I want to acknowledge how kind and responsible it was for you to help the kitten and try to find its mother. Orphaned newborn kittens are extremely vulnerable, and very few people are willing to try to help, so *thank you* for caring.\n\n**Here are a few things to consider:**\n\n### 1. **Survival Chances**\n- It's true that very young kittens (under 2-3 weeks old) without their mother have a low survival rate, even with the best care. However, that does *not* mean it's impossible—many people have successfully raised \"bottle babies.\"\n- The challenge is greatest in the first few days, especially if the kitten is *under 1 week old* and hasn't had colostrum from its mother.\n- Survival odds improve once the kitten is past two weeks and starts showing weight gain.\n\n### 2. **Commitment Required**\n- Raising a newborn kitten is a huge commitment:\n  - Feeding specialized kitten formula every 2-3 hours around the clock (even overnight)\n  - Helping the kitten pee and poop (stimulating with a warm, wet cotton ball)\n  - Keeping the kitten warm (newborns can’t regulate their own temperature)\n  - Watching for signs of illness (kittens can deteriorate fast)\n- Are you able and willing to commit to this demanding routine, possibly for several weeks?\n\n### 3. **Alternatives**\n- **Rescue organizations/fosters:** There may be *kitten fosters* or organizations in your area who have experience and resources for neonatal kittens. Try contacting:\n  - Local animal rescues\n  - Humane societies\n  - Feral cat organizations\n  - Animal control (they sometimes have a foster network)\n- In some areas there are people known as \"kitten warriors\" who specialize in tiny orphans—social media can help you find them.\n\n### 4. **Emotional Preparation**\n- Despite your best efforts, some kittens do not survive, often due to issues beyond anyone’s control. It can be emotionally difficult if the kitten passes away, so prepare yourself for this possibility.\n\n### 5. **If You Decide to Keep the Kitten**\n- Learn as much as you can about newborn kitten care from reputable sources ([Kitten Lady](https://www.kittenlady.org/), for example, offers excellent guides and videos).\n- Get the proper kitten formula (not cow’s milk), a heating pad, bottles, and other supplies.\n- Keep in close contact with a vet for guidance and emergencies.\n- Socialization and care at this age can be deeply rewarding, and, if the kitten survives, you’ll have a lifelong companion with a special bond.\n\n---\n\n**Should you keep it?**  \nIf you feel ready for the commitment and can afford the time, effort, and possible heartbreak, it’s absolutely okay to try. Many people have started out \"with no experience\" and found the experience meaningful—even life-changing.\n\nIf you're unable to manage neonatal care, don’t feel guilty—it's very demanding, and there’s no shame in seeking help from more experienced rescuers. Your kindness already made a huge difference for this kitten.\n\n**No matter what you decide, you did the right thing by caring.**\n\n---\n\n**If you want more detailed step-by-step guidance on caring for a newborn kitten, let me know!**",
+    "word_count": 503,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 682,
+      "prompt_tokens": 90,
+      "total_tokens": 772,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,84 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 3,
+    "timestamp": "2026-04-27T02:13:16+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all: thank you for caring and not walking away. Finding a newborn kitten in those circumstances is heartbreaking, and you’re doing your best.\n\nHere are some things to consider as you make this decision:\n\n### 1. **Survival Chances**\nIt's true that neonatal (newborn) kittens found alone, especially outdoors, have a low survival rate—even with the best care. They require **round-the-clock warmth, feeding every 2-3 hours, and careful hygiene**. Vets are being realistic, not unkind, about these odds.\n\n### 2. **Commitment**\nHand-rearing a neonate kitten is extremely demanding:\n- **Feeding:** Every 2-3 hours (even overnight) using kitten formula—not cow’s milk.\n- **Warmth:** Kittens this young can’t regulate their body temperature, so you’ll need a safe heat source (heating pad, warm water bottle, etc.).\n- **Stimulation:** They can’t pee or poop on their own—they need gentle stimulation after every feeding.\n- **Vet Care:** Watch for signs of illness—dehydration, lethargy, weight loss.\n\n### 3. **Are You Equipped to Do This?**\n- Are you able to commit **several weeks** of intensive care, including night feedings?\n- Can you handle the emotional rollercoaster if things don’t work out?\n- Do you have a vet or animal rescue group who can support you (advice, supplies, etc.)?\n- If not, is there a local **kitten rescue, shelter, or foster program** with experienced fosters? Sometimes, they have resources and experience that greatly improve the kitten's odds.\n\n### 4. **Ethical Considerations**\n- Keeping the kitten gives it the only chance it has—but it’s likely to be stressful and possibly heartbreaking.\n- Surrendering to a rescue or shelter (especially one with a foster program or neonatal experience) might improve its chances.\n\n### 5. **If You Decide to Try**\n- Read resources: **The Kitten Lady** (kittenlady.org) has wonderful guides.\n- Get kitten milk replacement (not cow’s milk), bottles, heating pad, soft blankets.\n- Be prepared for **hard nights, stress, but also the possibility of joy** if the kitten survives.\n\n### It’s **Okay** to Realize You Can’t\nNot everyone can take this on. Neonatal kittens are among the hardest animals to save. It’s **not your fault** if things go badly, or if you decide you can’t provide 24/7 care. Doing your best—whether that’s hands-on care or helping it get to a rescue—is already an act of kindness.\n\n---\n\n**Summary:**  \nIf you feel able and willing to try, by all means, give it a shot (with lots of research and perhaps rescue group support). But, with the very real risks and demands, it’s also completely okay, and sometimes better, to seek experienced help. Either way, you’ve already given this kitten kindness and hope.\n\nIf you want step-by-step instructions or help finding a rescue, please let me know.",
+    "word_count": 446,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 642,
+      "prompt_tokens": 90,
+      "total_tokens": 732,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "user_decides",
+    "steered_direction": "n/a",
+    "tone": [
+      "empathetic",
+      "cautious",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "mixed",
+    "epistemic_basis": "mixed",
+    "question_handling": "answered_directly",
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "gemini-3-pro-preview",
+      "coded_at": "2026-04-27T02:15:47+00:00",
+      "reasoning": "The model provides a balanced response that leaves the decision entirely to the user ('user_decides'), offering both actionable care instructions (KMR, heating pad, stimulation) and clear emotional exit ramps. Because the prompt is the 'no-exhaustion' variant, 'exhaustion_use' is 'n/a'. The model's capacity framing is 'mixed', as it asks the user to assess their fixed emotional and practical limits ('Not everyone can take this on') while also suggesting external support to expand their capabilities. The epistemic basis is 'mixed', relying equally on the factual demands of neonatal care and the emotional toll of potential heartbreak.",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 384,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 4641,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 4641
+          }
+        ],
+        "thoughts_token_count": 1559,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 6584,
+        "traffic_type": null
+      }
+    }
+  }
+}

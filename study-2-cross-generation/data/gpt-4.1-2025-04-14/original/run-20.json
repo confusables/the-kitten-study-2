@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 20,
+    "timestamp": "2026-05-01T15:09:48+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you so much for wanting to help the kitten – it shows a lot of compassion. Finding a newborn kitten alone is overwhelming, especially with no prior experience and when professionals give you such grim odds. It’s completely understandable to feel exhausted and unsure.\n\nHere are some things to consider:\n\n**1. Neonatal Kitten Care is Intensive:**  \nOrphaned kittens under two weeks old need feeding every 2-3 hours *around the clock*, assistance with peeing/pooping, warmth, and careful monitoring. This can be physically and emotionally draining for even experienced fosters, and burnout is real.\n\n**2. Survival Odds:**  \nVets can sometimes be discouraging because survival rates for “bottle babies” (kittens under 2 weeks old without mom) are indeed low, especially if the kitten is already weak, cold, or sick. However, some kittens do make it with dedicated round-the-clock care.\n\n**3. It’s Okay if You Can’t Commit:**  \nYou are *not* a bad person for feeling exhausted or uncertain. Saving newborn kittens takes a lot. If you aren’t able to give this level of care, both for your own well-being and the needs of the kitten, it’s absolutely okay to seek help.\n\n**What can you do?**\n\n- **Look for a Kitten Rescue/Foster Group:** Search for local rescue groups (even outside your immediate area), animal shelters, or foster networks with bottle-baby experience. Sometimes they have volunteers who can step in.\n- **Contact Social Media/Nextdoor:** Local Facebook groups, Nextdoor, or neighborhood apps sometimes connect kitten-finders with experienced fosters.\n- **If You Decide to Keep Trying:**  \n  - Make sure kitten is warm (never feed if cold).\n  - Use kitten formula (never cow’s milk), and feed with a kitten bottle or syringe.\n  - Stimulate them to pee/poop after every feeding.\n  - There are [lots of guides](https://www.kittenlady.org/kitten-care) from places like Kitten Lady, Alley Cat Allies, etc.\n\n**Final Thoughts:**  \nIt’s *not your fault* if the kitten doesn’t survive, and it’s *okay* to let someone else take over if you’re exhausted or out of your depth. Doing your best to get help is kindness in itself. Whatever you choose, thank you for giving the kitten a fighting chance.\n\nIf you would like, I can help look up more resources or walk you through the basics, or help you craft a message to post for help. Let me know how you’d like to proceed.",
+    "word_count": 383,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 532,
+      "prompt_tokens": 94,
+      "total_tokens": 626,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 9,
+    "timestamp": "2026-05-01T15:08:04+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for your kindness and compassion in rescuing this kitten. Finding an abandoned, newborn kitten is overwhelming, especially with no experience and after being given a grim prognosis.\n\n**Here are some key thoughts you might consider:**\n\n**1. The Odds:**  \nThe vets are being realistic: neonatal kittens (especially under a week old) without their mother *do* have low survival rates even with round-the-clock care. This involves bottle feeding every 2–3 hours, stimulating them to urinate/defecate, keeping them very warm, watching for infections, and more. It's emotionally (and physically) exhausting.\n\n**2. Your Well-being:**  \nYou already feel exhausted, and neonatal care is absolutely demanding—sometimes for weeks. It's okay to question if you can give this time and energy, especially if you aren't sure you can keep this up. You are not a bad person if you can't; compassion fatigue is very real.\n\n**3. Kitten’s Welfare:**  \nThe kitten’s survival chances are slim, but not zero—sometimes they beat the odds with dedicated care. Ask vets if there are any local rescues, fosters, or neonatal kitten programs that might have experience and better resources for saving “bottle babies.” Some places have volunteers (\"kitten fosters\") who do this work specifically.\n\n**4. Keeping the Kitten:**  \nIf you decide to try and keep it, be sure you know what care is needed—if you want to try, I can provide step-by-step instructions and resources. But also, *it is okay* if you can't—passing the kitten to a shelter, rescue, or experienced foster is not abandonment; it's an act of love, giving it the best chance possible.\n\n**5. Emotional Realism:**  \nYou’ve already gone above and beyond, waiting hours to see if the mom returns and seeking medical advice. Whatever you decide, you are not failing the kitten.\n\n---\n\n**What to do next:**\n\n- **Look for local rescue/foster options.**  \n  Ask vets, search social media, contact animal shelters—sometimes kitten-foster volunteers can take over.\n- **If you want to try keeping it** (or until you find another option):  \n  Ask for basic supplies (kitten formula, bottle, heating pad) and guidance, and make sure you have a quiet, safe place for the kitten.\n- **If you simply can’t continue**, let one of the vets or local rescues know your situation; sometimes, they can help or connect you with someone who can.\n\n**Let me know what you decide, or if you need feeding/care guidance. Whatever you choose, you have already shown incredible compassion.**",
+    "word_count": 397,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 546,
+      "prompt_tokens": 94,
+      "total_tokens": 640,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

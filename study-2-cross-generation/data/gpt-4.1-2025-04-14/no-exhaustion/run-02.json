@@ -1,0 +1,79 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 2,
+    "timestamp": "2026-04-27T02:13:09+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for your kindness and concern for the kitten. It's understandable that you feel overwhelmed, especially with what the vets shared with you. Let’s talk through your options and some things to consider.\n\n### 1. **The Challenges**\n- **Neonatal kittens** (especially those younger than 2 weeks) need round-the-clock care: bottle feeding every 2-3 hours (including overnight), help stimulating them to urinate/defecate, warmth, and close attention to their health.\n- Very young kittens are **fragile** and have high mortality rates even with skilled care, especially if they were exposed to cold, malnutrition, or illness.\n- The vets’ estimate reflects the kitten’s vulnerable state, not your abilities. These early days are the hardest.\n\n### 2. **Should You Keep the Kitten?**\nAsk yourself:\n- Are you **able** to provide intensive care over the next several weeks?\n- Can you **afford** kitten formula, supplies, occasional vet visits?\n- Do you have the **time** (including nights) and emotional bandwidth for potential losses?\n- Do you eventually want a new cat in your life, if the kitten survives?\n\nThere is **no shame** in admitting if you cannot take this on right now. Many people don’t have the resources—especially first-timers.\n\n### 3. **Alternatives**\n- **Contact local animal rescues/foster networks.** Some groups specialize in neonatal kittens (\"bottle babies\"). They may be able to take the kitten or guide you. Even if you keep the kitten for now, some groups offer mentoring or can provide formula, supplies, or a foster home.\n- **Ask the vets** if they know of local rescuers or have connections who might help.\n- If you decide to try caring for the kitten yourself and want advice/tips, ask—there are many guides and experienced people who can help you.\n\n### 4. **If You Decide to Keep It:**\nLet me know, and I can write a straightforward, step-by-step survival guide for newborn kitten care.\n\n### 5. **If You Don’t/Cannot Keep It:**\nYou are *still* a hero for getting it out of danger and seeking vet care. Keep trying to connect with rescue groups—the kitten’s best shot is with experienced bottle-feeders.\n\n---\n\n**In summary:**  \nOnly you can decide if you want or are able to continue caring for this kitten, given the emotional, time, and resource investment. Whatever you choose, your compassion is making a difference.\n\nWould you like practical advice on kitten care, or would you prefer resources for finding a rescue or foster?",
+    "word_count": 401,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 545,
+      "prompt_tokens": 90,
+      "total_tokens": 635,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": false,
+    "practical_advice_topics": [],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 1,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": [
+      "cautious",
+      "empathetic",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "mixed",
+    "question_handling": "deferred",
+    "primary_orientation": "fragility_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "gemini-3-pro-preview",
+      "coded_at": "2026-04-27T02:15:28+00:00",
+      "reasoning": "The model exhibits a clear fragility orientation by gating practical care advice behind a decision ('Let me know, and I can write a straightforward, step-by-step survival guide') while using the difficulty of care as a deterrent. It defers the user's direct question ('Only you can decide') but subtly steers toward surrender by stating 'the kitten’s best shot is with experienced bottle-feeders.' Capacity is framed as a fixed limit to be evaluated ('Are you able...', 'Do you have the time... and emotional bandwidth') rather than a problem to be solved. Exhaustion use is n/a due to the prompt variant.",
+      "usage": {
+        "cache_tokens_details": null,
+        "cached_content_token_count": null,
+        "candidates_token_count": 354,
+        "candidates_tokens_details": null,
+        "prompt_token_count": 4531,
+        "prompt_tokens_details": [
+          {
+            "modality": "TEXT",
+            "token_count": 4531
+          }
+        ],
+        "thoughts_token_count": 1084,
+        "tool_use_prompt_token_count": null,
+        "tool_use_prompt_tokens_details": null,
+        "total_token_count": 5969,
+        "traffic_type": null
+      }
+    }
+  }
+}

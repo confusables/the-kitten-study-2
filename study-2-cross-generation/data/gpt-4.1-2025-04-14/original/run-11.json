@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 11,
+    "timestamp": "2026-05-01T15:08:23+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, I want to say **thank you** for caring so much about this kitten—you’ve already made a big difference in its life, even if it doesn’t feel that way right now. Orphaned neonatal kittens are indeed incredibly fragile, and what you’ve experienced with the vets is, sadly, very common: their survival odds without a mother can be low, especially in the first days and weeks.\n\n**A few things to consider:**\n\n### 1. **Time and Commitment**\n- Neonatal kittens (under 3-4 weeks old) require intensive hands-on care—feeding every 2-3 hours (including overnight), temperature regulation, and help with elimination (stimulating them to pee/poop).\n- Exhaustion is a totally normal response; kitten fostering is some of the hardest work in animal rescue. Don’t feel guilty for feeling overwhelmed.\n\n### 2. **Your Options**\nYou do **not** have to do this alone if you’re not able to:\n- **Kitten Rescues & Fosters:** Look for animal rescues or kitten-specific foster networks in your area. Many groups have experienced fosterers specially trained for these situations and may be able to help or take the kitten in.\n- **Shelters:** Some humane societies/shelters have foster programs and might take the kitten or connect you with a foster home.\n- **Online Support:** There are social media groups for \"orphaned kitten rescue\" or \"neonatal kitten fostering\" where you can get real-time advice, and sometimes even local volunteers who can step in.\n\n### 3. **If You Decide to Keep Fostering**\n- **Learn the Basics:** There are excellent guides out there (“The Kitten Lady” [Hannah Shaw] is a great resource: [kittenlady.org](https://kittenlady.org)).\n- **Supplies Needed:** Kitten formula (NOT cow’s milk), bottles or syringes, heating pad, clean soft bedding.\n- **Prepare for Ups and Downs:** Even experienced fosters sometimes lose kittens. It doesn’t mean you did anything wrong.\n\n### 4. **Your Wellbeing Matters**\n- If you’re already exhausted and don’t feel able to continue, it’s 100% okay to seek help and hand the kitten over to someone with more bandwidth or experience right now.\n- Burnout is real—even professional rescuers feel it.\n\n---\n\n**To summarize:**  \n- You do NOT have to do this alone.\n- It’s okay if you decide you can’t keep the kitten—it isn’t your fault if the kitten doesn’t survive, and there *might* be better-equipped people or organizations nearby who can step in.\n- If you want to try, you can gather resources and connect with experienced kitten fosters for advice.\n\nIf you want, I can help look up local rescues or foster networks, or walk you through first steps while you decide what feels right. **Whatever you choose, you’ve already given this kitten kindness and a fighting chance.**",
+    "word_count": 437,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 611,
+      "prompt_tokens": 94,
+      "total_tokens": 705,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

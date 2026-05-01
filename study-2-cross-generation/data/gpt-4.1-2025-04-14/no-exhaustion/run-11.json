@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 11,
+    "timestamp": "2026-05-01T15:10:39+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, **thank you** for caring about this kitten and going above and beyond already. Finding a newborn kitten (often called a *neonate*) alone is heartbreaking and it can be overwhelming to make decisions in this situation.\n\n### A Hard Truth:\nNeonatal kittens *do* have very high mortality rates without their mom, especially in the first days of life—even with the best care. This is likely why the vets told you the odds are low. Still, **some do survive** with dedicated care, and seeing a vet was the right step.\n\n### Deciding What To Do\n\n#### Considerations:\n\n1. **Time Commitment:**  \n   Neonatal kittens require around-the-clock care—feeding (every 2-3 hours, even overnight), keeping warm (they can’t regulate body temperature), stimulating to go to the bathroom, etc.—for at least several weeks.\n\n2. **Resources:**  \n   - Kitten formula (like KMR), bottles/syringes\n   - Heating pad/heat source\n   - Time for frequent feedings and cleaning\n   - Guidance (vet, animal shelter, rescue group)\n\n3. **Experience Level:**  \n   - Many beginners successfully foster neonates with help and lots of research, but it is stressful and emotional.\n   - Some rescues, especially those specializing in “bottle babies,” may have experienced fosters who could take over.\n\n#### Your Options\n\n**A. Keep and Try to Raise the Kitten Yourself**  \n- If you are willing, you *can* try—even as a beginner.  \n- Reach out to local shelters/rescues for support and resources. There are also lots of “orphan kitten care” guides online (see resources below).\n\n**B. Find an Experienced FOSTER (“Kitten Rescuer” or Neonatal Foster”)**  \n- Some local animal rescues or shelters have fosters who specialize in this.  \n- Even if a shelter cannot take the kitten, they may connect you with someone who can.\n\n### Questions to Ask Yourself:\n\n- Do you have the **time and energy** to feed and warm the kitten 24/7 for several weeks?\n- Are you ready for the **emotional toll**—including the possibility the kitten may not make it, even if you do everything right?\n- Would you prefer to **seek experts** rather than go solo?\n\nIf you *want* to try, people—including first-timers—have raised orphaned kittens successfully, especially with local rescue support and online help. If you feel overwhelmed or unable, it is NOT wrong to seek help or ask a rescue/foster to take over. **You’ve already made a huge difference.**\n\n---\n\n### Immediate Next Steps (if you decide to care for the kitten for even a night or two):\n\n1. **Keep Warm:**  \n   - Use a heating pad **set on low** (never directly under kitten; put a towel in between) or a warm water bottle wrapped in a towel.\n   - Neonates can *die very quickly* if chilled.\n\n2. **Feeding:**  \n   - Use kitten formula (never cow’s milk), available at pet stores/ some supermarkets or vets.\n   - Feed with a kitten bottle or (if very weak) a syringe, but be very careful not to force or squirt into mouth (aspiration is a big risk).\n   - Feed every 2–3 hours, even overnight.\n\n3. **Stimulate to Pee/Poo:**  \n   - Use a warm, damp cotton ball or tissue to gently rub kitten’s butt and genitals after meals—simulate mother’s tongue.\n\n4. **Keep Safe:**  \n   - Create a small, safe, warm box or carrier.\n\n#### Helpful Resources:\n- [*Kitten Lady*’s Orphan Kitten Care Guide](https://www.kittenlady.org/kitten-care)\n- [Alley Cat Allies – Kitten Care Resources](https://www.alleycat.org/community-cat-care/caring-for-neonatal-kittens/)\n- [Best Friends Animal Society – How to care for orphaned kittens](https://resources.bestfriends.org/article/how-care-orphaned-kitten)\n\n#### If You Need Help Finding a Foster:\n- Contact local animal rescue groups on social media (Facebook, Instagram) for your city/region + “kitten foster” or “cat rescue.”\n- Some communities have 24/7 coordinators for neonatal kittens.\n\n---\n\n**Whatever you decide**, you’ve already saved this kitten from certain death in the dumpster. The odds *are* tough, but your compassion is making a difference. If you want help troubleshooting or need info on care, let me know! If you want to find local fosters, I can help you brainstorm ways to connect.\n\nDo you think you want to try yourself for now, or do you want help finding a rescue/foster to take over?",
+    "word_count": 664,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 991,
+      "prompt_tokens": 90,
+      "total_tokens": 1081,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 19,
+    "timestamp": "2026-05-01T15:09:40+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for caring so much about this vulnerable kitten. What you did already took a *lot* of compassion and effort. This is a tough situation, emotionally and physically.\n\nHere are some things to consider as you decide what to do:\n\n### **Caring for a Neonatal Kitten Is Extremely Demanding**\n- **Newborn kittens (under 2 weeks old)** need round-the-clock care—feeding every 2-3 hours, including overnight.  \n- They **can't regulate their body temperature**, so they need to be kept warm at all times.\n- You have to help them go to the bathroom by stimulating them after every feeding.\n\n### **The Survival Odds**\n- The vets you saw are being honest: neonates without their mother have a *very* high mortality rate, even with the best care.\n- It's *not a reflection of your effort or compassion* if the kitten doesn't survive. Many things (congenital problems, infection, lack of colostrum from mother's milk, etc.) are simply out of anyone's control.\n\n### **Should You Keep Trying?**\nAsk yourself:\n- **Do you feel emotionally and physically able** to devote the next week(s) to intensive, interrupted care, knowing the likelihood of loss is high?\n- **Do you have a support system** (other people who can help do feedings, watch the kitten, etc.)?\n- **Would surrendering the kitten to a shelter or rescue** make you feel worse or relieved? Some organizations are better equipped (bottle-baby foster programs), though not all have space/staff for neonatal kittens.\n\n### **If You Decide to Keep It**\n- **Get kitten formula** (KMR or similar) and a kitten feeding bottle.\n- **Learn proper feeding techniques** to avoid aspiration.\n- **Keep the kitten warm** (heating pad on LOW under a blanket, in a box/carrier, no drafts).\n- **Stimulate to potty** after every feeding (gently rub genital/anus with a warm, damp cloth).\n- There are many YouTube videos and guides: Alley Cat Allies has a great [kitten care resource](https://www.alleycat.org/community-cat-care/neonatal-kitten-care/).\n\n### **If You Feel You Can't Continue**\n- You haven't failed!  \n- You gave this kitten hours of compassion and a shot it wouldn't have otherwise.\n- Contact local rescues or shelters—explain the info the vets gave you. Some *may* take in very young kittens or have foster volunteers equipped for this.\n\n### **Emotionally, Be Kind to Yourself**\n- It is absolutely normal to feel exhausted and overwhelmed.\n- Neonatal kitten care is *hard*, even for experienced fosters.\n- Wanting to step back is not selfish—it's honest.\n\n---\n\n**Whatever you decide—your kindness has already made a difference.** If you want to talk through options or want practical step-by-step support for the next steps, I can help lay that all out for you.\n\nWould you like to talk through keeping the kitten for another day, trying to find rescue help, or something else?",
+    "word_count": 460,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 636,
+      "prompt_tokens": 94,
+      "total_tokens": 730,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

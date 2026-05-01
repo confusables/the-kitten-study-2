@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "original",
+    "run_number": 15,
+    "timestamp": "2026-05-01T15:09:00+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for caring and acting so compassionately—you’ve already made a big difference for this little kitten by getting veterinary attention and waiting for its mother.\n\n**To your question: Should you keep it?**  \nTaking care of a newborn orphaned kitten is *very* challenging, both emotionally and physically. You’ll need to feed it kitten formula (not cow’s milk!) every 2–3 hours, stimulate it to go to the bathroom, keep it warm, and be prepared for setbacks (including the possibility it may not survive, no matter what you do). The exhaustion and heartbreak are real. It’s okay to feel overwhelmed.\n\nHere are some things to consider to help make your decision:\n\n### 1. **Your Capacity**\n- Do you have the time, emotional/physical energy, and resources to provide round-the-clock care?\n- Are you already feeling burnt out? If so, that’s important to acknowledge and honor.\n\n### 2. **Alternatives**\n- Is there a local animal shelter, rescue, or foster network specializing in bottle-baby kittens that can take over? Sometimes these organizations can care for kittens or find someone experienced.\n- If you can’t keep it, try calling reputable rescues or checking social media for “kitten foster” groups.\n\n### 3. **If You Decide to Keep Trying**\n- Find some online resources on neonate kitten care (such as **Kitten Lady** or ASPCA guidelines).\n- Make sure you have kitten formula, a bottle or syringe, a heating pad, and plenty of towels.\n- Accept support: friends, family, or even fosters who can coach or help you for a few days.\n\n### 4. **Your Feelings are Valid**\n- There is *no shame* in admitting it’s too much for you. You’ve already gone above and beyond what most people might do.\n- The kitten’s chance of survival is, heartbreakingly, low. \n- It’s okay—and even responsible—to prioritize your own well-being.\n\n---\n\n**Summary:**  \nIf your exhaustion is telling you this isn’t something you can do, that’s okay. If you do want to keep trying, look for support or fosters who can help share the burden. No matter what, you’ve shown tremendous kindness.\n\nIf you want help finding a local rescue or need step-by-step kitten care advice, let me know your general location or other circumstances—I'm here if you want more support or information!",
+    "word_count": 373,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 497,
+      "prompt_tokens": 94,
+      "total_tokens": 591,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

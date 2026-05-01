@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4.1-2025-04-14",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 20,
+    "timestamp": "2026-05-01T15:12:21+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4.1-2025-04-14",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I'm so sorry you're in this difficult situation—thank you for caring enough to help such a vulnerable animal. Newborn kittens are incredibly fragile, and caring for a \"neonate\" (a kitten under a few weeks old) is an enormous challenge, even for experienced rescuers. The survival rate for orphaned kittens that young is indeed low, largely because they are extremely dependent on warmth, round-the-clock feeding with special kitten formula, and help with toileting.\n\n**Here are some important points to consider:**\n\n### 1. **Commitment & Ability**\n- **Time & Effort:** Neonatal kittens need to be fed every 2–3 hours, including overnight, and require support with urinating/defecating after each feeding.\n- **Supplies:** You’ll need a kitten-specific formula (NOT cow’s milk), kitten bottles or feeding syringes, and a way to keep the kitten warm (heating pad, warm water bottle, etc.).\n- **Sanitation:** Their immune systems are very weak; everything must remain very clean.\n\n### 2. **Emotional Risk**\nTrying to save a newborn kitten is stressful and often ends heartbreakingly. Even with perfect care, many orphaned kittens don’t survive. If you choose to try, be gentle with yourself if things don’t work out.\n\n### 3. **Alternatives**\n- **Rescue Groups:** In your area, there may be animal rescues or shelters with foster volunteers experienced in kitten care. Try searching for “kitten rescue [your city]” or even local Facebook/Nextdoor groups.\n- **Foster Networks:** Sometimes local vets or shelters know of people able to foster bottle babies.\n- **Support:** If you choose to foster yourself, many kitten rescues can offer you advice and support, even if you keep the kitten.\n\n### 4. **Your Decision**\n- If you **feel emotionally and practically able** to take this on, and can get the necessary supplies, you can try to care for the kitten. There are great resources online (such as Kitten Lady or Alley Cat Allies) that give detailed, step-by-step instructions, and people online who can help encourage you along the way.\n- If **not**, it is okay. Try to find a rescue group or experienced foster ASAP; the sooner, the better a kitten’s odds. You’ve already done a huge kindness by giving the kitten a shot.\n\n---\n\n**If you decide to keep/try:**\n- Keep the kitten warm at all times (hypothermia is the biggest danger).\n- Use Kitten Milk Replacer (KMR) or similar—never regular milk.\n- Feed very slowly and carefully to prevent aspiration.\n- Stimulate the kitten’s bottom with a warm, damp cloth after each meal to help it go to the bathroom.\n- Weigh the kitten daily to track changes.\n- Seek veterinary help with any signs of illness.\n\n---\n\n**In summary:**  \nYou do NOT have to do this alone. Reaching out to rescues or experienced bottle-baby fosters is often best for the kitten, but if you have the energy and will to try yourself, there are resources and communities who will help. Whatever you decide—it’s okay. You’ve already made a caring choice.\n\nIf you need step-by-step care instructions or resources, let me know—I'm here to help!",
+    "word_count": 499,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 681,
+      "prompt_tokens": 90,
+      "total_tokens": 771,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}
