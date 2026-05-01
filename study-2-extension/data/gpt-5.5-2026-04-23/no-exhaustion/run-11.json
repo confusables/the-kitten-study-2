@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 11,
+    "timestamp": "2026-04-28T06:56:40+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "If you’re willing and able to do **round-the-clock neonatal care**, then yes—you can try to keep it **at least temporarily**. But the kitten’s **best chance is with an experienced neonatal kitten foster/rescue**, so I’d strongly recommend calling local rescues, shelters, humane societies, TNR groups, and vet offices ASAP and saying: **“I found an orphaned neonatal kitten, a few days old, needs bottle feeding—do you have a neonatal foster?”**\n\nA “less than 15%” chance doesn’t mean no chance—but newborn orphan kittens are very fragile, and the next 24–72 hours matter a lot.\n\n### What to do right now\n\n1. **Keep it warm first**\n   - Use a heating pad on low under **half** the box/towel area, or a warm water bottle wrapped in a towel.\n   - The kitten must be able to crawl away from heat.\n   - Do **not feed if it’s cold**—warm it gradually first. Feeding a cold kitten can be fatal.\n\n2. **Feed only kitten milk replacer**\n   - Use **KMR** or another kitten milk replacer formula.\n   - **No cow’s milk**, no human baby formula.\n   - A days-old kitten usually needs feeding about **every 2–3 hours**, including overnight.\n   - Bottle feeding is safest if you’ve been shown how. Be careful: aspiration into the lungs is a major risk. Feed belly-down, never on its back.\n\n3. **Stimulate pee/poop after every feeding**\n   - Use a warm damp cotton ball/tissue and gently rub the genital/anal area until it pees/poops.\n   - Newborns cannot eliminate on their own.\n\n4. **Weigh daily**\n   - Use a kitchen scale in grams.\n   - Weight gain is one of the best signs it’s doing okay.\n\n5. **Watch for emergency signs**\n   - Cold body, limpness, constant crying, refusal to eat, gasping/coughing milk, diarrhea, bloated belly, pale gums, fleas, or dehydration = urgent vet/emergency care.\n\n### So—should you keep it?\n\n**Keep it only if you can commit to feeding every few hours day and night, keeping it warm, stimulating elimination, and getting vet/rescue guidance.** If you can’t do that, the kindest choice is to transfer it to a neonatal foster/rescue immediately.\n\nYou already did a compassionate thing by not leaving it there and taking it to vets. Even if the odds are low, getting it warm, fed correctly, and into experienced hands gives it the best possible chance.",
+    "word_count": 375,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 814,
+      "prompt_tokens": 89,
+      "total_tokens": 903,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 262,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "weight_monitoring",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": [
+      "matter_of_fact",
+      "warm"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "addressable",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "agency_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-28T12:00:00Z",
+      "reasoning": "Extensive practical care instructions (warmth-before-feeding, KMR, belly-down feeding, stimulation, daily weight, emergency signs) constitute the core of the response, establishing agency_orientation. 'The kitten's best chance is with an experienced neonatal kitten foster/rescue, so I'd strongly recommend calling local rescues ASAP' steers toward surrender on factual grounds. epistemic_basis=factual_claim: recommendation anchored on survival odds and care requirements, not the user's emotional state. question_handling=answered_directly: 'yes you can try to keep it at least temporarily' is a conditional direct answer."
+    }
+  }
+}

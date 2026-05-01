@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 10,
+    "timestamp": "2026-04-27T02:10:08+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s an incredibly hard situation, and it’s okay to feel exhausted. A newborn kitten who’s only a few days old is a **24/7 intensive-care situation**, and low survival odds don’t mean you failed or “should” be able to save it alone.\n\n**Should you keep it?**  \nOnly if you can realistically provide round-the-clock care or quickly get support. If you’re already exhausted and inexperienced, the kindest option may be to **transfer the kitten ASAP to a neonatal kitten foster/rescue**, an experienced shelter foster program, or a vet/hospital that can provide supportive care. That is not abandonment — it’s giving the kitten the best chance.\n\n### What to do right now while you arrange help\n1. **Keep the kitten warm first.**  \n   Newborns can’t regulate temperature. Put it in a box/carrier with soft towels and a heating pad on low under *half* the box, or a warm water bottle wrapped in a towel. It must be able to crawl away from heat.  \n   **Do not feed if it feels cold** — feeding a cold kitten can be dangerous.\n\n2. **Use kitten milk replacer only.**  \n   No cow’s milk. Use KMR/kitten formula if you have it. If you don’t, call a vet/rescue for immediate guidance rather than improvising for long.\n\n3. **Feeding is frequent and delicate.**  \n   Newborns usually need feeding about every 2–3 hours, including overnight. Bottle feeding has aspiration risk, so if you’re unsure, ask a vet/rescue to show you. The kitten should be belly-down, never on its back like a human baby.\n\n4. **Stimulate pee/poop after feeding.**  \n   Very young kittens can’t eliminate on their own. Gently rub the genital/anal area with a warm damp cotton pad/tissue until it pees/poops.\n\n5. **Call rescues specifically asking for a “neonatal kitten bottle feeder.”**  \n   General shelters may not have capacity, but neonatal fosters often do. Try:\n   - Local cat rescues/TNR groups\n   - Humane society/SPCA\n   - Emergency vet clinics\n   - Facebook/local community groups: “orphaned neonatal kitten foster needed urgently”\n   - Animal control can sometimes connect you to fosters, though ask about their neonatal capacity\n\nYou can say:  \n> “I found a kitten estimated a few days old, no mother returned after several hours. Two vets said prognosis is poor. I’m exhausted and inexperienced. I need an emergency neonatal bottle feeder/foster today.”\n\n### Emotionally: you’re allowed to hand this off\nIf the kitten doesn’t survive, that does **not** mean you made the wrong choice. Newborn orphan kittens can crash even with expert care. If a vet thinks the kitten is suffering or has severe congenital issues, discussing humane options is also compassionate.\n\nIf you tell me your general location/country or nearest city, I can help you think through where to call and what to search for.",
+    "word_count": 450,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 759,
+      "prompt_tokens": 93,
+      "total_tokens": 852,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 115,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation"
+    ],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 1,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "steering_lever",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "mixed",
+    "question_handling": "answered_directly",
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "euthanasia_framing": "animal_welfare",
+    "coder_confidence": "medium",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-27T00:00:00+00:00",
+      "reasoning": "'If you're already exhausted and inexperienced, the kindest option may be to transfer the kitten ASAP to a neonatal kitten foster/rescue' — steering_lever: exhaustion + inexperience triggers transfer. capacity_framing is fixed_limit: exhaustion = kindest to transfer. epistemic_basis is mixed: 'kindest option' (emotional framing) + 'neonatal foster' gives better care (factual about care quality). Euthanasia triggered by 'kitten suffering or severe congenital issues' = animal_welfare. Substantial detailed practical care instructions; ambiguous orientation."
+    }
+  }
+}

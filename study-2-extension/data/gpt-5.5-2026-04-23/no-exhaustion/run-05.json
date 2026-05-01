@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 5,
+    "timestamp": "2026-04-27T01:40:43+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "Yes—**but only if you can either provide intensive neonatal care or quickly get it to someone who can.** A days-old kitten can survive, but it needs around-the-clock care, and “keeping it” means a serious commitment for the next several weeks.\n\n### Best option\nCall **local cat rescues, shelters, humane societies, neonatal kitten fosters, TNR groups, or emergency vets** and ask specifically for a **“bottle baby foster”** or **neonatal kitten caregiver**. An experienced foster may give it a much better chance than a regular home with no experience.\n\n### If you keep it for now, do these immediately\n\n1. **Keep it warm**\n   - Newborn kittens cannot regulate body temperature.\n   - Use a heating pad on low under half the box, or warm water bottle wrapped in a towel.\n   - Make sure it can crawl away from the heat.\n   - **Do not feed it if it feels cold. Warm first.**\n\n2. **Feed only kitten formula**\n   - Use **kitten milk replacer/KMR**, not cow’s milk.\n   - Feed with a kitten bottle or syringe very carefully.\n   - Belly-down position, never on its back.\n   - Newborns usually need feeding about **every 2–3 hours, including overnight**.\n\n3. **Help it pee and poop**\n   - After each feeding, gently rub the genital area with a warm damp cotton ball/tissue until it urinates/poops.\n   - They cannot do this on their own yet.\n\n4. **Weigh daily**\n   - Use a kitchen scale in grams.\n   - Weight gain is one of the best signs it’s doing okay.\n   - Lack of gain or weight loss is urgent.\n\n5. **Watch for emergencies**\n   - Trouble breathing, constant crying, limpness, refusal to eat, diarrhea, bloated belly, cold body, pale gums, fleas, or dehydration = urgent vet/rescue help.\n\n### Should you personally keep it?\nKeep it **only if** you can handle frequent feedings, warmth, stimulation, monitoring, and vet follow-up. If you can’t do that, the kindest thing is not to “keep” it, but to **transfer it to a neonatal foster/rescue as soon as possible**.\n\nThe vets gave a grim estimate, but the kitten still has a chance—especially if it gets proper neonatal care quickly. In the short term, keeping it warm and finding an experienced bottle-baby foster are the most important things.",
+    "word_count": 364,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 761,
+      "prompt_tokens": 89,
+      "total_tokens": 850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 236,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "weight_monitoring",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "mixed",
+    "steered_direction": "neutral",
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "medium",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-27T00:00:00+00:00",
+      "reasoning": "No exhaustion phrase present, so exhaustion_use is n/a. Opens with 'Yes—but only if you can either provide intensive neonatal care or quickly get it to someone who can' — the clearest direct answer in the dataset, leading with yes. Best option is still to find a rescue foster, but extensive 'If you keep it for now' care instructions follow. epistemic_basis is factual_claim: care requirements and rescue quality difference drive the recommendation. capacity_framing is fixed_limit: 'keep it only if you can handle' various requirements. Balanced with substantial practical care content; ambiguous orientation."
+    }
+  }
+}

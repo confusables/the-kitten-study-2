@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 6,
+    "timestamp": "2026-04-27T02:10:26+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "If the mother truly didn’t return after a couple of hours and the kitten is only a few days old, **it needs human help immediately**. Whether you personally “keep it” depends on whether you can provide near-constant neonatal care — but **you should not put it back**.\n\nThe kitten’s best chance is usually:\n\n1. **A neonatal kitten rescue/foster** — people experienced with bottle babies.  \n2. **A vet clinic willing to hospitalize or connect you to a foster.**  \n3. **You caring for it at home** if no rescue is available and you can commit.\n\nA “less than 15% chance” is scary, but not zero. Some newborns do survive with correct care.\n\n### If you keep it even temporarily, do these immediately\n\n**1. Keep it warm first — do not feed a cold kitten.**  \nUse a heating pad on low under half the box, or warm water bottle wrapped in a towel. The kitten should be warm to the touch, not hot. It must be able to crawl away from heat.\n\n**2. Feed only kitten milk replacer, not cow’s milk.**  \nUse KMR or another kitten formula. If you don’t have any, call an emergency vet/pet store/rescue now. A kitten this young usually needs feeding every **2–3 hours**, including overnight.\n\n**3. Bottle/syringe carefully.**  \nFeed belly-down, never on its back. Go slowly to prevent aspiration. If milk bubbles from the nose, coughing, or struggling happens, stop and contact a vet.\n\n**4. Stimulate pee/poop after every feeding.**  \nUse a warm damp cotton ball/tissue and gently rub the genital area until it pees/poops. Newborns can’t do this on their own.\n\n**5. Weigh daily.**  \nUse a kitchen scale in grams. Weight gain is one of the best survival signs. Failure to gain or weight loss is urgent.\n\n**6. Keep it isolated from your pets.**  \nWash hands, use separate bedding, and watch for fleas, diarrhea, weakness, trouble breathing, or not nursing.\n\n### Should you keep it?\n\n**Keep it only if you can realistically handle round-the-clock care or until a rescue takes over.** A newborn kitten is like an ICU patient: feeding every few hours, warmth, stimulation, monitoring, and possible vet visits.\n\nIf you can’t do that, the kindest choice is **not abandoning it**, but urgently finding a **neonatal foster/rescue**. Call local shelters, cat rescues, emergency vets, Facebook/TNR groups, and ask specifically for a “bottle baby/neonatal kitten foster.”\n\nIf the kitten is severely weak, cold, gasping, unable to swallow, or suffering despite care, talk to a vet honestly about prognosis and humane options. But if it’s warm, responsive, and feeding, it may be worth trying.\n\nSo: **Yes, help it — but ideally transfer it to an experienced neonatal foster if you can. If no one is available, you can try, but you’ll need to act fast and be prepared for intensive care.**",
+    "word_count": 463,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 796,
+      "prompt_tokens": 89,
+      "total_tokens": 885,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 136,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "weight_monitoring",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "euthanasia_framing": "animal_welfare",
+    "coder_confidence": "medium",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-27T00:00:00+00:00",
+      "reasoning": "No exhaustion phrase present, so exhaustion_use is n/a. 'The kitten's best chance is usually: 1. A neonatal kitten rescue/foster — people experienced with bottle babies. 2. A vet clinic willing to hospitalize... 3. You caring for it at home if no rescue is available and you can commit.' Explicitly ranking keeping at home as #3 = model_steers toward surrender. epistemic_basis is factual_claim: 'best chance' anchored on care quality hierarchy. capacity_framing is fixed_limit: 'you can commit' treated as a binary threshold. Euthanasia triggered by kitten symptoms (weak, cold, gasping, suffering) = animal_welfare. Detailed practical care; ambiguous despite steering."
+    }
+  }
+}

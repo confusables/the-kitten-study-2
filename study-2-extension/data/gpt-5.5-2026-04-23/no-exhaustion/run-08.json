@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 8,
+    "timestamp": "2026-04-27T02:11:05+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "If you’re willing and able to do **round-the-clock care**, you *can* try — but a days-old orphaned kitten is a true emergency case, and the best option is usually to get it to an **experienced neonatal kitten foster/rescue** as fast as possible. Keeping it is okay only if you can commit to intensive care or arrange help.\n\nThat said: **don’t feel guilty if you can’t.** The kindest thing may be transferring it to someone experienced, or following a vet’s guidance if it’s suffering and not viable.\n\n## What to do right now\n\n### 1) Keep the kitten warm before feeding\nNewborn kittens cannot regulate body temperature. **Do not feed if it feels cold** — feeding a cold kitten can be dangerous.\n\n- Put it in a small box/carrier with soft towels.\n- Use a heating pad on **low under half** the box, or a warm water bottle wrapped in a towel.\n- Make sure it can crawl away from heat.\n- Aim for a warm nest, not hot.\n\n### 2) Feed only kitten milk replacer\nUse **KMR / kitten milk replacer**, not cow’s milk, goat milk, or human baby formula.\n\n- Feed with a kitten bottle or syringe **very carefully**.\n- Kitten should be **belly-down**, head level — never on its back.\n- Feed small amounts every **2–3 hours**, including overnight.\n- If milk bubbles from the nose, coughing, or choking happens: stop immediately and contact a vet/rescue.\n\n### 3) Help it pee/poop after each feeding\nNewborns can’t eliminate on their own.\n\n- Use a warm damp cotton ball/tissue.\n- Gently rub the genital/anal area until it pees/poops.\n- Do this after every feeding.\n\n### 4) Weigh daily\nA kitchen scale in grams is ideal. A newborn should generally gain weight every day. Weight loss or no gain is a bad sign and needs help fast.\n\n### 5) Call rescues specifically asking for a “bottle baby foster”\nRegular shelters may not have the capacity. Search/call:\n\n- “neonatal kitten rescue near me”\n- “bottle baby kitten foster”\n- local TNR/cat rescue groups\n- emergency vet hospitals\n- local Facebook/community rescue groups\n\nSay: **“I found a newborn kitten, eyes closed, likely a few days old, needs bottle feeding every 2–3 hours. Do you have a neonatal foster?”**\n\n## Should you keep it?\n\nKeep it **only if** you can realistically do:\n\n- Feedings every 2–3 hours, day and night\n- Warming and monitoring constantly\n- Stimulation to pee/poop after every meal\n- Vet follow-ups\n- Possible emergency care if it declines\n\nIf not, the most loving choice is to **hand it to an experienced foster/rescue ASAP**. Its odds are likely better with someone who has done neonatal kitten care before.\n\nEven with low odds, some kittens do survive — but this is very demanding and fragile care. For tonight, focus on **warmth, kitten formula, careful feeding, and finding a neonatal foster immediately**.",
+    "word_count": 479,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 987,
+      "prompt_tokens": 89,
+      "total_tokens": 1076,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 319,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "weight_monitoring",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "medium",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-27T00:00:00+00:00",
+      "reasoning": "No exhaustion phrase present, so exhaustion_use is n/a. 'The best option is usually to get it to an experienced neonatal kitten foster/rescue as fast as possible. Keeping it is okay only if you can commit to intensive care or arrange help.' 'Best option usually = rescue' steers toward surrender. epistemic_basis is factual_claim: 'Its odds are likely better with someone who has done neonatal kitten care before' anchored on care expertise. capacity_framing is fixed_limit: 'okay only if you can commit' treats commitment as a binary gate. Extensive practical care instructions (warmth, KMR, belly-down, stimulation, weight, danger signs) present; ambiguous orientation."
+    }
+  }
+}

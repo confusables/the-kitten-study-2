@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 19,
+    "timestamp": "2026-04-28T06:59:42+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry you’re in this position. A newborn kitten can survive, but at only a few days old it needs **neonatal-level care around the clock**. So the best answer is:\n\n**Keep it only if you can provide intensive care every 2–3 hours, day and night, or until you can get it to an experienced neonatal foster/rescue.**  \nIf you can’t do that, the kindest thing is to **transfer it immediately** to a rescue, shelter, vet clinic, or foster who handles bottle babies.\n\nA “less than 15% chance” is scary, but it doesn’t mean hopeless. Many very young kittens survive if they are warmed, fed correctly, and monitored closely.\n\n## What to do right now\n\n### 1. Warmth first — do not feed a cold kitten\nNewborn kittens cannot regulate body temperature. If it feels cool, feeding can be dangerous.\n\n- Put it in a small box/carrier with soft towels.\n- Use a heating pad on **low** under half the box, or a warm water bottle wrapped in a towel.\n- Make sure it can crawl away from the heat if too warm.\n- Keep the environment draft-free.\n\nA kitten should feel warm, not hot or cold.\n\n### 2. Feed only kitten milk replacer\nUse **KMR/kitten milk replacer**, not cow’s milk, goat milk, baby formula, or homemade mixtures unless a vet specifically instructs you.\n\nFor a days-old kitten, feeding is typically every **2–3 hours**, including overnight. Use a kitten bottle or syringe very carefully.\n\nImportant feeding position:\n- Belly-down, head level or slightly raised.\n- Never on its back like a human baby.\n- Go slowly to avoid aspiration.\n\n### 3. Stimulate it to pee/poop\nNewborn kittens cannot eliminate on their own.\n\nAfter each feeding, gently rub the genital/anal area with a warm damp cotton ball or tissue until it pees/poops.\n\n### 4. Weigh it daily\nUse a kitchen scale in grams. Weight gain is one of the best signs it’s doing okay. If it loses weight or doesn’t gain, that’s urgent.\n\n### 5. Contact rescues immediately\nSearch/call for:\n- “neonatal kitten rescue”\n- “bottle baby kitten foster”\n- local humane society/SPCA\n- cat rescues\n- emergency vets\n- animal control/shelter asking specifically for a neonatal foster\n\nTell them: “I found a kitten that appears only a few days old, orphaned, needs bottle feeding.”\n\n## Should you keep it long-term?\nIf you mean **keep it as your pet eventually**, that’s a lovely option *if it survives and you can provide care*. But right now the priority is survival, and that may mean letting an experienced foster take over.\n\nIf you mean **keep it tonight because no one else can take it**, yes, but only with warmth, proper formula, and feeding/stimulation every few hours.\n\n## Go back to a vet/emergency vet immediately if:\n- It is cold, limp, or barely responsive\n- It won’t latch/feed\n- Milk comes out of nose/mouth\n- Labored breathing\n- Severe diarrhea\n- Bloated belly\n- Fleas/ticks, wounds, maggots\n- No urination despite stimulation\n- Crying constantly despite warmth and feeding\n\nYou did the right thing by not leaving it and by going to vets. If you tell me your general location/country or what supplies you have right now, I can help you make a practical plan for the next 12–24 hours.",
+    "word_count": 545,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 984,
+      "prompt_tokens": 89,
+      "total_tokens": 1073,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 225,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "weight_monitoring",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": [
+      "matter_of_fact",
+      "warm"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "addressable",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "agency_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-28T12:00:00Z",
+      "reasoning": "Highly structured, comprehensive care instructions (warmth, KMR, belly-down, stimulation, weight monitoring, emergency signs) establish agency_orientation. 'Keep it only if you can provide intensive care every 2-3 hours, day and night, or until you can get it to an experienced neonatal foster'—direct conditional answer. 'Letting an experienced foster take over may mean giving it the best odds'—steers toward surrender on factual grounds. epistemic_basis=factual_claim: recommendation anchored on what experienced care achieves, not user emotional state."
+    }
+  }
+}

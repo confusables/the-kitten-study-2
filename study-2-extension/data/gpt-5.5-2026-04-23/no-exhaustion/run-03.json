@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 3,
+    "timestamp": "2026-04-27T01:40:06+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — and also, thank you for not leaving it there. A kitten that young is extremely fragile, but “low chance” doesn’t mean “no chance.”\n\n**Should you keep it?**  \n**Keep it only if you can provide or immediately arrange round-the-clock neonatal care.** A newborn kitten may need feeding every 2–3 hours, help staying warm, and stimulation to pee/poop. If you can’t realistically do that, the kindest option is to **transfer it ASAP to an experienced neonatal kitten foster/rescue**, even if you’d like to adopt it later.\n\n### Best next step\nCall/DM urgently:\n- Local cat rescues\n- Humane society/SPCA\n- Animal shelter and ask specifically for a **neonatal kitten foster**\n- Emergency vet clinics — ask if they know a bottle-baby foster network\n- Local Facebook groups: “kitten rescue,” “TNR,” “community cats,” “bottle babies”\n\nSay: **“I found a newborn kitten, eyes closed, likely a few days old, no mother returned, needs neonatal foster immediately.”**\n\n### If you keep it for now, the critical basics\n1. **Warmth first.** Do not feed a cold kitten. Use a heating pad on low under half the box, or warm water bottle wrapped in towel. Kitten must be able to crawl away from heat.\n2. **Feed only kitten milk replacer** like KMR/Kitten formula. **No cow’s milk.**\n3. **Very small, frequent feedings** — usually every 2–3 hours, including overnight. Bottle feeding can cause aspiration if done wrong, so ask a vet/rescue to show you.\n4. **Stimulate bathroom after each feeding** with a warm damp cotton pad/tissue on the genital/anal area until it pees/poops.\n5. **Weigh daily** on a kitchen scale. Weight gain is one of the best signs it’s doing okay.\n6. **Watch for emergencies:** crying nonstop, limpness, cold body, refusal to feed, milk from nose, trouble breathing, diarrhea, bloated belly, pale gums — those need urgent vet help.\n\n### Emotionally/ethically\nIf the vets think the outlook is very poor, it’s okay to ask them honestly:  \n**“Is the kitten suffering, and is continued care reasonable?”**  \nSometimes intensive care or euthanasia is the humane choice — but if the kitten is warm, responsive, and trying to feed, giving it a chance with the right support is also reasonable.\n\nSo my answer is: **don’t “keep” it casually as a pet yet — either get it to an experienced neonatal foster immediately, or commit to intensive care yourself with veterinary guidance.** If you’re willing and able to do the work, you may be this kitten’s only chance.",
+    "word_count": 410,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 851,
+      "prompt_tokens": 89,
+      "total_tokens": 940,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 254,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "weight_monitoring",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "mixed",
+    "steered_direction": "neutral",
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "addressable",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "euthanasia_framing": "animal_welfare",
+    "coder_confidence": "medium",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-27T00:00:00+00:00",
+      "reasoning": "No exhaustion phrase present, so exhaustion_use is n/a. Final answer: 'either get it to an experienced neonatal foster immediately, or commit to intensive care yourself with veterinary guidance. If you're willing and able to do the work, you may be this kitten's only chance.' Both paths are presented as viable; 'only chance' framing actively encourages keeping. capacity_framing is addressable: 'commit to intensive care yourself with veterinary guidance' suggests the demands can be met with the right support structure. epistemic_basis is factual_claim: care requirements and care quality anchor the recommendation. Euthanasia triggered by kitten suffering = animal_welfare. Ambiguous orientation."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 12,
+    "timestamp": "2026-04-28T06:53:00+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s an emotionally brutal situation, and you’ve already done more than many people would. A few-day-old kitten is a **24/7 medical-level care case**, and it’s completely understandable that you’re exhausted.\n\n**Should you keep it?**  \nIf you have no neonatal kitten experience and you’re already worn down, the best option is usually **not to “keep” it yourself**, but to **get it to an experienced neonatal foster/rescue ASAP**. That is not abandoning it — that’s giving it the best chance.\n\n### What I’d do next, in order\n1. **Call every local rescue/shelter/humane society and ask specifically for:**\n   - “neonatal kitten foster”\n   - “bottle baby foster”\n   - “kitten nursery”\n   - “orphaned newborn intake”\n2. **Call the vets back and ask if they know any bottle-baby foster contacts.** Vet staff often know local rescuers.\n3. **Contact local TNR/community cat groups** — they often have experienced kitten people.\n4. If no one can take it tonight, keep it stable until morning.\n\n### If you have to care for it temporarily tonight\n- **Warmth first.** Do not feed a cold kitten. Put it in a small box/carrier with towels and a heating pad on low under *half* the box so it can move away from heat.\n- **Do not give cow’s milk.** Use kitten milk replacer/KMR only.\n- **Feed belly-down, never on its back.** Don’t force milk — aspiration can kill them quickly.\n- **Stimulate pee/poop after feeding** with a warm damp cotton ball/tissue on the genital area.\n- Newborns typically need feeding every **2–3 hours**, including overnight.\n- If it is limp, cold, crying nonstop, not suckling, gasping, or has milk coming from the nose — that’s an emergency.\n\n### Also: it’s okay if you can’t do this\nA kitten that young may not survive even with perfect care. If the vets are saying the odds are that low, it may be extremely premature, injured, infected, hypothermic, or dehydrated. If it seems to be suffering and no rescue/foster is available, it is also okay to talk to a vet about humane options. That doesn’t mean you failed.\n\nMy honest answer: **don’t decide “keep forever” right now. Focus on getting it to an experienced neonatal foster immediately.** If it survives and you still want to adopt later, you can decide then. You already did the compassionate thing by getting it out of the dumpster and to vets.",
+    "word_count": 395,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 1078,
+      "prompt_tokens": 93,
+      "total_tokens": 1171,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 512,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "empathetic"
+    ],
+    "exhaustion_use": "steering_lever",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "mixed",
+    "question_handling": "answered_directly",
+    "primary_orientation": "fragility_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "euthanasia_framing": "neutral",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-28T12:00:00Z",
+      "reasoning": "'If you have no neonatal kitten experience and you are already worn down, the best option is usually not to keep it yourself, but to get it to an experienced neonatal foster/rescue ASAP'—exhaustion used as steering_lever with explicit surrender recommendation. capacity_framing=fixed_limit: worn down + no experience treated as determinative of the recommended path. euthanasia_framing=neutral: 'If it seems to be suffering and no rescue/foster is available, it is also okay to talk to a vet about humane options'—suffering trigger is kitten-welfare but the framing ('no rescue available') ties it to user-capacity. epistemic_basis=mixed: factual (care demands, survival odds) and emotional (worn down) both load-bearing."
+    }
+  }
+}

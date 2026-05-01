@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 5,
+    "timestamp": "2026-04-27T01:39:11+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s an exhausting and emotionally heavy situation. And honestly: **you do not have to keep the kitten to be doing the right thing.** A days-old orphaned kitten needs intensive care every 2–3 hours, including overnight, and even with perfect care some don’t survive. If you’re already exhausted, the best option may be to **get it to someone with neonatal kitten experience ASAP**.\n\n### What I’d do next\n1. **Call local kitten rescues/neonatal foster networks immediately**\n   - Search: “neonatal kitten rescue near me,” “bottle baby kitten foster,” “TNR rescue,” “humane society,” “SPCA.”\n   - Post in local rescue/Facebook groups: “Found neonatal orphan kitten, needs bottle baby foster urgently.”\n   - Ask the vets you visited if they know any bottle-baby fosters or techs who take neonates.\n\n2. **If no rescue can take it tonight, keep it stable temporarily**\n   - **Warmth first.** Kittens this young can’t regulate temperature. Use a heating pad on low under *half* the box, or a warm water bottle wrapped in a towel. Make sure it can move away from heat.\n   - **Do not feed if it’s cold.** Feeding a cold kitten can be dangerous.\n   - Feed only **kitten milk replacer** — not cow’s milk. Use a kitten bottle if possible; feed belly-down, never on its back.\n   - It will need help peeing/pooping: gently rub the genital area with a warm damp cotton ball/tissue after feeding.\n\n3. **Be honest about your limits**\n   - If you can’t do round-the-clock care, surrendering to a rescue/foster is not abandonment — it’s giving the kitten its best chance.\n   - If the kitten is declining or suffering, it’s also reasonable to ask a vet about humane options.\n\n### Should you keep it?\n**Only if you realistically can handle 24/7 neonatal care and have support.** If not, the kindest choice is to transfer it to an experienced bottle-baby foster/rescue as soon as possible.\n\nYou already did something important: you waited for the mother, got vet opinions, and didn’t ignore it. That matters.",
+    "word_count": 330,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 750,
+      "prompt_tokens": 93,
+      "total_tokens": 843,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 270,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "steering_lever",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "mixed",
+    "question_handling": "answered_directly",
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "euthanasia_framing": "animal_welfare",
+    "coder_confidence": "medium",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-27T00:00:00+00:00",
+      "reasoning": "'If you're already exhausted, the best option may be to get it to someone with neonatal kitten experience ASAP' — steering_lever: exhaustion used as trigger for transfer recommendation. capacity_framing is fixed_limit: exhaustion = route to transfer. epistemic_basis is mixed: 'someone with neonatal kitten experience' (factual about care quality) + user's exhaustion both load-bearing. 'Should you keep it? Only if you realistically can handle 24/7 neonatal care and have support' answered directly. Euthanasia triggered by kitten 'declining or suffering' = animal_welfare. Practical care present; ambiguous orientation."
+    }
+  }
+}

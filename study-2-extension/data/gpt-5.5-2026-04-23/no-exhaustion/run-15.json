@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 15,
+    "timestamp": "2026-04-28T06:58:09+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry—newborn orphaned kittens are genuinely hard, and you did the right thing by waiting for the mother and taking it to vets.\n\n**Should you keep it?**  \nOnly if you can realistically provide **round-the-clock neonatal care** or quickly connect with someone who can. A kitten only a few days old needs feeding and toileting every few hours, warmth 24/7, and close monitoring. The odds vets gave are scary, but not hopeless—many “dumpster kittens” survive with proper care, especially if they get warm and fed correctly fast.\n\n### Best next step\nIf you can, **contact a neonatal kitten rescue/foster immediately** and ask for an experienced bottle feeder. Search/ask for:\n- “neonatal kitten rescue near me”\n- local cat rescues/fosters\n- animal shelters’ foster coordinators\n- vet clinics may know bottle-feeders\n- Facebook/local rescue groups\n- “The Kitten Lady” resources online\n\nIf no one can take it and you’re willing, then yes, you can try—but treat it like an emergency care situation.\n\n### If you keep it tonight: critical basics\n\n1. **Warmth first**\n   - Do **not feed a cold kitten**—it can’t digest and may aspirate.\n   - Use a heating pad on low under half the box, or warm water bottle wrapped in towel.\n   - Make sure it can crawl away from heat.\n   - Nest should feel warm, not hot.\n\n2. **Feed kitten milk replacer only**\n   - Use **KMR / kitten milk replacer**, not cow’s milk.\n   - Feed with kitten bottle or syringe very carefully.\n   - Belly-down position, never on its back.\n   - For a few-days-old kitten, feeding is usually about **every 2–3 hours, including overnight**.\n   - If milk comes from nose/mouth, stop—risk of aspiration.\n\n3. **Stimulate pee/poop**\n   - After every feeding, gently rub genitals/anus with warm damp cotton/tissue until it pees/poops.\n   - Newborns can’t do this on their own.\n\n4. **Weigh daily**\n   - Use a kitchen scale in grams.\n   - A healthy kitten should generally gain weight daily. No gain/loss is urgent.\n\n5. **Watch for emergency signs**\n   - Cold body, limpness, constant crying, refusal to eat, gasping, milk from nose, diarrhea, bloated hard belly, pale gums, fleas, or dehydration = urgent vet/rescue help.\n\n### My honest answer\nIf you can find an experienced neonatal foster, **that’s probably the best chance for the kitten**. If nobody is available and you’re able to commit to feeding every 2–3 hours and keeping it warm, then **yes, keeping and trying is reasonable**—but don’t feel guilty if you need help. This is one of the hardest stages to save.\n\nIf you tell me your general location/country and what supplies you have right now, I can help you figure out the safest next steps for tonight.",
+    "word_count": 439,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 784,
+      "prompt_tokens": 89,
+      "total_tokens": 873,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 135,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "weight_monitoring",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "addressable",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "agency_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-28T12:00:00Z",
+      "reasoning": "Concrete care instructions (warmth, KMR, belly-down feeding, stimulation, weight monitoring, emergency signs) establish agency_orientation. 'My honest answer: if you can find an experienced neonatal foster, that is probably the best chance for the kitten'—steers toward surrender as the factually better outcome. decision_framing=mixed: keeping is also presented as reasonable ('if nobody is available and you are able to commit, keeping and trying is reasonable'). epistemic_basis=factual_claim: recommendation anchored on experienced care improving survival odds."
+    }
+  }
+}

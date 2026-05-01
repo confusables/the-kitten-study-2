@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 17,
+    "timestamp": "2026-04-28T06:58:52+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "If you’re willing and able to do round-the-clock care, **yes, it’s reasonable to try**—but the best option is often to **get it to a neonatal kitten rescue/foster ASAP**, because kittens only a few days old need very specific care every 2–3 hours and can decline fast.\n\nA “<15% chance” doesn’t mean “no chance,” but it does mean you should decide based on whether you can commit and whether the kitten seems to be suffering.\n\n### What I’d do right now\n1. **Contact rescues immediately**\n   - Search/call: “neonatal kitten rescue,” “bottle baby foster,” “cat rescue,” local shelter, humane society, TNR groups, Facebook community rescue groups.\n   - Tell them: “newborn kitten, eyes closed, found in dumpster, mother absent, vets estimate poor prognosis, needs bottle-baby foster.”\n\n2. **Keep it warm before feeding**\n   - Newborn kittens cannot regulate temperature.  \n   - Use a heating pad on low under half the box, or warm water bottle wrapped in towel. Make sure it can crawl away from heat.\n   - **Do not feed if it’s cold**—warm it first, because feeding a cold kitten can be dangerous.\n\n3. **Feed only kitten milk replacer**\n   - Use KMR/kitten formula, not cow’s milk.\n   - Bottle or syringe feeding is risky if done wrong because they can aspirate. Kitten should be belly-down, never on its back.\n   - A kitten only a few days old usually needs feeding about **every 2–3 hours**, including overnight.\n\n4. **Stimulate pee/poop**\n   - After each feeding, gently rub the genital/anal area with a warm damp cotton ball/tissue until it pees/poops. They can’t reliably go on their own yet.\n\n5. **Watch for emergency signs**\n   - Limpness, constant crying, cold body, trouble breathing, milk from nose, refusing food, diarrhea, bloated belly, pale/gray gums = urgent vet/rescue help.\n\n### Should you keep it?\nKeep it **if** you can provide intensive care, afford supplies/vet follow-ups, and accept that it may not survive even with good care. If you can’t do that, the kindest choice is to **transfer it to an experienced neonatal foster/rescue**, not try to “wing it.”\n\nIf the kitten is severely suffering or rapidly declining, ask a vet honestly whether continued care is humane versus euthanasia. But if it’s warm, breathing well, and willing to feed, it’s absolutely fair to give it a chance.\n\nYou did the right thing by waiting for the mother and taking it to vets. The next most important move is finding an experienced bottle-baby foster as fast as possible.",
+    "word_count": 403,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 717,
+      "prompt_tokens": 89,
+      "total_tokens": 806,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 128,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "weight_monitoring",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": [
+      "matter_of_fact",
+      "warm"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "addressable",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "agency_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "euthanasia_framing": "animal_welfare",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-28T12:00:00Z",
+      "reasoning": "Structured care instructions (warmth, KMR, belly-down, stimulation, emergency signs) establish agency_orientation. 'The best option is often to get it to a neonatal kitten rescue/foster ASAP' steers toward surrender. euthanasia_framing=animal_welfare: 'If the kitten is severely suffering or rapidly declining, ask a vet honestly whether continued care is humane versus euthanasia'—trigger is observable kitten condition (suffering, declining), not user limits. epistemic_basis=factual_claim: anchored on what experienced care achieves and kitten condition."
+    }
+  }
+}

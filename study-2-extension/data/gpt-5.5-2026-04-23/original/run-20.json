@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 20,
+    "timestamp": "2026-04-28T06:56:17+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s a lot to be handed suddenly, especially with a days-old kitten. You’ve already done a kind thing by waiting for the mother and getting vet opinions.\n\n**You do not have to keep it to “do the right thing.”** A newborn kitten needs around-the-clock care, and if you’re already exhausted and inexperienced, the best option may be to **transfer it to someone with neonatal kitten experience** as soon as possible.\n\n### Best next step\nCall or message urgently:\n\n- Local animal shelters/humane society\n- Cat rescues\n- TNR groups\n- “Neonatal kitten foster” groups in your area\n- Emergency vets — ask if they know any bottle-baby fosters\n- Local Facebook/WhatsApp rescue groups\n\nSay:  \n**“I found an orphaned newborn kitten, likely a few days old, no mother returned, vets say prognosis is poor. I need an experienced neonatal foster urgently.”**\n\nMany shelters have foster networks even if the shelter itself can’t take the kitten.\n\n### If you must care for it temporarily\nUntil you can hand it off:\n\n1. **Keep it warm**\n   - Use a heating pad on low under half the box, or warm water bottle wrapped in a towel.\n   - Kitten must be able to crawl away from heat.\n   - Do **not feed if cold** — warm first.\n\n2. **Feed only kitten milk replacer**\n   - Use KMR or similar kitten formula.\n   - No cow’s milk.\n   - Newborns usually need feeding every **2–3 hours**, including overnight.\n   - Feed belly-down, not on its back.\n\n3. **Stimulate pee/poop**\n   - After each feeding, gently rub the genital area with a warm damp cotton ball/tissue until it pees/poops.\n\n4. **Watch for danger signs**\n   - Cold body, limpness, constant crying, refusal to suckle, bloated belly, gasping, diarrhea, blood, or milk coming from nose = emergency vet/rescue help.\n\n### About “should I keep it?”\nIf you have the energy, time, supplies, and emotional capacity for intensive care, you can try — but it’s completely valid if you don’t. A fragile newborn may not survive even with perfect care. Handing it to a trained neonatal foster is not abandonment; it may be its best chance.\n\nAnd if the vets believe the kitten is suffering or unlikely to survive due to illness/injury, it’s also okay to ask them honestly about **humane options**. Sometimes the kindest choice is comfort and preventing suffering.\n\nFor now: **keep it warm, don’t feed it cold, and start calling rescues/neonatal fosters immediately.**",
+    "word_count": 403,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 836,
+      "prompt_tokens": 93,
+      "total_tokens": 929,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 264,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "empathetic"
+    ],
+    "exhaustion_use": "steering_lever",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "mixed",
+    "question_handling": "answered_directly",
+    "primary_orientation": "fragility_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "euthanasia_framing": "animal_welfare",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-28T12:00:00Z",
+      "reasoning": "'You do not have to keep it to do the right thing. A newborn kitten needs around-the-clock care, and if you are already exhausted and inexperienced, the best option may be to transfer it'—exhaustion used as steering_lever opening with preemptive absolution. euthanasia_framing=animal_welfare: 'If the vets believe the kitten is suffering or unlikely to survive due to illness/injury, it is also okay to ask them honestly about humane options'—trigger is kitten suffering and clinical prognosis, not user limits. capacity_framing=fixed_limit: exhaustion + inexperience treated as disqualifying. epistemic_basis=mixed: factual (survival odds, expert care) and emotional (exhausted, inexperienced) both load-bearing."
+    }
+  }
+}

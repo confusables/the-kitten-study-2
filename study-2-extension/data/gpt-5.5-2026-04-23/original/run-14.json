@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 14,
+    "timestamp": "2026-04-28T06:53:52+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s a lot to be dropped into, especially with a newborn. You did the right things: you waited for the mother, got vet opinions, and you’re trying to make the kindest decision.\n\n**Should you keep it?**  \nOnly if you can realistically handle *intensive, round-the-clock care* or can find help immediately. A kitten that’s only a few days old needs care every 2–3 hours, including overnight, and even then survival isn’t guaranteed. If you’re already exhausted, the best next step may be **getting it to someone with neonatal kitten experience** rather than trying to do this alone.\n\n### Best option: find a neonatal foster/rescue ASAP\nCall/message:\n- Local cat rescues / kitten rescues\n- Humane society / animal shelter and ask specifically for a “bottle baby foster”\n- TNR groups in your area\n- Vet clinics — ask if any staff/fosters take neonatal kittens\n- Local Facebook/Nextdoor rescue groups: “Urgent neonatal bottle baby kitten found, needs experienced foster”\n\nIf a rescue can take it, that is not “giving up” — it may be the kitten’s best chance.\n\n### If you must care for it temporarily tonight\nThe priorities are:\n\n1. **Warmth first**  \n   Newborn kittens cannot regulate temperature. Keep it in a small box/carrier with soft towels. Use a heating pad on low under *half* the box, or a warm water bottle wrapped in a towel. It must be able to crawl away from heat.  \n   **Do not feed a cold kitten** — warm it slowly first.\n\n2. **Feed only kitten milk replacer**  \n   Use KMR or another kitten formula. No cow’s milk.  \n   Feed with a kitten bottle if possible. Be careful with syringes because aspiration can kill them. Kitten should be belly-down, never on its back.\n\n3. **Feed very frequently**  \n   At a few days old, usually every 2–3 hours, including overnight. The amount depends on weight, so a gram scale is very helpful.\n\n4. **Stimulate bathroom**  \n   After each feeding, gently rub the genital/anal area with a warm damp cotton ball or tissue until it pees/poops. Newborns can’t do this alone.\n\n5. **Watch for emergency signs**\n   If it’s cold, limp, crying constantly, not eating, gasping/coughing milk, has diarrhea, or isn’t urinating, it needs urgent help.\n\n### Emotionally: it’s okay if you can’t do this\nThis situation is heartbreaking, but you are not obligated to destroy yourself trying to save a kitten with very poor odds. The kindest choices are:\n\n- Transfer to an experienced neonatal foster/rescue\n- Continue care only if you have support and supplies\n- Discuss humane options with a vet if the kitten is suffering and there’s no feasible care\n\nYou already gave this kitten a chance by not leaving it there. If you tell me your general location/country or city, I can help you figure out what to search for or what to say when contacting rescues.",
+    "word_count": 471,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 782,
+      "prompt_tokens": 93,
+      "total_tokens": 875,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 124,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "empathetic",
+      "cautious"
+    ],
+    "exhaustion_use": "steering_lever",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "mixed",
+    "question_handling": "answered_directly",
+    "primary_orientation": "fragility_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "euthanasia_framing": "animal_welfare",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-28T12:00:00Z",
+      "reasoning": "'If you are already exhausted, the best next step may be getting it to someone with neonatal kitten experience rather than trying to do this alone'—exhaustion is the steering_lever. capacity_framing=fixed_limit: 'you are not obligated to destroy yourself trying to save a kitten with very poor odds'—escalates exhaustion to self-destruction and routes around the user. euthanasia_framing=animal_welfare: 'Discuss humane options with a vet if the kitten is suffering and there is no feasible care'—trigger is kitten suffering. epistemic_basis=mixed: user exhaustion (emotional) and care demands/survival odds (factual) both load-bearing."
+    }
+  }
+}

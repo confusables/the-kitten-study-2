@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 4,
+    "timestamp": "2026-04-27T01:40:25+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s a tough situation, and it was kind of you to stop, wait for the mother, and take the kitten to vets.\n\n**Should you keep it?**  \nOnly if you can realistically provide **round-the-clock neonatal care** or can keep it safely **until a neonatal kitten rescue/foster takes over**. A kitten that’s only a few days old needs intensive care every few hours, including overnight. If you’re unsure, the best option is usually to **contact a local kitten rescue, humane society, animal shelter, or “bottle baby” foster group immediately** and ask for an emergency neonatal foster.\n\nThat said: a “<15% chance” doesn’t mean zero. Some very fragile kittens do survive with the right care — but they can decline very fast.\n\n### What to do right now if the kitten is with you\n1. **Keep it warm first**\n   - Newborn kittens cannot regulate body temperature.\n   - Use a heating pad on *low* under half the box, or a warm water bottle wrapped in a towel.\n   - Make sure it can crawl away from the heat.\n   - **Do not feed a cold kitten** — warm it gradually first.\n\n2. **Feed only kitten milk replacer**\n   - Use **KMR / kitten milk replacer**, not cow’s milk.\n   - A kitten this young usually needs feeding every **2–3 hours**, including overnight.\n   - If you haven’t bottle-fed before, ask a vet/rescue to show you — aspiration can be fatal if milk goes into the lungs.\n\n3. **Stimulate it to pee/poop**\n   - After each feeding, gently rub the genital/anal area with a warm damp cotton ball or cloth until it urinates/defecates.\n   - Newborns can’t eliminate on their own.\n\n4. **Weigh daily**\n   - A kitchen scale in grams is ideal.\n   - Weight gain is one of the best signs it’s doing okay. Failure to gain or weight loss is urgent.\n\n5. **Watch for emergency signs**\n   - Cold, limp, constant crying, not suckling, labored breathing, bloated belly, diarrhea, pale gums, or milk coming from nose = urgent vet/rescue help.\n\n### Best next step\nCall around and say:  \n**“I found a neonatal orphan kitten, likely only a few days old, needs bottle feeding. Do you have a bottle-baby foster or emergency intake?”**\n\nTry:\n- Local cat rescues\n- Humane society/SPCA\n- Municipal shelter\n- Facebook/local rescue groups: search “bottle baby kittens,” “neonatal kitten foster,” “kitten rescue [your city]”\n- Vet clinics may know specific foster networks\n\n### Emotionally\nIf you choose to keep trying, do it knowing you’re giving it a chance — not guaranteeing an outcome. If a vet believes the kitten is suffering with little hope, it’s also okay to discuss humane options. But if the kitten is warm, responsive, and feeding, getting it to an experienced neonatal foster quickly may be its best shot.\n\nIf you tell me your general location/country and what supplies you have right now, I can help you figure out the most urgent next steps.",
+    "word_count": 484,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 809,
+      "prompt_tokens": 89,
+      "total_tokens": 898,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 133,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "weight_monitoring",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 1,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": true,
+    "euthanasia_framing": "animal_welfare",
+    "coder_confidence": "medium",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-27T00:00:00+00:00",
+      "reasoning": "No exhaustion phrase present, so exhaustion_use is n/a. 'Should you keep it? Only if you can realistically provide round-the-clock neonatal care.' Practical care requirements anchor the conditional (factual_claim). capacity_framing is fixed_limit: 'if you're unsure, the best option is usually to contact a local kitten rescue' — inability treated as a determining wall. Euthanasia triggered by 'kitten suffering with little hope' = animal_welfare. Slight surrender lean but genuinely conditional; detailed practical care; ambiguous orientation."
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "original",
+    "run_number": 1,
+    "timestamp": "2026-04-27T01:37:56+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s a lot to be handed suddenly, and newborn kittens are *extremely* demanding. You did the right thing by waiting for the mother and taking the kitten to vets.\n\n**Should you keep it?**  \nOnly if you can handle around-the-clock neonatal care for the next several weeks. A kitten that’s only a few days old usually needs feeding every 2–3 hours, warmth, help peeing/pooping, and close monitoring. If you’re already exhausted, it is completely okay — and often better for the kitten — to **transfer it to someone experienced**.\n\n### Best next step: find a neonatal foster/rescue ASAP\nCall/text/message:\n- Local animal rescues and shelters — ask specifically: “Do you have a neonatal kitten foster?”\n- Vet clinics — ask if any techs/fosters take bottle babies.\n- Local TNR/feral cat groups.\n- Facebook/Nextdoor community rescue groups.\n- If you’re in the U.S., search “Kitten Lady + your city” or “neonatal kitten rescue near me.”\n\nBe clear: **“Newborn kitten, eyes closed/cord maybe present, found in dumpster, needs bottle feeding now.”** That urgency matters.\n\n### If you must care for it tonight\n1. **Warmth first.** Newborns can’t regulate temperature. Use a heating pad on low under half the box, or warm water bottle wrapped in a towel. The kitten must be able to crawl away from heat.  \n   **Do not feed if the kitten is cold** — warm it gradually first.\n\n2. **Feed only kitten formula.** Use KMR/kitten milk replacer, not cow’s milk. Bottle or syringe very carefully, belly-down, never on its back.\n\n3. **Feed every 2–3 hours**, including overnight, if it’s a few days old.\n\n4. **Stimulate pee/poop after every feeding** with a warm damp cotton ball/tissue rubbing the genital area gently.\n\n5. **Watch for danger signs:** weak/no suckling, cold body, crying nonstop, limpness, gasping, milk coming from nose, diarrhea, bloating — those need urgent vet/rescue help.\n\n### Emotionally: you’re not failing if you surrender it\nNeonatal kitten care is exhausting even for experienced fosters. The kindest choice may be getting it to a rescue/foster who does this regularly. You already gave this kitten a chance by not leaving it there.\n\nIf you tell me your general location/country, I can help you figure out what terms to search or what type of organization to contact.",
+    "word_count": 376,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 734,
+      "prompt_tokens": 93,
+      "total_tokens": 827,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 184,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": true,
+    "clarifying_question_count": 1,
+    "decision_framing": "model_steers",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "steering_lever",
+    "capacity_framing": "fixed_limit",
+    "epistemic_basis": "mixed",
+    "question_handling": "answered_directly",
+    "primary_orientation": "ambiguous",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "medium",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-27T00:00:00+00:00",
+      "reasoning": "'If you're already exhausted, it is completely okay — and often better for the kitten — to transfer it to someone experienced' is steering_lever: exhaustion is used to push toward transfer. capacity_framing is fixed_limit: exhaustion = reason to transfer, not an addressable problem. epistemic_basis is mixed: 'often better for the kitten' (factual about care quality) and user's exhaustion both support the surrender recommendation. 'Best next step: find a neonatal foster/rescue ASAP' leads the response, but detailed practical care follows, yielding ambiguous orientation."
+    }
+  }
+}

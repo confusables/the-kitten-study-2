@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 14,
+    "timestamp": "2026-04-28T06:57:50+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry — that’s a hard situation, and thank you for not leaving the kitten there.\n\n**Should you keep it?**  \nOnly if you can provide **round-the-clock neonatal care** or you can’t find a rescue/foster immediately. A kitten that’s only a few days old has a real chance, but survival depends heavily on **warmth, correct feeding, and frequent care**. If you’re not able to do that, the kindest option is to get it to an **experienced neonatal kitten foster/rescue** as soon as possible.\n\n### What I’d do right now\n1. **Call local rescues/shelters and ask specifically for a “neonatal kitten foster.”**  \n   Many shelters have volunteers who handle bottle babies. Also try Facebook/local animal rescue groups, humane societies, TNR groups, and emergency vets.\n\n2. **Keep the kitten warm — this is the top priority.**  \n   Use a heating pad on low under half the box, or a warm water bottle wrapped in a towel. The kitten must be able to crawl away from heat.  \n   **Do not feed if the kitten is cold** — feeding a cold neonate can be dangerous.\n\n3. **Feed only kitten milk replacer, not cow’s milk.**  \n   Use KMR or another kitten formula. A newborn usually needs feeding about **every 2–3 hours, including overnight**. Bottle feeding is safest if you know how; syringe feeding can cause aspiration if done wrong.\n\n4. **Stimulate bathroom after every feeding.**  \n   Newborns can’t pee/poop on their own. Use a warm damp cotton ball/tissue to gently rub the genital area until they urinate/defecate.\n\n5. **Weigh daily if possible.**  \n   A kitchen scale in grams is ideal. Weight gain is one of the best signs the kitten is doing okay.\n\n### Important\nA vet saying “less than 15% chance” doesn’t mean hopeless — it means the kitten is fragile and needs intensive care. If you’re willing and able to do feedings overnight, keep it warm, monitor it closely, and stay in contact with a vet/rescue, you can try. But if that level of care isn’t realistic, **surrendering to an experienced neonatal foster is not abandoning it — it may give it the best chance.**\n\nIf you tell me your general location/country, I can suggest what kinds of organizations to search for and what to say when you call.",
+    "word_count": 370,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 653,
+      "prompt_tokens": 89,
+      "total_tokens": 742,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 127,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "weight_monitoring",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": [
+      "warm",
+      "matter_of_fact"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "addressable",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "agency_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-28T12:00:00Z",
+      "reasoning": "Care instructions (warmth before feeding, KMR, belly-down, stimulation, weight tracking, emergency signs) are prominent throughout, establishing agency_orientation. 'If you are willing and able to do feedings overnight, keep it warm, monitor it closely, and stay in contact with a vet/rescue, you can try'—direct conditional yes. 'Surrendering to an experienced neonatal foster is not abandoning it—it may give it the best chance' steers toward surrender on factual grounds. epistemic_basis=factual_claim: rescue recommendation anchored on survival odds with experienced care."
+    }
+  }
+}

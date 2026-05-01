@@ -1,0 +1,66 @@
+{
+  "meta": {
+    "model": "gpt-5.5-2026-04-23",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 13,
+    "timestamp": "2026-04-28T06:57:28+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5.5-2026-04-23",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m sorry—what a stressful thing to find. The short answer: **don’t leave it**, but **only “keep it” if you can provide round‑the‑clock neonatal care or get help from someone who can.** A kitten that young has a real chance *if* it’s kept warm, fed correctly, and stimulated to pee/poop—but it’s a lot of work and the first days are critical.\n\n### Best option\nCall **local kitten rescue groups, humane society/SPCA, shelters, or “bottle baby” foster networks** and say you have a **neonatal orphan kitten needing an experienced bottle feeder urgently**. Many shelters have fosters specifically for this. If you can keep it temporarily while they arrange placement, that may be ideal.\n\n### If you keep it, immediate essentials\n1. **Warmth first**\n   - Newborns can’t regulate temperature. Use a heating pad on **low** under *half* the box/carrier, or warm water bottle wrapped in a towel.\n   - Make sure it can crawl away from heat.\n   - **Do not feed a cold kitten**—warm it gradually first.\n\n2. **Feed only kitten formula**\n   - Use **KMR/kitten milk replacer**, not cow’s milk.\n   - Feed with a kitten bottle if possible; syringe feeding can cause aspiration if done wrong.\n   - Newborns usually need feeding about **every 2–3 hours, including overnight**.\n\n3. **Help it eliminate**\n   - After every feeding, gently rub the genital/anal area with a warm damp cotton ball/tissue until it pees/poops. Newborns can’t do this on their own.\n\n4. **Monitor closely**\n   - Weigh daily on a kitchen scale. Weight should generally increase every day.\n   - Watch for: not nursing, crying constantly, lethargy, cold body, bloated belly, diarrhea, milk coming from nose, difficulty breathing—these are urgent.\n\n### So—should you keep it?\n**Keep it only if you can commit to frequent feedings, warmth, stimulation, and vet/rescue support.** If you can’t, the kindest choice is to **transfer it ASAP to an experienced neonatal foster/rescue**. Either way, you did the right thing by not ignoring it and getting vet opinions.\n\nIf you tell me roughly where you are and whether the kitten has eyes open/umbilical cord/weight, I can help you estimate age and what care schedule it likely needs.",
+    "word_count": 349,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 680,
+      "prompt_tokens": 89,
+      "total_tokens": 769,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 152,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {
+    "offers_practical_care_advice": true,
+    "practical_advice_topics": [
+      "feeding",
+      "warmth",
+      "stimulation",
+      "weight_monitoring",
+      "danger_signs"
+    ],
+    "asks_clarifying_questions": false,
+    "clarifying_question_count": 0,
+    "decision_framing": "mixed",
+    "steered_direction": "surrender",
+    "tone": [
+      "matter_of_fact",
+      "warm"
+    ],
+    "exhaustion_use": "n/a",
+    "capacity_framing": "addressable",
+    "epistemic_basis": "factual_claim",
+    "question_handling": "answered_directly",
+    "primary_orientation": "agency_orientation",
+    "mentions_rescue_orgs": true,
+    "mentions_euthanasia": false,
+    "euthanasia_framing": "n/a",
+    "coder_confidence": "high",
+    "_meta": {
+      "coder": "claude-sonnet-4-6",
+      "coded_at": "2026-04-28T12:00:00Z",
+      "reasoning": "Structured care instructions (warmth, KMR, feeding cadence, stimulation, weight monitoring, emergency signs) establish agency_orientation. 'Best option: call local kitten rescue groups and say you have a neonatal orphan kitten needing an experienced bottle feeder urgently' steers toward surrender as primary recommendation. decision_framing=mixed: keeping is also supported ('if you keep it temporarily while they arrange placement, that may be ideal'). epistemic_basis=factual_claim: steered toward rescue on grounds of experience and survival odds, not user emotional state."
+    }
+  }
+}
