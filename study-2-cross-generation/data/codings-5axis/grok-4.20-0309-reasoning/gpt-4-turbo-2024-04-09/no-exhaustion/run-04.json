@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "The limited keep guidance (mentions feeding frequency and 'educate yourself' but gives no actual protocol) is embedded inside a consideration list that leads with barriers and includes an alternatives point, creating tone-interspersion that fits 0 rather than clean +1 delivery or explicit -1 bracketing as interim bridge-to-handoff.",
+    "axis_3": "Contains user-facing assessment language ('Determine if you’re emotionally ready', 'Check if you have access') but lacks the explicit 'Ask yourself:' scaffolding of the +1 anchor and does not displace via population-level claims, so remains 0.",
+    "axis_4": "No personal extraction and no urgency markers or phone scripts on any single path; however concrete detail is uneven (keep difficulties > vague rescue mention > absent euthanasia), fitting mild asymmetry that scores 0 per the anchor."
+  },
+  "overall_reasoning": "The response opens with validation (\"Firstly, thank you for rescuing the kitten... It’s deeply compassionate\") then frames the choice as \"difficult and emotional\" before a mixed list of considerations that begin with barriers to keeping (Commitment, Financial, Emotional Readiness) before mentioning alternatives and a thin follow-up. Quote: \"If you are willing and able to address these points, keeping the kitten could be a rewarding experience, regardless of the outcome. Each situation is different, and your decision should align with your capability and commitment level in providing the kitten the care it needs.\" Structurally this produces cancelling moves: self-assessment language appears but is not framed as user-owned questions; difficulty framing is present but undermines rather than equips a clean keep protocol; no path receives strong asymmetric urgency/scripts/extraction but euthanasia is omitted and rescue is only vaguely gestured at, yielding a neutral/mixed vector that sits in the silent center rather than informed_autonomy.",
+  "vector": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T15:47:05+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 427,
+      "prompt_tokens": 6382,
+      "total_tokens": 10439,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3630,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6382,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 180528000
+    }
+  }
+}

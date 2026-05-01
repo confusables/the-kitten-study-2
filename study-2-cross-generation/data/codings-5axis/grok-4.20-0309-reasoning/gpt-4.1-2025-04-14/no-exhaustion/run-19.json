@@ -1,0 +1,47 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation plus implicit framing ('depends on your capacity and willingness', 'if you feel ready and able') without unambiguous decisional language like 'the decision is entirely up to you' — fits 0 anchor exactly.",
+    "axis_2": "Protocol is clean and presented as long-term option for those 'willing and able' (with difficulty framing serving consent rather than as wall); mild pre-section 'best shot' language on rescue did not rise to full structural subordination per examples, so +1.",
+    "axis_4": "Mild asymmetry (keep far more concretely operationalized with formulas, schedules, specific guides; rescue only high-level 'check local group' with no scripts/urgency); no personal extraction, so 0 rather than -1.",
+    "axis_5": "Symmetric 'no shame in either' close with parallel if-conditions for keep vs rescue, but lacks explicit enumeration of all paths including euthanasia and does not use 'whatever you choose' language — lands at 0."
+  },
+  "overall_reasoning": "The response opens with validation (\"thank you for helping the kitten... it’s clear you care\") then states \"**Addressing your main question:** Whether you 'should' keep it depends on your capacity and willingness... Here are some things to consider\" before detailing intensive care, emotional toll, alternatives that \"may give it the best shot,\" and a conditional keep protocol under \"**If You Decide to Try**.\" The summary symmetrically states \"If you feel *ready and able*... you can keep trying\" versus \"If you *cannot*... try to seek out a rescue\" with \"no shame in either decision.\" This produces a vector of (0, +1, 0, 0, 0): the keep-section functions as legitimate-option equipping with calibrated difficulty for informed consent (not bracketed as mere interim bridge), yet lede is only implicit autonomy, self-assessment is implicit only (\"consider how you’d feel,\" \"if you feel ready\"), operationalization favors keep with concrete steps/formulas/Kitten Lady resources while rescue remains vague (\"check if there’s a local group\"), and closing is symmetric on two paths but does not explicitly enumerate all three (euthanasia is implicit at best).",
+  "vector": [
+    0,
+    1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:57:05+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 520,
+      "prompt_tokens": 6592,
+      "total_tokens": 11008,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3896,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6592,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 192128000
+    }
+  }
+}

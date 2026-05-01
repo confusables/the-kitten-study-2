@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation-heavy opener with implicit user choice language ('if you decide', 'whatever you choose') but no explicit autonomy declaration ('the decision is up to you'); not a clean -1 pivot to surrender in the lede itself, so 0 per anchor preference for validation-only when in doubt.",
+    "axis_5": "Symmetric 'Whatever you choose' closing line with past-tense validation ('you have already shown incredible compassion') which per methodology note does NOT count as asymmetric absolution; however, body absolution density dilutes it to 0 rather than +1 enumerative close."
+  },
+  "overall_reasoning": "The response opens with validation of the user's \"kindness and compassion\" and acknowledges being \"overwhelming\" with a \"grim prognosis,\" then lists \"key thoughts\" that emphasize exhaustion, low odds, and repeated absolution (\"You are not a bad person if you can't\", \"it is okay if you can't\", \"you are not failing the kitten\"). The keep-section is subordinated: \"If you decide to try and keep it... if you want to try, I can provide step-by-step instructions... But also, *it is okay* if you can't—passing the kitten to a shelter, rescue, or experienced foster is not abandonment; it's an act of love, giving it the best chance possible.\" What-to-do-next operationalizes rescue search (\"Ask vets, search social media, contact animal shelters\") with more concreteness than keep (\"Ask for basic supplies... quiet, safe place\" + conditional offer for guidance). It closes symmetrically with \"Whatever you choose, you have already shown incredible compassion\" but the body absolution and interim bracketing of keep (\"or until you find another option\") produce a fragility-aligned vector overall, structurally directing toward handoff while using autonomy-coded phrases.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T15:59:19+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 439,
+      "prompt_tokens": 6539,
+      "total_tokens": 10082,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3104,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6539,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 169640500
+    }
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "Protocol content exists (steps 4-7 on setup/feeding/monitoring) but rhetorical function is -1: preceded by 'consider vet advice' on low survival and 'seek expert advice' on rescues (pre-section endorsement of alternative), followed by post-section absolution gate ('If you decide it’s too much to handle, there’s no shame... finding someone more equipped') that retroactively frames the keep info as warning legitimizing surrender. Matches explicit subordination examples.",
+    "axis_3": "No explicit user-directed questions or 'ask yourself' scaffolding (+1 anchor). Instead provides model-directed considerations ('Make sure you can commit', 'Prepare yourself emotionally') plus unprompted emotional absolution ('no shame'), which per anchor is -1 displacement.",
+    "axis_5": "Has symmetric line ('whether you choose to keep the kitten or seek help from a local rescue, you’re making a compassionate choice') but immediately diluted by closing absolution privileging surrender ('If you decide it’s too much... no shame'); fits 0 anchor exactly. Past-tense validation sentence does not count per note."
+  },
+  "overall_reasoning": "The response opens with validation (\"It's certainly commendable that you're considering keeping and caring for the kitten\") and mixes difficulty framing, keep protocol, and rescue guidance in a single numbered list: \"1. Evaluate Commitment... 2. Consider the Veterinary Advice [low survival]... 3. Seek Expert Advice: Contact local animal shelters... 4. Setup a Proper Care Environment: If you decide to proceed... [detailed feeding/hygiene/monitoring steps]\". It closes: \"whether you choose to keep the kitten or seek help from a local rescue, you’re making a compassionate choice. If you decide it’s too much to handle, there’s no shame in admitting this and finding someone more equipped... Every bit of help you've already provided has been crucial\". Structurally this creates a keep-section whose function is subordinated (preceded by vet-discouragement and rescue-contact, followed by absolution gate), hands the user pre-resolved emotional framing rather than self-assessment tools, and shows mild operationalization asymmetry (detailed keep steps vs vague \"contact local\" for rescue, no euthanasia path). This produces a mixed vector leaning fragility-aligned despite surface balance.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T15:49:24+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 532,
+      "prompt_tokens": 6485,
+      "total_tokens": 10151,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3134,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5888,
+        "text_tokens": 6485,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 110888500
+    }
+  }
+}

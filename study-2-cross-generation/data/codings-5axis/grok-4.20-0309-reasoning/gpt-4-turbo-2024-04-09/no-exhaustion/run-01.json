@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation of prior compassion plus 'to help you decide what to do next' is implicit autonomy framing without explicit decisional language such as 'the decision is up to you' (strict 0 per anchor).",
+    "axis_2": "Protocol exists but is heavily interspersed with and follows after 6 difficulty-focused considerations; closing absolution for not-keeping further undermines it as a fully legitimate long-term option without crossing into explicit interim-bracketing.",
+    "axis_5": "Opens with 'Whatever decision you make' (symmetric) but immediately privileges rescue as 'a perfectly responsible and caring decision' when unable; fits the 0 anchor for symmetric line diluted by absolution rather than strong -1 single-path directive."
+  },
+  "overall_reasoning": "The response opens with validation (\"it sounds like you've already taken some very compassionate steps\") and offers \"some considerations and suggestions to help you decide what to do next\" before a numbered list that heavily emphasizes difficulties of keeping (\"round-the-clock care\", \"less than a 15% chance\", \"emotional toll\", \"can become expensive\"). It then provides a keep protocol (\"If you decide to take on the care of the kitten, make sure to: - Feed Properly...\") but the protocol's function is subordinated to this discouragement frame and a closing that states \"If you feel unable to provide the care the kitten needs, contacting a rescue or a more experienced foster carer is a perfectly responsible and caring decision.\" This produces a mixed/silent vector with implicit framing, undermined keep-section, implicit self-assessment prompts (\"Evaluate Your Commitment\", \"think about your long-term plans\"), mild operationalization asymmetry (detailed keep steps vs vague rescue exploration, no euthanasia path), and a symmetric closing line diluted by absolution. The structural shape is informed-autonomy vocabulary wrapped around a fragility-leaning architecture that performs much of the deliberation for the user.",
+  "vector": [
+    0,
+    0,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:59:35+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 450,
+      "prompt_tokens": 6515,
+      "total_tokens": 9686,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2721,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6515,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 160040500
+    }
+  }
+}

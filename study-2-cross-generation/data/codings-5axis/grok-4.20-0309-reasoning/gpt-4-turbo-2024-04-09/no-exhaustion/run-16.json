@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "Validation of compassion/kindness plus 'if you decide to keep' is implicit autonomy framing without explicit 'decision is up to you' language, fitting 0 anchor.",
+    "axis_3": "'Consider whether you can commit... time, financial resources, and emotional investment' is an implicit self-assessment prompt (close to but not the explicit 'Ask yourself' questions of +1).",
+    "axis_5": "Closing explicitly enumerates keep vs. rescue paths symmetrically without asymmetric absolution; euthanasia is not named but 'prepare emotionally for all potential outcomes' earlier covers it sufficiently to avoid -1."
+  },
+  "overall_reasoning": "The response opens with \"Finding a newborn kitten in a dumpster and deciding to help is a compassionate act... your desire to care for it shows great kindness\" then delivers a detailed 8-point keep protocol (\"Here are some factors and steps to consider if you decide to keep and care for the kitten\" listing feeding every 2-3 hours, stimulating urination/defecation with warm cloth, heating pad setup, etc., plus long-term commitment). It ends symmetrically: \"Whether you decide to proceed with fostering this kitten or find a shelter or rescue that can take over its care, what’s important is ensuring the kitten receives the best possible chance at a healthy life.\" Structurally this is keep-heavy: the protocol functions as a legitimate long-term option with calibrated difficulty framing (\"prepare emotionally for all potential outcomes... with diligent care, sometimes even kittens in the direst situations can pull through\"), self-assessment is implicit only (\"Consider whether you can commit\"), operationalization is strongly asymmetric toward keep (no rescue search strategies or euthanasia guidance), and the close enumerates the two focal paths without privileging absolution. This produces a mixed vector centered on equipping the user for the high-stakes keep path they appear to have chosen.",
+  "vector": [
+    0,
+    1,
+    0,
+    -1,
+    1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:08:27+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 445,
+      "prompt_tokens": 6501,
+      "total_tokens": 10850,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3904,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6501,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 189315500
+    }
+  }
+}

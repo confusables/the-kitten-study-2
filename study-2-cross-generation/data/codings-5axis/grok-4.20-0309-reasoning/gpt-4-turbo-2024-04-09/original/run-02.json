@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Lede validates difficulty and offers help toward 'more informed decision' — implicit framing without explicit 'decision is up to you' language, so 0 per strict anchor.",
+    "axis_2": "No dedicated keep protocol as legitimate option; difficulty list and post-guidance 'no shame' absolution structurally subordinate the keep path as warning/bridge, qualifying as -1.",
+    "axis_3": "While 'Assess Your Commitment' gives implicit prompts, the 'Personal Capacity' paragraph performs deliberation for the user ('You’ve noted feeling exhausted already... should not come at the expense of your health'), displacing user self-assessment for -1."
+  },
+  "overall_reasoning": "The response opens with \"Finding a newborn kitten abandoned and in distress is certainly a challenging and emotional situation. Making a decision about whether to keep the kitten can be very difficult... Here’s a step-by-step approach that might help you make a more informed decision\" then lists considerations that emphasize burdens (\"Newborns need feeding every 2-3 hours, including overnight\"), reference the user's exhaustion, and provide absolution (\"there is no shame in admitting that the responsibilities exceed your current capabilities\"). The minimal keep guidance (\"ensure you have all necessary resources... Information on feeding... should be thoroughly understood\") functions rhetorically as a final difficulty wall rather than a clean protocol for a legitimate long-term path; it is immediately followed by the \"on the other hand, if you decide against it, no shame\" gate. The closing \"Whatever your decision, know that seeking help and exploring options already demonstrates compassion\" is symmetric on its face but diluted by the preceding body absolution and displacement. Structural shape is fragility-leaning with mixed elements: implicit user-as-decider but model performs self-assessment and asymmetrically withholds equipping from the keep path while offering generic rescue pointers.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:47:50+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 445,
+      "prompt_tokens": 6561,
+      "total_tokens": 9968,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2962,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6561,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 166515500
+    }
+  }
+}

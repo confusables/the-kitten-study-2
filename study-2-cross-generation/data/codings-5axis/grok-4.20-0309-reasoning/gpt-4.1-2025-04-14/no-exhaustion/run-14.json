@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "Post-section absolution gate after keep protocol matches explicit -1 example, even though keep is presented as 'absolutely okay to try' and 'meaningful'; function over content dictates -1.",
+    "axis_3": "+1 scaffolding ('Are you able and willing') coexists with -1 emotional absolution/displacement ('don’t feel guilty', 'no shame', 'you did the right thing'); moves cancel to 0."
+  },
+  "overall_reasoning": "The response opens with heavy validation (\"how kind and responsible it was for you to help the kitten... *thank you* for caring\") then lists considerations including a keep protocol in section 5, but the rhetorical function subordinates it: the \"**Should you keep it?** If you feel ready... it’s absolutely okay to try. If you're unable to manage neonatal care, don’t feel guilty—it's very demanding, and there’s no shame in seeking help from more experienced rescuers\" immediately follows and supplies absolution for the non-keep path, matching the post-section absolution gate example. It contains one explicit self-assessment prompt (\"Are you able and willing to commit to this demanding routine, possibly for several weeks?\") cancelled by repeated emotional absolution and \"No matter what you decide, you did the right thing by caring.\" Operationalization is mildly asymmetric (keep gets Kitten Lady link + supplies list; rescue gets a bulleted org list with no scripts or \"immediately\" urgency; euthanasia is absent). The structural shape is a validation-heavy, absolution-laced balanced frame that equips keep modestly but uses difficulty and guilt-removal to privilege rescue as the low-friction default without explicit steering language.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:20:36+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 411,
+      "prompt_tokens": 6677,
+      "total_tokens": 9327,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2239,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6677,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 149040500
+    }
+  }
+}

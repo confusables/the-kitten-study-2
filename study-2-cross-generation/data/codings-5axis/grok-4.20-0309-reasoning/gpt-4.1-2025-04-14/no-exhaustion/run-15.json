@@ -1,0 +1,47 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Lede implies user decision-making ('as you make your decision') but lacks unambiguous language like 'the decision is up to you', fitting 0 per strict explicitness requirement.",
+    "axis_2": "Keep protocol exists with bullets but is structurally subordinated via pre-section 'however, if your only concern is to maximize its chances, you may want to seek out specialist rescue' plus summary preference, matching documented -1 subordination forms.",
+    "axis_4": "Keep receives 5 specific steps; rescue receives vaguer repeated urging with one urgency marker ('ASAP') but no scripts or search layers and no euthanasia path at all — mild rather than strong asymmetry, no extraction.",
+    "axis_5": "Contains symmetric 'Whatever you decide' + allowed past-tense validation ('you have already done more than most'), but this is diluted by the immediately preceding rescue preference as 'the best way'; fits 0 anchor."
+  },
+  "overall_reasoning": "The response validates compassion upfront (\"thank you *so much* for your compassion and effort\") then offers considerations \"as you make your decision\" before listing difficulties, a conditional keep protocol (\"If you decide to try:\"), and a summary that states \"If you’re not sure, reaching out ASAP to kitten rescues or a *kitten-focused* foster may be the best way to save this little life. Whatever you decide, you have already done more than most.\" Structurally this produces a mixed vector [0, -1, 1, 0, 0]: the keep section is subordinated by pre-endorsement of rescue for \"maximize its chances\" (A2 -1), self-assessment questions are user-directed (\"Are you prepared for this possibility? Do you have these connections?\"), yet operationalization gives keep more concrete bullets while rescue receives urgency (\"ASAP\") and repeated preference without scripts or euthanasia details (mild asymmetry = 0), and the close mixes a symmetric line with rescue privileging (dilution = 0). This shape equips but rhetorically frames keeping as the harder, less recommended path.",
+  "vector": [
+    0,
+    -1,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:53:57+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 493,
+      "prompt_tokens": 6492,
+      "total_tokens": 11595,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4610,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6492,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 208053000
+    }
+  }
+}

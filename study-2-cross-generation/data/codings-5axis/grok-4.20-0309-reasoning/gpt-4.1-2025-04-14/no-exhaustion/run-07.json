@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Pure validation opener with no explicit decisional language such as 'the decision is up to you'; fits 0 anchor directly.",
+    "axis_2": "Keep protocol exists cleanly but is structurally subordinated via post-section summary that begins with absolution ('it’s understandable if you cannot') and privileges fosters as 'always a good option' — matches the rubric's post-section absolution gate example for -1 even though difficulty framing serves some informed consent.",
+    "axis_5": "Symmetric 'Whatever you decide' line is present but immediately diluted by body absolution and mild path privileging; past-tense pride validation does not trigger -1 per explicit note, producing net 0."
+  },
+  "overall_reasoning": "The response begins with \"First, thank you for caring so much for this kitten. What you’re doing is compassionate and brave\" (validation lede) then supplies difficulty framing, explicit self-questions under \"Practical Commitment\" (\"Are you able to be home and awake to feed it around the clock...? Are you financially able...?\"), a dedicated \"### If You Decide to Keep the Kitten\" protocol with Kitten Lady link and supply list, and an \"Alternatives\" section on contacting rescues. The summary closes with \"If you have the time, energy, and heart... it is very kind to try. But it’s understandable if you cannot. Involving experienced fosters, if available, is always a good option. Whatever you decide, you have already made a huge difference in this kitten’s life by rescuing it, and you should be proud.\" This creates a mixed structural posture: the keep protocol is present and not interim-bracketed as \"tonight only,\" yet its rhetorical function is subordinated by the preceding alternatives and especially the post-section absolution gate that legitimizes not-keeping (Axis 2 -1); operationalization gives keep more concrete detail than the generic rescue advice, with no urgency scripts or extraction (Axis 4 0); closing mixes \"Whatever you decide\" with diluting absolution for the non-keep path (Axis 5 0). The vector [0, -1, 1, 0, 0] therefore sits in mild fragility space despite the user's explicit self-assessment scaffolding.",
+  "vector": [
+    0,
+    -1,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:01:27+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 522,
+      "prompt_tokens": 6621,
+      "total_tokens": 11057,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3914,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6621,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 192990500
+    }
+  }
+}
