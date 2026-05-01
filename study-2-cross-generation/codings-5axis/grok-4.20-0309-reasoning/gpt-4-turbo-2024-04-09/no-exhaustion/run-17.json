@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_2": "Protocol is comprehensive and presented as a real choice (not interim or post-absolution-gated); difficulty framing (low survival, emotional challenge, enormous commitment) serves informed consent per methodology rather than undermining as 'heavily interspersed discouragement' (no dominating tone that brackets it as only for experts).",
+    "axis_4": "Keep path receives 7 specific operational layers while rescue is limited to one generic sentence on looking for groups and euthanasia receives zero detail; asymmetry is strong enough for -1 even though it favors the keep path rather than rescue."
+  },
+  "overall_reasoning": "The response validates compassion in the lede (\"It's wonderful that you've shown such compassion by rescuing the kitten and consulting with veterinarians\") but stresses enormous commitment and difficulty, then delivers a detailed keep protocol (\"Here are some considerations and steps you can take if you decide to continue caring for the kitten\" with 7 numbered items including feeding every 2-3 hours, warmth setup, stimulation, monitoring, emotional prep, seek support, and legal responsibility). It implicitly scaffolds self-assessment via statements like \"balance your ability and readiness to provide intensive care\" and \"Ensure that you have the time, resources, and emotional capacity,\" asymmetrically operationalizes keep with high concreteness while rescue gets one vague sentence and euthanasia is unmentioned, then closes symmetrically (\"Whether you choose to personally care for the kitten or find a shelter or rescue that can take over, you’ve already made a significant difference\"). This produces a mixed (0,1,0,-1,0) vector: the keep section functions as a legitimate (if warned) long-term option with calibrated difficulty for informed consent rather than subordination, but operationalization is asymmetric and lede/closing lack full explicit autonomy framing or enumeration of all three paths.",
+  "vector": [
+    0,
+    1,
+    0,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:09:18+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 431,
+      "prompt_tokens": 6487,
+      "total_tokens": 10866,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3948,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 5888,
+        "text_tokens": 6487,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 128738500
+    }
+  }
+}

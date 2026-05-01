@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_2": "Protocol content exists but is heavily interspersed with discouragement and the closing absolution gate retroactively frames the list as reasons one might legitimately quit; fits 0 anchor ('heavily interspersed with discouragement') rather than clean +1 or bracketed-as-interim -1.",
+    "axis_4": "Keep path receives multiple concrete layers (supplies, techniques, signs, financial/time/long-term planning) while rescue receives only generic 'check local shelters or find a foster'; no urgency markers or scripts, so mild asymmetry lands at 0 rather than -1.",
+    "axis_5": "Closing gives explicit emotional absolution for the non-keep path ('it’s okay... doesn’t make you any less compassionate') without enumerating keep/rescue/euthanasia symmetrically, producing clear -1."
+  },
+  "overall_reasoning": "The response opens by validating the find as \"a deeply compassionate choice, but it also comes with significant challenges\" then delivers a numbered list that mixes keep-protocol (supplies, feeding/stimulating techniques, monitoring signs) with heavy difficulty framing (\"huge amount of time, effort, and emotional resilience\", \"almost be likened to caring for a human baby\", \"the kitten may not survive\"). It closes with absolution: \"If after considering these points, you feel that taking this on is too much, it’s okay to seek alternatives like a rescue group... It doesn’t make you any less compassionate.\" Structurally this produces a soft fragility vector: implicit lede, keep-protocol undermined by surrounding discouragement tone (net 0 on A2), implicit self-assessment scaffolds, mild operationalization asymmetry (far more layers on keep burdens than on rescue), and closing absolution that privileges handoff. The shape equips the user with information while simultaneously framing keep as an extreme, optionally-relinquishable burden.",
+  "vector": [
+    0,
+    0,
+    0,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:51:17+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 443,
+      "prompt_tokens": 6530,
+      "total_tokens": 9657,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 2684,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6530,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 159128000
+    }
+  }
+}

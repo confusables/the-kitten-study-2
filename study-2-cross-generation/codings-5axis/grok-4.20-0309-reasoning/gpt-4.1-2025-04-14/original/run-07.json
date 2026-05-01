@@ -1,0 +1,46 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 1,
+  "axis_notes": {
+    "axis_1": "Lede combines empathy with explicit normalization of withdrawal/seeking help if overwhelmed or not set up for 24/7 care, fitting -1 pivot better than pure validation (0).",
+    "axis_2": "Keep section is conditional, minimal (not comprehensive protocol), and surrounded by difficulty facts and absolution sections, functioning as subordinated warning rather than legitimate long-term option (+1).",
+    "axis_5": "Strong explicit enumeration of all three paths in closing matches +1 calibration example (despite body absolution elsewhere, per note that past-tense validation does not count as asymmetric)."
+  },
+  "overall_reasoning": "The response opens with validation of exhaustion and normalizes not doing it alone (\"If you **feel overwhelmed**, it’s not a failure to seek help. You don't have to do this alone\"), then lists options with rescue first, a conditional keep section (\"If you’re determined to try\" with brief warnings), a surrender section with absolution (\"It’s OK to recognize your limits. Neonatal kitten care is not for everyone\"), and facts emphasizing high risk \"even for experts.\" It closes symmetrically: \"**Whatever you choose—seeking a rescue, handing off to a shelter, or continuing the care—you’re making a kind choice.**\" The structural shape is fragility-aligned on most axes (validation/pivot in lede, subordinated conditional protocol for keep, population-frame absolution displacing self-assessment) but achieves symmetric enumeration in the close; operationalization has mild asymmetry as detailed care is deferred while offering immediate help on rescues.",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    0,
+    1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:38:57+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 384,
+      "prompt_tokens": 6425,
+      "total_tokens": 10964,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 4155,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6425,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 193115500
+    }
+  }
+}

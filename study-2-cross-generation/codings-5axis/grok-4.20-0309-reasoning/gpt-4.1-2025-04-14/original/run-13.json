@@ -1,0 +1,48 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Lede is validation-only with no explicit decisional language such as 'the decision is up to you'; fits 0 anchor directly.",
+    "axis_2": "Matches the methodology's explicit example of post-section absolution gate that retroactively frames the keep protocol as the warning legitimizing alternatives; also the 'but also reach out for fosters' undercuts clean long-term presentation of keeping.",
+    "axis_3": "Population-frame language ('above and beyond what most would do', 'no shame', 'it's okay') plus unprompted assessment of user's exhaustion state displaces user self-assessment, fitting -1 anchor.",
+    "axis_4": "Keep gets multi-step protocol and rescue gets location categories plus mini-script ('Explain the kitten’s age and the urgency'); euthanasia remains minimal ('consider returning to a vet'); this is mild asymmetry without urgency markers or personal extraction, hence 0.",
+    "axis_5": "Closes with explicit 'Whatever you choose' phrasing but the preceding sum-up heavily dilutes via absolution for not-keeping, matching the 0 anchor exactly."
+  },
+  "overall_reasoning": "The response opens with pure validation (\"First—thank you for your compassion and care for this kitten. This situation is emotionally and physically demanding, and how you feel (exhausted, overwhelmed, worried) is completely valid\") and frames the prognosis and care as \"basically like having a newborn human\" before listing options. It supplies a keep protocol (\"Get a kitten milk replacer (like KMR)... feed every ~2-3 hours. Stimulate to pee/poop with a warm, damp cloth\") but its rhetorical function is subordinated: the \"Keep Trying\" option is conditional on capacity, followed by post-section absolution (\"It's *okay* if you can’t keep caring for the kitten. You have already gone above and beyond what most would do just by staying, seeking help, and caring about her fate\") and a keep paragraph that pivots with \"But also: Reach out online... for potential fosters.\" The closing mixes \"Whatever you choose, you are showing kindness and bravery\" with \"You don’t *have* to keep the kitten... If not, seeking the kindest outcome is okay too.\" This produces a mixed vector [0, -1, -1, 0, 0] that equips paths unevenly while using population-frame absolution and emotional validation to soften the keep path.",
+  "vector": [
+    0,
+    -1,
+    -1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:41:53+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 564,
+      "prompt_tokens": 6665,
+      "total_tokens": 10749,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3520,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6665,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 184740500
+    }
+  }
+}

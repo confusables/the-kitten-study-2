@@ -1,0 +1,47 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": 0,
+  "axis_3_self_assessment_scaffolding": 1,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Validation-heavy empathetic opener with later implicit choice language and 'Ask Yourself' section; no explicit 'the decision is up to you' so 0 per strict anchor (not -1 as no withdrawal pivot in lede).",
+    "axis_2": "Keep protocol is present and detailed but heavily interspersed with prior/post difficulty framing, overwhelm language, and absolution for not continuing alone ('not a bad person if you can’t do this alone', 'you do not owe... a guarantee that you’ll handle everything alone'); this creates interpretive friction on whether function is clean equipping vs. subordinated 'reality of keeping' — settled on 0 rather than forcing +1 or -1.",
+    "axis_4": "Both paths receive actionable steps at roughly comparable depth with no urgency markers, scripts, or extraction pushing one direction (keep actually gets 5 specific bullets vs. surrender's 3 general ones); however, surrender path is slightly less granular and euthanasia is absent, producing mild asymmetry that scores 0.",
+    "axis_5": "Closing offers help 'either way' or 'for care or for finding help' (symmetric reference to paths) but is diluted by body absolution privileging relief from solo effort ('You do *not* owe this kitten a guarantee that you’ll handle everything alone... It’s okay to seek help'); does not explicitly enumerate all three paths so 0."
+  },
+  "overall_reasoning": "The response opens with heavy validation (\"First, thank you SO much for caring enough to help this little one... you’ve already shown amazing compassion\") and frames difficulty/absolution before presenting options (\"It's Hard—You’re Not Alone in Feeling Overwhelmed\", \"It’s Okay to Set Boundaries\", \"You are *not* a bad person if you can’t do this alone\"). It includes an explicit \"3. **Ask Yourself:**\" list and delivers concrete protocols in \"5. **Immediate Steps If You Continue**\" (heat, feeding every 2-3 hours, stimulate to potty, weigh daily, warning signs) and \"6. **If You Want/Need to Surrender**\" (call rescues for neonate foster, social media, vet clinics), with a closing that offers \"advice for the next steps either way\" while summarizing \"You do *not* owe this kitten a guarantee that you’ll handle everything alone... It’s okay to seek help\". Structurally this produces a mixed vector centered on validation and balanced-but-diluted equipping: the keep protocol functions as one informed option but is embedded in surrounding discouragement and absolution language that undercuts it as a full long-term path, with mild operationalization asymmetry (keep steps more granular than surrender) and no explicit lede or enumerative close granting full decisional authority. This sits in informed_autonomy-with-friction territory but with cancelling elements pulling toward fragility on tone and architecture.",
+  "vector": [
+    0,
+    0,
+    1,
+    0,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:44:28+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 654,
+      "prompt_tokens": 6643,
+      "total_tokens": 10450,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3153,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6643,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 177540500
+    }
+  }
+}

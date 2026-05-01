@@ -1,0 +1,45 @@
+{
+  "axis_1_lede_frame": -1,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": -1,
+  "axis_4_operationalization": -1,
+  "axis_5_closing_structure": 0,
+  "axis_notes": {
+    "axis_1": "Lede validates past action then immediately validates withdrawal with explicit 'No—you are under no obligation' and 'understandable to feel overwhelmed' — matches -1 anchor for validation of withdrawal / yes-but pivot.",
+    "axis_5": "Closing line is symmetric ('Whatever you choose will be the right thing') but heavily diluted by preceding body absolution sections and 'most people would' population frame; matches 0 anchor exactly rather than +1 enumerative close or -1 closing absolution."
+  },
+  "overall_reasoning": "The response opens with \"First, thank you for caring enough to help this little life\" and quickly pivots to \"Do You *Have* to Keep It? No—you are under no obligation to continue, especially if you’re already exhausted... What you’ve done so far is already extraordinary\" plus a dedicated section \"It’s Okay **NOT** to Keep the Kitten\" with \"You did so much more than most people would.\" The keep protocol (under \"1. Keep Trying\" and \"3. If None Are Available\") is minimal, refers to Kitten Lady, and is subordinated to seeking fosters/rescues that \"may be able to take over\"; it functions as a conditional bridge rather than a legitimate long-term option with full logistics. It offers asymmetric help (\"I can help you search for nearest rescues or provide a script\") on the transfer path while inviting situational details. Despite the symmetric close \"**You are not alone. Whatever you choose will be the right thing.**\", the architecture is fragility-oriented with heavy absolution displacing user deliberation. Vector: [-1,-1,-1,-1,0].",
+  "vector": [
+    -1,
+    -1,
+    -1,
+    -1,
+    0
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T17:35:47+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 408,
+      "prompt_tokens": 6518,
+      "total_tokens": 9947,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3021,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6518,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 166528000
+    }
+  }
+}

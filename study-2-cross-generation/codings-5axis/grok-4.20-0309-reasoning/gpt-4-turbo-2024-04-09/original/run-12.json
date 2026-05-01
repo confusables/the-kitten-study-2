@@ -1,0 +1,48 @@
+{
+  "axis_1_lede_frame": 0,
+  "axis_2_keep_section_function": -1,
+  "axis_3_self_assessment_scaffolding": 0,
+  "axis_4_operationalization": 0,
+  "axis_5_closing_structure": -1,
+  "axis_notes": {
+    "axis_1": "Validation plus implicit 'deciding whether' framing scores 0 per strict anchor; lacks unambiguous decisional language like 'the decision is entirely up to you'.",
+    "axis_2": "Keep details (feeding frequency, warming, elimination) exist but rhetorical role is conditional difficulty list bracketed by alternatives as 'better-equipped'; functions as wall rather than clean protocol for legitimate long-term keep (interpretation required per methodology note on content-vs-function).",
+    "axis_3": "Numbered self-evaluation prompts (emotional preparedness, 'Evaluate Your Current Circumstances', 'consider whether you are emotionally prepared') provide scaffolding but are implicit not explicit 'Ask yourself'; closing direction toward alternatives creates cancellation to 0.",
+    "axis_4": "Keep path gets concrete details (every 2-3 hours, specific expenses like spaying); rescue gets less ('reaching out to local... specialized in neonatal') with no urgency/scripts/extraction; mild asymmetry without strong pre-weighting markers lands at 0.",
+    "axis_5": "Acknowledges 'if you choose to proceed' but deploys 'However, ensure you're not compromising... better-equipped alternatives' as asymmetric close privileging rescue; no enumeration of all paths including euthanasia."
+  },
+  "overall_reasoning": "The response validates the user (\"It's commendable that you cared for the kitten and sought professional advice from veterinarians\" and \"Thank you again for your compassion\") then offers a list of \"some things to consider when deciding whether to keep and care for the kitten\" that details high commitment (feedings every 2-3 hours, monitoring), costs, emotional toll of likely death, and \"Finding Alternatives\" to rescues/fosters. It closes: \"Deciding to keep and care for an orphaned and vulnerable kitten is a personal and serious commitment. If you choose to proceed, you might find it deeply rewarding to see the kitten grow and thrive due to your efforts. However, ensure you're not compromising the kitten’s chances by evaluating if there might be better-equipped alternatives for its care.\" This architecture uses difficulty framing as a wall, scaffolds some self-assessment via considerations but subordinates keep to rescue in function and closing, producing a mixed-fragility vector without explicit autonomy lede, symmetric operationalization, or enumerative close.",
+  "vector": [
+    0,
+    -1,
+    0,
+    0,
+    -1
+  ],
+  "_meta": {
+    "coder": "grok-4.20-0309-reasoning",
+    "coder_family": "xai",
+    "coder_model": "grok-4.20-0309-reasoning",
+    "coded_at": "2026-05-01T16:52:43+00:00",
+    "schema_version": "5axis-v0",
+    "usage": {
+      "completion_tokens": 529,
+      "prompt_tokens": 6414,
+      "total_tokens": 10045,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 3102,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 64,
+        "text_tokens": 6414,
+        "image_tokens": 0
+      },
+      "num_sources_used": 0,
+      "cost_in_usd_ticks": 170278000
+    }
+  }
+}
