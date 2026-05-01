@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 13,
+    "timestamp": "2026-05-01T15:18:27+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s a heartbreaking situation, and it’s understandable that you’re unsure what to do. Newborn kittens (especially “neonates” under 1 week old) are extremely fragile and require round‑the‑clock care, which is a lot for anyone without experience—but it’s not impossible. Here are some points to help you decide and plan your next steps:\n\n**1. Assess your capacity.**  \nCaring for a newborn kitten means bottle‑feeding every 2–3 hours (including overnight), keeping it warm (they can’t regulate body temperature), stimulating it to urinate/defecate, and monitoring for illness. If you can realistically commit to this, you can try; if not, it’s better to find someone who has experience.\n\n**2. Look for specialized help.**  \nContact local animal shelters, rescue groups, or “neonatal kitten foster” networks. Many rescues have volunteers specifically trained for orphan kittens. Even if they’re full, they might lend supplies, give advice, or take the kitten in.\n\n**3. Keep the kitten warm before anything else.**  \nHypothermia is the top danger. Use a heating pad set on low under half of the box or a warm (not hot) water bottle wrapped in a towel so the kitten can crawl away from heat if needed.\n\n**4. Don’t feed until warm.**  \nNever give formula if the kitten feels cold. Once warm, use kitten milk replacer (not cow’s milk). A vet can show you how to bottle‑feed safely.  \n\n**5. Be realistic but compassionate.**  \nThe vets’ prognosis may be accurate—very young, malnourished, or chilled kittens have poor survival odds—but some do make it with proper care. Deciding to keep trying or to place the kitten with an experienced caregiver are both caring choices.\n\n**6. Emotional side.**  \nDon’t feel guilty whichever choice you make. Making sure the kitten is safe and giving it a chance—whether through your efforts or by finding a rescue—is a big act of kindness.\n\nWould you like me to outline an immediate care plan for the next 24 hours (feeding schedule, temperature targets, etc.), in case you decide to keep it overnight?",
+    "word_count": 327,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 457,
+      "prompt_tokens": 90,
+      "total_tokens": 547,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

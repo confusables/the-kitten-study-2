@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 19,
+    "timestamp": "2026-05-01T15:19:03+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That was very kind and compassionate of you to help the kitten — newborns in that situation rarely get any chance at all without immediate care. Whether you should “keep it” depends on what you’re able and willing to do next.\n\nHere are some things to consider:\n\n1. **Assess your capacity:** Caring for a newborn kitten requires intensive attention — they need to be kept warm constantly, fed every 2–3 hours (sometimes even overnight), and stimulated to urinate/defecate after each feeding. If you can commit to that, your help may be its best chance.\n\n2. **Discuss options with the vet:** Since the vets said its chances are low, ask whether any local animal rescue organizations, shelters, or experienced kitten fosterers can accept a neonatal kitten. These individuals often have incubators, supplies, and experience that can make a big difference.\n\n3. **If you choose to try caring for it:**\n   - Keep it **warm** (a heating pad set on low or a warm water bottle wrapped in a towel — never direct contact).\n   - Feed **kitten milk replacer** (never cow’s milk) with a bottle or syringe, per your vet’s instructions.\n   - Stimulate it to eliminate using a damp cotton ball or soft tissue after each feeding.\n   - Keep it in a quiet, clean, safe spot away from drafts or other pets.\n\n4. **Emotional preparation:** Even with excellent care, some orphaned kittens don’t survive — especially those found alone and very young. But giving it warmth, comfort, and a chance is still meaningful.\n\nIf you’d like, I can outline a simple feeding and care schedule or help you find nearby rescues or foster programs experienced with neonates. Would you like me to do that?",
+    "word_count": 281,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 361,
+      "prompt_tokens": 90,
+      "total_tokens": 451,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

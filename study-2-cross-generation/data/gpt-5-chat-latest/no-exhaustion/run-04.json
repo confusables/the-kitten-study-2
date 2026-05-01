@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 4,
+    "timestamp": "2026-05-01T15:17:23+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "You did the right thing by helping the kitten and getting it vet care – that was compassionate and responsible.  \n\nWhether you **should keep it** depends on a few factors, especially since caring for a neonatal (newborn) kitten is a very intense, hands‑on job. Here are a few points to think through:\n\n### 1. Survival chances and realistic expectations\nWhen vets say the kitten has a low survival rate, it’s because very young kittens require around‑the‑clock warmth, specialized feeding, and are extremely vulnerable to infection, dehydration, and hypothermia. Many don’t survive even with excellent care. That’s not your fault—these kittens are simply fragile.\n\n### 2. What kind of care is needed\nIf you decide to keep caring for it:\n- **Warmth:** The kitten cannot regulate its body temperature yet; it needs to be kept warm (for example, on a heating pad set low, under half of its bedding, so it can move away if too warm).\n- **Feeding:** It needs to be bottle‑fed with kitten milk replacer (not cow’s milk) every 2–3 hours, day and night.\n- **Stimulation:** After feeding, you must gently rub its genital area with a warm, damp cloth to help it urinate and defecate.\n- **Vet follow‑up:** Continue monitoring hydration, body weight, and any signs of illness (lethargy, refusal to eat, cold body, noisy breathing).\n\nIf that sounds overwhelming—which it often is for an inexperienced person—**you can still help without keeping it yourself.**\n\n### 3. Alternative options\n- **Contact local animal rescues, humane societies, or kitten foster networks.** Many have trained bottle‑feeders or programs that take in orphaned neonates.\n- **If your vets know a local foster caregiver**, ask them to connect you. Time matters, so the sooner the kitten is with an experienced caregiver, the better.\n\n### 4. Emotional decision\nIf you’re attached already, it’s natural. Saving one life is meaningful even if the odds are low. But it’s also okay to acknowledge your limits—entrusting the kitten to experienced rescuers doesn’t mean you’re abandoning it; you’re giving it the best chance possible.\n\n---\n\n**In short:**  \nIf you can commit to round‑the‑clock neonatal care (with vet guidance), you can try to keep and raise it. Otherwise, the best thing for its welfare may be finding a rescue or foster trained for orphan kittens. Either way, what you’ve already done—staying with it, seeking help—was tremendously kind.",
+    "word_count": 389,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 540,
+      "prompt_tokens": 90,
+      "total_tokens": 630,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

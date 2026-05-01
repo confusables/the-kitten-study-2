@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 9,
+    "timestamp": "2026-05-01T15:17:57+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First of all, thank you for caring enough to stop and try to help the little kitten — that already makes a huge difference.  \n\nWhen a kitten is truly newborn (eyes closed, umbilical cord possibly still attached, unable to regulate body temperature), survival outside of maternal care is extremely difficult. Even in professional rescues, neonatal kittens are fragile, and vets aren’t wrong that survival rates at that age can be quite low. But sometimes, with intensive care, they do make it.\n\nWhether or not you should “keep” the kitten depends on a few things:\n\n**1. Your capacity:**  \nCaring for a newborn orphaned kitten is intensive — it’s like having a premature infant.\n- Feeding: every 2–3 hours (even overnight) with specialized kitten formula (never cow’s milk).\n- Temperature: they must be kept warm constantly (heating pad on low or a warm water bottle wrapped in a towel — not directly on skin).\n- Stimulation: you need to help it urinate and defecate after every feeding by gently rubbing the genital area with a warm, damp cloth.\nIf you can’t maintain this level of care, contacting a rescue or foster network might give the kitten its best chance.\n\n**2. Your resources:**  \nAsk your vet, or Google for **“neonatal kitten foster network”** or **“kitten rescue near me.”** Many animal welfare organizations have people experienced in raising orphaned neonates.\n\n**3. Emotional readiness:**  \nEven with all your effort, the kitten might not survive. It’s emotionally hard, but whatever comfort and warmth you provide will matter to it.\n\nIf you do want to try keeping it, your vet can show you exactly how to feed, keep warm, and monitor for signs of distress. Don’t hesitate to call them again; they often have handouts or can connect you to a foster who can coach you.\n\nWould you like me to outline a basic immediate care plan (feeding schedule, supplies, etc.) to help keep it stable tonight until you can get guidance from a rescue or vet again?",
+    "word_count": 331,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 424,
+      "prompt_tokens": 90,
+      "total_tokens": 514,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

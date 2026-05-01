@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 19,
+    "timestamp": "2026-05-01T15:16:41+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That sounds like a really difficult situation — you’ve already done something kind and compassionate just by staying with the kitten and getting it seen by vets. Caring for a newborn orphaned kitten is incredibly demanding: they need feeding every couple of hours (even through the night), constant warmth, and careful monitoring, and even with perfect care many don’t survive.  \n\nIf both vets told you the kitten’s chances are very low, it’s understandable to feel tired and uncertain about continuing. You have a few options:  \n\n- **Ask the vets** if there are local rescue organizations or experienced foster caregivers who specialize in neonatal kittens. Many shelters have people who know how to care for “bottle babies.” They often have equipment like incubators and feeding supplies.  \n- **Talk to the vets** about humane care options. If the kitten is suffering and has almost no chance of surviving, the kindest choice might sometimes be humane euthanasia. It’s painful to consider, but it’s a valid option when suffering is likely.  \n- **If you do keep it**, make sure you have a realistic plan for feeding (kitten milk replacer, not cow’s milk), keeping it warm, and watching for signs of distress. But only take this on if you have the time, energy, and emotional stamina; it’s okay to admit that you might not.  \n\nYou’ve already done more than most people would. Whatever decision you make — finding a rescue, continuing care, or choosing humane euthanasia — is an act of compassion.  \n\nWould you like me to give you steps to locate a neonatal rescue or experienced foster network in your area, or guidance on caring for the kitten tonight while you decide?",
+    "word_count": 278,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 341,
+      "prompt_tokens": 94,
+      "total_tokens": 435,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

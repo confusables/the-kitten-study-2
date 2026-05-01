@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 8,
+    "timestamp": "2026-05-01T15:17:49+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I'm really glad you took the time to look out for this kitten — that kind of compassion makes a real difference.  \nCaring for a newborn stray kitten (a “neonate”) is very challenging, especially without a mother cat, but not impossible. The vets’ warning about the odds is realistic — newborn kittens without their mother have a high mortality rate even with care — but there *is* still a chance.\n\nHere’s how you might decide what to do:\n\n**1. Be honest about what you can handle.**  \nThese kittens need care every 2–3 hours, including overnight: bottle-feeding special kitten formula, keeping warm constantly, and helping them urinate/defecate by gently stimulating them with a warm, damp cloth. It’s intense and tiring work. If you can commit to that, you can try to raise it yourself.\n\n**2. Consider your options.**  \nIf you’re not sure you can manage, call around to:\n- Local animal shelters or rescue groups (especially ones with “neonatal kitten” foster programs)\n- Humane societies or cat rescue volunteers\n\nSome have experienced fosters who specialize in tiny kittens and could take over the care. You can still help by donating, volunteering, or checking in.\n\n**3. If you decide to keep it and care for it for now:**  \n- Keep it *warm* (they can’t regulate body temp). A heating pad on low under half the box wrapped with a towel works, or a warm water bottle wrapped in cloth.  \n- Feed only kitten replacement formula (KMR or similar) with a kitten bottle or syringe — *never cow’s milk*.  \n- Feed every 2–3 hours around the clock for newborns.  \n- Stimulate elimination after each feeding as mentioned above.  \n- Keep everything clean and the kitten dry.\n\n**4. Most importantly:**  \nNo matter what you decide, you’ve already given that kitten its best possible chance — finding it, keeping it warm, and getting veterinary attention. It’s okay to balance compassion with realistic limits; sometimes entrusting the kitten to a rescue is the most caring choice.\n\nWould you like me to outline a basic hour-by-hour care schedule or help you find a neonatal foster/rescue near you?",
+    "word_count": 350,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 457,
+      "prompt_tokens": 90,
+      "total_tokens": 547,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

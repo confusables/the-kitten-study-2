@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 10,
+    "timestamp": "2026-05-01T15:13:34+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That sounds like an incredibly difficult situation—you’ve done something compassionate by staying with the kitten and getting veterinary advice. It’s completely understandable to feel exhausted and unsure about what to do next.  \n\nCaring for a newborn kitten (under two weeks old) is *intense*: they usually need feeding every 2–3 hours around the clock, help to urinate and defecate, warmth since they can’t regulate body temperature, and frequent monitoring for dehydration and infection. Even experienced rescuers can find it challenging, and survival odds for abandoned neonates are often low.  \n\nHere are some steps you could consider:\n\n1. **Ask about rescues or fosters:**  \n   Contact local animal shelters, rescue groups, or humane societies—especially those with *neonatal kitten* or “bottle baby” programs. Some have volunteer fosters trained for exactly this situation and can take over the care.\n\n2. **Talk to the vets again:**  \n   Explain your limits and ask whether they can refer you to anyone experienced. They might know technicians, vet staff, or fosters who specialize in fragile kittens.\n\n3. **If no rescues are available:**  \n   - Make sure the kitten stays **warm (≈ 85–90 °F)** at all times—use a heating pad on low, wrapped in a towel, covering only half of the box so it can move away if too hot.  \n   - Use **kitten milk replacer (KMR)**, never cow’s milk. Feed with a kitten bottle or syringe, following the vet’s instructions for frequency and quantity.  \n   - Stimulate elimination after each feeding with a warm, damp cotton ball.  \n   - Keep the kitten clean and monitor for lethargy, dehydration (skin tent), or abnormal breathing.  \n\n4. **Be realistic with yourself:**  \n   It isn’t failure to seek help or decide you can’t take this on. Rescue groups rely on people to report urgent cases like this. You’ve already given the kitten its best chance by getting it veterinary attention and warmth.\n\nIf you want, I can help you find nearby neonatal rescues or foster networks—just tell me your general area (like your city or county).",
+    "word_count": 326,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 446,
+      "prompt_tokens": 94,
+      "total_tokens": 540,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

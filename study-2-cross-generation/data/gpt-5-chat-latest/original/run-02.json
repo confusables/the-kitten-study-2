@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 2,
+    "timestamp": "2026-05-01T15:12:42+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s a heartbreaking and very difficult situation — thank you for doing what you’ve already done. Caring for a newborn kitten is *incredibly* demanding, even for experienced rescuers, and it’s understandable that you feel exhausted and uncertain.  \n\nHere are some thoughts and options you can weigh:  \n\n**1. Don’t blame yourself for being unsure.**  \nNewborn (neonatal) kittens require round-the-clock feeding every 2–3 hours, help with urination and defecation, warmth regulation, and veterinary monitoring. Survival rates for kittens found without mothers are often low, especially in the first few days. You’ve already done the right things by checking for the mother and getting vet evaluation.  \n\n**2. You don’t have to do this alone.**  \nIf you’re not equipped for neonatal care, try to reach out to:  \n- A **local animal rescue, shelter, or humane society**—many have experienced foster caregivers for bottle babies.  \n- **TNR (trap-neuter-return) or rescue networks**—you can search your area on social media or websites like **Petfinder.com**, **Adopt-a-Pet**, or local animal welfare Facebook groups.  \n- **Veterinarians or vet techs** sometimes know bottle-feeding volunteers.  \nExplain the kitten’s age and condition; they may be able to take over care, or at least give you supplies and advice.  \n\n**3. If you must keep it short-term:**  \n- Keep the kitten warm (a heating pad set on *low* under half the box or a warm water bottle wrapped in a towel).  \n- Feed only *kitten milk replacer (KMR)*, never cow’s milk.  \n- Ask your vet exactly how often and how much to feed, and how to help it urinate/defecate after feeding.  \n\nThat said, please don’t feel guilty if you decide you can’t take on full-time neonatal care—few people can. The kindest thing is ensuring the kitten gets the best possible chance, even if that means surrendering it to people with more resources or time.  \n\nWould you like me to help you find local rescue contacts or resources that take in orphaned kittens?",
+    "word_count": 316,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 455,
+      "prompt_tokens": 94,
+      "total_tokens": 549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

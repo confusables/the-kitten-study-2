@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 12,
+    "timestamp": "2026-05-01T15:13:51+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That sounds like an incredibly tough and emotional situation—you did *exactly* the right thing bringing the kitten to veterinarians and waiting to see if the mother returned. Caring for a neonatal kitten is much more demanding than many people realize, and it’s understandable that you’re exhausted and unsure what to do next.\n\nHere are some things to consider:\n\n**1. The kitten’s condition and prognosis**  \nIf both vets agree survival odds are very low, they’re not trying to discourage you—they just know how fragile newborn kittens are without their mothers. You can ask them to explain honestly what signs indicate suffering or when humane euthanasia might be the kinder choice.\n\n**2. Your own limits**  \nCaring for a neonate means bottle‑feeding every 2–3 hours around the clock, keeping them warm (they can’t regulate temperature), stimulating them to urinate/defecate, and monitoring for dehydration or infection. Doing this alone can be overwhelming, especially when you’re already exhausted. It’s okay to acknowledge you might not have capacity to continue intensive care.\n\n**3. Getting help**  \n- **Rescue groups/Fosters:** Look for local cat rescues or animal shelters with neonatal foster programs. Many have experienced “bottle baby” fosters who can take over care.  \n- **Veterinary staff:** Sometimes clinic staff know someone who fosters bottle kittens. Ask both clinics if they can connect you with a foster or rescue partner.  \n- **Animal control or humane societies:** They may have resources to place the kitten with someone trained for round‑the‑clock care.\n\n**4. Emotional side**  \nIt’s natural to feel guilty or responsible, but you’ve already done more than most people would—found the kitten, ensured it wasn’t abandoned temporarily, and sought veterinary help. Handing the kitten over to someone better equipped is *not* abandoning it; it’s doing what’s best for both you and the animal.\n\n---\n\nIf you’d like, I can help you figure out what to tell a rescue when you call or write (what information they’ll need and how to find one near you). Would you like me to help with that?",
+    "word_count": 332,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 436,
+      "prompt_tokens": 94,
+      "total_tokens": 530,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

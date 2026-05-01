@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 16,
+    "timestamp": "2026-05-01T15:16:18+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That sounds like a really hard and emotional situation—you’ve shown a lot of compassion by not walking away and by getting veterinary help. Caring for a newborn kitten is a huge undertaking, especially one that might be premature or very weak, so it’s completely understandable to feel exhausted and conflicted.\n\nHere are some things to think about:\n\n**1. Evaluate what you can realistically do.**  \nOrphaned newborns need round‑the‑clock care—formula feeding every 2–3 hours, warmth, stimulation to urinate/defecate, and monitoring for dehydration or chilling. If you’re already drained, trying to do it alone may not be sustainable, especially if vets are saying the odds are very low.\n\n**2. Ask about immediate support.**  \nSome veterinary clinics, shelters, or rescue groups have *experienced bottle‑feed volunteers* (“neonatal fosters”) who specialize in these cases. They often have incubators, supplies, and shift systems for around‑the‑clock care. If you can locate one, transferring the kitten to them could give it the best shot while relieving you of 24‑hour responsibility.\n\n**3. Contact rescues or local humane societies.**  \nExplain the situation: newborn, vetted, poor prognosis, you’re willing to foster if they can provide coaching or supplies, or you can surrender if they have neonatal fosters available. Many areas have a “kitten nursery network.”\n\n**4. Consider your boundaries.**  \nIt isn’t failure or lack of compassion to accept your limits. You’ve already gone above and beyond—rescued it, gave it warmth and vet care, and sought guidance. Sometimes the kindest thing can be ensuring the kitten is humanely cared for elsewhere, or—if the veterinarians believe survival isn’t possible—allowing euthanasia to prevent suffering.\n\n**5. Take care of yourself.**  \nEven short intense experiences like this can leave you emotionally and physically exhausted. Rest, eat, and acknowledge what you’ve done. You gave the kitten far more dignity and comfort than it would’ve had otherwise.\n\nIf you’d like, I can walk you through how to find neonatal fosters or describe short‑term emergency care until you locate one. Would you like help with that?",
+    "word_count": 327,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 455,
+      "prompt_tokens": 94,
+      "total_tokens": 549,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

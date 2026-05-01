@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 7,
+    "timestamp": "2026-05-01T15:17:42+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s a heartbreaking situation — and it’s kind of you to have stepped in. Whether or not you should keep the kitten depends on a few factors:\n\n**1. The kitten’s current condition and chances:**  \nIf both veterinarians think survival odds are very low, it means the kitten is probably extremely weak, dehydrated, cold, or has underlying issues common in newborn strays. Still, sometimes, with very intensive care, a few do pull through.\n\n**2. What kind of care is needed:**  \nNewborn kittens (under 2 weeks old) need round‑the‑clock, every-2-hour bottle or syringe feedings with kitten milk replacer (not cow’s milk), help to stimulate urination and defecation, and a constant source of warmth. It’s genuinely a lot of work — like caring for a premature infant. If you can’t provide that, finding an experienced foster or rescue group who handles orphaned neonates is usually the best chance of survival.\n\n**3. Your resources and emotional readiness:**  \nIf you want to try to care for it, vets or rescues can show you how to feed and keep it warm properly. But if the odds are poor and the kitten is suffering, sometimes the most compassionate choice is to let professionals or a rescue take over.\n\n**4. How to find help quickly:**  \nTry contacting:\n- Local animal shelters or rescue groups, especially ones that do “neonatal kitten” fostering.  \n- Humane societies or kitten-specific rescue networks in your area.  \n- Online rescue communities who can connect you to an experienced bottle feeder.\n\nIf you keep the kitten tonight:\n- Keep it warm but not overheated (soft blanket, heating pad under half the box set to low).  \n- Feed the correct formula with a small bottle or syringe (ask vet which type and amount).  \n- Stimulate elimination after every feeding with a warm, damp cotton ball.\n\nEven if survival chances are slim, giving it warmth, comfort, and gentle care matters.\n\nWould you like me to walk you through a basic survival-care routine step by step, just in case you decide to keep it for now?",
+    "word_count": 338,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 436,
+      "prompt_tokens": 90,
+      "total_tokens": 526,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

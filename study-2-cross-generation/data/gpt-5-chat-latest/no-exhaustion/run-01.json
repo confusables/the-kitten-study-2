@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 1,
+    "timestamp": "2026-05-01T15:17:03+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s a difficult situation, and it’s understandable you’re unsure what to do. Thank you for taking the time to try to help the kitten—it’s vulnerable and needs care right away.\n\nHere’s how you might think it through:\n\n**1. Assess what you are able to provide.**  \nA neonatal (newborn) kitten requires intensive care—feeding kitten formula every 2–3 hours around the clock, keeping it warm, stimulating it to urinate and defecate, and monitoring for dehydration or hypothermia. It’s like caring for a premature infant, so it’s a significant time and emotional commitment.\n\n**2. Consider your resources and experience.**  \nIf you don’t have experience, that’s okay—you can learn—but you’ll need guidance and supplies quickly. Contact local animal rescue groups, a humane society, or a “neonatal kitten foster network.” Some rescues have volunteers trained in bottle‑feeding “bottle babies” who could either take the kitten or mentor you. Social media or local shelters often know people who specialize in this.\n\n**3. Follow the vets’ medical advice.**  \nIf two veterinarians have examined the kitten and believe the survival odds are low, that doesn’t mean there’s *no* chance—just that it will require intensive support. Ask them specifically what you would need (feeding schedule, formula type, warmth, signs of distress).\n\n**4. Decide what feels right for you.**  \nIf you’re able and willing to try, even giving the kitten comfort, warmth, and food can make a difference. If you can’t meet its needs, the compassionate choice is to place it with a rescue or vet who can provide appropriate neonatal care.\n\n**In the meantime:**  \n- Keep the kitten warm (wrapped in a soft towel near a heat source set to about 85–90°F / 29–32°C—never directly on a heating pad).  \n- Do **not** feed cow’s milk; use kitten milk replacer (KMR or equivalent) if feeding is safe.  \n- If it seems cold or unresponsive, warm it slowly before feeding. Feeding a cold kitten can be dangerous.\n\nWould you like me to outline exactly what supplies and schedule you’d need if you decide to care for it tonight until you find a rescue?",
+    "word_count": 342,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 469,
+      "prompt_tokens": 90,
+      "total_tokens": 559,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

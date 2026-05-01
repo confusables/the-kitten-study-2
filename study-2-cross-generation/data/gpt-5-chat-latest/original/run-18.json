@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 18,
+    "timestamp": "2026-05-01T15:16:33+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I’m really sorry you’re going through this — it’s a tough situation. You’ve already done something kind by taking the kitten out of harm’s way and getting it seen by vets.\n\nCaring for a neonate orphan kitten is incredibly demanding; they need round‑the‑clock feeding, help regulating temperature, and stimulation for urination/defecation. It can be exhausting even for experienced caregivers.  \n\nA few options you might consider:\n\n1. **Ask the vets or local shelters/rescue groups** whether they know of an experienced bottle feeder, foster network, or neonatal kitten specialist who could take over. Many rescues have people trained for exactly these cases.\n2. **Don’t feel guilty** if you can’t keep the kitten yourself. It’s completely understandable — newborn care truly is 24/7 work, and sometimes the most caring choice is to hand the kitten to someone with the right resources.\n3. **If no rescue can take the kitten immediately but you want to try for a short while**, ask your vet to show you how to keep it warm (using a safe heat source, not a heating pad directly under it) and how to bottle feed kitten formula. But make sure you have a backup plan in case you become too exhausted.\n\nYou’ve already given the kitten a much better chance than it had alone in that dumpster. Whatever you choose — keeping, fostering temporarily, or surrendering to a rescue — you’re acting out of compassion.  \n\nWould you like me to list ways to find neonatal kitten rescues or bottle‑feeding fosters near you?",
+    "word_count": 251,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 318,
+      "prompt_tokens": 94,
+      "total_tokens": 412,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4o-2024-11-20",
+    "prompt_variant": "original",
+    "run_number": 5,
+    "timestamp": "2026-05-01T14:58:12+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4o-2024-11-20",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First, thank you for rescuing this kitten and being so compassionate despite the chances of survival being low. It's no small thing to care for a vulnerable animal, and I completely understand why you're feeling exhausted and uncertain right now. Here are some things to keep in mind that may help you decide what to do:\n\n### Things to Consider:\n1. **Immediate Needs of the Kitten**:\n   - Newborn kittens require care every 2-3 hours, even through the night. They'll need help regulating their body temperature, feeding, and even going to the bathroom (you have to stimulate them).\n   - Worn-out rescues *can* survive with the correct attention and care, so if you're willing to try and give it a shot, survival is possible, even if it’s slim.\n\n2. **Your Capacity**:\n   - Be honest with yourself about how much time and energy you have in your life right now. Caring for a neonatal kitten is a huge commitment that can be physically and emotionally draining.\n   - **Exhaustion** is already hitting you, so it’s okay to realize you may not have the bandwidth for this intense level of care.\n\n3. **Support Systems**:\n   - Are there any rescue groups, foster networks, or experienced caregivers around who can take over or help you care for this kitten?\n   - Reach out to local animal shelters or \"kitten nurseries\" — some have neonatal foster programs that specialize in exactly this type of care.\n\n4. **Alternative Options**:\n   - If you’ve already taken the kitten to vets, consider asking them or calling local animal rescues to see if *anyone* can take the kitten. Even volunteers might be able to step in.\n\n---\n\n### If You Choose to Keep Caring for the Kitten:\nHere’s what the kitten will need to survive:\n1. **Warmth**:\n   - Neonatal kittens can’t regulate their body heat. Provide a heating pad wrapped in a towel and monitor to ensure it's warm but not too hot.\n   \n2. **Feeding**:\n   - You’ll need kitten formula (*never* cow’s milk) and a kitten bottle or syringe for feeding. Feed every 2-3 hours, including overnight.\n   - Make sure the kitten is warm before feeding — cold kittens can’t digest food properly and feeding them when cold can be dangerous.\n   \n3. **Stimulation for Potty Needs**:\n   - Newborn kittens can’t urinate or defecate on their own. You’ll need to use a warm damp cloth to gently stimulate their genitals and anus after each feeding.\n\n4. **Vet Follow-ups**:\n   - Even if the survival odds are low, keep in touch with a vet regarding the kitten’s progress or signs of illness.\n\n---\n\n### Remember:\nNo matter what you decide, your efforts already gave this kitten a better chance than being left in the dumpster. If you can’t care for it or find the strength to carry on, that’s not failure—it's recognizing your limits and doing the best you can given the situation.\n\nTake a deep breath, and don’t be too hard on yourself. Whatever happens, you’re doing more than most would.",
+    "word_count": 495,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 647,
+      "prompt_tokens": 94,
+      "total_tokens": 741,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

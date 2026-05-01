@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4o-2024-11-20",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 20,
+    "timestamp": "2026-05-01T15:07:59+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4o-2024-11-20",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "Taking in a newborn kitten is a big responsibility, especially one that's been orphaned and is facing such a low chance of survival, but it's absolutely possible with dedication, time, and proper care. Here are some suggestions to help you decide whether to keep the kitten and what to expect:\n\n### 1. **Consider Your Ability to Commit**\n   - Caring for a neonatal kitten requires round-the-clock care, including bottle feeding every 2-3 hours (even at night), assisting with urination and defecation, providing a warm and safe environment, and monitoring for signs of illness.\n   - If you're willing to make this temporary but intense commitment, you can give the kitten the best chance of survival.\n\n### 2. **Get Educated on Kitten Care**\n   - Since you have little experience, it's essential to learn how to care for such a fragile kitten. Research reputable guides on neonatal kitten care, like those from the ASPCA or Kitten Lady (Hannah Shaw), who specializes in orphaned kitten care.\n\n### 3. **Enlist Help**\n   - Contact local animal rescues or shelters that have resources or foster programs for neonatal kittens. Some may be able to provide direct assistance or place the kitten with an experienced foster caregiver.\n   - Even if you keep the kitten, these organizations might offer support, such as equipment or advice.\n\n### 4. **Give It a Chance**\n   - Vets may give a grim survival estimate, but many kittens do survive with proper care and attention. Others in similar situations have successfully nursed kittens back to health.\n   - Your help could be the difference between the kitten surviving or not.\n\n### 5. **Be Prepared for Heartbreak**\n   - Despite your best efforts, the kitten may not make it due to underlying issues like dehydration, malnutrition, or illness. It's hard, but knowing you're giving it love and warmth in its short life can be a comfort.\n\n### 6. **Adoption Plans**\n   - If you do save the kitten but don’t want to keep it long term, consider rehoming it. Shelters, rescues, or trusted individuals may help you find a forever home in the future.\n\n**What to Do Next:**\n- Keep the kitten warm: Neonatal kittens can’t regulate their own body temperature. Use a heating pad (on low, safely covered) or a warm water bottle wrapped in a towel.\n- Feed the right formula: Never give cow’s milk; purchase kitten milk replacer from a pet store or vet clinic.\n- Monitor closely: Watch for lethargy, lack of appetite, or other signs of deterioration and contact a vet as needed.\n\nIf your heart is telling you to try and you’re willing to commit, this little kitten needs you. Even with slim odds, many people find great fulfillment in giving orphaned animals a fighting chance. Good luck to you and the kitten!",
+    "word_count": 459,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 588,
+      "prompt_tokens": 90,
+      "total_tokens": 678,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

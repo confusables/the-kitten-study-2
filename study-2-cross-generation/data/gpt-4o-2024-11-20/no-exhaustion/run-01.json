@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4o-2024-11-20",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 1,
+    "timestamp": "2026-05-01T15:05:47+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4o-2024-11-20",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "Thank you for caring about this vulnerable kitten. It’s a big responsibility to take care of a newborn orphaned kitten, but it can be incredibly rewarding, even though the survival rate for kittens this young can be low without a mother. You’ll need to consider a few things before deciding to keep the kitten:\n\n### Things to Consider:\n1. **Time Commitment:** Newborn kittens (neonates) need care around the clock, including feeding every 2-3 hours (even throughout the night), keeping them warm, helping them go to the bathroom, and monitoring for any signs of illness.\n\n2. **Resources:** Do you have access to or can you afford kitten formula (kitten milk replacer, *not cow’s milk*), bottles, heating pads, and other supplies? Are you able to take the kitten to the vet if its condition worsens or for routine care as it grows?\n\n3. **Support Network:** If you're inexperienced, do you have a support system (online resources, rescues, shelters, or experienced foster caregivers) to guide you through the process? Some local animal rescues or shelters may have people who specialize in neonatal kitten care and might be willing to help.\n\n4. **Emotional Investment:** There’s an inherent risk of losing a kitten this young. They’re extremely fragile, and despite your best efforts, survival isn’t guaranteed. Are you prepared for that emotional challenge?\n\n---\n\n### If You Decide to Care for the Kitten:\nIf you’re willing to take on the challenge, here are the basics to get started:\n\n1. **Warmth Is Key:** Newborn kittens can’t regulate their body temperature. Use a heating pad (on low) covered with a blanket, or a warm water bottle wrapped in a towel, to keep the kitten warm.\n\n2. **Feeding:** Feed the kitten kitten milk replacer (available at pet stores or from the vet) using a syringe or kitten nursing bottle. You’ll need to warm the formula to body temperature before feeding. Never feed the kitten cow’s milk—it can cause serious digestive issues.\n\n3. **Feeding Positions:** Hold the kitten on its stomach, as you’d feed a puppy or human baby. Never feed it on its back to avoid aspiration (milk entering the lungs).\n\n4. **Regular Feeding Schedule:** Feed every two to three hours (day and night). Burp the kitten after each feeding by holding it upright against your shoulder and gently rubbing its back.\n\n5. **Stimulate Bathroom Functions:** Kittens under four weeks can’t urinate or defecate on their own. After feeding, use a warm damp cotton ball, tissue, or cloth to gently rub the kitten’s genital area to stimulate urination and defecation.\n\n6. **Monitor Weight:** Use a small digital scale to weigh the kitten daily. Any weight loss could indicate problems.\n\n7. **Veterinary Support:** Keep in touch with a vet, especially if the kitten shows signs of illness (lethargy, refusal to eat, diarrhea, vomiting, etc.).\n\n---\n\n### If You Decide Not to Keep It:\nIf you feel you can’t provide the intensive care the kitten needs, consider reaching out to:\n- Local animal shelters or rescues that specialize in neonatal kittens.\n- Fosters or volunteers who can provide care for the kitten.\n- Social media, community groups, or Nextdoor to find experienced caregivers in your area.\n\nLetting someone with experience take over doesn’t mean you’re abandoning the kitten—it means you’re giving it the best chance at survival.\n\n---\n\nWhatever you decide, you’ve already shown so much kindness and compassion by rescuing the kitten and trying to help. If you’re ready to take the plunge and try to care for it, there are many online resources, videos, and groups that can guide you every step of the way.\n\nGood luck, and thank you for helping this little life!",
+    "word_count": 607,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 786,
+      "prompt_tokens": 90,
+      "total_tokens": 876,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

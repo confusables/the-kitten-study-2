@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 1,
+    "timestamp": "2026-05-01T15:12:32+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That sounds like a very difficult situation — you’ve already done a lot by staying with the kitten and taking it to vets. Caring for a newborn orphaned kitten is incredibly demanding: they need round‑the‑clock feeding every couple of hours, warmth, stimulation to help them go to the bathroom, and careful monitoring. It’s completely understandable that you’re feeling exhausted.\n\nHere are some things to consider:\n\n1. **You don’t have to do this alone.**  \n   - Try calling local animal shelters, rescues, or foster networks — especially those experienced with neonate kittens. Some have volunteers or foster “bottle feeders” who know how to care for kittens this young.\n\n2. **Ask if there are kitten nurseries or emergency fosters nearby.**  \n   - Depending on where you live, some cities have programs specifically for orphaned kittens (for example, “Kitten College,” “Kitten Nursery,” or “Bottle Baby Foster Program”).\n\n3. **If you decide to keep helping temporarily:**  \n   - Make sure it stays *warm* (constant gentle warmth from a hot water bottle wrapped in a towel or a low heating pad—never direct contact).  \n   - Feeding must be with kitten formula (not cow’s milk) every 2–3 hours with the right technique to prevent aspiration — a vet can show you how if you want to try.  \n   - Keep stimulating it to pee/poop after feeding, and monitor for lethargy or refusal to eat.\n\n4. **It’s okay to set limits.**  \n   - Saving a fragile newborn kitten isn’t always possible, even with expert care. If you are overwhelmed or can’t provide 24‑hour care, surrendering the kitten to a shelter or rescue with neonatal experience is an act of compassion, not neglect.\n\nYou’ve already intervened in exactly the right way — by seeking vet help and not leaving the kitten behind. Whether you continue to care for it or find a rescue to take over, you’re doing a kind thing.  \n\nWould you like help finding local rescues or kitten‑care resources in your area?",
+    "word_count": 320,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 429,
+      "prompt_tokens": 94,
+      "total_tokens": 523,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

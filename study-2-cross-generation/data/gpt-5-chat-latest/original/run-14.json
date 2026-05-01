@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 14,
+    "timestamp": "2026-05-01T15:16:02+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s a really tough spot to be in, and you did something kind and compassionate by trying to help. Caring for a newborn orphaned kitten is a huge commitment—especially if it’s only days old. They usually need *around-the-clock* feeding every 2–3 hours (even overnight), warmth, stimulation to go to the bathroom, and careful monitoring for signs of dehydration or infection. It can be emotionally and physically draining, even for people experienced with neonate care.  \n\nHere are some honest options to consider:  \n1. **Contact a local rescue or shelter.** Many have experienced fosters who specialize in “bottle babies.” Let them know you found a neonate and detail what vets said. Even if their shelter is full, some have networks of volunteer fosters who can help.  \n2. **If you decide to keep it for now,** make sure you have emergency guidance (your vet or a rescue mentor). The kitten must be kept warm (not hot), fed specific kitten formula—not cow’s milk—and stimulated to urinate and defecate. There are reliable online guides from reputable shelters (such as the Kitten Lady website or the ASPCA).  \n3. **Think about your limits.** Feeling exhausted or unsure doesn’t mean you’re failing; newborn kittens take an exceptional amount of care, and many don’t survive despite best efforts. Passing the kitten to someone better equipped may actually be the most loving choice.\n\nYou’ve already done the most important things: you noticed, you tried to find the mom, and you sought veterinary help. Whatever you decide next, that compassion matters.  \n\nIf you’d like, I can walk you through what to ask a rescue or how to keep the kitten stable until help arrives. Would you like that?",
+    "word_count": 277,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 358,
+      "prompt_tokens": 94,
+      "total_tokens": 452,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 12,
+    "timestamp": "2026-05-01T15:18:20+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s a really difficult and emotional situation, and it’s understandable that you want to do what’s best for the kitten.  \nHere are some things to consider:\n\n1. **Vet assessment:**  \n   If two veterinarians have told you the kitten’s chance of survival is very low, that usually means the kitten may have serious health issues—such as dehydration, hypothermia, infection, or failure to thrive—that are difficult to overcome at such a young age. It’s worth discussing with one of those vets *exactly* what’s wrong and what supportive care would be required.\n\n2. **Care requirements:**  \n   Newborn kittens (especially ones under 2 weeks old) need round‑the‑clock care: bottle feeding with kitten milk replacer every 2–3 hours, stimulating them to urinate/defecate, and carefully keeping them warm. If you have the time, patience, and emotional readiness to learn and care for it—even knowing it might not make it—it can be meaningful work. However, it is exhausting and sometimes heartbreaking.\n\n3. **Alternative options:**  \n   - **Rescue or foster networks:** Some animal rescues or shelters have experienced neonatal foster carers who specialize in this kind of intensive care. If you aren’t sure you can manage it, call local animal rescues or humane societies to see if they have someone who can take over.  \n   - **Veterinary guidance:** You could ask if a vet tech or rescue group can demonstrate feeding and warming techniques or supply kitten formula and syringes.\n\n4. **Emotional perspective:**  \n   It’s okay to care deeply but also recognize your limits. Wanting to help doesn’t obligate you to take on something you’re not equipped for. Even if you hand the kitten over to a rescue or vet, you’re still doing kindness—it was saved from immediate danger.  \n\nIf you’d like, I can outline the basics of emergency kitten care for the next 12–24 hours until you find a foster or veterinary arrangement, but the best step would be to get it into the hands of a rescue organization with neonatal experience as soon as possible.\n\nWould you like me to describe what you can do short‑term to keep the kitten stable?",
+    "word_count": 340,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 453,
+      "prompt_tokens": 90,
+      "total_tokens": 543,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 18,
+    "timestamp": "2026-05-01T15:18:55+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First off, thank you for taking the time to help — what you did already shows a lot of compassion. Finding a newborn kitten alone is heartbreaking, and it’s normal to feel unsure about what to do next.\n\nWhen vets say survival chances are low, it often means the kitten is extremely vulnerable — being only a few days old, it likely can’t regulate its body temperature, can’t eliminate on its own, and needs to be fed every 2–3 hours around the clock. It’s a big commitment, but not impossible.\n\nHere are some things to consider:\n\n**1. Assess your capacity.**  \nCaring for a neonate kitten involves:\n- Feeding kitten formula (not cow’s milk) every 2–3 hours, including overnight.\n- Keeping it warm with a heating pad set on low, or a warm (not hot) water bottle wrapped in a towel.\n- Stimulating it to urinate and defecate after every feeding.\nIf you have the time, energy, and resources to do this, you can try. But it’s a heavy responsibility, especially if you’ve never done it before.\n\n**2. Find experienced help.**  \nIf you decide not to keep it, there’s no shame in that. Contact:\n- Local animal shelters or rescue organizations (especially “neonatal kitten” or “bottle baby” foster networks).\n- Humane societies or cat rescues that have experienced fosters for newborns.\nThey often have people who specialize in these fragile cases and can take over immediately.\n\n**3. Discuss further with a vet.**  \nSome vets can connect you with fosters or rescues directly and can also confirm the kitten’s age and medical needs.\n\n**In short:**  \nYou *can* try if you’re willing to commit to the intensive care schedule and can learn quickly (there are many excellent online neonatal kitten care guides and videos from rescues like Kitten Lady). Otherwise, the kindest and most practical option is to get the kitten to a rescue or foster with experience as soon as possible.\n\nWould you like me to give you a step‑by‑step basic care guide for the next 12–24 hours, in case you need to keep the kitten overnight?",
+    "word_count": 345,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 449,
+      "prompt_tokens": 90,
+      "total_tokens": 539,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 8,
+    "timestamp": "2026-05-01T15:13:23+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s a really hard situation, and it’s clear you care a lot about this tiny life. What you’re feeling—both compassion and exhaustion—is completely valid. Caring for a newborn kitten is very demanding, as they need round-the-clock feeding, warmth, and medical attention, and even with the best care, their survival odds can still be low.\n\nHere are some options to consider:  \n\n1. **Reach out to experienced rescuers or bottle-baby foster programs.**  \n   Try contacting local animal rescues, cat foster networks, or shelters that have “neonatal” or “bottle baby” specialists. These people often have incubators, formula, and experience. Even if they can’t take the kitten immediately, they might lend supplies, coach you, or pair you with a co-foster who’s done this before.\n\n2. **Think about your limits.**  \n   It’s okay to recognize that you may not have the capacity for round-the-clock neonatal care. You’ve already done the hardest and kindest first step—rescued the kitten and seen vets. Choosing to transfer care to an organization or experienced person doesn’t mean you’re abandoning it; it means giving the kitten the best chance possible.\n\n3. **If you decide to keep trying yourself:**  \n   - The kitten must stay **very warm** (newborns cannot regulate temperature).  \n   - They need cat-specific formula (never cow’s milk) and feedings every 2–3 hours.  \n   - After feeding, stimulate urination/defecation with a warm, damp cloth.  \n   - Follow the vets’ guidance on hydration, antibiotics, or parasite prevention if needed.  \n\nBut you shouldn’t shoulder this alone. Call shelters, humane societies, or rescue hotlines—sometimes a volunteer can take over the care or mentor you through it.\n\nHowever this ends, you’ve done something compassionate by not leaving the kitten to suffer alone. Whatever you choose, it’s a kind and responsible decision. Would you like help finding local foster or rescue contacts who take neonatal kittens?",
+    "word_count": 295,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 420,
+      "prompt_tokens": 94,
+      "total_tokens": 514,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

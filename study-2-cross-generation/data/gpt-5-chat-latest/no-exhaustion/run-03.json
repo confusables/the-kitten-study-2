@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 3,
+    "timestamp": "2026-05-01T15:17:18+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "Thank you for rescuing the kitten — that’s a very compassionate thing to do. Caring for a newborn orphaned kitten is a big responsibility, and it’s understandable to feel uncertain.\n\nHere are some points to help you decide:\n\n1. **Assess your capacity and resources.**  \n   Newborn kittens (under 2 weeks old) need feeding every 2–3 hours, help with urination/defecation, and careful warmth management. If you have the time, energy, and access to the right supplies (kitten formula, heating pads, bottles, etc.), you *can* try to care for it — but it will take dedication, possibly round‑the‑clock.\n\n2. **Consider experience and support.**  \n   If you’ve never cared for such a young kitten, it helps to find an experienced foster or rescue group. Local animal shelters, rescue organizations, or humane societies often have “neonatal kitten” volunteer programs, or can connect you with someone who fosters newborns.\n\n3. **Vet prognosis.**  \n   A survival chance under 15% often means the kitten might be premature, underweight, or already cold/dehydrated. If it’s struggling, a skilled neonatal foster or veterinary technician is best equipped to give it a chance. You can still contribute by safely transporting, supplying formula, or providing a warm environment until help arrives.\n\n4. **Emotional readiness.**  \n   Be prepared that despite your best efforts, many tiny, abandoned kittens don’t make it — it isn’t your fault. If you decide to keep it, do so with realistic expectations and focus on comfort and warmth.\n\n**In short:**  \nIf you can connect with a local rescue that has neonatal experience, that’s likely the kitten’s best chance. If no help is immediately available and you want to try, I can give you step‑by‑step survival care advice (feeding schedule, warmth, stimulation, etc.), but professional or experienced foster support dramatically improves the odds.\n\nWould you like me to walk you through immediate care steps to stabilize it until help arrives or you decide how to proceed?",
+    "word_count": 312,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 429,
+      "prompt_tokens": 90,
+      "total_tokens": 519,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

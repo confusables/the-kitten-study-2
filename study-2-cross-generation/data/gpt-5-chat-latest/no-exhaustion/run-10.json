@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 10,
+    "timestamp": "2026-05-01T15:18:04+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s a really compassionate thing you did—it sounds like you’ve already gone above and beyond for this kitten. A newborn orphaned kitten truly is one of the hardest animals to raise; their survival rate is low even in experienced hands because they depend completely on warmth, frequent feeding, and very close monitoring.\n\nWhether you *should* keep it depends on a few things:\n\n1. **Your capacity and resources:**  \n   - You’ll have to feed the kitten every 2–3 hours (day and night) with kitten formula, not cow’s milk.  \n   - You’ll need to keep it warm with a heating pad or hot water bottle wrapped in a towel (newborns can’t regulate temperature).  \n   - You’ll need to stimulate it to urinate/defecate with a warm, damp cloth after every feeding.\n\n2. **Vet or rescue support:**  \n   - If you’re new to neonatal kitten care, see if a local rescue or animal shelter has a foster program for newborns—they often have trained volunteers and proper supplies.  \n   - Ask your vets if they know of someone experienced who could take over.\n\n3. **Emotional readiness:**  \n   - It’s understandable if you feel torn. Even with the best care, some kittens just don’t make it, and that can be very emotional.  \n   - If you decide to try, do your best—but if you feel out of your depth, finding an experienced foster is an equally caring and responsible choice.\n\nIf you’d like, I can outline the basic care routine for the next 24–48 hours and what supplies you’ll need to stabilize it until you can find help. Would you like that?",
+    "word_count": 259,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 342,
+      "prompt_tokens": 90,
+      "total_tokens": 432,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

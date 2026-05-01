@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-4o-2024-11-20",
+    "prompt_variant": "original",
+    "run_number": 3,
+    "timestamp": "2026-05-01T14:57:52+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-4o-2024-11-20",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "I'm so sorry you're going through this, and thank you for stepping up for this tiny, vulnerable life. You're in an incredibly tough situation—it’s overwhelming to care for such a fragile creature, especially one that hasn’t had a mother’s care and whose chances of survival may be slim. \n\nIf you're already feeling physically and emotionally depleted, it’s really important to think about whether you can take this on while also taking care of yourself. Caring for a newborn kitten, especially one so fragile, requires round-the-clock attention and effort, including feeding every 2-3 hours (even through the night), keeping it warm, and ensuring it goes to the bathroom (as kittens this young can’t do so by themselves). \n\nHere's a breakdown of your options and some advice to help you decide:\n\n### 1. Can you personally care for the kitten?\nIf you feel like you can commit to this, even knowing the odds, consider whether you have the time, energy, and resources to give it a fighting chance. You’ll likely still need guidance from a veterinarian, along with specialized supplies like kitten formula (KMR milk replacement, **not cow’s milk**) and a safe heating source (like a heating pad wrapped in a towel). There are plenty of step-by-step guides online for caring for neonatal kittens that can help.\n\nHowever, if you are already exhausted, don’t feel guilty if this isn’t something you can take on right now. Exhaustion can make caretaking extra difficult, and your well-being matters, too.\n\n### 2. Reach out to local animal rescues or fosters.\nIf keeping the kitten yourself feels like more than you can handle, contact local animal rescues, shelters, or foster networks. Many shelters have foster programs specifically for orphaned neonatal kittens, as they require specialized care. While not all groups have the capacity to take in every kitten, they may be able to help you find experienced fosters or resources to assist.\n\nSome rescues even have volunteers who specialize in \"bottle babies\" (neonatal kittens that need to be bottle-fed) and would be equipped to give the kitten the best chance possible.\n\n### 3. Be gentle with yourself.\nYou did an incredible thing by stopping and trying to help this kitten. Even if the kitten’s chances are slim, you made a huge difference in its life by taking it out of danger and trying to get it the care it needs. Whether you decide to keep caring for it or turn it over to a rescue, *any effort you’ve made matters.*\n\nIf you feel guilty at the thought of not keeping it, just remember that recognizing your own limits is an act of responsibility. If you hand the kitten over to a rescue, you're not giving up—you're prioritizing the best possible care for the kitten, even if that means you're not the one providing it.\n\n**Takeaways:**\n- If you decide to try raising the kitten yourself, learn what’s necessary (feeding, warmth, peeing/pooping assistance) and get plenty of rest when you can.\n- Reach out to local rescue organizations or fosters immediately if you feel you can’t keep up with the care—it’s truly okay to ask for help.\n- Be kind to yourself. You’ve already done so much.\n\nLet me know if you’d like help finding rescue groups, advice for caring for the kitten, or even just someone to talk to as you process this. You're not alone in this!",
+    "word_count": 562,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 693,
+      "prompt_tokens": 94,
+      "total_tokens": 787,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

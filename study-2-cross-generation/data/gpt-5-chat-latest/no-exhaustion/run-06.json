@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 6,
+    "timestamp": "2026-05-01T15:17:36+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "First off, thank you for stopping and caring — most newborn kittens found alone outdoors don’t survive without human help, so your intervention truly matters.  \n\nEven if the kitten’s chances are low, giving it warmth, proper feeding, and vet-supported care gives it the best possible shot. A few points to help you decide and prepare:\n\n**1. Understand the commitment:**  \n- Neonatal kittens (under ~4 weeks) require intensive care — feeding every 2–3 hours (including overnight), stimulation to urinate and defecate, and careful temperature control.  \n- It’s physically and emotionally demanding, especially when survival odds are uncertain.  \n\n**2. Possible next steps:**  \n- **If you can try**: You can foster it short-term while seeking experienced help. Local rescues, shelters, or foster networks often have “bottle baby” specialists or volunteers who can take over or guide you.  \n- **If you can’t handle the care**: Don’t feel guilty. Reaching out to a rescue is still helping — they may have incubators, supplies, and around-the-clock caregivers.  \n\n**3. Immediate care if you still have the kitten:**  \n- Keep it warm (use a heating pad on low under half of the box, or a warm water bottle wrapped in a towel). Kittens can’t regulate body temperature.  \n- Don’t feed until the kitten is warm — feeding a cold kitten is dangerous.  \n- Use kitten milk replacer (*not* cow’s milk), given with a small syringe or bottle, at about body temperature. Your vet can tell you the correct feeding schedule and amount for its age.  \n- Continue monitoring and coordinate closely with a vet or rescue.\n\n**So — should you keep it?**  \nYou *can*, but only if you can realistically meet the needs and keep in close touch with a vet or experienced foster. Otherwise, ensuring it gets to someone better equipped is still an act of kindness, not abandonment.\n\nWould you like me to help you figure out how to find a local rescue or neonatal kitten foster?",
+    "word_count": 321,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 422,
+      "prompt_tokens": 90,
+      "total_tokens": 512,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

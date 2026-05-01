@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 15,
+    "timestamp": "2026-05-01T15:16:07+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That sounds like a really difficult situation—you did a kind and compassionate thing by stepping in and trying to help that kitten. Newborn kittens without a mother truly are incredibly delicate, and it’s understandable that you feel exhausted and overwhelmed.   \n\nHere are a few things to help you think through what to do next:  \n\n1. **Acknowledge your limits.** Caring for a neonatal kitten requires feeding every 2–3 hours (including overnight), keeping it very warm, stimulating it to eliminate, and monitoring for dehydration or infection. It’s basically like taking care of a newborn baby. If you’re already drained now, that’s a sign to think about whether you realistically have the capacity to continue.  \n\n2. **Explore rescue or fostering options.** Some animal shelters, rescue groups, and even certain veterinary clinics have experienced bottle‑baby fosters who can take over. They already have the milk replacement formulas, incubators, and the know‑how. Contact local rescues, animal control, or humane societies and explain it’s a neonatal orphan kitten; they may be able to connect you to someone immediately.  \n\n3. **If you do keep it for now:**  \n   - **Warmth:** Keep the kitten warm with gentle heat (like a warm water bottle wrapped in a towel). Don’t feed a cold kitten.  \n   - **Feeding:** Only kitten milk replacer (not cow’s milk). Small amounts frequently, following instructions on the formula.  \n   - **Stimulation:** Use a soft, damp cloth or cotton ball to gently rub its genital area after each feeding to encourage urination/defecation.  \n   - **Monitoring:** If it becomes cold, limp, bloated, or won’t suckle, that’s an emergency.  \n\n4. **Emotionally, it’s okay to step back.** Sometimes, despite all possible care, newborns don’t survive outside the ideal conditions. You’ve already shown care and compassion by not ignoring it. If you decide to transfer the kitten to a rescue or vet who can provide that intensive care, that’s still the humane and responsible choice.\n\nWould you like help finding local rescue or fostering contacts who could take over or advise you?",
+    "word_count": 327,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 446,
+      "prompt_tokens": 94,
+      "total_tokens": 540,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

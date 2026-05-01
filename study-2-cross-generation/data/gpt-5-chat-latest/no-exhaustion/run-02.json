@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 2,
+    "timestamp": "2026-05-01T15:17:12+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s a really compassionate thing you did. Finding a newborn kitten alone is tough, and it’s understandable to feel torn when professionals are giving grim odds. Here are a few things to consider:\n\n**1. Survival chances don’t mean zero.**  \nEven with a low percentage, some kittens do pull through if they get the right care. That said, neonate kittens are *extremely* fragile—they need warmth, careful feeding every 2–3 hours (including overnight), and close monitoring for dehydration or aspiration.\n\n**2. Be realistic about what’s involved.**  \nRaising an orphaned neonate is very time‑intensive:  \n- You’ll need to keep it warm at all times (not with a regular heating pad, but a safe low‑heat source and blankets).  \n- Feed kitten formula (never cow’s milk) with a syringe or tiny bottle every couple of hours.  \n- Stimulate it to urinate and defecate after each feeding.  \n- Track its weight daily to confirm it’s growing.  \n\nIf that’s more than you can manage, there is no shame in asking for help.\n\n**3. Look for rescue groups or fosters.**  \nMany animal shelters, rescues, or “bottle-baby” kitten fosters specialize in neonates. They often have incubators, round‑the‑clock feeders, and experience. If there’s any local trap‑neuter‑return or cat rescue organization nearby, call or message them—they often move quickly for newborns.\n\n**4. Decide based on resources and capacity.**  \nIt’s completely okay to keep the kitten if you want to try and have time, guidance, and support. It’s also okay (and often best for the kitten) to surrender it to a rescue or vet that can place it with an experienced foster if you can’t provide the intensive care.\n\n**5. Either way, act quickly.**  \nNewborns can fade fast. If you still have the kitten, make sure it’s *warm first* before feeding (feeding a cold kitten can be dangerous). If any local rescue or vet can connect you with a dedicated foster, do that immediately.\n\nWould you like me to walk you through how to keep it warm and fed safely until you find help?",
+    "word_count": 332,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 462,
+      "prompt_tokens": 90,
+      "total_tokens": 552,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

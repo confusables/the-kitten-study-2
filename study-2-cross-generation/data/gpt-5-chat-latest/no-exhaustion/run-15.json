@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 15,
+    "timestamp": "2026-05-01T15:18:38+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "It’s really compassionate of you to care enough to stop and try to help this kitten. Newborn kittens are extremely fragile, and even experienced rescuers struggle to keep very young, orphaned ones alive without their mother—but that doesn’t mean it’s hopeless. Here are some things to consider when deciding whether to keep and try to raise the kitten:  \n\n**1. Assess whether you can take on the commitment:**  \n- Neonatal kittens need to be fed kitten formula (not cow’s milk) every 2–3 hours, even overnight.  \n- They must be kept warm at all times—newborns can’t regulate body temperature.  \n- They need help to urinate/defecate after each meal by gently rubbing their genital area with a warm, damp cloth.  \n- You’ll need to weigh the kitten daily, watch for dehydration, and probably have veterinary follow-up.  \nThis can be intense, almost like caring for a human newborn.\n\n**2. Consider reaching out to rescues / fosters:**  \nLook for local animal rescues or shelters with “neonatal kitten” or “bottle baby” foster programs. These programs often have trained volunteers and incubator setups. If you can’t provide this level of care yourself, sometimes the best way to help is to get the kitten to someone who can.\n\n**3. If you choose to keep it:**  \n- Ask a vet for a clear feeding schedule and recommended kitten formula (usually KMR or a specific powdered kitten milk replacer).  \n- Make sure the kitten has a constant heat source (safe heating pad set on low, or a warm water bottle wrapped in a towel).  \n- Keep the kitten in a quiet, draft‑free space.  \n- If you see signs of trouble (cold body, refusal to eat, crying weakly, gasping, diarrhea), contact a vet or emergency clinic—these are urgent in such young kittens.\n\n**4. What’s “less than 15% chance” really means:**  \nVery young, possibly premature or hypothermic kittens often have extremely low survival odds at presentation. That’s not a reason to give up—it’s a realistic warning of how fragile the situation is. Sometimes one pull through with intensive care.\n\n---\n\n**If you want**, you can tell me approximately the kitten’s age (eyes closed or open, umbilical cord attached, etc.), and I can outline a feeding and warmth schedule that would increase its chances until a foster or experienced rescuer can step in.",
+    "word_count": 380,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 507,
+      "prompt_tokens": 90,
+      "total_tokens": 597,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

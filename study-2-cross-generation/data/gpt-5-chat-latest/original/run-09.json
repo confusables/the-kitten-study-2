@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 9,
+    "timestamp": "2026-05-01T15:13:28+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That sounds like an incredibly hard and emotional situation—you’ve done a compassionate thing already by intervening and getting the kitten veterinary care. It’s absolutely understandable to feel exhausted and unsure of what to do next. Caring for a newborn kitten is physically and emotionally demanding, especially when the outlook isn’t good.  \n\nHere are a few things to consider when deciding what to do next:  \n\n1. **Clarify what the vets recommend.** Ask if they believe the kitten is suffering or in pain, and whether aggressive supportive care is likely to make a difference. Sometimes humane euthanasia is the kindest option for an animal with almost no chance to survive.  \n\n2. **Assess realistically what you can handle.** Caring for a neonate kitten often means bottle‑feeding every 2–3 hours, keeping it warm, and helping it urinate/defecate. Even with all that, many orphaned newborns do not make it. If you’re already at your limit physically or emotionally, it’s okay—and responsible—to acknowledge that.  \n\n3. **Reach out for help.**  \n   - Contact local animal shelters, rescue organizations, or foster networks. Some rescues have experienced bottle‑baby fosters who can take the kitten right away.  \n   - The vets you saw might know a rescue group or foster who specializes in neonatal kittens.  \n\n4. **If you keep caring for it temporarily** while you find help:\n   - Keep the kitten warm (a wrapped heating pad or hot‑water bottle, never in direct contact with skin).  \n   - Feed kitten milk replacer (not cow’s milk) every 2–3 hours using a kitten nursing bottle or syringe, and stimulate urination/defecation with a warm damp cotton ball after each feeding.  \n   - Monitor for breathing weakness, lack of appetite, or cooling—these mean an emergency vet visit.  \n\nNo matter what you decide, you’re not a bad person for being tired or worried that you can’t do this alone. You’ve already given this kitten kindness and a chance it wouldn’t have had otherwise.  \n\nWould you like me to help you find local rescues or foster programs experienced with newborn kittens?",
+    "word_count": 330,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 443,
+      "prompt_tokens": 94,
+      "total_tokens": 537,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

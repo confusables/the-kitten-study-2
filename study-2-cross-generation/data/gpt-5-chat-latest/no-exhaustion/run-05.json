@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 5,
+    "timestamp": "2026-05-01T15:17:30+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s an incredibly compassionate thing you’ve done—thank you for not walking away from the kitten. Finding a very young, orphaned kitten is difficult, especially when vets are warning you that it may be too fragile. A few thoughts to help you decide what to do next:  \n\n1. **Be realistic but hopeful.** Newborn kittens (especially without their mother and under a week old) have very low survival chances, but it isn’t impossible with the right care. The care is demanding—feeding every 2–3 hours, keeping the kitten warm, helping it urinate/defecate, monitoring for dehydration, etc.  \n\n2. **Ask yourself about capacity.** Are you able to commit to round-the-clock care? You’d essentially be acting as the kitten’s mother for the next few weeks. If you can’t do that, it’s not a failure—it’s just recognizing limitations.  \n\n3. **Seek out rescue or foster networks.** There are often animal shelters, rescues, or volunteers who specialize in “neonatal kitten” or “bottle baby” care. They may have incubators, formula, and experience that can give the kitten a better chance. If you can find one, that’s usually the best option.  \n\n4. **If you decide to keep it yourself:**  \n   - Make sure it always stays *warm*—hypothermia is the #1 killer of neonates. Use a heating pad set on low under half of its box or a warm (not hot) water bottle wrapped in a towel.  \n   - Only feed kitten formula (never cow’s milk) using a kitten bottle or syringe. Feed every 2–3 hours around the clock if it’s only a few days old.  \n   - Stimulate it to urinate/defecate after every feeding with a soft, warm, damp cotton ball or tissue.  \n   - Keep monitoring for weight gain (daily weigh‑ins, same time each day).  \n\n5. **Emotional aspect:** It’s okay to attach and hope, even knowing the odds, but also okay to acknowledge if it doesn’t make it. Even giving it comfort, warmth, and love for whatever time it has is a kindness few animals ever get.  \n\nIf you’d like, I can outline a basic care routine for the first week or help you find a local foster/rescue option—would you like that?",
+    "word_count": 348,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 492,
+      "prompt_tokens": 90,
+      "total_tokens": 582,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

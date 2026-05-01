@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 16,
+    "timestamp": "2026-05-01T15:18:44+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s a really hard situation — both emotionally and practically. Thank you for caring enough to help this little kitten; you’ve already given it a better chance than it would’ve had otherwise.  \n\nHere’s what to consider as you make your decision:\n\n**1. Tiny kittens need very intensive care.**  \nNeonatal orphans (especially under one week old) need feeding every 2–3 hours, even overnight, and must be kept warm and stimulated to urinate/defecate. If you’re unable to commit to that schedule—or if no one can help you—its survival chances really do drop.\n\n**2. You don’t have to do this alone.**  \nContact rescues or animal shelters that have foster programs specializing in bottle babies—many have experienced volunteers and incubators. Even if you want to keep the kitten later, they might be able to foster until it’s stable. Look for:  \n- Local animal rescues or cat foster networks on social media.  \n- Veterinary hospitals that work with kitten rescue programs.  \n- “Neonatal kitten rescue” or “bottle baby rescue” groups in your area.\n\n**3. If you do decide to care for it yourself for now:**  \n- Keep it warm (a heating pad on low under half of the bedding, or a warm water bottle wrapped in a towel).  \n- Use kitten milk replacer (KMR), never cow’s milk. Feed it with a kitten bottle or syringe every 2–3 hours, including overnight.  \n- After each feeding, gently rub its lower belly and genital area with a soft warm cloth to stimulate elimination.  \n- Monitor for signs of distress: cold body (pale and unresponsive), weak cry, refusal to eat, or bloated belly—if these happen, seek vet care quickly.\n\n**4. Emotionally, prepare for the possibility it might not make it.**  \nEven in expert hands, very young orphan kittens can have high mortality rates. What matters is that it’s warm, fed, and not suffering. You’ll know you gave it a chance.\n\nIf you can, please call a local rescue or shelter as soon as possible—they may be able to take it tonight.\n\nWould you like me to walk you through how to keep it warm and fed until morning or until you find a rescue?",
+    "word_count": 355,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 473,
+      "prompt_tokens": 90,
+      "total_tokens": 563,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

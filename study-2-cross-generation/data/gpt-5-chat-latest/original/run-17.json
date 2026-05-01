@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 17,
+    "timestamp": "2026-05-01T15:16:26+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That sounds like such a hard situation—you’re doing something very kind by trying to help such a fragile animal. Newborn kittens (under two weeks) are among the most vulnerable animals to care for, especially if they have no mother. It’s completely understandable that you feel exhausted and unsure about continuing.\n\nHere are some thoughts and options to consider:\n\n**1. Be realistic about care needs.**  \nA newborn kitten requires feeding with kitten milk replacement formula (not cow’s milk) every 2–3 hours around the clock, being kept warm constantly, and help with stimulating it to urinate and defecate. It’s often more than one person can manage alone without prior experience.\n\n**2. Reach out for rescue support.**  \nEven if the vets can’t take the kitten themselves, look for local rescues, shelters, or neonatal kitten (“bottle baby”) foster networks that have the equipment and experience to care for very young kittens. Many groups have volunteers trained for exactly this.\n\n**3. Decide based on your capacity.**  \nIf you feel you’re already exhausted and don’t have the time or resources for round‑the‑clock feeding, it’s absolutely okay—and in the kitten’s best interest—to reach out immediately for transfer to someone better equipped.\n\n**4. In the meantime (if you keep it overnight):**  \n- Keep it warm: use a hot‑water bottle wrapped in a towel or a safe heating pad on low under half of its box.  \n- Don’t feed cow’s milk: only kitten formula (from a vet or pet store).  \n- Feed upright (on its stomach, never on its back, to avoid aspiration).  \n- Gently rub the genital/anal area with a warm moist cloth after feeding to help it eliminate.\n\n**5. Take care of yourself.**  \nWhat you’re feeling is normal—it’s emotionally draining to look after a critically fragile animal. You’ve shown real compassion already; seeking support now isn’t giving up.\n\nIf you’d like, I can help you look up the kind of local resources (kitten rescues or fostering networks) that might take the kitten off your hands safely—would you like that?",
+    "word_count": 332,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 442,
+      "prompt_tokens": 94,
+      "total_tokens": 536,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

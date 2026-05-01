@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 20,
+    "timestamp": "2026-05-01T15:16:57+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s such a heartbreaking situation, and it’s completely understandable that you feel exhausted and conflicted. Caring for a newborn kitten, especially one that’s been separated from its mother, is incredibly demanding work — it often requires feeding every 2–3 hours (even overnight), careful temperature control, and constant monitoring. Most people don’t realize how intensive it is until they’re in the middle of it.  \n\nHere are a few things to consider:\n\n1. **Your wellbeing matters too.** If you’re already exhausted after a day or two, it’s okay to acknowledge that you might not be able to sustain the level of care the kitten needs. You’re being compassionate by looking for what’s best for both of you, not selfish.\n\n2. **You don’t have to do this alone.** Even if two vets have said the odds are low, you can reach out to:\n   - Local **animal rescues or kitten foster networks**, especially ones experienced in neonatal kittens (“bottle babies”).\n   - **Humane societies** or **no-kill shelters** with emergency foster volunteers. Explain it’s a newborn orphan; they often have people who specialize in cases like this.  \n   - Some cities have **social media groups** or rescues that can help find an experienced foster quickly.\n\n3. **If you decide to keep trying** while you look for help:\n   - Keep the kitten warm (a heating pad on low, or warm water bottle wrapped in a towel; never place the kitten directly on heat).\n   - Feed kitten milk replacer (not cow’s milk) with a kitten nursing bottle or syringe.\n   - Stimulate the kitten gently with a warm damp cloth after each feeding to encourage it to urinate and defecate.\n\n4. **It’s okay to hand the kitten over.** You’ve already saved it from the dumpster, sought veterinary care, and done far more than many could. Surrendering it to an experienced rescue isn’t giving up — it’s giving it the best possible chance.  \n\nYou showed kindness by stepping in when no one else did. Whatever you decide next, you’ve already done something good. Would you like help finding rescue contacts or foster programs in your area?",
+    "word_count": 345,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 451,
+      "prompt_tokens": 94,
+      "total_tokens": 545,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

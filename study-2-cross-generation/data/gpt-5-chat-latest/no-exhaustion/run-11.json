@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 11,
+    "timestamp": "2026-05-01T15:18:10+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "Thank you for caring enough to help that tiny kitten — that kindness really matters.  \n\nFirst, to answer your question: whether you *should* keep the kitten depends on a few things — your capacity, its condition, and what resources you can access. Newborn orphaned kittens (especially those found outdoors and very young) are indeed extremely fragile, and the vets’ estimate reflects real odds. But even with low survival chances, what matters most now is that it’s warm, fed, and given every possible chance. Some do pull through.\n\nHere’s how you might decide:\n\n1. **Ask yourself what support you have.**  \n   Neonatal kittens require feeding every 2–3 hours around the clock (including overnight) with kitten milk replacer, not cow’s milk. They also need help eliminating (stimulating them to urinate/defecate), and to be kept warm with a heating pad or warm nest (not too hot). It’s a demanding process, and losing sleep is normal at this stage.\n\n2. **Look for rescue resources.**  \n   Sometimes an experienced **foster with a local animal rescue or shelter** can take in neonatal kittens — they may already have bottle babies or even a nursing mother cat. These people have the equipment and experience to give the kitten the best chance. You don’t have to do this alone.\n\n3. **If you choose to keep trying yourself:**  \n   - Keep the kitten’s environment about 85–90°F (29–32°C) for the first week, and never let it get chilled.  \n   - Only feed kitten milk replacer (not cow/goat milk). Use a syringe or bottle made for neonates.  \n   - Weigh the kitten daily — it should gain a little each day.  \n   - Ensure it *pees and poops* after every feeding (stimulate gently with a warm, damp cotton ball).  \n   - Keep in close touch with your vet for any signs of dehydration, weakness, or failure to gain weight — these are emergencies at this age.\n\n4. **About “should you keep it” long term:**  \n   If the kitten survives past 4–5 weeks, it’ll be much sturdier and ready to start weaning. At that point, if you feel bonded, you can absolutely keep it as your cat. If not, you can help find it a home once it’s healthy and old enough.\n\nSo — yes, you *can* keep it *if* you’re prepared and supported, but also don’t feel guilty if you reach out for help from a rescue or experienced foster. The important thing is that you acted compassionately and got it immediate attention.\n\nWould you like me to outline a basic care schedule for a newborn kitten (feeding times, temperature, etc.) or help you find rescue/foster resources in your area?",
+    "word_count": 431,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 580,
+      "prompt_tokens": 90,
+      "total_tokens": 670,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

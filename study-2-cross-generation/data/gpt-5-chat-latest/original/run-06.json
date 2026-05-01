@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 6,
+    "timestamp": "2026-05-01T15:13:11+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s a really compassionate thing you’ve done. Finding and trying to help a newborn kitten is emotionally and physically draining — especially when the odds aren’t good. Here are some things to keep in mind as you decide what to do next:  \n\n**1. Acknowledge what you’ve already done.**  \nSimply getting that kitten to two vets and making sure it wasn’t left suffering alone was an act of kindness. You’ve given it the best possible chance it could have.\n\n**2. Ask the vets about realistic next steps.**  \nSince both have warned you that survival odds are very low, ask whether they can direct you to a local rescue or shelter that specializes in neonatal kittens (sometimes called “bottle baby fosters” or “kitten nurseries”). They often have equipment and round‑the‑clock volunteers equipped for care this intense.\n\n**3. Be honest about your limits.**  \nCaring for a newborn kitten requires feeding every 2–3 hours (even overnight), keeping it warm constantly, helping it urinate and defecate, and monitoring for dehydration or infection. If you’re already at your limit, that’s okay. You can still help by transferring the kitten to someone experienced or by covering the cost of a vet visit or supplies if a rescue steps in.\n\n**4. If you do continue at home (even for one night):**\n- Keep the kitten **warm**, but not directly on a heating pad—wrap the heat source in a towel and leave a cooler spot to move away to.  \n- Use a **kitten milk replacer** (never cow’s milk) with a small syringe or specialized bottle if the vet said it’s safe.  \n- Stimulate elimination with a warm, damp cloth after feeding.  \n\n(If the vets gave more specific guidance, follow their instructions over any general advice.)\n\n**5. Emotional perspective.**  \nSometimes, despite every effort, newborns just don’t make it. That isn’t your fault. Even giving it comfort and warmth was meaningful. You’re allowed to draw boundaries for your own wellbeing, too.\n\nWould you like me to help you look up local rescues or foster networks that take neonate kittens? That could relieve some pressure while still making sure the kitten has the best possible chance.",
+    "word_count": 354,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 462,
+      "prompt_tokens": 94,
+      "total_tokens": 556,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "original",
+    "run_number": 4,
+    "timestamp": "2026-05-01T15:12:58+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "That’s a heartbreaking situation, and it’s understandable that you’re feeling conflicted — this kind of rescue can be emotionally and physically draining. You’ve already done something compassionate by staying with the kitten and taking it to two vets.\n\nHere are some points to help you think this through:\n\n**1. Assess your capacity realistically.**  \nNewborn kittens (especially under a week old) require round‑the‑clock care: bottle‑feeding every 2–3 hours, help to stimulate urination/defecation, keeping warm, and constant monitoring. This can be exhausting and can last for several weeks before they stabilize.\n\n**2. Consider alternatives and support.**  \nIf you’re already depleted, it might be kinder to both you and the kitten to look for help. Options include:\n- **Local rescues or foster networks** that specialize in “bottle babies.” They often have experienced volunteers who can give a kitten its best chance.\n- **Emergency fostering groups or animal shelters** — even if your local shelter is full, sometimes they have individuals on call for neonatal care.\n- **Online neonatal kitten networks** (for example, “Kitten Lady” resources and related Facebook groups) can point you to fosters or rescues nearby.\n\n**3. The survival odds**  \nWhen vets say 15% or less, it usually means the kitten was severely compromised — cold, dehydrated, or underweight. Even with perfect care, many don’t make it. If you do keep it, know that doing your best counts, and some losses are out of your control.\n\n**4. Emotional care for yourself**  \nYou don’t owe it to the kitten to ruin your own health; compassion includes knowing your limits. Handing the kitten over to an experienced rescuer is *not* abandonment — it’s giving it the best chance.\n\nIf you tell me roughly where you are (city/region), I can suggest specific types of local resources or rescue networks you can contact tonight or tomorrow.  \n\nNo matter what you decide, you’ve already made a very humane and kind choice by intervening.",
+    "word_count": 316,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 424,
+      "prompt_tokens": 94,
+      "total_tokens": 518,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}

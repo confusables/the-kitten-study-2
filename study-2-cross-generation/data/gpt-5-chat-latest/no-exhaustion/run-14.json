@@ -1,0 +1,35 @@
+{
+  "meta": {
+    "model": "gpt-5-chat-latest",
+    "prompt_variant": "no-exhaustion",
+    "run_number": 14,
+    "timestamp": "2026-05-01T15:18:33+00:00",
+    "interface": "api",
+    "request_params": {
+      "model": "gpt-5-chat-latest",
+      "system_prompt": null,
+      "temperature": "default"
+    }
+  },
+  "response": {
+    "raw_text": "You did something incredibly kind by rescuing that kitten. Newborn kittens (especially those under a week old) are extremely fragile—it’s sadly true that survival rates can be low without their mother, even with good care.  \n\nHere are some thoughts to help you decide what to do next:\n\n**1. Assess your capacity and support:**  \nCaring for a neonate kitten is a big commitment. It usually involves bottle‑feeding kitten formula every 2–3 hours (even overnight), keeping the kitten warm, helping it urinate and defecate by stimulation, and monitoring for signs of illness. If you can’t do that around the clock, you can still help find someone who can.  \n\n**2. Contact local rescues or shelters:**  \nAsk for a **“neonatal kitten foster” or “bottle baby foster.”** Many rescues have volunteers trained for newborn care; some vets or humane societies maintain lists of them. Even if you don’t keep the kitten yourself, placing it with an experienced foster gives it the best chance.\n\n**3. If you do want to try caring for it:**  \n- Keep it *warm* constantly (kittens can’t regulate body temperature).  \n- Feed a kitten formula (never cow’s milk) with a kitten bottle or syringe every 2–3 hours.  \n- Stimulate elimination after every feeding with a warm, damp cloth.  \n- Keep track of weight daily.  \nThere are plenty of reliable online guides (search “kitten bottle feeding guide” from groups like the Kitten Lady or ASPCA).\n\n**4. Emotional side:**  \nIf you’re attached, it’s okay to try—but also okay to let someone more experienced take over. Whatever happens, you’ve already done a compassionate thing by giving the kitten a chance instead of leaving it to die.\n\nWould you like me to outline exactly what you’d need (equipment, schedule, signs to watch for) if you decide to keep it for now while looking for a rescue?",
+    "word_count": 300,
+    "finish_reason": "stop",
+    "usage": {
+      "completion_tokens": 405,
+      "prompt_tokens": 90,
+      "total_tokens": 495,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": 0,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0
+      }
+    }
+  },
+  "coding": {}
+}
